@@ -3,7 +3,7 @@ export const apiSlice = createApi({
   baseQuery: fetchBaseQuery({
     baseUrl: process.env.REACT_APP_ENV === 'development'
       ? 'http://localhost:3500/api'
-      : 'https://api.sciencejobs.com.au/api',
+      : 'https://api1.sciencejobs.com.au/api',
     //'https://api1.sciencejobs.com.au/api',
     //'http://localhost:7997/api',
     //'https://api.academicjobs.com/api',
