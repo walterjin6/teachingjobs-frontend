@@ -29,39 +29,7 @@ const Home = () => {
     event.preventDefault();
     const a = {}
     if (keyWordRef.current.value.trim()) a.q = keyWordRef.current.value.trim()
-    if (region !== "Global") {
-      //a.l = countryMappings1[sessionStorage.getItem("location")].searchLocation
-      //dispatch(setRegion(countryMappings[country.toLowerCase()]))
-      //dispatch(setSearchJobCriteria(a))
-      //navigate(`/jobs`)
-      navigate("/jobs/", { state: { q: keyWordRef.current.value.trim(), l: countryMappings1[region].searchLocation } });
-    } else {
-      const fetchLocation1 = async () => {
-        try {
-          const response = await fetch("https://api.geoapify.com/v1/ipinfo?apiKey=ea0e191c22a94bf39e0e58ffbe2d6b66");
-          const result = await response.json();
-          return result.country.name
-        } catch (error) {
-          return ""
-        }
-      }
-      fetchLocation1()
-        .then(country => {
-          //sessionStorage.setItem("location", countryMappings[country.toLowerCase()]);
-          //alert(countryMappings[country.toLowerCase()])
-          //alert(countryMappings[country.toLowerCase()])
-          dispatch(setRegion(countryMappings[country.toLowerCase()]))
-          //a.l = countryMappings1[sessionStorage.getItem("location")].searchLocation
-          //alert(region)
-          //dispatch(setSearchJobCriteria(a)) 
-          //alert(countryMappings1[sessionStorage.getItem("location")].searchLocation)
-          navigate("/jobs/", { state: { q: keyWordRef.current.value.trim(), l: countryMappings1[countryMappings[country.toLowerCase()]].searchLocation } });
-          //navigate(`/jobs/${countryMappings1[sessionStorage.getItem("location")].searchLocation}`);
-        })
-        .catch(error => {
-          console.log('Error:', error);
-        });
-    }
+    navigate("/jobs/", { state: { q: keyWordRef.current.value.trim(), l: countryMappings1[region].searchLocation } });
   };
   return (
     <div className='px-7'>
@@ -199,10 +167,10 @@ const Home = () => {
               <button className="px-4 py-2 bg-[#f4a10c] text-white rounded-full shadow-md hover:bg-orange-600 font-bold"
                 type="submit"
               >
-                Search In Your Country
+                Search
               </button>
             </div>
-            <button className='pr-6 text-[#f4a10c] underline font-bold '
+            {/* <button className='pr-6 text-[#f4a10c] underline font-bold '
               onClick={() => {
                 const a = {}
                 if (keyWordRef.current.value.trim()) a.q = keyWordRef.current.value.trim()
@@ -210,7 +178,7 @@ const Home = () => {
                 dispatch(setRegion('Global'))
                 navigate(`/jobs/`)
               }}
-            ><a>Or Search Globally</a></button>
+            ><a>Or Search Globally</a></button> */}
           </form >
 
         
