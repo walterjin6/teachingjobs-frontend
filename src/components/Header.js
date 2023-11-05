@@ -63,7 +63,7 @@ export default function Header() { //1212
                 {location.pathname === "/" ||
                     < img
                         className='w-48'
-                        src="https://academicjobs.s3.amazonaws.com/img/_misc/academic-jobs-logo.png"
+                    src="/academicJobsLogo.png"
                         alt=""
                     />}
             </Link>
