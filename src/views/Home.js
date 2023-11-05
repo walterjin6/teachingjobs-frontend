@@ -200,14 +200,16 @@ const Home = () => {
       </div>
       <div className="bg-gradient-to-t from-white via-gray-100 to-gray-200 rounded-full pt-12">
         <div className="blurb text-left pt-12 ">
-          <h1 className=" font-bold text-lg md:text-3xl py-4 px-6 bg-[#f4a10c] text-white rounded-full mt-[18rem] shadow-xl border-4">ACADEMIC JOBS: Academic, research and science positions locally and globally</h1>
+          <h1 className=" font-bold text-lg md:text-3xl py-4 px-6 bg-[#f4a10c] text-white rounded-full mt-[18rem] shadow-xl border-4"># 1 TEACHING JOBS SITE</h1>
           <div className="newLine mb-4">
             <p className="font-semibold"></p>
             <p className="font-semibold"></p>
           </div>
           <div className="newLine">
-            <p className=" px-7 ">Find the best academic positions and administrative jobs in higher ed. Search for academic jobs, college careers and faculty positions online. Seek and apply for lecturer, research, uni admin and senior academic jobs in every university in your country or globally. Whether you are a professor, researcher, lecturer, or administrator, you can find the latest opportunities in higher education on academic jobs online.</p>
-            <p className=" px-7"></p>
+            <p className=" px-7 text-[#f4a10c] text-2xl font-bold">Find all Australian Teaching Career opportunities here
+
+</p>
+            <p className=" px-7 text-[#f4a10c]  text-2xl pt-4">Kindergarten Jobs | Primary School Jobs | Secondary School Jobs</p>
             <p className=" px-7"></p>
           </div>
         </div>
@@ -217,9 +219,9 @@ const Home = () => {
             <div className="faculty-container grid-cols-2 grid md:grid-cols-4 gap-8 py-2 px-7">
               <div className="column">
                 <ul className="">
-                  <li className='mb-1 mt-4'><Link to="/USA/" className='text-[#f4a10c] font-bold'>USA</Link></li>
+                  <li className='mb-1 mt-4'><Link to="/USA/" className='text-[#f4a10c] font-bold'>NSW</Link></li>
                   <ul className="innerUL">
-                    <li><Link to="/boston/" >Boston</Link></li>
+                    <li><Link to="https://teachingjobs.com.au/employer/act-government-department-of-education/20/" >ACT Government - Department of Education</Link></li>
                     <li><Link to="/new-york/" >New York</Link></li>
                     <li><Link to="/los-angeles/" >Los Angeles</Link></li>
                     <li><Link to="/san-francisco/" >San Francisco</Link></li>
@@ -236,7 +238,7 @@ const Home = () => {
               </div>
               <div className="column">
                 <ul className="">
-                  <li className='mb-1 mt-4'><Link to="/Australia/" className='text-[#f4a10c] font-bold'>Australia</Link></li>
+                  <li className='mb-1 mt-4'><Link to="/Australia/" className='text-[#f4a10c] font-bold'>Victoria</Link></li>
                   <ul className="innerUL">
                     <li><Link to="/melbourne/" >Melbourne</Link></li>
                     <li><Link to="/sydney/" >Sydney</Link></li>
@@ -246,24 +248,21 @@ const Home = () => {
                     <li><Link to="/perth/" >Perth</Link></li>
                     <li><Link to="/adelaide/" >Adelaide</Link></li>
                   </ul>
-                  <li className='mb-1 mt-4'><Link to="/UK/" className='text-[#f4a10c] font-bold'>UK</Link></li>
-                  <ul className="innerUL">
-                    <li><Link to="/london/" >London</Link></li>
-                    <li><Link to="/edinburgh/" >Edinburgh</Link></li>
-                    <li><Link to="/manchester/" >Manchester</Link></li>
-                  </ul>
+                
                 </ul>
               </div>
               <div className="column">
                 <ul className="">
-                  <li className='mb-1 mt-4'><Link to="/Canada/" className='text-[#f4a10c] font-bold'>Canada</Link></li>
+                <li className='mb-1 mt-4'><Link to="/UK/" className='text-[#f4a10c] font-bold'>Queensland</Link></li>
                   <ul className="innerUL">
+                    <li><Link to="/london/" >London</Link></li>
+                    <li><Link to="/edinburgh/" >Edinburgh</Link></li>
+                    <li><Link to="/manchester/" >Manchester</Link></li>
+                 
                     <li><Link to="/toronto/" >Toronto</Link></li>
                     <li><Link to="/vancouver/" >Vancouver</Link></li>
                     <li><Link to="/montreal/" >Montreal</Link></li>
-                  </ul>
-                  <li className='mb-1 mt-4'><Link to="/Asia/" className='text-[#f4a10c] font-bold'>Asia</Link></li>
-                  <ul className="innerUL">
+                 
                     <li><Link to="/hong-kong/" >Hong Kong</Link></li>
                     <li><Link to="/beijing/" >Beijing</Link></li>
                     <li><Link to="/tokyo/" >Tokyo</Link></li>
@@ -273,7 +272,7 @@ const Home = () => {
               </div>
               <div className="column">
                 <ul className="">
-                  <li className='mb-1 mt-4'><Link to="/Europe/" className='text-[#f4a10c] font-bold'>Europe</Link></li>
+                  <li className='mb-1 mt-4'><Link to="/Europe/" className='text-[#f4a10c] font-bold'>Western Australia</Link></li>
                   <ul className="innerUL">
                     <li><Link to="/paris/" >Paris</Link></li>
                     <li><Link to="/zurich/" >Zurich</Link></li>
@@ -282,6 +281,12 @@ const Home = () => {
                     <li><Link to="/copenhagen/" >Copenhagen</Link></li>
                     <li><Link to="/stockholm/" >Stockholm</Link></li>
                   </ul>
+                  <li className='mb-1 mt-4'><Link to="/Europe/" className='text-[#f4a10c] font-bold'>South Australia</Link></li>
+                  <ul className="innerUL">
+                    <li><Link to="/paris/" >Paris</Link></li>
+                    <li><Link to="/zurich/" >Zurich</Link></li>
+                    <li><Link to="/munich/" >Munich</Link></li>
+                    </ul>
                 </ul>
               </div>
             </div>
