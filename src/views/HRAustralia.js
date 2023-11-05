@@ -92,7 +92,7 @@ const HR2 = () => {
 
 
 
-      <SearchResults q={{ q: "human resources", l: "Australia" || 0 }} />
+      <SearchResults q={{ q: "human resources HR" , l: "Australia" || 0 }} />
     </div>
 
   );

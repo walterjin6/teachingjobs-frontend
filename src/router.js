@@ -35,6 +35,7 @@ import Industry2 from "./views/Industry2"
 import Executive from "./views/Executive"
 import Executive2 from "./views/Executive2"
 import Admin from "./views/Admin"
+import Adelaide from "./views/Adelaide"
 import Admin2 from "./views/Admin2"
 import CareerAdvice from "./views/CareerAdvice"
 import Careeradvice2 from "./views/Careeradvice2"
@@ -88,6 +89,7 @@ import ProfessorAustralia from "./views/ProfessorAustralia"
 import ExecutiveAustralia from "./views/ExecutiveAustralia"
 import AdminAustralia from "./views/AdminAustralia"
 import HRAustralia from "./views/HRAustralia"
+import IndigenousAustralia from "./views/IndigenousAustralia"
 import StudentsAustralia from "./views/StudentsAustralia"
 import Scroll2Top from "./utils/Scroll2Top"
 const AppRouter = () => {
@@ -111,7 +113,7 @@ const AppRouter = () => {
             <Route exact path='/job-type/:position?' element={<Position />} />
             <Route exact path='/job-type/' element={<Position2 />} />
             <Route exact path='/hr/:hr?' element={<HR />} />
-            <Route exact path='/cities?' element={<Cities />} />
+            <Route exact path='/:cities?' element={<Cities />} />
             <Route exact path='/UK/:ukpositions?' element={<UKpositions />} />
             <Route exact path='/Asia/:asiapositions?' element={<AsiaPositions />} />
             <Route exact path='/Africa/:africapositions?' element={<AfricaPositions />} />
@@ -144,12 +146,14 @@ const AppRouter = () => {
             <Route exact path='/Australia/admin/' element={<AdminAustralia />} />
             <Route exact path='/Australia/hr/' element={<HRAustralia />} />
             <Route exact path='/Australia/student/' element={<StudentsAustralia />} />
+            <Route exact path='/Australia/indigenous/' element={<IndigenousAustralia />} />
             <Route exact path='/industry/:industry?' element={<Industry />} />
             <Route exact path='/industry/' element={<Industry2 />} />
             <Route exact path='/executive/:executive?' element={<Executive />} />
             <Route exact path='/executive/' element={<Executive2 />} />
             <Route exact path='/admin/:admin?' element={<Admin />} />
             <Route exact path='/admin/' element={<Admin2 />} />
+            <Route exact path='/adelaide/' element={<Adelaide />} />
             <Route exact path='/academic-hub/:careerAdvice?' element={<CareerAdvice />} />
             <Route exact path='/academic-hub/' element={<Careeradvice2 />} />
             <Route exact path='/student/:student?' element={<Student />} />
@@ -179,6 +183,7 @@ const AppRouter = () => {
             <Route exact path='/Africa/' element={<Africa />} />
             <Route exact path='/India/' element={<India />} />
             <Route exact path='/UK/' element={<UK />} />
+            <Route exact path='/United-Kingdom/' element={<UK />} />
             <Route exact path='/New-Zealand/' element={<NewZealand />} />
             <Route exact path='/South-America/' element={<SouthAmerica />} />
             <Route exact path='/Canada/' element={<Canada />} />

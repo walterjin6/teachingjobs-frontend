@@ -1,7 +1,7 @@
 import React from 'react';
 import { Helmet } from "react-helmet";
 import { Link } from 'react-router-dom'
-
+import SearchResults from './SearchResults'
 import careerAdvice from "../utils/careerAdvice";
 
 const Careeradvice2 = () => {
@@ -15,7 +15,7 @@ const Careeradvice2 = () => {
         <meta name="keywords" content="academic hub, AcademicJobs hub" />
       </Helmet>
       <div className="blurb text-left py-8 ">
-        <h1 className=" font-bold text-2xl md:text-3xl py-4 px-7 bg-[#f4ac10] text-white rounded-full shadow-xl"> Academic hub & Career Advice</h1>
+        <h1 className=" font-bold text-2xl md:text-3xl py-4 px-7 bg-[#f4ac10] text-white rounded-full shadow-xl"> Academic Hub & Top Career Advice Today</h1>
         <div className="newLine mb-4">
           <p className="font-semibold"></p>
           <p className="font-semibold"></p>
@@ -24,7 +24,7 @@ const Careeradvice2 = () => {
 
         <div className="py-4 px-7  text-black rounded-2xl ">
 
-          <p >Are you looking for academic hub, career advice, tips, and insights from academics and researchers? Check out these academic jobs blogs and learn from the experts in your field. Whether you are a PhD student, a postdoc, or a professor, you will find valuable information and inspiration to advance your academic career. Read these blogs now and discover the best opportunities and practices for academic hub.</p>
+          <p >Are you looking for an academic hub, career advice, tips, and insights from academics and researchers? Check out these academic jobs blogs and learn from the experts in your field. Whether you are a PhD student, a postdoc, or a professor, you will find valuable information and inspiration to advance your academic career. Read these blogs now and discover the best opportunities and practices for academic hub.</p>
         </div>
 
 
@@ -80,10 +80,12 @@ const Careeradvice2 = () => {
              
 
               </div>
-
+            
+    
       </div>
-
-     
+      <h1 className=" font-bold text-xl md:text-xl px-7 text-[#f4ac10] "> All Academic Hub Posts</h1>
+      <hr className="w-ful  mx-auto  bg-[#f4ac10] border-8 rounded-full md:my-2 md:mb-4  border-[#f4a10c] shadow-xl"></hr>
+      <div className="mt-[-3.3rem]"><SearchResults  q={{ l: "Academic Hub" }} /></div> 
 
     </div>
 

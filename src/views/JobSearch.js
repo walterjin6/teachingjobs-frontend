@@ -82,7 +82,6 @@ const JobSearch = () => {
   //   console.log("filter1", filter1)
   //   console.log("filterTypes", filterTypes)
   // }, [filterTypes]);
-
   if (isLoading) {
     content = (
       <div className='flex  w-full h-screen  justify-between'>
@@ -164,21 +163,12 @@ const JobSearch = () => {
         </div>
       </div>
     )
-
-    
   } else if (isSuccess && data) {
     console.log(data)
     if (data?.length > 0) {
       content = (
-
-       
-        
-        <div className='w-full'> 
-
-
-          <div className='flex flex-col md:flex  md:justify-start py-4 px-6 mb-4 md:' > 
-
-
+        <div className='w-full'>
+          <div className='flex flex-col md:flex  md:justify-start py-4 px-6 mb-4 md:' >
             < div className='px-2 pb-4 flex justify-start items-start  font-bold gap-2 ' >
               <BsHandbag />
               {qty && <span>{`${qty} jobs found`}</span>}
@@ -191,7 +181,9 @@ const JobSearch = () => {
                     <button key={i} className='btn  btn-xs bg-blue-900 text-white '
                       onClick={() => {
                         const updatedFilter = filter1.filter((_, index) => index !== i);
+                        setPage(0)
                         setfilter(updatedFilter);
+                       
                       }}
                     >
                       {`${filter} X`}
@@ -221,6 +213,7 @@ const JobSearch = () => {
                     filters.map(({ filter, job_count }) => <button
                       className='text-left text-gray-500 text-sm truncate'
                       onClick={() => {
+                        setPage(0)
                         setfilter([...filter1, { category, filter }])
                         setIsShowFilter(false)
                       }}
@@ -228,70 +221,63 @@ const JobSearch = () => {
                 </div>
               }
             </div>
-           </div>
-
-           <details class="bg-gray-300 open:bg-[amber-200] duration-300 md:hidden mt-[-2rem] mb-4 ">
+          </div>
+          <details class="bg-gray-300 open:bg-[amber-200] duration-300 md:hidden mt-[-2rem] mb-4 ">
             <summary class="bg-inherit px-5 py-3 text-lg cursor-pointer pl-8">Filters</summary>
             <div class="bg-white px-5 py-3 border border-gray-300 text-sm font-light">
-                          
-
-          <div className='flex flex-col md:flex  md:justify-start py-4 px-6 mb-4' > 
-
-
-
-          
-            <div className=' flex flex-col  '>
-              {// 顶层已选X  top
-                filter1.length > 0 &&
-                <div className='md:flex md:gap-4 md:flex-wrap pl-4 pb-2'>
-                  {filter1.map(({ category, filter }, i) =>
-                    <button key={i} className='btn  btn-xs bg-blue-900 text-white '
-                      onClick={() => {
-                        const updatedFilter = filter1.filter((_, index) => index !== i);
-                        setfilter(updatedFilter);
-                      }}
-                    >
-                      {`${filter} X`}
-                    </button>
-                  )}
+              <div className='flex flex-col md:flex  md:justify-start py-4 px-6 mb-4' >
+                <div className=' flex flex-col  '>
+                  {// 顶层已选X  top
+                    filter1.length > 0 &&
+                    <div className='md:flex md:gap-4 md:flex-wrap pl-4 pb-2'>
+                      {filter1.map(({ category, filter }, i) =>
+                        <button key={i} className='btn  btn-xs bg-blue-900 text-white '
+                          onClick={() => {
+                            const updatedFilter = filter1.filter((_, index) => index !== i);
+                            setPage(0)
+                            setfilter(updatedFilter);
+                          }}
+                        >
+                          {`${filter} X`}
+                        </button>
+                      )}
+                    </div>
+                  }
+                  <div className='flex gap-4 flex-wrap px-4'>
+                    {filterTypes?.length > 0 &&   // 中层大目录m
+                      filterTypes.map((filterType) => <button
+                        className={`px-2 py-1 text-gray-500  border  rounded-md text-sm font-bold ${category === filterType ? 'bg-orange-500 text-white border-orange-500' : 'bg-white border-gray-500'}`}
+                        onClick={() => {
+                          if (category === filterType) {
+                            setIsShowFilter(prev => !prev)
+                          } else {
+                            setIsShowFilter(true)
+                          }
+                          console.log(filterType)
+                          setCategory(filterType)
+                        }}
+                      >{filterType}</button>)}
+                  </div>
+                  {
+                    isShowFilter &&
+                    <div className='grid md:grid-cols-4 gap-1 grid-cols-2 pl-6 py-2'>
+                      {filters?.length > 0 && // 低层小目录b
+                        filters.map(({ filter, job_count }) => <button
+                          className='text-left text-gray-500 text-sm truncate'
+                          onClick={() => {
+                            setPage(0)
+                            setfilter([...filter1, { category, filter }])
+                            setIsShowFilter(false)
+                          }}
+                        >{`${filter ? filter : 'Others'}  (${job_count})`}</button>)}
+                    </div>
+                  }
                 </div>
-              }
-              <div className='flex gap-4 flex-wrap px-4'>
-                {filterTypes?.length > 0 &&   // 中层大目录m
-                  filterTypes.map((filterType) => <button
-                    className={`px-2 py-1 text-gray-500  border  rounded-md text-sm font-bold ${category === filterType ? 'bg-orange-500 text-white border-orange-500' : 'bg-white border-gray-500'}`}
-                    onClick={() => {
-                      if (category === filterType) {
-                        setIsShowFilter(prev => !prev)
-                      } else {
-                        setIsShowFilter(true)
-                      }
-                      console.log(filterType)
-                      setCategory(filterType)
-                    }}
-                  >{filterType}</button>)}
               </div>
-              {
-                isShowFilter &&
-                <div className='grid md:grid-cols-4 gap-1 grid-cols-2 pl-6 py-2'>
-                  {filters?.length > 0 && // 低层小目录b
-                    filters.map(({ filter, job_count }) => <button
-                      className='text-left text-gray-500 text-sm truncate'
-                      onClick={() => {
-                        setfilter([...filter1, { category, filter }])
-                        setIsShowFilter(false)
-                      }}
-                    >{`${filter ? filter : 'Others'}  (${job_count})`}</button>)}
-                </div>
-              }
             </div>
-          </div>
-          </div>
-        </details>
-
-
+          </details>
           <div className='flex  w-full h-screen  justify-between'>
-            <div className='overflow-y-auto md:w-[40%] h-screen' ><JobList data={data} nextPage={nextPage} /></div>
+            <div className='overflow-y-auto md:w-[40%] h-screen' ><JobList endOfJobs={qty < ((page + 1) * 20)} data={data} nextPage={nextPage} /></div>
             <div className=' hidden md:block overflow-y-auto w-[60%] h-screen'><JobDetail /></div>
           </div>
         </div>
@@ -305,13 +291,13 @@ const JobSearch = () => {
     const a = {}
     if (keyWordRef.current.value.trim()) a.q = keyWordRef.current.value.trim()
     if (locationRef.current.value.trim()) a.l = locationRef.current.value.trim()
-    navigate("/jobs", { state: { q: keyWordRef.current.value.trim(), l: locationRef.current.value.trim() } });
+    navigate("/jobs/", { state: { q: keyWordRef.current.value.trim(), l: locationRef.current.value.trim() } });
   }
   return <div className='overflow-y w-full'>
     <Helmet>
       <title>Seek Academic Jobs</title>
-      <meta name="description" content= "Welcome to the top job board for Academic Jobs, listing higher education jobs available in international colleges and universities daily. Use filters such as city, employment type, and institution name to help your job search"  />
-      <meta name="keywords" content="Find Academic Jobs, Seek Academic Jobs, Academic Jobs Search"/>
+      <meta name="description" content="Welcome to the top job board for Academic Jobs, listing higher education jobs available in international colleges and universities daily. Use filters such as city, employment type, and institution name to help your job search" />
+      <meta name="keywords" content="Find Academic Jobs, Seek Academic Jobs, Academic Jobs Search" />
     </Helmet>
     <div className="bg-gray-100 py-6 md:rounded-full rounded shadow-md">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -320,7 +306,7 @@ const JobSearch = () => {
             <input
               type="text"
               className="text-center md:w-[45%] md:text-left px-4 py-2 border border-gray-200  rounded-3xl   md:rounded-[0px] md:rounded-l-full  focus:ring-orange-500 focus:border-orange-500 "
-              placeholder="Keyword"
+              placeholder="Type keywords like: professor harvard"
               ref={keyWordRef}
               defaultValue={name}
             />

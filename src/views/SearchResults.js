@@ -128,7 +128,7 @@ const SearchResults = ({ q }) => {
     if (data?.length > 0) {
       content = (
         <div className='flex flex-col md:flex  md:justify-start gap-8 px-6 '>
-          < div className='px-6 py-4 flex justify-start items-start  font-bold gap-2  ' >
+          < div className='px-6 py-4 flex justify-start items-start  font-bold gap-2  text-[#f4a10c]' >
             <BsHandbag />
             {qty && <span>{`${qty} jobs found`}</span>}
           </div >

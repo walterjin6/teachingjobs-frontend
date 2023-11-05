@@ -41,6 +41,7 @@ const Australia = () => {
           <li><Link to="https://www.academicjobs.com/Australia/admin/" >Admin</Link></li>
           <li><Link to="https://www.academicjobs.com/Australia/hr/" >	HR</Link></li>
           <li><Link to="https://www.academicjobs.com/Australia/student/" >	Student</Link></li>
+          <li><Link to="/Australia/indigenous/">Indigenous</Link></li>
         </ul>
       </div>
       <div className=" mt-4 " >
@@ -55,7 +56,7 @@ const Australia = () => {
       <div className="text-[#f4a10c]  flex flex-col items-center justify-center  text-2xl pt-8  animate-bounce h-6" >
         <a>▼</a></div>
       <div className="blurb text-left py-8 pt-[30rem] ">
-        <h1 className="py-3 px-7 bg-[#f4a10c] text-white rounded-3xl font-bold text-2xl md:text-2xl lg:text-2xl shadow-xl ">Academic Jobs Australia</h1>
+        <h1 className="py-3 px-7 bg-[#f4a10c] text-white rounded-full font-bold text-2xl md:text-3xl lg:text-2xl shadow-xl ">Academic Jobs Australia</h1>
         <div className="newLine mb-4">
           <p className="font-semibold"></p>
           <p className="font-semibold"></p>
@@ -65,7 +66,7 @@ const Australia = () => {
           <p className="font-semibold"></p>
           
           <div className="  " >
-        <ul className=" flex flex-wrap gap-4 px-7 pb-4  text-[#f4a10c] ">
+        <ul className=" flex flex-wrap gap-6 px-7 pb-4  text-[#f4a10c] ">
           <li><Link to="https://www.academicjobs.com/melbourne/" >	Melboune </Link></li>
           <li><Link to="https://www.academicjobs.com/sydney/" >	Sydney</Link></li>
           <li><Link to="https://www.academicjobs.com/brisbane/" >Brisbane</Link></li>
@@ -81,6 +82,65 @@ const Australia = () => {
         </div>
       </div>
 
+      <h2 className="text-1xl font-bold py-1 px-7 border-2 border-[#f4a10c] text-[#f4a10c] rounded-3xl  shadow-md">Top Australian Universities To Work For</h2>
+      <div className="cate-group section23 ">
+        <div className="widget__text-block">
+          <div className="faculty-container grid-cols-1 grid md:grid-cols-4 gap-4 py-2 px-7 pb-8">
+            <div className="column">
+              <ul className="">
+                <li className='mb-1 mt-4'><Link to="https://www.academicjobs.com/employers/queensland-university-of-technology/3786/" className='text-[#003463] font-bold'>Queensland University of Technology (QUT)</Link></li>
+                <ul className="innerUL">
+                  <li><Link to="/jobs/QUT-lecturer/" >QUT Lecturing Jobs</Link></li>
+                  <li><Link to="/jobs/QUT-research/" >QUT Research Jobs</Link></li>
+                  <li><Link to="/jobs/QUT-professor/" >QUT Professorial Jobs</Link></li>
+                  <li><Link to="/jobs/QUT-Executive/" >QUT Executive</Link></li>
+                  <li><Link to="/jobs/QUT-Administration/" >QUT Administration</Link></li>
+                  <li><Link to="/jobs/QUT-Human-Resources/" >QUT Human Resources</Link></li>
+                </ul>
+              </ul>
+            </div>
+            <div className="column">
+              <ul className="">
+                <li className='mb-1 mt-4'><Link to="/employers/bond-university/3785/" className='text-[#f1b821] font-bold'>Bond University</Link></li>
+                <ul className="innerUL">
+                  <li><Link to="/jobs/bond-lecturer/" >Bond Lecturing Jobs</Link></li>
+                  <li><Link to="/jobs/bond-research/" >Bond Research Jobs</Link></li>
+                  <li><Link to="/jobs/bond-professor/" >Bond Professorial Jobs</Link></li>
+                  <li><Link to="/jobs/bond-Executive/" >Bond Executive</Link></li>
+                  <li><Link to="/jobs/bond-Administration/" >Bond Administration</Link></li>
+                  <li><Link to="/jobs/bond-Human-Resources/" >Bond Human Resources</Link></li>
+                </ul>
+              </ul>
+            </div>
+            <div className="column">
+              <ul className="">
+                <li className='mb-1 mt-4'><Link to="/employers/the-university-of-adelaide/3737/" className='text-[#A51C30] font-bold'>University of Adelaide</Link></li>
+                <ul className="innerUL">
+                  <li><Link to="/jobs/Adelaide/" >Adelaide Lecturing Jobs</Link></li>
+                  <li><Link to="/jobs/Adelaide/" >Adelaide Research Jobs</Link></li>
+                  <li><Link to="/jobs/Adelaide/" >Adelaide Professorial Jobs</Link></li>
+                  <li><Link to="/jobs/Adelaide/" >Adelaide Executive</Link></li>
+                  <li><Link to="/jobs/Adelaide/" >Adelaide Administration</Link></li>
+                  <li><Link to="/jobs/Adelaide/" >Adelaide Human Resources</Link></li>
+                </ul>
+              </ul>
+            </div>
+            <div className="column">
+              <ul className="">
+                <li className='mb-1 mt-4'><Link to="/employers/university-of-western-australia/3173/" className='text-[#192847] font-bold'>University of Western Australia</Link></li>
+                <ul className="innerUL">
+                  <li><Link to="/jobs/western/" >UWA Lecturing Jobs</Link></li>
+                  <li><Link to="/jobs/western/" >UWA Research Jobs</Link></li>
+                  <li><Link to="/jobs/western/" >UWA Professorial Jobs</Link></li>
+                  <li><Link to="/jobs/western/" >UWA Executive</Link></li>
+                  <li><Link to="/jobs/western/" >UWA Administration</Link></li>
+                  <li><Link to="/jobs/western/" >UWA Human Resources</Link></li>
+                </ul>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
      
 
       <div id="myUniversity" class="myUniversity">
@@ -157,7 +217,7 @@ const Australia = () => {
                 <li className='text-[#003463] '><Link to="/employers/queensland-university-of-technology/3786/">Queensland
                   University of Technology (QUT)</Link>
                 </li>
-                <li className='text-[#f1b821] '><Link to="/employers/bond-university/3785/
+                <li className=''><Link to="/employers/bond-university/3785/
                                     ">Bond University</Link></li>
                 <li><Link to="/employers/university-of-queensland/3172/">The
                   University of Queensland</Link></li>

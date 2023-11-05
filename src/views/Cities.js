@@ -41,7 +41,7 @@ const Cities = () => {
 
 
 
-      <h1 className='max-h-50 overflow-y  border border-[#f4a10c] text-gray-500 p-4 mb-4 rounded-lg shadow-lg'>
+      <h1 className='max-h-50 overflow-y  border border-[#f4a10c] text-[#f4a10c] text-2xl font-bold p-4 mb-4 rounded-lg shadow-lg'>
         {Title}
       </h1>
 
