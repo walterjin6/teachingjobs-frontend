@@ -22,7 +22,7 @@
     "redux": "^4.2.0"
   },
   "scripts": {
-    "start": "set PORT=2997  && react-scripts start",
+    "start": "set PORT=2998  && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
