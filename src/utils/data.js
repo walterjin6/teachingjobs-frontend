@@ -1,5 +1,5 @@
 export const filterType = [
-    'Country',
+
     'State',
     'City',
     'Job Type(i.e. Faculty, Human Resources)',
