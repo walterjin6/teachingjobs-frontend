@@ -7,7 +7,7 @@ const Footer = () => {
             <div className=" text-white font-open-sans grid grid-cols-1 md:grid-cols-4 gap-4 pb-4">
             <div>
                     <ul>
-                        <li className='text-white font-bold text-xl pb-1 '>Recruiters</li>
+                        <li className='text-white font-bold text-xl pb-1 '>School</li>
                     
                         <li><a className="footer-nav__link" href="/post-job/">Post a Job</a></li>
                                              <li><Link to="/about/">About AJ</Link></li>
@@ -22,7 +22,7 @@ const Footer = () => {
                         <li className='text-white font-bold text-xl pb-1'>Job Seekers</li>
                         <li><Link to="/jobs/">Find Jobs</Link></li>
                         <li><Link to="/employers/">Find Employers</Link></li>
-                        <li><Link to="/academic-happiness/">Academic Happiness</Link></li>
+                        <li><Link to="/academic-happiness/">School </Link></li>
                        
                     </ul>
                 </div>
@@ -42,10 +42,10 @@ const Footer = () => {
                     <ul>
                         <li className='text-white font-bold text-xl pb-1 '>Socials</li>
                         {/* <li><a href="https://academicjobs.com/career-advice">Career Advice</a></li> */}
-                        <li><a className="footer-nav__link" href="https://www.facebook.com/profile.php?id=100088232015128" target="_blank" rel="noopener">Facebook</a></li>
+                        <li><a className="footer-nav__link" href="https://www.facebook.com/TeachingJobsAUS" target="_blank" rel="noopener">Facebook</a></li>
                      
-                        <li><a className="footer-nav__link" href="https://www.youtube.com/channel/UCIaknpVcM_ZijJSWJCYi8aw" target="_blank" rel="noopener">YouTube</a></li>
-                        <li><a href="https://www.linkedin.com/company/academic-jobs/">Linkedin</a></li>
+                        <li><a className="footer-nav__link" href="https://www.instagram.com/teachingjobs_aus/" target="_blank" rel="noopener">Instagram</a></li>
+                        <li><a href="https://www.linkedin.com/company/teachingjobs">Linkedin</a></li>
                     </ul>
                 </div>
                 
