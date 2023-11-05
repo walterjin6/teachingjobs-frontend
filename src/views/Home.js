@@ -168,7 +168,7 @@ const Home = () => {
               <button className="px-4 py-2 bg-[#f4a10c] text-white rounded-full shadow-md hover:bg-orange-600 font-bold"
                 type="submit"
               >
-                Search In Your Country
+                Search
               </button>
             </div>
           </form >
