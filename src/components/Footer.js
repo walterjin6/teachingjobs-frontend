@@ -14,7 +14,7 @@ const Footer = () => {
                         <li className='text-white font-bold text-xl pb-1 '>Navigation</li>
                         {/* <li><a className="footer-nav__link" href="/">Home</a></li> */}
                         <li><Link to="/">Home</Link></li>
-                        <li><Link to="/career-advice/">Career Advice</Link></li>                    
+                        <li><Link to="/school-career-advice/">Career Advice</Link></li>                    
                         <li><Link to="/sitemap/">Site Map</Link></li>
                    
                     </ul>
@@ -24,7 +24,7 @@ const Footer = () => {
                     <ul>
                         <li className='text-white font-bold text-xl pb-1'>Job Seekers</li>
                         <li><Link to="/jobs/">Find Jobs</Link></li>
-                        <li><Link to="/jobs/principal/">Princpal Jobs</Link></li>
+                        <li><Link to="/principal/">Princpal Jobs</Link></li>
                         <li><Link to="/employers/">Find Employers</Link></li>
                        
                        
@@ -35,9 +35,10 @@ const Footer = () => {
                     <ul>
                         <li className='text-white font-bold text-xl pb-1 '>School</li>
                     
-                        <li><a className="footer-nav__link" href="/school-pricing/">Post a Job</a></li>
-                                             <li><Link to="/about/">About AJ</Link></li>
-                                             <li><Link to="https://myteachingjobs.com.au/contact-us/">Contact Us</Link></li>
+                        <li ><Link to="/about/">About AJ</Link></li>
+                        <li target="_blank" ><a target="_blank"  className="footer-nav__link" href="https://myteachingjobs.com.au/school-pricing/">Post a Job</a></li>
+                                             
+                                             <li target="_blank" ><Link target="_blank"  to="https://myteachingjobs.com.au/contact-us/">Contact Us</Link></li>
                                             
                        
                     </ul>
@@ -47,10 +48,10 @@ const Footer = () => {
                     <ul>
                         <li className='text-white font-bold text-xl pb-1 '>Socials</li>
                         {/* <li><a href="https://academicjobs.com/career-advice">Career Advice</a></li> */}
-                        <li><a className="footer-nav__link" href="https://www.facebook.com/TeachingJobsAUS" target="_blank" rel="noopener">Facebook</a></li>
+                        <li><a target="_blank"  className="footer-nav__link" href="https://www.facebook.com/TeachingJobsAUS" target="_blank" rel="noopener">Facebook</a></li>
                      
-                        <li><a className="footer-nav__link" href="https://www.instagram.com/teachingjobs_aus/" target="_blank" rel="noopener">Instagram</a></li>
-                        <li><a href="https://www.linkedin.com/company/teachingjobs">Linkedin</a></li>
+                        <li><a  target="_blank"  className="footer-nav__link" href="https://www.instagram.com/teachingjobs_aus/" target="_blank" rel="noopener">Instagram</a></li>
+                        <li><a target="_blank"  href="https://www.linkedin.com/company/teachingjobs">Linkedin</a></li>
                     </ul>
                 </div>
                 
