@@ -49,49 +49,49 @@ const Home = () => {
                     "@type": "ListItem",
                     "position": 1,
                     "name": "Academic Jobs",
-                    "url": "https://www.academicjobs.com/",
+                    "url": "/",
                     "description": "Find online and remote university jobs at AcademicJobs.  Browse the largest number of academic jobs online in your country and worldwide."
                   },
                   {
                     "@type": "ListItem",
                     "position": 2,
                     "name": "Find Academic Jobs",
-                    "url": "https://www.academicjobs.com/jobs/",
+                    "url": "/jobs/",
                     "description": "Browse thousands of faculty, lecturer, research, and science positions in various disciplines and locations. Apply online and get hired today."
                   },
                   {
                     "@type": "ListItem",
                     "position": 3,
                     "name": "Academic Jobs Online",
-                    "url": "https://www.academicjobs.com/online/",
+                    "url": "/online/",
                     "description": "Academic jobs online allow students, graduates, or professionals with the opportunity to earn income, gain valuable work experience, develop employability skills."
                   },
                   {
                     "@type": "ListItem",
                     "position": 4,
                     "name": "HR Jobs",
-                    "url": "https://www.academicjobs.com/hr/",
+                    "url": "/hr/",
                     "description": "The largest number of university HR jobs online.Find your next HR role at a top university"
                   },
                   {
                     "@type": "ListItem",
                     "position": 5,
                     "name": "Research Jobs",
-                    "url": "https://www.academicjobs.com/research/",
+                    "url": "/research/",
                     "description": "Seek and find all academic research opportunities today. Search for jobs by salary, location, and more on Academic Jobs"
                   },
                   {
                     "@type": "ListItem",
                     "position": 6,
                     "name": "Executive Jobs",
-                    "url": "https://www.academicjobs.com/executive/",
+                    "url": "/executive/",
                     "description": "Find President, Dean, Chancellor, Dept Head and Provost jobs"
                   },
                   {
                     "@type": "ListItem",
                     "position": 7,
                     "name": "Lecturing Jobs",
-                    "url": "https://www.academicjobs.com/lecturer/",
+                    "url": "/lecturer/",
                     "description": "Lecture anywhere in the world in your academic specialty"
                   }
                   ,
@@ -99,14 +99,14 @@ const Home = () => {
                     "@type": "ListItem",
                     "position": 8,
                     "name": "Student Jobs on Campus",
-                    "url": "https://www.academicjobs.com/student/",
+                    "url": "/student/",
                     "description": "Find student jobs here.  Sign up for job alerts today"
                   },
                   {
                     "@type": "ListItem",
                     "position": 9,
                     "name": "Academic Happiness and university life hacks",
-                    "url": "https://www.academicjobs.com/academic-happiness/",
+                    "url": "/academic-happiness/",
                     "description": "Find the secret to academic happiness.  Subscribe and get tips on navigating university life, learning and career."
                   }
                   ,
@@ -114,35 +114,35 @@ const Home = () => {
                     "@type": "ListItem",
                     "position": 10,
                     "name": "Post A Job",
-                    "url": "https://www.academicjobs.com/post-job/",
+                    "url": "/post-job/",
                     "description": "Easily post a job on Academic Jobs – attract top academic talent locally and globally."
                   },
                   {
                     "@type": "ListItem",
                     "position": 11,
                     "name": "Jobs in Australia",
-                    "url": "https://www.academicjobs.com/Australia/",
+                    "url": "/Australia/",
                     "description": "Australia’s number one university job website.  All the jobs of all the universities in Australia"
                   },
                   {
                     "@type": "ListItem",
                     "position": 12,
                     "name": "Jobs in the United States",
-                    "url": "https://www.academicjobs.com/USA/",
+                    "url": "/USA/",
                     "description": "Harvard, MIT, UCLA, Yale and Stanford university jobs.University & Academic Jobs in the USA.Browse; Search; Apply"
                   },
                   {
                     "@type": "ListItem",
                     "position": 13,
                     "name": "Jobs in the UK",
-                    "url": "https://www.academicjobs.com/UK/",
+                    "url": "/UK/",
                     "description": "Oxford, Cambridge, UCL, LSE and Imperial, Leeds university jobs."
                   },
                   {
                     "@type": "ListItem",
                     "position": 14,
                     "name": "Join the Global Academic Talent Pool",
-                    "url": "https://www.academicjobs.com/talent-pool/",
+                    "url": "/talent-pool/",
                     "description": "Get headhunted by top ranked universities.  Collaborated with award winning academics globally. Get academic job alerts"
                   }
                 ]
@@ -162,7 +162,7 @@ const Home = () => {
               <input
                 type="text"
                 className="flex-grow px-4 py-2 focus:outline-none border rounded-full shadow-md md:border-none md:shadow-none"
-                placeholder="Type keywords like: professor harvard"
+                placeholder="Type Keywords"
                 ref={keyWordRef}
               />
               <button className="px-4 py-2 bg-[#f4a10c] text-white rounded-full shadow-md hover:bg-orange-600 font-bold"
@@ -175,22 +175,22 @@ const Home = () => {
           <div className=" mt-[3rem] " >
             <ul className="faculty-container flex flex-wrap gap-4 items-center justify-center text-gray-400 ">
               <ul className="w-full  md:w-auto flex items-center  justify-center gap-4">
-                <li><Link to="/lecturer/" >	Lecturer</Link></li>
-                <li><Link to="https://www.academicjobs.com/research/" >	Research </Link></li>
-                <li><Link to="https://www.academicjobs.com/professor/" >	Professor</Link></li>
+                <li><Link to="/jobs/kindergarten/" >	Kindergarten</Link></li>
+                <li><Link to="/jobs/primary/" >	Primary </Link></li>
+                <li><Link to="/jobs/secondary/" >	Secondary</Link></li>
               </ul>
-              <li><Link to="https://www.academicjobs.com/executive/" >	Executive</Link></li>
-              <li><Link to="https://www.academicjobs.com/admin/" >Admin</Link></li>
-              <li><Link to="https://www.academicjobs.com/hr/" >	HR</Link></li>
-              <li><Link to="https://www.academicjobs.com/student/" >	Student</Link></li>
+              <li><Link to="/jobs/private/" >	Private</Link></li>
+           
+              <li><Link to="/jobs/admin/" >Admin</Link></li>
+          
             </ul>
           </div>
           <div className=" mt-4 pb-8" >
             <ul className="faculty-container flex  gap-4 items-center justify-center text-[#f4a10c] ">
-              <li><Link to="https://www.academicjobs.com/online/" >	Online </Link></li>
-              <li><Link to="https://www.academicjobs.com/jobs/remote/" >	Remote</Link></li>
-              <li><Link to="https://www.academicjobs.com/jobs/full-time/" >Full-Time</Link></li>
-              <li><Link to="https://www.academicjobs.com/jobs/part-time/" >	Part-Time</Link></li>
+              <li><Link to="/jobs/online/" >	Online </Link></li>
+              <li><Link to="/jobs/remote/" >	Remote</Link></li>
+              <li><Link to="/jobs/full-time/" >Full-Time</Link></li>
+              <li><Link to="/jobs/part-time/" >	Part-Time</Link></li>
               <li><Link to="/jobs/casual/" >	Casual</Link></li>
             </ul>
           </div>
@@ -297,13 +297,13 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <h2 className="text-1xl font-bold py-1 px-7 border-2 border-[#f4a10c] text-[#f4a10c] rounded-3xl mt-20 shadow-md">Top Academic Jobs Today</h2>
-        <div className="cate-group section23 ">
+        <h2 className="text-1xl font-bold py-1 px-7 border-2 border-[#f4a10c] text-[#f4a10c] rounded-3xl mt-20 shadow-md hidden">Top Academic Jobs Today</h2>
+        <div className="cate-group section23 hidden">
           <div className="widget__text-block">
-            <div className="faculty-container grid-cols-1 grid md:grid-cols-4 gap-4 py-2 px-7 ">
+            <div className="faculty-container grid-cols-1 grid md:grid-cols-4 gap-4 py-2 px-7 hidden">
               <div className="column">
                 <ul className="">
-                  <li className='mb-1 mt-4 '><Link to="https://www.academicjobs.com/jobs/Assistant-Associate-Professor,-Fall-2024---Artificial-Intelligence-in-Aerospace-Engineering/70907" className='text-blue-500 font-bold'>Assistant/Associate Professor, Fall 2024 - Artificial Intelligence in Aerospace Engineering</Link></li>
+                  <li className='mb-1 mt-4 '><Link to="/jobs/Assistant-Associate-Professor,-Fall-2024---Artificial-Intelligence-in-Aerospace-Engineering/70907" className='text-blue-500 font-bold'>Assistant/Associate Professor, Fall 2024 - Artificial Intelligence in Aerospace Engineering</Link></li>
                   <ul className="innerUL">
                     <li><Link to="" >The University of Texas at Austin</Link></li>
                     <li><Link to="" >Austin, TX, USA</Link></li>
@@ -313,7 +313,7 @@ const Home = () => {
               </div>
               <div className="column">
                 <ul className="">
-                  <li className='mb-1 mt-4'><Link to="https://www.academicjobs.com/jobs/College-of-Veterinary-Medicine:-Open-Rank-Academic-(NTT-or-TT)---Equine-Emergency-Services/66803" className='text-blue-500 font-bold'>College of Veterinary Medicine: Open Rank Academic (NTT or TT) - Equine Emergency Services</Link></li>
+                  <li className='mb-1 mt-4'><Link to="/jobs/College-of-Veterinary-Medicine:-Open-Rank-Academic-(NTT-or-TT)---Equine-Emergency-Services/66803" className='text-blue-500 font-bold'>College of Veterinary Medicine: Open Rank Academic (NTT or TT) - Equine Emergency Services</Link></li>
                   <ul className="innerUL">
                     <li><Link to="" >University of Missouri - Columbia</Link></li>
                     <li><Link to="" >Columbia, MO, USA</Link></li>
@@ -323,7 +323,7 @@ const Home = () => {
               </div>
               <div className="column">
                 <ul className="">
-                  <li className='mb-1 mt-4'><Link to="https://www.academicjobs.com/jobs/Assistant-Professor-in-Theatre-&-Dance-with-a-focus-on-Designing-Just-Futures/65517" className='text-blue-500 font-bold'>Assistant Professor in Theatre & Dance with a focus on Designing Just Futures</Link></li>
+                  <li className='mb-1 mt-4'><Link to="/jobs/Assistant-Professor-in-Theatre-&-Dance-with-a-focus-on-Designing-Just-Futures/65517" className='text-blue-500 font-bold'>Assistant Professor in Theatre & Dance with a focus on Designing Just Futures</Link></li>
                   <ul className="innerUL">
                     <li><Link to="" >University of California San Diego</Link></li>
                     <li><Link to="" >La Jolla, San Diego, CA, USA</Link></li>
@@ -333,7 +333,7 @@ const Home = () => {
               </div>
               <div className="column">
                 <ul className="">
-                  <li className='mb-1 mt-4'><Link to="https://www.academicjobs.com/jobs/Assistant-Director-for-Student-Programming-(71101)/66802" className='text-blue-500 font-bold'>Assistant Director for Student Programming (71101)</Link></li>
+                  <li className='mb-1 mt-4'><Link to="/jobs/Assistant-Director-for-Student-Programming-(71101)/66802" className='text-blue-500 font-bold'>Assistant Director for Student Programming (71101)</Link></li>
                   <ul className="innerUL">
                     <li><Link to="" >Pratt Institute</Link></li>
                     <li><Link to="" >NY, USA</Link></li>
@@ -345,7 +345,7 @@ const Home = () => {
             <div className="faculty-container grid-cols-1 grid md:grid-cols-4 gap-4 py-2 px-7">
               <div className="column">
                 <ul className="">
-                  <li className='mb-1 mt-4'><Link to="https://www.academicjobs.com/jobs/Oregon-Sea-Grant-Extension-Specialist-in-Human-Dimensions-of-Coastal-Systems/69048" className='text-blue-500 font-bold'>Oregon Sea Grant Extension Specialist in Human Dimensions of Coastal Systems</Link></li>
+                  <li className='mb-1 mt-4'><Link to="/jobs/Oregon-Sea-Grant-Extension-Specialist-in-Human-Dimensions-of-Coastal-Systems/69048" className='text-blue-500 font-bold'>Oregon Sea Grant Extension Specialist in Human Dimensions of Coastal Systems</Link></li>
                   <ul className="innerUL">
                     <li><Link to="" >Oregon State University</Link></li>
                     <li><Link to="" >Corvallis, OR, USA</Link></li>
@@ -355,7 +355,7 @@ const Home = () => {
               </div>
               <div className="column">
                 <ul className="">
-                  <li className='mb-1 mt-4'><Link to="https://www.academicjobs.com/jobs/dsps-accommodation-assistant/65518" className='text-blue-500 font-bold'>DSPS Accommodation Assistant</Link></li>
+                  <li className='mb-1 mt-4'><Link to="/jobs/dsps-accommodation-assistant/65518" className='text-blue-500 font-bold'>DSPS Accommodation Assistant</Link></li>
                   <ul className="innerUL">
                     <li><Link to="" >Cuesta College</Link></li>
                     <li><Link to="" >San Luis Obispo, CA, USA</Link></li>
@@ -365,7 +365,7 @@ const Home = () => {
               </div>
               <div className="column">
                 <ul className="">
-                  <li className='mb-1 mt-4'><Link to="https://www.academicjobs.com/jobs/tenure-track-assistant-professor-of-machine-learning-in-biology/68725" className='text-blue-500 font-bold'>Tenure-track Assistant Professor of Machine Learning in Biology</Link></li>
+                  <li className='mb-1 mt-4'><Link to="/jobs/tenure-track-assistant-professor-of-machine-learning-in-biology/68725" className='text-blue-500 font-bold'>Tenure-track Assistant Professor of Machine Learning in Biology</Link></li>
                   <ul className="innerUL">
                     <li><Link to="" >University of Pennsylvania</Link></li>
                     <li><Link to="" >Philadelphia, PA, USA</Link></li>
@@ -375,7 +375,7 @@ const Home = () => {
               </div>
               <div className="column">
                 <ul className="">
-                  <li className='mb-1 mt-4'><Link to="https://www.academicjobs.com/jobs/provost/69027" className='text-blue-500 font-bold'>Provost</Link></li>
+                  <li className='mb-1 mt-4'><Link to="/jobs/provost/69027" className='text-blue-500 font-bold'>Provost</Link></li>
                   <ul className="innerUL">
                     <li><Link to="" >American University of Armenia</Link></li>
                     <li><Link to="" >Yerevan, Armenia</Link></li>
@@ -387,7 +387,7 @@ const Home = () => {
             <div className="faculty-container grid-cols-1 grid md:grid-cols-4 gap-4 py-2 px-7">
               <div className="column">
                 <ul className="">
-                  <li className='mb-1 mt-4'><Link to="https://www.academicjobs.com/jobs/open-rank-in-school-counseling-psychology/64801" className='text-blue-500 font-bold'>Open Rank (Assistant, Associate, Full Professor) in School Counseling & Psychology</Link></li>
+                  <li className='mb-1 mt-4'><Link to="/jobs/open-rank-in-school-counseling-psychology/64801" className='text-blue-500 font-bold'>Open Rank (Assistant, Associate, Full Professor) in School Counseling & Psychology</Link></li>
                   <ul className="innerUL">
                     <li><Link to="" >California State University Channel Islands</Link></li>
                     <li><Link to="" >Camarillo, CA, USA</Link></li>
@@ -397,7 +397,7 @@ const Home = () => {
               </div>
               <div className="column">
                 <ul className="">
-                  <li className='mb-1 mt-4'><Link to="https://www.academicjobs.com/jobs/open-rank-t-tt-faculty-chancellors-faculty-excellence-program-translational-predictive-biology-cluster/63422" className='text-blue-500 font-bold'>Open Rank T/TT Faculty - Chancellor's Faculty Excellence Program (CFEP) - Translational Predictive Biology Cluster</Link></li>
+                  <li className='mb-1 mt-4'><Link to="/jobs/open-rank-t-tt-faculty-chancellors-faculty-excellence-program-translational-predictive-biology-cluster/63422" className='text-blue-500 font-bold'>Open Rank T/TT Faculty - Chancellor's Faculty Excellence Program (CFEP) - Translational Predictive Biology Cluster</Link></li>
                   <ul className="innerUL">
                     <li><Link to="" >North Carolina State University</Link></li>
                     <li><Link to="" >Raleigh, NC, USA</Link></li>
@@ -407,7 +407,7 @@ const Home = () => {
               </div>
               <div className="column">
                 <ul className="">
-                  <li className='mb-1 mt-4'><Link to="https://www.academicjobs.com/jobs/executive-director-of-development-haas-school-of-business/61088" className='text-blue-500 font-bold'>Executive Director of Development, Haas School of Business (0465U) 57961</Link></li>
+                  <li className='mb-1 mt-4'><Link to="/jobs/executive-director-of-development-haas-school-of-business/61088" className='text-blue-500 font-bold'>Executive Director of Development, Haas School of Business (0465U) 57961</Link></li>
                   <ul className="innerUL">
                     <li><Link to="" >University of California Berkeley</Link></li>
                     <li><Link to="" >Berkeley, CA, USA</Link></li>
@@ -417,7 +417,7 @@ const Home = () => {
               </div>
               <div className="column">
                 <ul className="">
-                  <li className='mb-1 mt-4'><Link to="https://www.academicjobs.com/jobs/deputy-cio/63764" className='text-blue-500 font-bold'>Deputy CIO</Link></li>
+                  <li className='mb-1 mt-4'><Link to="/jobs/deputy-cio/63764" className='text-blue-500 font-bold'>Deputy CIO</Link></li>
                   <ul className="innerUL">
                     <li><Link to="" >Bowling Green State University</Link></li>
                     <li><Link to="" >Bowling Green, OH, USA</Link></li>
@@ -427,7 +427,7 @@ const Home = () => {
               </div>
               <div className="column">
                 <ul className="">
-                  <li className='mb-1 mt-4'><Link to="https://www.academicjobs.com/jobs/director-of-alumni-engagement/72223" className='text-blue-500 font-bold'>Director of Alumni Engagement</Link></li>
+                  <li className='mb-1 mt-4'><Link to="/jobs/director-of-alumni-engagement/72223" className='text-blue-500 font-bold'>Director of Alumni Engagement</Link></li>
                   <ul className="innerUL">
                     <li><Link to="" >University of Pennsylvania</Link></li>
                     <li><Link to="" >Philadelphia, PA, USA</Link></li>
@@ -437,7 +437,7 @@ const Home = () => {
               </div>
               <div className="column">
                 <ul className="">
-                  <li className='mb-1 mt-4'><Link to="https://www.academicjobs.com/jobs/Executive-Officer---Full-time---Permanent---Robina---Gold-Coast/69249/" className='text-blue-500 font-bold'>Executive Officer - Full time - Permanent - Robina - Gold Coast</Link></li>
+                  <li className='mb-1 mt-4'><Link to="/jobs/Executive-Officer---Full-time---Permanent---Robina---Gold-Coast/69249/" className='text-blue-500 font-bold'>Executive Officer - Full time - Permanent - Robina - Gold Coast</Link></li>
                   <ul className="innerUL">
                     <li><Link to="" >Bond University</Link></li>
                     <li><Link to="" >Gold Coast QLD, Australia</Link></li>
@@ -447,7 +447,7 @@ const Home = () => {
               </div>
               <div className="column">
                 <ul className="">
-                  <li className='mb-1 mt-4'><Link to="https://www.academicjobs.com/jobs/Senior-Engineer,-Student-Systems-(2-positions-available)/71827/" className='text-blue-500 font-bold'>Senior Engineer, Student Systems (2 positions available)</Link></li>
+                  <li className='mb-1 mt-4'><Link to="/jobs/Senior-Engineer,-Student-Systems-(2-positions-available)/71827/" className='text-blue-500 font-bold'>Senior Engineer, Student Systems (2 positions available)</Link></li>
                   <ul className="innerUL">
                     <li><Link to="" >Queensland University of Technology</Link></li>
                     <li><Link to="" >Gardens Point Road, Brisbane City QLD, Australia</Link></li>
@@ -458,14 +458,14 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <Link className='text-[#f4a10c] mt-4 mb-4 px-2' to='/jobs/'>← view more</Link>
-        <h2 className="text-1xl font-bold py-1 px-7 border-2 border-[#f4a10c] text-[#f4a10c] rounded-3xl mt-20 shadow-md">Top Universities To Work For</h2>
-        <div className="cate-group section23 ">
+        <Link className='text-[#f4a10c] mt-4 mb-4 px-2 hidden' to='/jobs/'>← view more</Link>
+        <h2 className="text-1xl font-bold py-1 px-7 border-2 border-[#f4a10c] text-[#f4a10c] rounded-3xl mt-20 shadow-md hidden">Top Universities To Work For</h2>
+        <div className="cate-group section23 hidden">
           <div className="widget__text-block">
             <div className="faculty-container grid-cols-1 grid md:grid-cols-4 gap-4 py-2 px-7">
               <div className="column">
                 <ul className="">
-                  <li className='mb-1 mt-4'><Link to="https://www.academicjobs.com/employerss/queensland-university-of-technology/3786/" className='text-[#003463] font-bold'>Queensland University of Technology (QUT)</Link></li>
+                  <li className='mb-1 mt-4'><Link to="/employerss/queensland-university-of-technology/3786/" className='text-[#003463] font-bold'>Queensland University of Technology (QUT)</Link></li>
                   <ul className="innerUL">
                     <li><Link to="/jobs/QUT-lecturer/" >QUT Lecturing Jobs</Link></li>
                     <li><Link to="/jobs/QUT-research/" >QUT Research Jobs</Link></li>
@@ -504,7 +504,7 @@ const Home = () => {
               </div>
               <div className="column">
                 <ul className="">
-                  <li className='mb-1 mt-4'><Link to="https://www.academicjobs.com/employersss/university-of-california-san-diego/3149/" className='text-[#192847] font-bold'>University of California San Diego</Link></li>
+                  <li className='mb-1 mt-4'><Link to="/employersss/university-of-california-san-diego/3149/" className='text-[#192847] font-bold'>University of California San Diego</Link></li>
                   <ul className="innerUL">
                     <li><Link to="/jobs/UCSD-lecturer/" >UCSD Lecturing Jobs</Link></li>
                     <li><Link to="/jobs/UCSD-research/" >UCSD Research Jobs</Link></li>
@@ -518,51 +518,51 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <h2 className="text-1xl font-bold py-1 px-7 border-2 border-[#f4a10c] text-[#f4a10c] rounded-3xl mt-20 shadow-md"><Link to="/the-university-rankings/" >The University Rankings/ Top Academic Careers</Link></h2>
-        <div className="cate-group section23 ">
+        <h2 className="text-1xl font-bold py-1 px-7 border-2 border-[#f4a10c] text-[#f4a10c] rounded-3xl mt-20 shadow-md hidden"><Link to="/the-university-rankings/" >The University Rankings/ Top Academic Careers</Link></h2>
+        <div className="cate-group section23 hidden">
           <div className="widget__text-block">
             <div className="faculty-container grid-cols-1 grid md:grid-cols-4 gap-4 py-2 px-7 ">
               <div className="column">
                 <ul className="">
                   <ul className="pb-4">
                     <li><Link to="/employerss/harvard-university/3100/" >	Harvard University</Link></li>
-                    <li><Link to="https://www.academicjobs.com/employerss/stanford-university/3101/" >	Stanford University</Link></li>
-                    <li><Link to="https://www.academicjobs.com/employerss/university-of-cambridge/12635/" >	University of Cambridge</Link></li>
-                    <li><Link to="https://www.academicjobs.com/employerss/massachusetts-institute-of-technology/3103/" >MIT</Link></li>
-                    <li><Link to="https://www.academicjobs.com/employerss/university-of-california-berkeley/3105/" >	University of California, Berkeley</Link></li>
+                    <li><Link to="/employerss/stanford-university/3101/" >	Stanford University</Link></li>
+                    <li><Link to="/employerss/university-of-cambridge/12635/" >	University of Cambridge</Link></li>
+                    <li><Link to="/employerss/massachusetts-institute-of-technology/3103/" >MIT</Link></li>
+                    <li><Link to="/employerss/university-of-california-berkeley/3105/" >	University of California, Berkeley</Link></li>
                   </ul>
                 </ul>
               </div>
               <div className="column">
                 <ul className="">
                   <ul className="innerUL">
-                    <li><Link to="https://www.academicjobs.com/employerss/princeton-university/3104/" >	Princeton University</Link></li>
-                    <li><Link to="https://www.academicjobs.com/employerss/university-of-oxford/3099/" >	University of Oxford</Link></li>
-                    <li><Link to="https://www.academicjobs.com/employerss/columbia-university/3127/" >	Columbia University</Link></li>
-                    <li><Link to="https://www.academicjobs.com/employerss/caltech/3128/" >Caltech</Link></li>
-                    <li><Link to="https://www.academicjobs.com/employerss/University-of-Chicago/3126/" >	University of Chicago</Link></li>
+                    <li><Link to="/employerss/princeton-university/3104/" >	Princeton University</Link></li>
+                    <li><Link to="/employerss/university-of-oxford/3099/" >	University of Oxford</Link></li>
+                    <li><Link to="/employerss/columbia-university/3127/" >	Columbia University</Link></li>
+                    <li><Link to="/employerss/caltech/3128/" >Caltech</Link></li>
+                    <li><Link to="/employerss/University-of-Chicago/3126/" >	University of Chicago</Link></li>
                   </ul>
                 </ul>
               </div>
               <div className="column">
                 <ul className="">
                   <ul className="innerUL">
-                    <li><Link to="https://www.academicjobs.com/employerss/yale-university/3125/" >	Yale University</Link></li>
-                    <li><Link to="https://www.academicjobs.com/employerss/Cornell-University/3138/" >Cornell University</Link></li>
-                    <li><Link to="https://www.academicjobs.com/employerss/university-of-california-los-angeles/3136/" >UCLA</Link></li>
-                    <li><Link to="https://www.academicjobs.com/employerss/university-of-pennsylvania/3131/" >UPenn</Link></li>
-                    <li><Link to="https://www.academicjobs.com/employerss/johns-hopkins-university/3130/" >Johns Hopkins University (JHU)</Link></li>
+                    <li><Link to="/employerss/yale-university/3125/" >	Yale University</Link></li>
+                    <li><Link to="/employerss/Cornell-University/3138/" >Cornell University</Link></li>
+                    <li><Link to="/employerss/university-of-california-los-angeles/3136/" >UCLA</Link></li>
+                    <li><Link to="/employerss/university-of-pennsylvania/3131/" >UPenn</Link></li>
+                    <li><Link to="/employerss/johns-hopkins-university/3130/" >Johns Hopkins University (JHU)</Link></li>
                   </ul>
                 </ul>
               </div>
               <div className="column">
                 <ul className="">
                   <ul className="innerUL">
-                    <li><Link to="https://www.academicjobs.com/employerss/university-college-london/12527/" >University College London (UCL)</Link></li>
-                    <li><Link to="https://www.academicjobs.com/employerss/eth-zurich/3132/" >ETH Zurich</Link></li>
-                    <li><Link to="https://www.academicjobs.com/employerss/university-of-tokyo/3155/" >The University of Tokyo (UTokyo)</Link></li>
-                    <li><Link to="https://www.academicjobs.com/employerss/new-york-university-nyu/3144/" >New York University (NYU)</Link></li>
-                    <li><Link to="https://www.academicjobs.com/employerss/duke-university/3139/" >	Duke University (Duke)</Link></li>
+                    <li><Link to="/employerss/university-college-london/12527/" >University College London (UCL)</Link></li>
+                    <li><Link to="/employerss/eth-zurich/3132/" >ETH Zurich</Link></li>
+                    <li><Link to="/employerss/university-of-tokyo/3155/" >The University of Tokyo (UTokyo)</Link></li>
+                    <li><Link to="/employerss/new-york-university-nyu/3144/" >New York University (NYU)</Link></li>
+                    <li><Link to="/employerss/duke-university/3139/" >	Duke University (Duke)</Link></li>
                   </ul>
                 </ul>
               </div>
@@ -570,13 +570,13 @@ const Home = () => {
           </div>
         </div>
         <div className=" flex flex-col  ">
-          <Link to="/job-type/" ><h2 className=" py-4 px-7 border-4 text-[#f4a10c] rounded-full mt-[7rem] hover:bg-[#f4a10c] hover:text-white shadow-md">→ Find Academic<span className="font-bold"> Job-Types</span> ( i.e. Professor, Fellow )</h2></Link>
+          <Link to="/job-type/" ><h2 className=" py-4 px-7 border-4 text-[#f4a10c] rounded-full mt-[7rem] hover:bg-[#f4a10c] hover:text-white shadow-md hidden">→ Find Academic<span className="font-bold"> Job-Types</span> ( i.e. Professor, Fellow )</h2></Link>
         </div>
         <div className="flex flex-col  ">
-          <Link to="/industry/"> <h2 className="  py-4 px-7 border-4 text-[#f4a10c] rounded-full mt-10 hover:bg-[#f4a10c] hover:text-white shadow-md">→ Find Academic Positions in<span className="font-bold"> Industry</span> ( i.e. laboratory technical services )</h2></Link>
+          <Link to="/industry/"> <h2 className="  py-4 px-7 border-4 text-[#f4a10c] rounded-full mt-10 hover:bg-[#f4a10c] hover:text-white shadow-md hidden">→ Find Academic Positions in<span className="font-bold"> Industry</span> ( i.e. laboratory technical services )</h2></Link>
         </div>
         <div className="flex flex-col  ">
-          <Link to="/faculty/"><h2 className="  py-4 px-7 border-4 text-[#f4a10c] rounded-full mt-10 mb-[7rem] hover:bg-[#f4a10c] hover:text-white shadow-md">→ Search Jobs by<span className="font-bold"> Faculty, Department, Specialty </span>( i.e. Agriculture: Economics and Agribusiness )</h2></Link>
+          <Link to="/faculty/"><h2 className="  py-4 px-7 border-4 text-[#f4a10c] rounded-full mt-10 mb-[7rem] hover:bg-[#f4a10c] hover:text-white shadow-md hidden">→ Search Jobs by<span className="font-bold"> Faculty, Department, Specialty </span>( i.e. Agriculture: Economics and Agribusiness )</h2></Link>
         </div>
       </div>
     </div>
