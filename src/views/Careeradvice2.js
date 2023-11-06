@@ -15,7 +15,7 @@ const Careeradvice2 = () => {
         <meta name="keywords" content="Career Advice, Resume, Interview, Career Growth, Teaching" />
       </Helmet>
       <div className="blurb text-left py-8 ">
-        <h1 className=" font-bold text-2xl md:text-3xl py-4 px-7 bg-[#f4ac10] text-white rounded-full shadow-xl"> The Best Career Blogs For Teachers</h1>
+        <h1 className=" font-bold text-2xl md:text-3xl py-4 px-7 bg-[#e39e39] text-white rounded-full shadow-xl"> The Best Career Blogs For Teachers</h1>
         <div className="newLine mb-4">
           <p className="font-semibold"></p>
           <p className="font-semibold"></p>
@@ -31,7 +31,7 @@ const Careeradvice2 = () => {
         <div className="bg-white flex flex-col  ">
        
 
-        <ul className=" mb-8 text-left grid grid-cols-1  gap-12 py-10 px-1 h-auto w-[80vh]">
+        <ul className="  text-left grid grid-cols-1  gap-12 pt-4 px-1 h-auto w-[80vh]">
 
         <li className="text-1xl py-1 px-7  max-h-50 overflow-y text-[#f4ac10] border border-[#f4ac10] p-4 mb-4 rounded-3xl shadow-lg   "><Link to="/school-career-advice/build-students-resilience/">  <img className="scale-[90%]"
         src="https://myteachingjobs.com.au/files/pictures/a3175s2331-crop.jpeg"
@@ -41,10 +41,10 @@ const Careeradvice2 = () => {
      
      
      <li className="text-1xl py-1 px-7  max-h-50 overflow-y text-[#f4ac10] border border-[#f4ac10] p-4 mb-4 rounded-3xl shadow-lg   "><Link to="/school-career-advice/perma-pillars-for-teachers/">  <img
-        src="https://academicjobs.s3.amazonaws.com/img/_misc/top-academic-jobs-australia.jpg"
+        src="https://myteachingjobs.com.au/files/pictures/image_2_1.jpeg"
         alt="How to Land Your Dream College Job: A Step-by-Step Guide"
         className=""
-      /> Top Academic Jobs Australia </Link><a className=" text-gray-400" > 10 Aug, 2023</a></li>
+      /> Using PERMA pillars to support teachers </Link><a className=" text-gray-400" > 10 Aug, 2023</a></li>
             
           
 
