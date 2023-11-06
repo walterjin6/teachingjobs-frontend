@@ -50,101 +50,84 @@ const Home = () => {
                     "position": 1,
                     "name": "Teaching Jobs",
                     "url": "/",
-                    "description": "Find online and remote university jobs at AcademicJobs.  Browse the largest number of academic jobs online in your country and worldwide."
+                    "description": "Discover Teaching jobs at on the largest teaching job board in Australia."
                   },
                   {
                     "@type": "ListItem",
                     "position": 2,
-                    "name": "Find Academic Jobs",
+                    "name": "Find Teacher Jobs",
                     "url": "/jobs/",
-                    "description": "Browse thousands of faculty, lecturer, research, and science positions in various disciplines and locations. Apply online and get hired today."
-                  },
+                     },
                   {
                     "@type": "ListItem",
                     "position": 3,
-                    "name": "Academic Jobs Online",
-                    "url": "/online/",
-                    "description": "Academic jobs online allow students, graduates, or professionals with the opportunity to earn income, gain valuable work experience, develop employability skills."
+                    "name": "Principal Jobs",
+                    "url": "/principle/",
+                   
                   },
                   {
                     "@type": "ListItem",
                     "position": 4,
-                    "name": "HR Jobs",
-                    "url": "/hr/",
-                    "description": "The largest number of university HR jobs online.Find your next HR role at a top university"
-                  },
+                    "name": "Secondary School Jobs",
+                    "url": "/secondary/",
+                      },
                   {
                     "@type": "ListItem",
                     "position": 5,
-                    "name": "Research Jobs",
-                    "url": "/research/",
-                    "description": "Seek and find all academic research opportunities today. Search for jobs by salary, location, and more on Academic Jobs"
-                  },
+                    "name": "Primary Jobs",
+                    "url": "/primary/",
+                         },
                   {
                     "@type": "ListItem",
                     "position": 6,
-                    "name": "Executive Jobs",
-                    "url": "/executive/",
-                    "description": "Find President, Dean, Chancellor, Dept Head and Provost jobs"
-                  },
+                    "name": "Early Childhood Jobs",
+                    "url": "/early-childhood/",
+                      },
                   {
                     "@type": "ListItem",
                     "position": 7,
-                    "name": "Lecturing Jobs",
-                    "url": "/lecturer/",
-                    "description": "Lecture anywhere in the world in your academic specialty"
-                  }
+                    "name": "Administrative Jobs",
+                    "url": "/administrative/",
+                 }
                   ,
                   {
                     "@type": "ListItem",
                     "position": 8,
-                    "name": "Student Jobs on Campus",
-                    "url": "/student/",
-                    "description": "Find student jobs here.  Sign up for job alerts today"
-                  },
+                    "name": "Top School Jobs",
+                    "url": "/top-schools/",
+                },
                   {
                     "@type": "ListItem",
                     "position": 9,
                     "name": "Academic Happiness and university life hacks",
-                    "url": "/academic-happiness/",
-                    "description": "Find the secret to academic happiness.  Subscribe and get tips on navigating university life, learning and career."
-                  }
+                    "url": "/career-advice/",
+              }
                   ,
                   {
                     "@type": "ListItem",
                     "position": 10,
                     "name": "Post A Job",
-                    "url": "/post-job/",
-                    "description": "Easily post a job on Academic Jobs – attract top academic talent locally and globally."
-                  },
+                    "url": "/school-pricing/",
+              },
                   {
                     "@type": "ListItem",
                     "position": 11,
-                    "name": "Jobs in Australia",
-                    "url": "/Australia/",
-                    "description": "Australia’s number one university job website.  All the jobs of all the universities in Australia"
-                  },
+                    "name": "Jobs in Melbourne",
+                    "url": "/melbourne/",
+              },
                   {
                     "@type": "ListItem",
                     "position": 12,
-                    "name": "Jobs in the United States",
-                    "url": "/USA/",
-                    "description": "Harvard, MIT, UCLA, Yale and Stanford university jobs.University & Academic Jobs in the USA.Browse; Search; Apply"
-                  },
+                    "name": "Jobs in Sydney",
+                    "url": "/sydney/",
+            },
                   {
                     "@type": "ListItem",
                     "position": 13,
-                    "name": "Jobs in the UK",
-                    "url": "/UK/",
-                    "description": "Oxford, Cambridge, UCL, LSE and Imperial, Leeds university jobs."
-                  },
-                  {
-                    "@type": "ListItem",
-                    "position": 14,
-                    "name": "Join the Global Academic Talent Pool",
-                    "url": "/talent-pool/",
-                    "description": "Get headhunted by top ranked universities.  Collaborated with award winning academics globally. Get academic job alerts"
-                  }
+                    "name": "Jobs in brisbane",
+                    "url": "/brisbane/",
+               }
+              
                 ]
               })}
             </script>
