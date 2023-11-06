@@ -147,7 +147,7 @@ const AppRouter = () => {
             <Route exact path='/Australia/hr/' element={<HRAustralia />} />
             <Route exact path='/Australia/student/' element={<StudentsAustralia />} />
             <Route exact path='/Australia/indigenous/' element={<IndigenousAustralia />} />
-            <Route exact path='/industry/:industry?' element={<Industry />} />
+            <Route exact path='/:industry?' element={<Industry />} />
             <Route exact path='/industry/' element={<Industry2 />} />
             <Route exact path='/executive/:executive?' element={<Executive />} />
             <Route exact path='/executive/' element={<Executive2 />} />

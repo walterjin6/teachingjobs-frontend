@@ -10,7 +10,7 @@ const Careeradvice2 = () => {
 
     <div className="min-h-0">
       <Helmet>
-        <title>Academic hub and Career Advice</title>
+        <title>The Best Career Blogs For Teachers </title>
         <meta name="description" content="Explore Australia's most in-demand roles with salary, job trends and career pathways. Our blog articles showcase the knowledge and experiences of real teachers. " />
         <meta name="keywords" content="Career Advice, Resume, Interview, Career Growth, Teaching" />
       </Helmet>
@@ -24,33 +24,29 @@ const Careeradvice2 = () => {
 
         <div className="py-4 px-7  text-black rounded-2xl ">
 
-          <p >Are you looking for an academic hub, career advice, tips, and insights from academics and researchers? Check out these academic jobs blogs and learn from the experts in your field. Whether you are a PhD student, a postdoc, or a professor, you will find valuable information and inspiration to advance your academic career. Read these blogs now and discover the best opportunities and practices for academic hub.</p>
+          <p >Our career advice page is designed to help you find the best school teaching jobs in your area, as well as provide you with useful tips and resources on how to prepare for your application, interview, and classroom. Whether you are a new graduate, a career changer, or an experienced teacher looking for a new challenge, we have something for you.</p>
         </div>
 
 
         <div className="bg-white flex flex-col  ">
        
 
-        <ul className=" mb-8 text-left grid grid-cols-1 md:grid-cols-3 gap-4 py-10 px-1 h-auto w-full ">
+        <ul className=" mb-8 text-left grid grid-cols-1  gap-12 py-10 px-1 h-auto w-[80vh]">
 
-        <li className="text-1xl py-1 px-7  max-h-50 overflow-y text-[#f4ac10] border border-[#f4ac10] p-4 mb-4 rounded-3xl shadow-lg   "><Link to="/academic-hub/happiness-and-academics/">  <img className="scale-[90%]"
-        src="https://academicjobs.s3.amazonaws.com/img/_misc/how-to-be-a-happy-academic.jpg"
-        alt="How to Land Your Dream College Job: A Step-by-Step Guide"
+        <li className="text-1xl py-1 px-7  max-h-50 overflow-y text-[#f4ac10] border border-[#f4ac10] p-4 mb-4 rounded-3xl shadow-lg   "><Link to="/school-career-advice/build-students-resilience/">  <img className="scale-[90%]"
+        src="https://myteachingjobs.com.au/files/pictures/a3175s2331-crop.jpeg"
+        alt="5 Ways to Build Resilience in Students"
         
-      /> hub and Academics: Scott Galloway's Algebra of hub</Link> <a className=" text-gray-400" >16 Oct, 2023</a></li>
+      /> 5 Ways to Build Resilience in Students</Link> <a className=" text-gray-400" >06 Jul, 2023</a></li>
      
      
-     <li className="text-1xl py-1 px-7  max-h-50 overflow-y text-[#f4ac10] border border-[#f4ac10] p-4 mb-4 rounded-3xl shadow-lg   "><Link to="/academic-hub/top-academic-jobs-australia/">  <img
+     <li className="text-1xl py-1 px-7  max-h-50 overflow-y text-[#f4ac10] border border-[#f4ac10] p-4 mb-4 rounded-3xl shadow-lg   "><Link to="/school-career-advice/perma-pillars-for-teachers/">  <img
         src="https://academicjobs.s3.amazonaws.com/img/_misc/top-academic-jobs-australia.jpg"
         alt="How to Land Your Dream College Job: A Step-by-Step Guide"
         className=""
       /> Top Academic Jobs Australia </Link><a className=" text-gray-400" > 10 Aug, 2023</a></li>
             
-            <li className="text-1xl py-1 px-7  max-h-50 overflow-y text-[#f4ac10] border border-[#f4ac10] p-4 mb-4 rounded-3xl shadow-lg   "><Link to="/academic-hub/how-to-land-your-dream-college-job-a-step-by-step-guide/">  <img
-        src="https://academicjobs.s3.amazonaws.com/img/_misc/Dream_Job_2.png"
-        alt="How to Land Your Dream College Job: A Step-by-Step Guide"
-        className=""
-      /> How to Land Your Dream College Job: A Step-by-Step Guide </Link><a className=" text-gray-400" > 06 Jul, 2023</a></li>
+          
 
 
 
