@@ -58,6 +58,7 @@ const JobSearch = () => {
   const {
     data,
     isLoading,
+    isFetching,
     isSuccess,
   } = useGetJobsQuery({ q: q, l: l || '', page, filter1 })
   const {
@@ -82,7 +83,7 @@ const JobSearch = () => {
   //   console.log("filter1", filter1)
   //   console.log("filterTypes", filterTypes)
   // }, [filterTypes]);
-  if (isLoading) {
+  if (isLoading || isFetching) {
     content = (
       <div className='flex  w-full h-screen  justify-between'>
         <div role="status" className="w-[40%] h-screen p-4 space-y-4 border border-gray-200 divide-y divide-gray-200 rounded shadow animate-pulse dark:divide-gray-700 md:p-6 dark:border-gray-700">

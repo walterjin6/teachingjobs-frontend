@@ -154,11 +154,11 @@ const AppRouter = () => {
             <Route exact path='/admin/:admin?' element={<Admin />} />
             <Route exact path='/admin/' element={<Admin2 />} />
             <Route exact path='/adelaide/' element={<Adelaide />} />
-            <Route exact path='/academic-hub/:careerAdvice?' element={<CareerAdvice />} />
-            <Route exact path='/academic-hub/' element={<Careeradvice2 />} />
+            <Route exact path='/school-career-advice/:careerAdvice?' element={<CareerAdvice />} />
+            <Route exact path='/school-career-advice/' element={<Careeradvice2 />} />
             <Route exact path='/student/:student?' element={<Student />} />
             <Route exact path='/student/' element={<Students />} />
-            <Route exact path='/post-job/' element={<PostJob />} />
+            <Route exact path='/school-pricing/' element={<PostJob />} />
             <Route exact path='/the-university-rankings/' element={<Rankings />} />
             <Route exact path='/about/' element={<AboutAJ />} />
             <Route exact path='/about/term-of-use/' element={<TermsConditions />} />

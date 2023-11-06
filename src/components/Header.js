@@ -96,30 +96,35 @@ export default function Header() { //1212
                             </svg>
                         </div>
                         <ul className="flex flex-col items-start justify-between min-h-[250px] text-xl py-16 pr-[6rem] pb-[40rem] bg-white">
-                            <button className="text-gray-900 hover:underline p-4  "
+                            <button className="text-gray-900 hover:underline p-4 mb-4 border rounded-r-3xl"
                                 onClick={() => {
                                     navigate("/jobs/")
                                     setIsNavOpen(false)
-                                }}>Seek Jobs</button>
-                            <button className="text-gray-900 hover:underline p-4  "
+                                }}>Teacher Jobs</button>
+                                 <button className="text-gray-900 hover:underline p-4 mb-4  border rounded-r-3xl"
+                                onClick={() => {
+                                    navigate("/jobs/principal/")
+                                    setIsNavOpen(false)
+                                }}>Principal Jobs</button>
+                            <button className="text-gray-900 hover:underline p-4 mb-4  border rounded-r-3xl"
                                 onClick={() => {
                                     navigate("/employers/")
                                     setIsNavOpen(false)
-                                }}>Top Universities</button>
-                                <button className="text-gray-900 hover:underline p-4  "
+                                }}>Top Schools</button>
+                                <button className="text-gray-900 hover:underline p-4 mb-4  border rounded-r-3xl"
                                 onClick={() => {
-                                    navigate("/academic-hub/")
+                                    navigate("/school-career-advice/")
                                     setIsNavOpen(false)
-                                }}>Academic Hub</button>
+                                }}>Career Advice </button>
                             <div className=' flex justify-between items-center gap-10'>
-                                <a href="/post-job/"  className="text-[#f4a10c] hover:underline font-bold p-4 hidden">Post A Job</a>
-                                <button className="px-4 py-4 mt-4 bg-[#f4a10c] text-white rounded-r-full shadow-md hover:bg-orange-600 font-bold"
+                                <a href="https://myteachingjobs.com.au/school-pricing/"  className="text-[#f4a10c] hover:underline font-bold p-4 border border-[#f4a10c] rounded-r-3xl ">Post A Job</a>
+                                <button className="px-4 py-4 mt-4 bg-[#f4a10c] text-white rounded-r-full shadow-md hover:bg-orange-600 font-bold hidden"
                 onClick={handleFormSubmit}
               >
                 Search In Your Country
               </button>
                             </div>
-                            <details class="bg-gray-300 open:bg-[amber-200] duration-300 md:hidden mt-6 rounded-r-3xl ">
+                            <details class="bg-gray-300 open:bg-[amber-200] duration-300 md:hidden mt-6 rounded-r-3xl hidden">
             <summary class="bg-inherit px-5 py-3  cursor-pointer pl-8">Search Globally</summary>
          
                             <div className={`p-2  md:w-52  dropdown-content z-[1] menu p-2  bg-base-100  w-31 } `}
@@ -150,46 +155,15 @@ export default function Header() { //1212
                     </div>
                 </section>
                 <div className="DESKTOP-MENU w-full justify-between hidden space-x-8 lg:flex">
-                    <div className="w-full columns-1 flex justify-start  md:items-center  md:gap-10 ">
-                        <Link to="/jobs/" className="text-gray-900  shadow-md rounded-full px-4 py-2 hover:text-[#f4a10c] border border-transparent hover:border hover:border-[#f4a10c]  ">Seek Jobs</Link>
-                        <Link to="/employers/" className="text-gray-900  shadow-md rounded-full px-4 py-2 hover:text-[#f4a10c] border border-transparent hover:border hover:border-[#f4a10c] ">Top Universities</Link>
-                        <Link to="/academic-hub/" className="text-gray-900  shadow-md rounded-full px-4 py-2 hover:text-[#f4a10c] border border-transparent hover:border hover:border-[#f4a10c] ">Academic Hub</Link>
-                        <div className={`p-2  md:w-52  dropdown-content z-[1] menu px-4 py-2  bg-base-100 rounded-box w-31 } `}
-                            onMouseLeave={onMouseLeave}
-                        >
-                            <div className="  text-gray-900 relative"
-                                onMouseEnter={onMouseEnter}
-                            >
-                                {countryMappings1[region].hasPic
-                                    ? <img
-                                        src={`https://academicjobs.s3.amazonaws.com/icon/countryFlag/${region}.svg`}
-                                        alt={region}
-                                        style={{ height: '30px' }}
-                                    />
-                                    : <span className="" style={{ height: '20px' }}> {region} </span>
-                                }
-                                <ul
-                                    onMouseLeave={onMouseLeave}
-                                    className={`${dropdown ? 'block' : 'hidden'} absolute  left-0 text-[0.875rem] z-99  min-w-[10rem] py-1 bg-white rounded-lg shadow-lg shadow-indigo-500/40`} ref={ref}>
-                                    {Object.keys(countryMappings1).map((key) => (
-                                        <li className="navbar__item" key={key}>
-                                            <DispatchLink
-                                                to={`/${key}/`}
-                                                region={key}
-                                                setDropdown={setDropdown}
-                                                setIsNavOpen={setIsNavOpen}
-                                                className="navbar__link"
-                                            >
-                                                {countryMappings1[key].menu}
-                                            </DispatchLink>
-                                        </li>
-                                    ))}
-                                </ul>
-                            </div>
-                        </div>
+                    <div className="w-full columns-1 flex justify-start  md:items-center  md:gap-8 ">
+                        <Link to="/jobs/" className="text-gray-900  shadow-md rounded-full px-6 py-2 hover:text-[#f4a10c] border border-transparent hover:border hover:border-[#f4a10c]  ">Teacher Jobs</Link>
+                        <Link to="/jobs/principal/" className="text-gray-900  shadow-md rounded-full px-6 py-2 hover:text-[#f4a10c] border border-transparent hover:border hover:border-[#f4a10c]  ">Principal Jobs</Link>
+                        <Link to="/employers/" className="text-gray-900  shadow-md rounded-full px-6 py-2 hover:text-[#f4a10c] border border-transparent hover:border hover:border-[#f4a10c] ">Top Schools</Link>
+                        <Link to="/school-career-advice/" className="text-gray-900  shadow-md rounded-full px-6 py-2 hover:text-[#f4a10c] border border-transparent hover:border hover:border-[#f4a10c] ">Career Advice</Link>
+                       
                     </div>
                     <div className=' w-[200px] grid items-center justify-center '>
-                        <a href="/post-job/"  className="text-[#f4a10c]  font-bold shadow-md rounded-full px-4 py-2 border border-[#f4a10c] hover:bg-[#f4a10c] hover:text-white ">Post A Job</a>
+                        <a href="https://myteachingjobs.com.au/school-pricing/"  className="text-[#f4a10c]  font-bold shadow-md rounded-full px-4 py-2 border border-[#f4a10c] hover:bg-[#f4a10c] hover:text-white ">Post A Job</a>
                     </div>
                 </div>
             </nav>

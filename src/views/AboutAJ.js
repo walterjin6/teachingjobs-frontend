@@ -5,42 +5,40 @@ const AboutAJ = () => {
     return (
         <div className=" px-7 py-4 text-left  mb-0">
             <Helmet>
-                <title>About AcademicJobs</title>
-                <meta name="description" content="The Number 1 job board for Academic Jobs.  Listing higher ed jobs for faculty at colleges and universities in the United States and around the world.  " />
-                <meta name="keywords" content="About Academicjobs, About Academic Jobs, Academicjobs About  " />
+                <title>About Teaching Jobs</title>
+                <meta name="description" content="Join our community of passionate teachers and make a difference in the lives of students. Visit teaching job board today and discover the opportunities waiting for you.  " />
+                <meta name="keywords" content="About Teaching Jobs, About Teaching Jobs, Teaching Jobs About  " />
             </Helmet>
             <img
-                src="https://academicjobs.s3.amazonaws.com/img/banner/Academic-jobs-About-AJ.png"
+                src="https://Teaching Jobs.s3.amazonaws.com/img/banner/teaching-jobs-About-AJ.png"
                 alt="contact us"
-                className=" rounded-3xl  "></img>
+                className=" rounded-3xl  hidden"></img>
             <p className="block text-4xl font-bold font-roboto text-[#f4a10c]  pt-12 p-8">About Us</p>
             <p className="underline text-[#f4a10c]  pt-4 "> <Link to="/about/term-of-use/" className="underline text-[#f4a10c] mb-8 pt-4 p-8">Terms & Conditions</Link> </p>
             <p className="underline text-[#f4a10c]  pt-4 "> <Link to="/about/diversity-statement/" className="underline text-[#f4a10c] mb-8 pt-4 p-8">Diversity Statement</Link>  </p>
-            <p className="underline text-[#f4a10c]  pt-4 "> <Link to="https://iloveacademicjobs.com/university-partners/" className="underline text-[#f4a10c] mb-8 pt-4 p-8">Our Partners</Link>  </p>
+          
             <div className=" border-[#f4a10c] border-4 rounded-3xl p-8 mt-8">
                 <p className="block text-3xl font-bold font-open-sans  mb-8 mt-12">
-                    ALL THE BEST UNIVERSITY JOBS
+                    ALL THE BEST SCHOOL JOBS
                 </p>
                 <p className="block text-xl  font-open-sans bg-white text-gray-700 mb-8 font-bold">
-                    Find the best academic positions in your city, country and worldwide.
+                Discover the top teaching jobs available in your location, city or state.
                 </p>
                 <p className="block text-xl   font-open-sans bg-white text-gray-700 mb-8 font-bold">
-                    Also listing administrative, staff and support roles in higher ed. Search for academic jobs, college careers and faculty positions online with AcademicJobs.com.
+                We list of school staff, support, teaching and principal positions. Use teachingjobs.com.au to search for teaching opportunities, careers, and employment online.
                 </p>
                 <p className=" block text-xl   font-roboto text-black mb-8 ">
-                    Welcome to AcademicJobs, the leading online platform for finding and applying for university and higher education jobs and positions. Whether you are looking for a faculty, research, administrative, or professional role, we have the right opportunity for you.
+                Greetings from Teaching Jobs, the premier online job search and application portal for teaching jobs and school recruitment. We offer the ideal opportunity for you, whether you're searching for a teaching, principal, or tutoring career.
                 </p>
                 <p className=" block text-xl   font-roboto text-black mb-8 ">
-                    Academic Jobs was founded by a team of higher ed professionals who were frustrated with the lack of transparency and efficiency in the academic job market. Put simply, they thought that the old job boards out there for academic positions did not work for clients, and they continued to operate on very old, outdated technology. They therefore have created the best academic job platform in the world today... making it easier for candidates to search for jobs, compare offers, and communicate with employers. They have also provided employers with a cost-effective and user-friendly way to advertise their vacancies, reach a global talent pool, and manage their applications.
+                A group of teaching experts who were dissatisfied with the lack of efficiency and openness in the teaching employment market formed Teaching Jobs. Simply put, they continued to use antiquated technology and believed that the job boards for teaching employment that were previously available did not serve their clients' needs. As a result, they have developed the greatest teaching employment platform available today, which makes it simpler for applicants to look for positions, evaluate offers, and get in touch with employers. Additionally, they have given schools an easy-to-use and affordable option to manage their applications, reach a large talent pool, and publicise their job openings.
                 </p>
-                <p className=" block text-xl   font-roboto text-black mb-8">
-                    AcademicJobs has grown to become the most trusted and popular website for academic job seekers and employers worldwide. With over 5000 universities and their jobs, and over 1 million registered users from all over the world, 10,000 active job listings, and 500 partner institutions across 50 countries. AcademicJobs.com lists all disciplines and academic specialties in all levels of academia, from humanities and social sciences to STEM and health sciences, from PhD students and postdocs to professors, lecturers, researchers and deans.
-                </p>
+               
                 <p className=" block text-xl   font-roboto text-black mb-8 ">
-                    Our mission is to help you find your dream academic job or hire the best academic talent. We are committed to providing you with the most comprehensive and up-to-date information, the most advanced and user-friendly tools, and the most professional and personalized service. We are also passionate about supporting the academic community and promoting diversity, equity, and inclusion in higher education.
+                Our goal is to assist you in hiring the most qualified teachers or in locating your ideal teaching position. We are dedicated to giving you the most sophisticated and user-friendly tools, the most thorough and current information, and the most expert and individualised service. In addition, we have a strong commitment to advancing inclusion, equity, and diversity in the teaching profession.
                 </p>
                 <p className="block text-xl   font-roboto  mb-8">
-                    We hope you enjoy using AcademicJobs and find it useful for your academic career or recruitment needs. If you have any questions, feedback, or suggestions, please feel free to contact us <Link to="/contact-us/" className="underline text-blue-500 font-bold ">HERE</Link>. We would love to hear from you!
+                It is our desire that you find Teaching Jobs enjoyable and helpful for your teaching career or hiring requirements. We hope to hear from you soon!
                 </p>
             </div>
         </div>
