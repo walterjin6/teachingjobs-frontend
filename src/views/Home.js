@@ -182,7 +182,7 @@ const Home = () => {
              
            
              <li className='mb-2 hover:underline'><Link to="/administrative/" >Admin</Link></li>
-             <li className='mb-2 hover:underline'><Link to="/tutor/" >	Tutor</Link></li>
+            
           
             </ul>
           </div>
