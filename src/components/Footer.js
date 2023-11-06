@@ -14,8 +14,7 @@ const Footer = () => {
                         <li className='text-white font-bold text-xl pb-1 '>Navigation</li>
                         {/* <li><a className="footer-nav__link" href="/">Home</a></li> */}
                         <li><Link to="/">Home</Link></li>
-                        <li><Link to="/faq/">FAQ</Link></li>
-                                            
+                        <li><Link to="/career-advice/">Career Advice</Link></li>                    
                         <li><Link to="/sitemap/">Site Map</Link></li>
                    
                     </ul>
@@ -25,8 +24,9 @@ const Footer = () => {
                     <ul>
                         <li className='text-white font-bold text-xl pb-1'>Job Seekers</li>
                         <li><Link to="/jobs/">Find Jobs</Link></li>
+                        <li><Link to="/jobs/principal/">Princpal Jobs</Link></li>
                         <li><Link to="/employers/">Find Employers</Link></li>
-                        <li><Link to="/career-advice/">Career Advice</Link></li>
+                       
                        
                     </ul>
                 </div>
