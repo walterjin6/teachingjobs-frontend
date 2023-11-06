@@ -110,7 +110,7 @@ const AppRouter = () => {
             <Route exact path='/faculty/' element={<Faculty />} />
             <Route exact path='/QUT/' element={<QUT />} />
             <Route exact path='/faculty/:category?' element={<Category />} />
-            <Route exact path='/job-type/:position?' element={<Position />} />
+            <Route exact path='/:position?' element={<Position />} />
             <Route exact path='/job-type/' element={<Position2 />} />
             <Route exact path='/hr/:hr?' element={<HR />} />
             <Route exact path='/:cities?' element={<Cities />} />

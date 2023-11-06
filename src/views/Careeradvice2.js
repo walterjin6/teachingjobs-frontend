@@ -8,14 +8,14 @@ const Careeradvice2 = () => {
   return (
 
 
-    <div className="">
+    <div className="min-h-0">
       <Helmet>
         <title>Academic hub and Career Advice</title>
-        <meta name="description" content="Are you looking for hub in academia? Read our blog posts to discover the secrets of well-being, work-life balance, and career satisfaction for academics.  " />
-        <meta name="keywords" content="academic hub, AcademicJobs hub" />
+        <meta name="description" content="Explore Australia's most in-demand roles with salary, job trends and career pathways. Our blog articles showcase the knowledge and experiences of real teachers. " />
+        <meta name="keywords" content="Career Advice, Resume, Interview, Career Growth, Teaching" />
       </Helmet>
       <div className="blurb text-left py-8 ">
-        <h1 className=" font-bold text-2xl md:text-3xl py-4 px-7 bg-[#f4ac10] text-white rounded-full shadow-xl"> Academic Hub & Top Career Advice Today</h1>
+        <h1 className=" font-bold text-2xl md:text-3xl py-4 px-7 bg-[#f4ac10] text-white rounded-full shadow-xl"> The Best Career Blogs For Teachers</h1>
         <div className="newLine mb-4">
           <p className="font-semibold"></p>
           <p className="font-semibold"></p>
@@ -52,28 +52,6 @@ const Careeradvice2 = () => {
         className=""
       /> How to Land Your Dream College Job: A Step-by-Step Guide </Link><a className=" text-gray-400" > 06 Jul, 2023</a></li>
 
-<li className="text-1xl py-1 px-7  max-h-50 overflow-y text-[#f4ac10] border border-[#f4ac10] p-4 mb-4 rounded-3xl shadow-lg  "><Link to="/academic-hub/exploring-the-benefits-of-academic-jobs-online-why-virtual-hiring-is-on-the-rise/">  <img
-        src="https://academicjobs.s3.amazonaws.com/img/_misc/Virtual_Hiring.png"
-        alt="Exploring the Benefits of Academic Jobs Online: Why Virtual Hiring is on the Rise"
-        className=""
-      /> Exploring the Benefits of Academic Jobs Online: Why Virtual Hiring is on the Rise</Link><a className=" text-gray-400" > 20 Jun, 2023</a></li>
-
-
-<li className="text-1xl py-1 px-7  max-h-50 overflow-y text-[#f4ac10] border border-[#f4ac10] p-4 mb-4 rounded-3xl shadow-lg  " ><Link to="/academic-hub/exploring-the-global-landscape-of-academic-jobs-opportunities-and-challenges/">  <img
-        src="https://academicjobs.s3.amazonaws.com/img/_misc/Global_Opportunities_2.png"
-        alt="Exploring the Global Landscape of Academic Jobs: Opportunities and Challenges"
-        className=""
-      /> Exploring the Global Landscape of Academic Jobs: Opportunities and Challenges</Link><a className=" text-gray-400" > 7 Jun, 2023</a></li>
-
-
-
-
-      
-      <li className="text-1xl py-1 px-7  max-h-50 overflow-y text-[#f4ac10] border border-[#f4ac10] p-4 mb-4 rounded-3xl shadow-lg   "><Link to="/academic-hub/the-evolution-of-university-recruitment/">  <img
-        src="https://academicjobs.s3.amazonaws.com/img/_misc/Recruitment_Evolution_2.png "
-        alt="How to Land Your Dream College Job: A Step-by-Step Guide"
-        className=""
-      /> The Evolution of University Recruitment: Embracing Digital Platforms </Link><a className=" text-gray-400" > 15 May, 2023</a></li>
 
 
               </ul>
@@ -83,9 +61,9 @@ const Careeradvice2 = () => {
             
     
       </div>
-      <h1 className=" font-bold text-xl md:text-xl px-7 text-[#f4ac10] "> All Academic Hub Posts</h1>
-      <hr className="w-ful  mx-auto  bg-[#f4ac10] border-8 rounded-full md:my-2 md:mb-4  border-[#f4a10c] shadow-xl"></hr>
-      <div className="mt-[-3.3rem]"><SearchResults  q={{ l: "Academic Hub" }} /></div> 
+      <h1 className=" font-bold text-xl md:text-xl px-7 text-[#f4ac10] hidden"> All Academic Hub Posts</h1>
+      <hr className="w-ful  mx-auto  bg-[#f4ac10] border-8 rounded-full md:my-2 md:mb-4  border-[#f4a10c] shadow-xl hidden"></hr>
+      <div className="mt-[-3.3rem] hidden"><SearchResults  q={{ l: "Academic Hub" }} /></div> 
 
     </div>
 
