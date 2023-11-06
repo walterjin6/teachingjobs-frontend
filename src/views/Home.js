@@ -221,18 +221,18 @@ const Home = () => {
                 <ul className="">
                   <li className='mb-1 mt-4'><Link to="/USA/" className='text-[#f4a10c] font-bold'>NSW</Link></li>
                   <ul className="innerUL">
-                    <li><Link to="https://teachingjobs.com.au/employer/act-government-department-of-education/20/" >ACT Government - Department of Education</Link></li>
-                    <li><Link to="/new-york/" >New York</Link></li>
-                    <li><Link to="/los-angeles/" >Los Angeles</Link></li>
-                    <li><Link to="/san-francisco/" >San Francisco</Link></li>
-                    <li><Link to="/chicago/" >Chicago</Link></li>
-                    <li><Link to="/san-diego/" >San Diego</Link></li>
-                    <li><Link to="/washington-dc/" >Washington DC</Link></li>
-                    <li><Link to="/philadelphia/" >Philadelphia</Link></li>
-                    <li><Link to="/atlanta/" >Atlanta</Link></li>
-                    <li><Link to="/seattle/" >Seattle</Link></li>
-                    <li><Link to="/pittsburgh/" >Pittsburgh</Link></li>
-                    <li><Link to="/new-haven/" >New Haven</Link></li>
+                    <li><Link to="/employers/act-government-department-of-education/20/" >ACT Government - Department of Education</Link></li>
+                   
+                    
+                    <li><Link to="/employers/st-aloysius-college/15841/" >ST Aloysius College</Link></li>
+                    <li><Link to="/employers/presbyterian-ladies-college/15842/" >Presbyterian Ladies College</Link></li>
+                    <li><Link to="/employers/ballarat-clarendon-college/15836/" >Ballarat Clarendon College</Link></li>
+                    <li><Link to="/employers/korowa-anglican-girls-school/15845/" >Korowa Anglican girls school</Link></li>
+                    <li><Link to="/employers/camberwell-grammar-school/15846/" >Camberwell Grammar school</Link></li>
+                    <li><Link to="/employers/st-andrews-christian-college/15856/" >ST Andrews Christian College</Link></li>
+                    <li><Link to="/employers/haileybury-college/15855/" >Haileybury College</Link></li>
+                    <li><Link to="/employers/christ-church-grammar-school/15860/" >Christ Church Grammar school</Link></li>
+                    <li><Link to="/employers/university-of-wollongong/15899/" >University of Wollongong</Link></li>
                   </ul>
                 </ul>
               </div>
@@ -240,13 +240,13 @@ const Home = () => {
                 <ul className="">
                   <li className='mb-1 mt-4'><Link to="/Australia/" className='text-[#f4a10c] font-bold'>Victoria</Link></li>
                   <ul className="innerUL">
-                    <li><Link to="/melbourne/" >Melbourne</Link></li>
-                    <li><Link to="/sydney/" >Sydney</Link></li>
-                    <li><Link to="/brisbane/" >Brisbane</Link></li>
-                    <li><Link to="/gold-coast/" >Gold Coast</Link></li>
-                    <li><Link to="/canberra/" >Canberra</Link></li>
-                    <li><Link to="/perth/" >Perth</Link></li>
-                    <li><Link to="/adelaide/" >Adelaide</Link></li>
+                    <li><Link to="/employers/government-of-south-australia-department-for-education/17/" >Government of South Australia Department for Education</Link></li>
+                    <li><Link to="/employers/tasmanian-government-education/12/" >Tasmanian Government Education</Link></li>
+                    
+                    <li><Link to="/employers/meriden-school/15835/" >Meriden school</Link></li>
+                    <li><Link to="/employers/huntingtower-school/15834/" >Huntingtower school</Link></li>
+                    
+                    
                   </ul>
                 
                 </ul>
@@ -255,18 +255,23 @@ const Home = () => {
                 <ul className="">
                 <li className='mb-1 mt-4'><Link to="/UK/" className='text-[#f4a10c] font-bold'>Queensland</Link></li>
                   <ul className="innerUL">
-                    <li><Link to="/london/" >London</Link></li>
-                    <li><Link to="/edinburgh/" >Edinburgh</Link></li>
-                    <li><Link to="/manchester/" >Manchester</Link></li>
+                    <li><Link to="/employers/queensland-government-department-of-education/18/" >Queensland - Government - Department of Education</Link></li>
+                    <li><Link to="/employers/catholic-education-services-diocese-of-cairns/60/" >Catholic - Education services diocese of Cairns</Link></li>
+                    <li><Link to="/employers/townsville-catholic-education-office/35/" >Townsville Catholic Education Office</Link></li>
+                    <li><Link to="/employers/brisbane-girls-grammar-school/15844/" >Brisbane girls grammar-school</Link></li>
+                    <li><Link to="/employers/somerville-house/15847/" >Somerville House</Link></li>
+                    <li><Link to="/employers/sceggs-darlinghurst/15840/" >SCEGGS Darlinghurst</Link></li>
+                    <li><Link to="/employers/ascham-School/11527/" >Ascham  School</Link></li>
+                    <li><Link to="/employers/al-noori-muslim-school/15858/" >AL Noori Muslim school</Link></li>
                  
-                    <li><Link to="/toronto/" >Toronto</Link></li>
-                    <li><Link to="/vancouver/" >Vancouver</Link></li>
-                    <li><Link to="/montreal/" >Montreal</Link></li>
+                    <li><Link to="/employers/st-hildas-anglican-school-for-girls/11459/" >ST Hildas Anglican school for girls</Link></li>
+                    <li><Link to="/employers/belmont-christian-college/15898/" >Belmont Christian College</Link></li>
+                    <li><Link to="/employers/northern-territory-department-of-education/21/" >Northern Territory Department of Education</Link></li>
                  
-                    <li><Link to="/hong-kong/" >Hong Kong</Link></li>
-                    <li><Link to="/beijing/" >Beijing</Link></li>
-                    <li><Link to="/tokyo/" >Tokyo</Link></li>
-                    <li><Link to="/singapore/" >Singapore</Link></li>
+                    <li><Link to="/employers/victoria-state-government-education-and-training/19/" >Victoria State Government Education and Training</Link></li>
+                    <li><Link to="/employers/sydney-grammar-school/11556/" >Sydney Grammar school</Link></li>
+                    <li><Link to="/employers/presbyterian-ladies-college-sydney/15839/" >Presbyterian Ladies College Sydney</Link></li>
+                    <li><Link to="/employers/lighthouse-christian-college-cranbourne/15843/" >Lighthouse Christian College Cranbourne</Link></li>
                   </ul>
                 </ul>
               </div>
@@ -274,16 +279,16 @@ const Home = () => {
                 <ul className="">
                   <li className='mb-1 mt-4'><Link to="/Europe/" className='text-[#f4a10c] font-bold'>Western Australia</Link></li>
                   <ul className="innerUL">
-                    <li><Link to="/paris/" >Paris</Link></li>
-                    <li><Link to="/zurich/" >Zurich</Link></li>
-                    <li><Link to="/munich/" >Munich</Link></li>
-                    <li><Link to="/amsterdam/" >Amsterdam</Link></li>
-                    <li><Link to="/copenhagen/" >Copenhagen</Link></li>
-                    <li><Link to="/stockholm/" >Stockholm</Link></li>
+                    <li><Link to="/employers/brisbane-grammar-school/15837" >Brisbane Grammar school</Link></li>
+                    <li><Link to="/employers/redeemer-baptist-school/15838/" >Redeemer Baptist school</Link></li>
+                    <li><Link to="/employers/international-school-of-western-australia/15848/" >International School of Western Australia</Link></li>
+                    <li><Link to="/employers/fintona-girls-school/11527/" >Fintona girls school</Link></li>
+                    <li><Link to="/employers/queenwood/15859" >Queenwood</Link></li>
+                    <li><Link to="/employers/orana-steiner-school/14803/" >Orana Steiner school</Link></li>
                   </ul>
                   <li className='mb-1 mt-4'><Link to="/Europe/" className='text-[#f4a10c] font-bold'>South Australia</Link></li>
                   <ul className="innerUL">
-                    <li><Link to="/paris/" >Paris</Link></li>
+                    <li><Link to="employers/red-bend-catholic-college/1040/" >Red Bend Catholic college</Link></li>
                     <li><Link to="/zurich/" >Zurich</Link></li>
                     <li><Link to="/munich/" >Munich</Link></li>
                     </ul>
@@ -460,7 +465,7 @@ const Home = () => {
             <div className="faculty-container grid-cols-1 grid md:grid-cols-4 gap-4 py-2 px-7">
               <div className="column">
                 <ul className="">
-                  <li className='mb-1 mt-4'><Link to="https://www.academicjobs.com/employers/queensland-university-of-technology/3786/" className='text-[#003463] font-bold'>Queensland University of Technology (QUT)</Link></li>
+                  <li className='mb-1 mt-4'><Link to="https://www.academicjobs.com/employerss/queensland-university-of-technology/3786/" className='text-[#003463] font-bold'>Queensland University of Technology (QUT)</Link></li>
                   <ul className="innerUL">
                     <li><Link to="/jobs/QUT-lecturer/" >QUT Lecturing Jobs</Link></li>
                     <li><Link to="/jobs/QUT-research/" >QUT Research Jobs</Link></li>
@@ -473,7 +478,7 @@ const Home = () => {
               </div>
               <div className="column">
                 <ul className="">
-                  <li className='mb-1 mt-4'><Link to="/employers/bond-university/3785/" className='text-[#f1b821] font-bold'>Bond University</Link></li>
+                  <li className='mb-1 mt-4'><Link to="/employersss/bond-university/3785/" className='text-[#f1b821] font-bold'>Bond University</Link></li>
                   <ul className="innerUL">
                     <li><Link to="/jobs/bond-lecturer/" >Bond Lecturing Jobs</Link></li>
                     <li><Link to="/jobs/bond-research/" >Bond Research Jobs</Link></li>
@@ -486,7 +491,7 @@ const Home = () => {
               </div>
               <div className="column">
                 <ul className="">
-                  <li className='mb-1 mt-4'><Link to="/employers/harvard-university/3100/" className='text-[#A51C30] font-bold'>Harvard University</Link></li>
+                  <li className='mb-1 mt-4'><Link to="/employersss/harvard-university/3100/" className='text-[#A51C30] font-bold'>Harvard University</Link></li>
                   <ul className="innerUL">
                     <li><Link to="/jobs/harvard-lecturer/" >Harvard Lecturing Jobs</Link></li>
                     <li><Link to="/jobs/harvard-research/" >Harvard Research Jobs</Link></li>
@@ -499,7 +504,7 @@ const Home = () => {
               </div>
               <div className="column">
                 <ul className="">
-                  <li className='mb-1 mt-4'><Link to="https://www.academicjobs.com/employers/university-of-california-san-diego/3149/" className='text-[#192847] font-bold'>University of California San Diego</Link></li>
+                  <li className='mb-1 mt-4'><Link to="https://www.academicjobs.com/employersss/university-of-california-san-diego/3149/" className='text-[#192847] font-bold'>University of California San Diego</Link></li>
                   <ul className="innerUL">
                     <li><Link to="/jobs/UCSD-lecturer/" >UCSD Lecturing Jobs</Link></li>
                     <li><Link to="/jobs/UCSD-research/" >UCSD Research Jobs</Link></li>
@@ -520,44 +525,44 @@ const Home = () => {
               <div className="column">
                 <ul className="">
                   <ul className="pb-4">
-                    <li><Link to="/employers/harvard-university/3100/" >	Harvard University</Link></li>
-                    <li><Link to="https://www.academicjobs.com/employers/stanford-university/3101/" >	Stanford University</Link></li>
-                    <li><Link to="https://www.academicjobs.com/employers/university-of-cambridge/12635/" >	University of Cambridge</Link></li>
-                    <li><Link to="https://www.academicjobs.com/employers/massachusetts-institute-of-technology/3103/" >MIT</Link></li>
-                    <li><Link to="https://www.academicjobs.com/employers/university-of-california-berkeley/3105/" >	University of California, Berkeley</Link></li>
+                    <li><Link to="/employerss/harvard-university/3100/" >	Harvard University</Link></li>
+                    <li><Link to="https://www.academicjobs.com/employerss/stanford-university/3101/" >	Stanford University</Link></li>
+                    <li><Link to="https://www.academicjobs.com/employerss/university-of-cambridge/12635/" >	University of Cambridge</Link></li>
+                    <li><Link to="https://www.academicjobs.com/employerss/massachusetts-institute-of-technology/3103/" >MIT</Link></li>
+                    <li><Link to="https://www.academicjobs.com/employerss/university-of-california-berkeley/3105/" >	University of California, Berkeley</Link></li>
                   </ul>
                 </ul>
               </div>
               <div className="column">
                 <ul className="">
                   <ul className="innerUL">
-                    <li><Link to="https://www.academicjobs.com/employers/princeton-university/3104/" >	Princeton University</Link></li>
-                    <li><Link to="https://www.academicjobs.com/employers/university-of-oxford/3099/" >	University of Oxford</Link></li>
-                    <li><Link to="https://www.academicjobs.com/employers/columbia-university/3127/" >	Columbia University</Link></li>
-                    <li><Link to="https://www.academicjobs.com/employers/caltech/3128/" >Caltech</Link></li>
-                    <li><Link to="https://www.academicjobs.com/employers/University-of-Chicago/3126/" >	University of Chicago</Link></li>
+                    <li><Link to="https://www.academicjobs.com/employerss/princeton-university/3104/" >	Princeton University</Link></li>
+                    <li><Link to="https://www.academicjobs.com/employerss/university-of-oxford/3099/" >	University of Oxford</Link></li>
+                    <li><Link to="https://www.academicjobs.com/employerss/columbia-university/3127/" >	Columbia University</Link></li>
+                    <li><Link to="https://www.academicjobs.com/employerss/caltech/3128/" >Caltech</Link></li>
+                    <li><Link to="https://www.academicjobs.com/employerss/University-of-Chicago/3126/" >	University of Chicago</Link></li>
                   </ul>
                 </ul>
               </div>
               <div className="column">
                 <ul className="">
                   <ul className="innerUL">
-                    <li><Link to="https://www.academicjobs.com/employers/yale-university/3125/" >	Yale University</Link></li>
-                    <li><Link to="https://www.academicjobs.com/employers/Cornell-University/3138/" >Cornell University</Link></li>
-                    <li><Link to="https://www.academicjobs.com/employers/university-of-california-los-angeles/3136/" >UCLA</Link></li>
-                    <li><Link to="https://www.academicjobs.com/employers/university-of-pennsylvania/3131/" >UPenn</Link></li>
-                    <li><Link to="https://www.academicjobs.com/employers/johns-hopkins-university/3130/" >Johns Hopkins University (JHU)</Link></li>
+                    <li><Link to="https://www.academicjobs.com/employerss/yale-university/3125/" >	Yale University</Link></li>
+                    <li><Link to="https://www.academicjobs.com/employerss/Cornell-University/3138/" >Cornell University</Link></li>
+                    <li><Link to="https://www.academicjobs.com/employerss/university-of-california-los-angeles/3136/" >UCLA</Link></li>
+                    <li><Link to="https://www.academicjobs.com/employerss/university-of-pennsylvania/3131/" >UPenn</Link></li>
+                    <li><Link to="https://www.academicjobs.com/employerss/johns-hopkins-university/3130/" >Johns Hopkins University (JHU)</Link></li>
                   </ul>
                 </ul>
               </div>
               <div className="column">
                 <ul className="">
                   <ul className="innerUL">
-                    <li><Link to="https://www.academicjobs.com/employers/university-college-london/12527/" >University College London (UCL)</Link></li>
-                    <li><Link to="https://www.academicjobs.com/employers/eth-zurich/3132/" >ETH Zurich</Link></li>
-                    <li><Link to="https://www.academicjobs.com/employers/university-of-tokyo/3155/" >The University of Tokyo (UTokyo)</Link></li>
-                    <li><Link to="https://www.academicjobs.com/employers/new-york-university-nyu/3144/" >New York University (NYU)</Link></li>
-                    <li><Link to="https://www.academicjobs.com/employers/duke-university/3139/" >	Duke University (Duke)</Link></li>
+                    <li><Link to="https://www.academicjobs.com/employerss/university-college-london/12527/" >University College London (UCL)</Link></li>
+                    <li><Link to="https://www.academicjobs.com/employerss/eth-zurich/3132/" >ETH Zurich</Link></li>
+                    <li><Link to="https://www.academicjobs.com/employerss/university-of-tokyo/3155/" >The University of Tokyo (UTokyo)</Link></li>
+                    <li><Link to="https://www.academicjobs.com/employerss/new-york-university-nyu/3144/" >New York University (NYU)</Link></li>
+                    <li><Link to="https://www.academicjobs.com/employerss/duke-university/3139/" >	Duke University (Duke)</Link></li>
                   </ul>
                 </ul>
               </div>
