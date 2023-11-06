@@ -117,7 +117,7 @@ export default function Header() { //1212
                                     setIsNavOpen(false)
                                 }}>Career Advice </button>
                             <div className=' flex justify-between items-center gap-10'>
-                                <a href="https://myteachingjobs.com.au/school-pricing/"  className="text-[#f4a10c] hover:underline font-bold p-4 border border-[#f4a10c] rounded-r-3xl ">Post A Job</a>
+                                <a href="https://myteachingjobs.com.au/school-pricing/" target="_blank"  className="text-[#f4a10c] hover:underline font-bold p-4 border border-[#f4a10c] rounded-r-3xl ">Post A Job</a>
                                 <button className="px-4 py-4 mt-4 bg-[#f4a10c] text-white rounded-r-full shadow-md hover:bg-orange-600 font-bold hidden"
                 onClick={handleFormSubmit}
               >
@@ -163,7 +163,7 @@ export default function Header() { //1212
                        
                     </div>
                     <div className=' w-[200px] grid items-center justify-center '>
-                        <a href="https://myteachingjobs.com.au/school-pricing/"  className="text-[#f4a10c]  font-bold shadow-md rounded-full px-4 py-2 border border-[#f4a10c] hover:bg-[#f4a10c] hover:text-white ">Post A Job</a>
+                        <a href="https://myteachingjobs.com.au/school-pricing/" target="_blank"  className="text-[#f4a10c]  font-bold shadow-md rounded-full px-4 py-2 border border-[#f4a10c] hover:bg-[#f4a10c] hover:text-white ">Post A Job</a>
                     </div>
                 </div>
             </nav>
