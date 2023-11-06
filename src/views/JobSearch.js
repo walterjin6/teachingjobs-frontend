@@ -296,7 +296,7 @@ const JobSearch = () => {
   }
   return <div className='overflow-y w-full'>
     <Helmet>
-      <title>Seek Academic Jobs</title>
+      <title>Seek Teaching Jobs</title>
       <meta name="description" content="Welcome to the top job board for Academic Jobs, listing higher education jobs available in international colleges and universities daily. Use filters such as city, employment type, and institution name to help your job search" />
       <meta name="keywords" content="Find Academic Jobs, Seek Academic Jobs, Academic Jobs Search" />
     </Helmet>
