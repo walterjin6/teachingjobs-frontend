@@ -151,7 +151,7 @@ const Home = () => {
           </Helmet>
           <img
             // src="https://academicjobs.s3.amazonaws.com/img/_misc/academic-jobs-logo.png"
-            src="academicJobsLogo.png"
+            src="TeachingJobs-logo.png"
             alt="AcademicJobs Logo"
             className="pl-4 w-[20rem] mb-[1rem] "
           />
