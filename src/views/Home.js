@@ -376,83 +376,41 @@ const Home = () => {
             <div className="faculty-container grid-cols-1 grid md:grid-cols-4 gap-4 py-2 px-7 hidden">
               <div className="column">
                 <ul className="">
-                  <li className='mb-1 mt-4 '><Link to="/jobs/Assistant-Associate-Professor,-Fall-2024---Artificial-Intelligence-in-Aerospace-Engineering/70907" className='text-blue-500 font-bold'>Assistant/Associate Professor, Fall 2024 - Artificial Intelligence in Aerospace Engineering</Link></li>
+                  <li className='mb-1 mt-4 '><Link to="/jobs/teacher---st-stephen-s-catholic-college,-mareeba/65193/" className='text-blue-500 font-bold'>A Teacher - St Stephen's Catholic College, Mareeba</Link></li>
                   <ul className="innerUL">
-                   <li className='mb-2 '><Link to="" >The University of Texas at Austin</Link></li>
-                   <li className='mb-2 '><Link to="" >Austin, TX, USA</Link></li>
-                   <li className='mb-2 '><Link to="" >11 Dec, 2023</Link></li>
+                   <li className='mb-2 '><Link to="" >St Stephen's Catholic College Mareeba </Link></li>
+                   <li className='mb-2 '><Link to="" >Mareeba, QLD</Link></li>
+                   <li className='mb-2 '><Link to="" >17 Nov, 2023</Link></li>
                   </ul>
                 </ul>
               </div>
               <div className="column">
                 <ul className="">
-                  <li className='mb-1 mt-4'><Link to="/jobs/College-of-Veterinary-Medicine:-Open-Rank-Academic-(NTT-or-TT)---Equine-Emergency-Services/66803" className='text-blue-500 font-bold'>College of Veterinary Medicine: Open Rank Academic (NTT or TT) - Equine Emergency Services</Link></li>
+                  <li className='mb-1 mt-4'><Link to="/jobs/leader-–-educational-leadership-development---catholic-education-cairns/65061/" className='text-blue-500 font-bold'>Leader – Educational Leadership Development - Catholic Education Cairns</Link></li>
                   <ul className="innerUL">
-                   <li className='mb-2 '><Link to="" >University of Missouri - Columbia</Link></li>
-                   <li className='mb-2 '><Link to="" >Columbia, MO, USA</Link></li>
-                   <li className='mb-2 '><Link to="" >25 Nov, 2023</Link></li>
+                   <li className='mb-2 '><Link to="" >Catholic Education Services - Diocese of Cairns</Link></li>
+                   <li className='mb-2 '><Link to="" >Cairns, QLD</Link></li>
+                   <li className='mb-2 '><Link to="" >26 Nov, 2023</Link></li>
                   </ul>
                 </ul>
               </div>
               <div className="column">
                 <ul className="">
-                  <li className='mb-1 mt-4'><Link to="/jobs/Assistant-Professor-in-Theatre-&-Dance-with-a-focus-on-Designing-Just-Futures/65517" className='text-blue-500 font-bold'>Assistant Professor in Theatre & Dance with a focus on Designing Just Futures</Link></li>
+                  <li className='mb-1 mt-4'><Link to="jobs/p.e.-teacher---st-augustine-s-college,-cairns/64974/" className='text-blue-500 font-bold'>P.E. Teacher - St Augustine's College, Cairns</Link></li>
                   <ul className="innerUL">
-                   <li className='mb-2 '><Link to="" >University of California San Diego</Link></li>
-                   <li className='mb-2 '><Link to="" >La Jolla, San Diego, CA, USA</Link></li>
-                   <li className='mb-2 '><Link to="" >19 Nov, 2023</Link></li>
+                   <li className='mb-2 '><Link to="" >St Augustine's College - Cairns</Link></li>
+                   <li className='mb-2 '><Link to="" >Cairns, QLD</Link></li>
+                   <li className='mb-2 '><Link to="" >17 Nov, 2023</Link></li>
                   </ul>
                 </ul>
               </div>
               <div className="column">
                 <ul className="">
-                  <li className='mb-1 mt-4'><Link to="/jobs/Assistant-Director-for-Student-Programming-(71101)/66802" className='text-blue-500 font-bold'>Assistant Director for Student Programming (71101)</Link></li>
+                  <li className='mb-1 mt-4'><Link to="/jobs/science-teacher---st-augustine-s-college,-cairns/64973/" className='text-blue-500 font-bold'>Science Teacher - St Augustine's College, Cairns (71101)</Link></li>
                   <ul className="innerUL">
-                   <li className='mb-2 '><Link to="" >Pratt Institute</Link></li>
-                   <li className='mb-2 '><Link to="" >NY, USA</Link></li>
-                   <li className='mb-2 '><Link to="" >25 Nov, 2023</Link></li>
-                  </ul>
-                </ul>
-              </div>
-            </div>
-            <div className="faculty-container grid-cols-1 grid md:grid-cols-4 gap-4 py-2 px-7">
-              <div className="column">
-                <ul className="">
-                  <li className='mb-1 mt-4'><Link to="/jobs/Oregon-Sea-Grant-Extension-Specialist-in-Human-Dimensions-of-Coastal-Systems/69048" className='text-blue-500 font-bold'>Oregon Sea Grant Extension Specialist in Human Dimensions of Coastal Systems</Link></li>
-                  <ul className="innerUL">
-                   <li className='mb-2 '><Link to="" >Oregon State University</Link></li>
-                   <li className='mb-2 '><Link to="" >Corvallis, OR, USA</Link></li>
-                   <li className='mb-2 '><Link to="" >04 Dec, 2023</Link></li>
-                  </ul>
-                </ul>
-              </div>
-              <div className="column">
-                <ul className="">
-                  <li className='mb-1 mt-4'><Link to="/jobs/dsps-accommodation-assistant/65518" className='text-blue-500 font-bold'>DSPS Accommodation Assistant</Link></li>
-                  <ul className="innerUL">
-                   <li className='mb-2 '><Link to="" >Cuesta College</Link></li>
-                   <li className='mb-2 '><Link to="" >San Luis Obispo, CA, USA</Link></li>
-                   <li className='mb-2 '><Link to="" >19 Nov, 2023</Link></li>
-                  </ul>
-                </ul>
-              </div>
-              <div className="column">
-                <ul className="">
-                  <li className='mb-1 mt-4'><Link to="/jobs/tenure-track-assistant-professor-of-machine-learning-in-biology/68725" className='text-blue-500 font-bold'>Tenure-track Assistant Professor of Machine Learning in Biology</Link></li>
-                  <ul className="innerUL">
-                   <li className='mb-2 '><Link to="" >University of Pennsylvania</Link></li>
-                   <li className='mb-2 '><Link to="" >Philadelphia, PA, USA</Link></li>
-                   <li className='mb-2 '><Link to="" >03 Dec, 2023</Link></li>
-                  </ul>
-                </ul>
-              </div>
-              <div className="column">
-                <ul className="">
-                  <li className='mb-1 mt-4'><Link to="/jobs/provost/69027" className='text-blue-500 font-bold'>Provost</Link></li>
-                  <ul className="innerUL">
-                   <li className='mb-2 '><Link to="" >American University of Armenia</Link></li>
-                   <li className='mb-2 '><Link to="" >Yerevan, Armenia</Link></li>
-                   <li className='mb-2 '><Link to="" >03 Dec, 2023</Link></li>
+                   <li className='mb-2 '><Link to="" >St Augustine's College - Cairns</Link></li>
+                   <li className='mb-2 '><Link to="" >Cairns, QLD</Link></li>
+                   <li className='mb-2 '><Link to="" >17 Nov, 2023</Link></li>
                   </ul>
                 </ul>
               </div>
@@ -460,71 +418,113 @@ const Home = () => {
             <div className="faculty-container grid-cols-1 grid md:grid-cols-4 gap-4 py-2 px-7">
               <div className="column">
                 <ul className="">
-                  <li className='mb-1 mt-4'><Link to="/jobs/open-rank-in-school-counseling-psychology/64801" className='text-blue-500 font-bold'>Open Rank (Assistant, Associate, Full Professor) in School Counseling & Psychology</Link></li>
+                  <li className='mb-1 mt-4'><Link to="/jobs/primary-teacher/64949/" className='text-blue-500 font-bold'>Primary Teacher</Link></li>
                   <ul className="innerUL">
-                   <li className='mb-2 '><Link to="" >California State University Channel Islands</Link></li>
-                   <li className='mb-2 '><Link to="" >Camarillo, CA, USA</Link></li>
-                   <li className='mb-2 '><Link to="" >15 Nov, 2023</Link></li>
+                   <li className='mb-2 '><Link to="" >Townsville Catholic Education Office</Link></li>
+                   <li className='mb-2 '><Link to="" >Townsville, QLD</Link></li>
+                   <li className='mb-2 '><Link to="" >20 Nov, 2023</Link></li>
                   </ul>
                 </ul>
               </div>
               <div className="column">
                 <ul className="">
-                  <li className='mb-1 mt-4'><Link to="/jobs/open-rank-t-tt-faculty-chancellors-faculty-excellence-program-translational-predictive-biology-cluster/63422" className='text-blue-500 font-bold'>Open Rank T/TT Faculty - Chancellor's Faculty Excellence Program (CFEP) - Translational Predictive Biology Cluster</Link></li>
+                  <li className='mb-1 mt-4'><Link to="/jobs/secondary-teachers-(multiple-positions)/64940/" className='text-blue-500 font-bold'>Secondary Teachers (Multiple Positions)</Link></li>
                   <ul className="innerUL">
-                   <li className='mb-2 '><Link to="" >North Carolina State University</Link></li>
-                   <li className='mb-2 '><Link to="" >Raleigh, NC, USA</Link></li>
-                   <li className='mb-2 '><Link to="" >10 Nov, 2023</Link></li>
+                   <li className='mb-2 '><Link to="" >Townsville Catholic Education Office</Link></li>
+                   <li className='mb-2 '><Link to="" >Abergowrie, QLD</Link></li>
+                   <li className='mb-2 '><Link to="" >30 Nov, 2023</Link></li>
                   </ul>
                 </ul>
               </div>
               <div className="column">
                 <ul className="">
-                  <li className='mb-1 mt-4'><Link to="/jobs/executive-director-of-development-haas-school-of-business/61088" className='text-blue-500 font-bold'>Executive Director of Development, Haas School of Business (0465U) 57961</Link></li>
+                  <li className='mb-1 mt-4'><Link to="/jobs/foundation-principal/64922/" className='text-blue-500 font-bold'>Foundation Principal</Link></li>
                   <ul className="innerUL">
-                   <li className='mb-2 '><Link to="" >University of California Berkeley</Link></li>
-                   <li className='mb-2 '><Link to="" >Berkeley, CA, USA</Link></li>
-                   <li className='mb-2 '><Link to="" >29 Nov, 2023</Link></li>
+                   <li className='mb-2 '><Link to="" >Townsville Catholic Education Office</Link></li>
+                   <li className='mb-2 '><Link to="" >Townsville, QLD</Link></li>
+                   <li className='mb-2 '><Link to="" >13 Nov, 2023</Link></li>
                   </ul>
                 </ul>
               </div>
               <div className="column">
                 <ul className="">
-                  <li className='mb-1 mt-4'><Link to="/jobs/deputy-cio/63764" className='text-blue-500 font-bold'>Deputy CIO</Link></li>
+                  <li className='mb-1 mt-4'><Link to="/jobs/secondary-teacher-(mathematics,-science---biology)/64839/" className='text-blue-500 font-bold'>Secondary Teacher (Mathematics, Science & Biology)</Link></li>
                   <ul className="innerUL">
-                   <li className='mb-2 '><Link to="" >Bowling Green State University</Link></li>
-                   <li className='mb-2 '><Link to="" >Bowling Green, OH, USA</Link></li>
+                   <li className='mb-2 '><Link to="" >Townsville Catholic Education Office</Link></li>
+                   <li className='mb-2 '><Link to="" >Charters Towers QLD</Link></li>
+                   <li className='mb-2 '><Link to="" >20 Nov, 2023</Link></li>
+                  </ul>
+                </ul>
+              </div>
+            </div>
+            <div className="faculty-container grid-cols-1 grid md:grid-cols-4 gap-4 py-2 px-7">
+              <div className="column">
+                <ul className="">
+                  <li className='mb-1 mt-4'><Link to="/jobs/vet-trainer-and-assessor-–-education-support/64832/" className='text-blue-500 font-bold'>VET Trainer and Assessor – Education Support</Link></li>
+                  <ul className="innerUL">
+                   <li className='mb-2 '><Link to="" >Townsville Catholic Education Office</Link></li>
+                   <li className='mb-2 '><Link to="" >Townsville QLD</Link></li>
+                   <li className='mb-2 '><Link to="" >13 Nov, 2023</Link></li>
+                  </ul>
+                </ul>
+              </div>
+              <div className="column">
+                <ul className="">
+                  <li className='mb-1 mt-4'><Link to="/jobs/primary-teacher/64843/" className='text-blue-500 font-bold'>Primary Teacher</Link></li>
+                  <ul className="innerUL">
+                   <li className='mb-2 '><Link to="" >Townsville Catholic Education Office</Link></li>
+                   <li className='mb-2 '><Link to="" >Palm Island QLD</Link></li>
+                   <li className='mb-2 '><Link to="" >30 Nov, 2023</Link></li>
+                  </ul>
+                </ul>
+              </div>
+              <div className="column">
+                <ul className="">
+                  <li className='mb-1 mt-4'><Link to="/jobs/primary-teachers/64841/" className='text-blue-500 font-bold'>Primary Teachers</Link></li>
+                  <ul className="innerUL">
+                   <li className='mb-2 '><Link to="" >Townsville Catholic Education Office</Link></li>
+                   <li className='mb-2 '><Link to="" >Mount Isa QLD</Link></li>
+                   <li className='mb-2 '><Link to="" >30 Nov, 2023</Link></li>
+                  </ul>
+                </ul>
+              </div>
+              <div className="column">
+                <ul className="">
+                  <li className='mb-1 mt-4'><Link to="/jobs/middle-leader-curriculum,-pedagogy,-assessment-and-reporting-year-7---8---mount-st-bernard-college,-herberton/65194/" className='text-blue-500 font-bold'>Middle Leader Curriculum, Pedagogy, Assessment and Reporting Year 7 & 8 - Mount St Bernard College, Herberton</Link></li>
+                  <ul className="innerUL">
+                   <li className='mb-2 '><Link to="" >Catholic Education Services – Diocese of Cairns</Link></li>
+                   <li className='mb-2 '><Link to="" >Herberton,QLD</Link></li>
                    <li className='mb-2 '><Link to="" >12 Nov, 2023</Link></li>
                   </ul>
                 </ul>
               </div>
               <div className="column">
                 <ul className="">
-                  <li className='mb-1 mt-4'><Link to="/jobs/director-of-alumni-engagement/72223" className='text-blue-500 font-bold'>Director of Alumni Engagement</Link></li>
+                  <li className='mb-1 mt-4'><Link to="/jobs/primary-teacher---year-2/64848/" className='text-blue-500 font-bold'>Primary Teacher - Year 2</Link></li>
                   <ul className="innerUL">
-                   <li className='mb-2 '><Link to="" >University of Pennsylvania</Link></li>
-                   <li className='mb-2 '><Link to="" >Philadelphia, PA, USA</Link></li>
-                   <li className='mb-2 '><Link to="" >16 Dec, 2023</Link></li>
+                   <li className='mb-2 '><Link to="" >Townsville Catholic Education Office</Link></li>
+                   <li className='mb-2 '><Link to="" >Mundingburra QLD</Link></li>
+                   <li className='mb-2 '><Link to="" >30 Nov, 2023</Link></li>
                   </ul>
                 </ul>
               </div>
               <div className="column">
                 <ul className="">
-                  <li className='mb-1 mt-4'><Link to="/jobs/Executive-Officer---Full-time---Permanent---Robina---Gold-Coast/69249/" className='text-blue-500 font-bold'>Executive Officer - Full time - Permanent - Robina - Gold Coast</Link></li>
+                  <li className='mb-1 mt-4'><Link to="/jobs/primary-teacher/64911/" className='text-blue-500 font-bold'>Primary Teacher</Link></li>
                   <ul className="innerUL">
-                   <li className='mb-2 '><Link to="" >Bond University</Link></li>
-                   <li className='mb-2 '><Link to="" >Gold Coast QLD, Australia</Link></li>
-                   <li className='mb-2 '><Link to="" >26 Dec, 2023</Link></li>
+                   <li className='mb-2 '><Link to="" >Townsville Catholic Education Office</Link></li>
+                   <li className='mb-2 '><Link to="" >Hughenden QLD</Link></li>
+                   <li className='mb-2 '><Link to="" >30 Nov, 2023</Link></li>
                   </ul>
                 </ul>
               </div>
               <div className="column">
                 <ul className="">
-                  <li className='mb-1 mt-4'><Link to="/jobs/Senior-Engineer,-Student-Systems-(2-positions-available)/71827/" className='text-blue-500 font-bold'>Senior Engineer, Student Systems (2 positions available)</Link></li>
+                  <li className='mb-1 mt-4'><Link to="/jobs/primary-teacher/64837/" className='text-blue-500 font-bold'>Primary Teacher</Link></li>
                   <ul className="innerUL">
-                   <li className='mb-2 '><Link to="" >Queensland University of Technology</Link></li>
-                   <li className='mb-2 '><Link to="" >Gardens Point Road, Brisbane City QLD, Australia</Link></li>
-                   <li className='mb-2 '><Link to="" ></Link></li>
+                   <li className='mb-2 '><Link to="" >Townsville Catholic Education Office</Link></li>
+                   <li className='mb-2 '><Link to="" >Currajong QLD</Link></li>
+                   <li className='mb-2 '><Link to="" >30 Nov, 2023</Link></li>
                   </ul>
                 </ul>
               </div>
