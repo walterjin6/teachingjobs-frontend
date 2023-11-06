@@ -603,7 +603,7 @@ const Home = () => {
           </div>
         </div>
         <div className=" flex flex-col  ">
-          <Link to="/job-type/" ><h2 className=" py-4 px-7 border-4 text-[#f4a10c] rounded-full mt-[7rem] hover:bg-[#f4a10c] hover:text-white shadow-md">→ Find Academic<span className="font-bold"> Job-Types</span> ( i.e. Professor, Fellow )</h2></Link>
+          <Link to="/job-type/" ><h2 className=" py-4 px-7 border-4 text-[#f4a10c] rounded-full mt-[7rem] hover:bg-[#f4a10c] hover:text-white shadow-md">→ Find Teaching<span className="font-bold"> Job-Types</span> </h2></Link>
         </div>
         <div className="flex flex-col  ">
           <Link to="/industry/"> <h2 className="  py-4 px-7 border-4 text-[#f4a10c] rounded-full mt-10 hover:bg-[#f4a10c] hover:text-white shadow-md hidden">→ Find Academic Positions in<span className="font-bold"> Industry</span> ( i.e. laboratory technical services )</h2></Link>
