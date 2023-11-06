@@ -156,10 +156,10 @@ export default function Header() { //1212
                 </section>
                 <div className="DESKTOP-MENU w-full justify-between hidden space-x-8 lg:flex">
                     <div className="w-full columns-1 flex justify-start  md:items-center  md:gap-8 ">
-                        <Link to="/jobs/" className="text-gray-900  shadow-md rounded-full px-6 py-2 hover:text-[#e39e39] border border-transparent hover:border hover:border-[#e39e39]  ">Teacher Jobs</Link>
-                        <Link to="/jobs/principal/" className="text-gray-900  shadow-md rounded-full px-6 py-2 hover:text-[#e39e39] border border-transparent hover:border hover:border-[#e39e39]  ">Principal Jobs</Link>
-                        <Link to="/employers/" className="text-gray-900  shadow-md rounded-full px-6 py-2 hover:text-[#e39e39] border border-transparent hover:border hover:border-[#e39e39] ">Top Schools</Link>
-                        <Link to="/school-career-advice/" className="text-gray-900  shadow-md rounded-full px-6 py-2 hover:text-[#e39e39] border border-transparent hover:border hover:border-[#e39e39] ">Career Advice</Link>
+                        <Link to="/jobs/" className="text-[#334680]  shadow-md rounded-full px-6 py-2 hover:text-[#e39e39] border border-transparent hover:border hover:border-[#e39e39]  ">Teacher Jobs</Link>
+                        <Link to="/jobs/principal/" className="text-[#334680]  shadow-md rounded-full px-6 py-2 hover:text-[#e39e39] border border-transparent hover:border hover:border-[#e39e39]  ">Principal Jobs</Link>
+                        <Link to="/employers/" className="text-[#334680]  shadow-md rounded-full px-6 py-2 hover:text-[#e39e39] border border-transparent hover:border hover:border-[#e39e39] ">Top Schools</Link>
+                        <Link to="/school-career-advice/" className="text-[#334680]  shadow-md rounded-full px-6 py-2 hover:text-[#e39e39] border border-transparent hover:border hover:border-[#e39e39] ">Career Advice</Link>
                        
                     </div>
                     <div className=' w-[200px] grid items-center justify-center '>

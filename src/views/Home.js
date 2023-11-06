@@ -209,11 +209,11 @@ const Home = () => {
             <p className=" px-7 text-[#e39e39] text-2xl font-bold">Find all Australian Teaching Career opportunities here
 
 </p>
-            <p className=" px-7 text-[#e39e39]  text-2xl pt-4">Kindergarten Jobs | Primary School Jobs | Secondary School Jobs</p>
+            <p className=" px-7 text-[#334680]  text-xl pt-4">Kindergarten Jobs | Primary School Jobs | Secondary School Jobs</p>
             <p className=" px-7"></p>
           </div>
         </div>
-        <h2 className="text-1xl font-bold py-1 px-7 border-2 border-[#e39e39] text-[#e39e39] rounded-3xl mt-20 shadow-md">Top Cities for Uni Jobs</h2>
+        <h2 className="text-1xl font-bold py-1 px-7 border-2 border-[#e39e39] text-[#e39e39] rounded-3xl mt-20 shadow-md">Top Teaching Jobs at Schools</h2>
         <div className="cate-group section23 ">
           <div className="widget__text-block">
             <div className="faculty-container grid-cols-2 grid md:grid-cols-4 gap-8 py-2 px-7">
@@ -602,6 +602,20 @@ const Home = () => {
             </div>
           </div>
         </div>
+
+        <div className="bg-white flex flex-col  ">
+            <h2 className="text-1xl font-bold py-1 px-7 border-2 border-[#f4a10c] text-[#f4a10c] rounded-3xl shadow-md  mt-20 ">Choose Teaching Job Types</h2>
+            <ul className=" mb-8 text-left columns-1 md:columns-4  md:gap-2 py-2 px-7 h-auto w-full text-transform: capitalize">
+              {position.map(({ Title, Name, break1, isBold }, key) => (
+                <li className={`pb-2 flex ${break1 ? 'md:break' : ''} ${isBold ? 'pt-4 font-bold text-[#f4a10c]' : ''}`} key={key}>
+                  <Link to={`/job-type/${Name?.replace(/\s+/g, '-')}/`}>{Name}</Link>
+                </li>
+              ))}
+            </ul>
+            <div className="newLine"></div>
+          </div>
+        
+
         <div className=" flex flex-col  ">
           <Link to="/job-type/" ><h2 className=" py-4 px-7 border-4 text-[#e39e39] rounded-full mt-[7rem] hover:bg-[#e39e39] hover:text-white shadow-md">→ Find Teaching<span className="font-bold"> Job-Types</span> </h2></Link>
         </div>
@@ -611,6 +625,9 @@ const Home = () => {
         <div className="flex flex-col  ">
           <Link to="/faculty/"><h2 className="  py-4 px-7 border-4 text-[#e39e39] rounded-full mt-10 mb-[7rem] hover:bg-[#e39e39] hover:text-white shadow-md hidden">→ Search Jobs by<span className="font-bold"> Faculty, Department, Specialty </span>( i.e. Agriculture: Economics and Agribusiness )</h2></Link>
         </div>
+
+
+
       </div>
     </div>
   )
