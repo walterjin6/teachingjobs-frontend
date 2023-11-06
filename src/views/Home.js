@@ -48,7 +48,7 @@ const Home = () => {
                   {
                     "@type": "ListItem",
                     "position": 1,
-                    "name": "Academic Jobs",
+                    "name": "Teaching Jobs",
                     "url": "/",
                     "description": "Find online and remote university jobs at AcademicJobs.  Browse the largest number of academic jobs online in your country and worldwide."
                   },
@@ -175,24 +175,24 @@ const Home = () => {
           <div className=" mt-[3rem] " >
             <ul className="faculty-container flex flex-wrap gap-4 items-center justify-center text-[#334680] ">
               <ul className="w-full  md:w-auto flex items-center  justify-center gap-4">
-               <li className='mb-2 '><Link to="/early-childhood/" >	Kindergarten</Link></li>
-               <li className='mb-2 '><Link to="/primary/" >	Primary </Link></li>
-               <li className='mb-2 '><Link to="/secondary/" >	Secondary</Link></li>
+               <li className='mb-2 hover:underline'><Link to="/early-childhood/" >	Kindergarten</Link></li>
+               <li className='mb-2 hover:underline'><Link to="/primary/" >	Primary </Link></li>
+               <li className='mb-2 hover:underline'><Link to="/secondary/" >	Secondary</Link></li>
               </ul>
              
            
-             <li className='mb-2 '><Link to="/administrative/" >Admin</Link></li>
-             <li className='mb-2 '><Link to="/tutor/" >	Tutor</Link></li>
+             <li className='mb-2 hover:underline'><Link to="/administrative/" >Admin</Link></li>
+             <li className='mb-2 hover:underline'><Link to="/tutor/" >	Tutor</Link></li>
           
             </ul>
           </div>
           <div className=" mt-4 pb-8" >
             <ul className="faculty-container flex  gap-4 items-center justify-center text-[#e39e39] ">
-             <li className='mb-2 '><Link to="/jobs/online/" >	Online </Link></li>
-             <li className='mb-2 '><Link to="/jobs/remote/" >	Remote</Link></li>
-             <li className='mb-2 '><Link to="/jobs/full-time/" >Full-Time</Link></li>
-             <li className='mb-2 '><Link to="/jobs/part-time/" >	Part-Time</Link></li>
-             <li className='mb-2 '><Link to="/jobs/casual/" >	Casual</Link></li>
+             <li className='mb-2 hover:underline'><Link to="/jobs/online/" >	Online </Link></li>
+             <li className='mb-2 hover:underline'><Link to="/jobs/remote/" >	Remote</Link></li>
+             <li className='mb-2 hover:underline'><Link to="/jobs/full-time/" >Full-Time</Link></li>
+             <li className='mb-2 hover:underline'><Link to="/jobs/part-time/" >	Part-Time</Link></li>
+             <li className='mb-2 hover:underline'><Link to="/jobs/casual/" >	Casual</Link></li>
             </ul>
           </div>
           <div className="text-[#e39e39]  flex flex-col items-center justify-center  text-2xl pt-8  animate-bounce h-6" >
@@ -219,6 +219,19 @@ const Home = () => {
             <h2 className="text-1xl font-bold py-1 px-7 border-2 border-[#f4a10c] text-[#f4a10c] rounded-3xl shadow-md  mt-20 ">Choose Teaching Job Types</h2>
             <ul className=" mb-8 text-left columns-1 md:columns-4  md:gap-2 py-2 pl-8 h-auto w-full text-transform: capitalize">
               {position.map(({ Title, Name, break1, isBold }, key) => (
+                <li className={`pb-2 flex ${break1 ? 'md:break' : ''} ${isBold ? 'pt-4 font-bold text-[#f4a10c]' : ''}`} key={key}>
+                  <Link to={`/${Name?.replace(/\s+/g, '-')}/`}>{Name}</Link>
+                </li>
+              ))}
+            </ul>
+            <div className="newLine"></div>
+          </div>
+
+
+          <div className="bg-white flex flex-col  ">
+            <h2 className="text-1xl font-bold py-1 px-7 border-2 border-[#f4a10c] text-[#f4a10c] rounded-3xl shadow-md  mt-20 ">Choose Teaching Jobs by City</h2>
+            <ul className=" mb-8 text-left columns-1 md:columns-4  md:gap-2 py-2 pl-8 h-auto w-full text-transform: capitalize">
+              {cities.map(({ Title, Name, break1, isBold }, key) => (
                 <li className={`pb-2 flex ${break1 ? 'md:break' : ''} ${isBold ? 'pt-4 font-bold text-[#f4a10c]' : ''}`} key={key}>
                   <Link to={`/${Name?.replace(/\s+/g, '-')}/`}>{Name}</Link>
                 </li>

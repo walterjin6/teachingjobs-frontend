@@ -163,7 +163,7 @@ export default function Header() { //1212
                        
                     </div>
                     <div className=' w-[200px] grid items-center justify-center '>
-                        <a href="https://myteachingjobs.com.au/school-pricing/" target="_blank"  className="text-[#e39e39]  font-bold shadow-md rounded-full px-4 py-2 border border-[#e39e39] hover:bg-[#e39e39] hover:text-white ">Post A Job</a>
+                        <a href="https://myteachingjobs.com.au/school-pricing/" target="_blank"  className="text-[#e39e39]  font-bold shadow-md rounded-full px-4 py-2 border border-[#e39e39] hover:bg-[#334680] hover:text-white ">Post A Job</a>
                     </div>
                 </div>
             </nav>
