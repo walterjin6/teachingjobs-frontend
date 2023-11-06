@@ -5,27 +5,9 @@ const Footer = () => {
         <div className="py-4 px-7 md:mt-16 md:mb-10 bg-[#f4a10c] rounded-b-3xl rounded-t-lg shadow-xl pb-4 border-4 " >
             <hr className="w-ful  mx-auto my-2 bg-white border-0 rounded md:my-2 md:mb-4 dark:bg-gray-700  "></hr>
             <div className=" text-white font-open-sans grid grid-cols-1 md:grid-cols-4 gap-4 pb-4">
-            <div>
-                    <ul>
-                        <li className='text-white font-bold text-xl pb-1 '>School</li>
-                    
-                        <li><a className="footer-nav__link" href="/post-job/">Post a Job</a></li>
-                                             <li><Link to="/about/">About AJ</Link></li>
-                                             <li><Link to="/contact-us/">Contact Us</Link></li>
-                                            
-                       
-                    </ul>
-                </div>
+          
                
-                <div>
-                    <ul>
-                        <li className='text-white font-bold text-xl pb-1'>Job Seekers</li>
-                        <li><Link to="/jobs/">Find Jobs</Link></li>
-                        <li><Link to="/employers/">Find Employers</Link></li>
-                        <li><Link to="/academic-happiness/">School </Link></li>
-                       
-                    </ul>
-                </div>
+              
              
                 <div className=" text-white font-open-sans">
                     <ul>
@@ -38,6 +20,29 @@ const Footer = () => {
                    
                     </ul>
                 </div>
+
+                <div>
+                    <ul>
+                        <li className='text-white font-bold text-xl pb-1'>Job Seekers</li>
+                        <li><Link to="/jobs/">Find Jobs</Link></li>
+                        <li><Link to="/employers/">Find Employers</Link></li>
+                        <li><Link to="/career-advice/">Career Advice</Link></li>
+                       
+                    </ul>
+                </div>
+
+                <div>
+                    <ul>
+                        <li className='text-white font-bold text-xl pb-1 '>School</li>
+                    
+                        <li><a className="footer-nav__link" href="/school-pricing/">Post a Job</a></li>
+                                             <li><Link to="/about/">About AJ</Link></li>
+                                             <li><Link to="https://myteachingjobs.com.au/contact-us/">Contact Us</Link></li>
+                                            
+                       
+                    </ul>
+                </div>
+
                 <div>
                     <ul>
                         <li className='text-white font-bold text-xl pb-1 '>Socials</li>
