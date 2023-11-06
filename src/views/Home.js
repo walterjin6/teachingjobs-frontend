@@ -151,7 +151,7 @@ const Home = () => {
           </Helmet>
           <img
             // src="https://academicjobs.s3.amazonaws.com/img/_misc/academic-jobs-logo.png"
-            src="academicJobsLogo.png"
+            src="TeachingJobs-Logo.png"
             alt="AcademicJobs Logo"
             className="pl-4 w-[20rem] mb-[1rem] "
           />
@@ -370,10 +370,10 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <h2 className="text-1xl font-bold py-1 px-7 border-2 border-[#e39e39] text-[#e39e39] rounded-3xl mt-20 shadow-md hidden">Top Academic Jobs Today</h2>
-        <div className="cate-group section23 hidden">
+        <h2 className="text-1xl font-bold py-1 px-7 border-2 border-[#e39e39] text-[#e39e39] rounded-3xl mt-20 shadow-md ">Top Academic Jobs Today</h2>
+        <div className="cate-group section23 ">
           <div className="widget__text-block">
-            <div className="faculty-container grid-cols-1 grid md:grid-cols-4 gap-4 py-2 px-7 hidden">
+            <div className="faculty-container grid-cols-1 grid md:grid-cols-4 gap-4 py-2 px-7 ">
               <div className="column">
                 <ul className="">
                   <li className='mb-1 mt-4 '><Link to="/jobs/teacher---st-stephen-s-catholic-college,-mareeba/65193/" className='text-blue-500 font-bold'>A Teacher - St Stephen's Catholic College, Mareeba</Link></li>
