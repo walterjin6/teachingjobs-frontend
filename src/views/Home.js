@@ -165,7 +165,7 @@ const Home = () => {
                 placeholder="Type Keywords"
                 ref={keyWordRef}
               />
-              <button className="px-4 py-2 bg-[#f4a10c] text-white rounded-full shadow-md hover:bg-orange-600 font-bold"
+              <button className="px-4 py-2 bg-[#e39e39] text-white rounded-full shadow-md hover:bg-orange-600 font-bold"
                 type="submit"
               >
                 Search
@@ -173,7 +173,7 @@ const Home = () => {
             </div>
           </form >
           <div className=" mt-[3rem] " >
-            <ul className="faculty-container flex flex-wrap gap-4 items-center justify-center text-gray-400 ">
+            <ul className="faculty-container flex flex-wrap gap-4 items-center justify-center text-[#334680] ">
               <ul className="w-full  md:w-auto flex items-center  justify-center gap-4">
                 <li><Link to="/jobs/kindergarten/" >	Kindergarten</Link></li>
                 <li><Link to="/jobs/primary/" >	Primary </Link></li>
@@ -186,7 +186,7 @@ const Home = () => {
             </ul>
           </div>
           <div className=" mt-4 pb-8" >
-            <ul className="faculty-container flex  gap-4 items-center justify-center text-[#f4a10c] ">
+            <ul className="faculty-container flex  gap-4 items-center justify-center text-[#e39e39] ">
               <li><Link to="/jobs/online/" >	Online </Link></li>
               <li><Link to="/jobs/remote/" >	Remote</Link></li>
               <li><Link to="/jobs/full-time/" >Full-Time</Link></li>
@@ -194,32 +194,32 @@ const Home = () => {
               <li><Link to="/jobs/casual/" >	Casual</Link></li>
             </ul>
           </div>
-          <div className="text-[#f4a10c]  flex flex-col items-center justify-center  text-2xl pt-8  animate-bounce h-6 hidden" >
+          <div className="text-[#e39e39]  flex flex-col items-center justify-center  text-2xl pt-8  animate-bounce h-6 hidden" >
             <a >▼</a></div>
         </div>
       </div>
       <div className="bg-gradient-to-t from-white via-gray-100 to-gray-200 rounded-full pt-12">
         <div className="blurb text-left pt-12 ">
-          <h1 className=" font-bold text-lg md:text-3xl py-4 px-6 bg-[#f4a10c] text-white rounded-full mt-[18rem] shadow-xl border-4"># 1 TEACHING JOBS SITE</h1>
+          <h1 className=" font-bold text-lg md:text-3xl py-4 px-6 bg-[#e39e39] text-white rounded-full mt-[18rem] shadow-xl border-4"># 1 TEACHING JOBS SITE</h1>
           <div className="newLine mb-4">
             <p className="font-semibold"></p>
             <p className="font-semibold"></p>
           </div>
           <div className="newLine">
-            <p className=" px-7 text-[#f4a10c] text-2xl font-bold">Find all Australian Teaching Career opportunities here
+            <p className=" px-7 text-[#e39e39] text-2xl font-bold">Find all Australian Teaching Career opportunities here
 
 </p>
-            <p className=" px-7 text-[#f4a10c]  text-2xl pt-4">Kindergarten Jobs | Primary School Jobs | Secondary School Jobs</p>
+            <p className=" px-7 text-[#e39e39]  text-2xl pt-4">Kindergarten Jobs | Primary School Jobs | Secondary School Jobs</p>
             <p className=" px-7"></p>
           </div>
         </div>
-        <h2 className="text-1xl font-bold py-1 px-7 border-2 border-[#f4a10c] text-[#f4a10c] rounded-3xl mt-20 shadow-md">Top Cities for Uni Jobs</h2>
+        <h2 className="text-1xl font-bold py-1 px-7 border-2 border-[#e39e39] text-[#e39e39] rounded-3xl mt-20 shadow-md">Top Cities for Uni Jobs</h2>
         <div className="cate-group section23 ">
           <div className="widget__text-block">
             <div className="faculty-container grid-cols-2 grid md:grid-cols-4 gap-8 py-2 px-7">
               <div className="column">
                 <ul className="">
-                  <li className='mb-1 mt-4'><Link to="/USA/" className='text-[#f4a10c] font-bold'>NSW</Link></li>
+                  <li className='mb-1 mt-4'><Link to="/USA/" className='text-[#e39e39] font-bold'>NSW</Link></li>
                   <ul className="innerUL">
                     
                     <li><Link to="/employers/sceggs-darlinghurst/15840/" >SCEGGS Darlinghurst</Link></li>
@@ -256,7 +256,7 @@ const Home = () => {
               </div>
               <div className="column">
                 <ul className="">
-                  <li className='mb-1 mt-4'><Link to="/Australia/" className='text-[#f4a10c] font-bold'>Victoria</Link></li>
+                  <li className='mb-1 mt-4'><Link to="/Australia/" className='text-[#e39e39] font-bold'>Victoria</Link></li>
                   <ul className="innerUL">
                   <li><Link to="/employers/victoria-state-government-education-and-training/19/" >Victoria State Government Education and Training</Link></li>
                   <li><Link to="/employers/presbyterian-ladies-college/15842/" >Presbyterian Ladies College</Link></li>
@@ -279,7 +279,7 @@ const Home = () => {
               </div>
               <div className="column">
                 <ul className="">
-                <li className='mb-1 mt-4'><Link to="/UK/" className='text-[#f4a10c] font-bold'>Queensland</Link></li>
+                <li className='mb-1 mt-4'><Link to="/UK/" className='text-[#e39e39] font-bold'>Queensland</Link></li>
                   <ul className="innerUL">
                   <li><Link to="/employers/queensland-government-department-of-education/18/" >Queensland - Government - Department of Education</Link></li>
                     <li><Link to="/employers/catholic-education-services-diocese-of-cairns/60/" >Catholic - Education services Diocese of Cairns</Link></li>
@@ -287,7 +287,7 @@ const Home = () => {
                     <li><Link to="/employers/somerville-house/15847/" >Somerville House</Link></li>
                     
                   </ul>
-                  <li className='mb-1 mt-4'><Link to="/Europe/" className='text-[#f4a10c] font-bold'>ACT</Link></li>
+                  <li className='mb-1 mt-4'><Link to="/Europe/" className='text-[#e39e39] font-bold'>ACT</Link></li>
                   <ul className="innerUL">
                   <li><Link to="/employers/act-government-department-of-education/20/" >ACT Government - Department of Education</Link></li>
                   <li><Link to="/employers/orana-steiner-school/14803/" >Orana Steiner school</Link></li>
@@ -299,7 +299,7 @@ const Home = () => {
               </div>
               <div className="column">
                 <ul className="">
-                  <li className='mb-1 mt-4'><Link to="/Europe/" className='text-[#f4a10c] font-bold'>Western Australia</Link></li>
+                  <li className='mb-1 mt-4'><Link to="/Europe/" className='text-[#e39e39] font-bold'>Western Australia</Link></li>
                   <ul className="innerUL">
                     
                     
@@ -309,18 +309,18 @@ const Home = () => {
                    
                     
                   </ul>
-                  <li className='mb-1 mt-4'><Link to="/Europe/" className='text-[#f4a10c] font-bold'>South Australia</Link></li>
+                  <li className='mb-1 mt-4'><Link to="/Europe/" className='text-[#e39e39] font-bold'>South Australia</Link></li>
                   <ul className="innerUL">
                   <li><Link to="/employers/government-of-south-australia-department-for-education/17/" >Government of South Australia Department for Education</Link></li>
                    
                     </ul>
-                    <li className='mb-1 mt-4'><Link to="/Europe/" className='text-[#f4a10c] font-bold'>Nothern Territory</Link></li>
+                    <li className='mb-1 mt-4'><Link to="/Europe/" className='text-[#e39e39] font-bold'>Nothern Territory</Link></li>
                   <ul className="innerUL">
                   <li><Link to="/employers/northern-territory-department-of-education/21/" >Northern Territory Department of Education</Link></li>
                   
                    
                     </ul>
-                    <li className='mb-1 mt-4'><Link to="/Europe/" className='text-[#f4a10c] font-bold'>Tasmania</Link></li>
+                    <li className='mb-1 mt-4'><Link to="/Europe/" className='text-[#e39e39] font-bold'>Tasmania</Link></li>
                   <ul className="innerUL">
                   <li><Link to="/employers/tasmanian-government-education/12/" >Tasmanian Government Education</Link></li>
                    
@@ -330,7 +330,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <h2 className="text-1xl font-bold py-1 px-7 border-2 border-[#f4a10c] text-[#f4a10c] rounded-3xl mt-20 shadow-md hidden">Top Academic Jobs Today</h2>
+        <h2 className="text-1xl font-bold py-1 px-7 border-2 border-[#e39e39] text-[#e39e39] rounded-3xl mt-20 shadow-md hidden">Top Academic Jobs Today</h2>
         <div className="cate-group section23 hidden">
           <div className="widget__text-block">
             <div className="faculty-container grid-cols-1 grid md:grid-cols-4 gap-4 py-2 px-7 hidden">
@@ -491,8 +491,8 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <Link className='text-[#f4a10c] mt-4 mb-4 px-2 hidden' to='/jobs/'>← view more</Link>
-        <h2 className="text-1xl font-bold py-1 px-7 border-2 border-[#f4a10c] text-[#f4a10c] rounded-3xl mt-20 shadow-md hidden">Top Universities To Work For</h2>
+        <Link className='text-[#e39e39] mt-4 mb-4 px-2 hidden' to='/jobs/'>← view more</Link>
+        <h2 className="text-1xl font-bold py-1 px-7 border-2 border-[#e39e39] text-[#e39e39] rounded-3xl mt-20 shadow-md hidden">Top Universities To Work For</h2>
         <div className="cate-group section23 hidden">
           <div className="widget__text-block">
             <div className="faculty-container grid-cols-1 grid md:grid-cols-4 gap-4 py-2 px-7">
@@ -551,7 +551,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <h2 className="text-1xl font-bold py-1 px-7 border-2 border-[#f4a10c] text-[#f4a10c] rounded-3xl mt-20 shadow-md hidden"><Link to="/the-university-rankings/" >The University Rankings/ Top Academic Careers</Link></h2>
+        <h2 className="text-1xl font-bold py-1 px-7 border-2 border-[#e39e39] text-[#e39e39] rounded-3xl mt-20 shadow-md hidden"><Link to="/the-university-rankings/" >The University Rankings/ Top Academic Careers</Link></h2>
         <div className="cate-group section23 hidden">
           <div className="widget__text-block">
             <div className="faculty-container grid-cols-1 grid md:grid-cols-4 gap-4 py-2 px-7 ">
@@ -603,13 +603,13 @@ const Home = () => {
           </div>
         </div>
         <div className=" flex flex-col  ">
-          <Link to="/job-type/" ><h2 className=" py-4 px-7 border-4 text-[#f4a10c] rounded-full mt-[7rem] hover:bg-[#f4a10c] hover:text-white shadow-md">→ Find Academic<span className="font-bold"> Job-Types</span> ( i.e. Professor, Fellow )</h2></Link>
+          <Link to="/job-type/" ><h2 className=" py-4 px-7 border-4 text-[#e39e39] rounded-full mt-[7rem] hover:bg-[#e39e39] hover:text-white shadow-md">→ Find Teaching<span className="font-bold"> Job-Types</span> </h2></Link>
         </div>
         <div className="flex flex-col  ">
-          <Link to="/industry/"> <h2 className="  py-4 px-7 border-4 text-[#f4a10c] rounded-full mt-10 hover:bg-[#f4a10c] hover:text-white shadow-md hidden">→ Find Academic Positions in<span className="font-bold"> Industry</span> ( i.e. laboratory technical services )</h2></Link>
+          <Link to="/industry/"> <h2 className="  py-4 px-7 border-4 text-[#e39e39] rounded-full mt-10 hover:bg-[#e39e39] hover:text-white shadow-md hidden">→ Find Academic Positions in<span className="font-bold"> Industry</span> ( i.e. laboratory technical services )</h2></Link>
         </div>
         <div className="flex flex-col  ">
-          <Link to="/faculty/"><h2 className="  py-4 px-7 border-4 text-[#f4a10c] rounded-full mt-10 mb-[7rem] hover:bg-[#f4a10c] hover:text-white shadow-md hidden">→ Search Jobs by<span className="font-bold"> Faculty, Department, Specialty </span>( i.e. Agriculture: Economics and Agribusiness )</h2></Link>
+          <Link to="/faculty/"><h2 className="  py-4 px-7 border-4 text-[#e39e39] rounded-full mt-10 mb-[7rem] hover:bg-[#e39e39] hover:text-white shadow-md hidden">→ Search Jobs by<span className="font-bold"> Faculty, Department, Specialty </span>( i.e. Agriculture: Economics and Agribusiness )</h2></Link>
         </div>
       </div>
     </div>

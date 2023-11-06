@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react'
 import { Link } from 'react-router-dom';
 const Footer = () => {
     return (
-        <div className="py-4 px-7 md:mt-16 md:mb-10 bg-[#f4a10c] rounded-b-3xl rounded-t-lg shadow-xl pb-4 border-4 " >
+        <div className="py-4 px-7 md:mt-16 md:mb-10 bg-[#e39e39] rounded-b-3xl rounded-t-lg shadow-xl pb-4 border-4 " >
             <hr className="w-ful  mx-auto my-2 bg-white border-0 rounded md:my-2 md:mb-4 dark:bg-gray-700  "></hr>
             <div className=" text-white font-open-sans grid grid-cols-1 md:grid-cols-4 gap-4 pb-4">
           

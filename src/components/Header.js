@@ -117,8 +117,8 @@ export default function Header() { //1212
                                     setIsNavOpen(false)
                                 }}>Career Advice </button>
                             <div className=' flex justify-between items-center gap-10'>
-                                <a href="https://myteachingjobs.com.au/school-pricing/" target="_blank"  className="text-[#f4a10c] hover:underline font-bold p-4 border border-[#f4a10c] rounded-r-3xl ">Post A Job</a>
-                                <button className="px-4 py-4 mt-4 bg-[#f4a10c] text-white rounded-r-full shadow-md hover:bg-orange-600 font-bold hidden"
+                                <a href="https://myteachingjobs.com.au/school-pricing/" target="_blank"  className="text-[#e39e39] hover:underline font-bold p-4 border border-[#e39e39] rounded-r-3xl ">Post A Job</a>
+                                <button className="px-4 py-4 mt-4 bg-[#e39e39] text-white rounded-r-full shadow-md hover:bg-orange-600 font-bold hidden"
                 onClick={handleFormSubmit}
               >
                 Search In Your Country
@@ -156,14 +156,14 @@ export default function Header() { //1212
                 </section>
                 <div className="DESKTOP-MENU w-full justify-between hidden space-x-8 lg:flex">
                     <div className="w-full columns-1 flex justify-start  md:items-center  md:gap-8 ">
-                        <Link to="/jobs/" className="text-gray-900  shadow-md rounded-full px-6 py-2 hover:text-[#f4a10c] border border-transparent hover:border hover:border-[#f4a10c]  ">Teacher Jobs</Link>
-                        <Link to="/jobs/principal/" className="text-gray-900  shadow-md rounded-full px-6 py-2 hover:text-[#f4a10c] border border-transparent hover:border hover:border-[#f4a10c]  ">Principal Jobs</Link>
-                        <Link to="/employers/" className="text-gray-900  shadow-md rounded-full px-6 py-2 hover:text-[#f4a10c] border border-transparent hover:border hover:border-[#f4a10c] ">Top Schools</Link>
-                        <Link to="/school-career-advice/" className="text-gray-900  shadow-md rounded-full px-6 py-2 hover:text-[#f4a10c] border border-transparent hover:border hover:border-[#f4a10c] ">Career Advice</Link>
+                        <Link to="/jobs/" className="text-gray-900  shadow-md rounded-full px-6 py-2 hover:text-[#e39e39] border border-transparent hover:border hover:border-[#e39e39]  ">Teacher Jobs</Link>
+                        <Link to="/jobs/principal/" className="text-gray-900  shadow-md rounded-full px-6 py-2 hover:text-[#e39e39] border border-transparent hover:border hover:border-[#e39e39]  ">Principal Jobs</Link>
+                        <Link to="/employers/" className="text-gray-900  shadow-md rounded-full px-6 py-2 hover:text-[#e39e39] border border-transparent hover:border hover:border-[#e39e39] ">Top Schools</Link>
+                        <Link to="/school-career-advice/" className="text-gray-900  shadow-md rounded-full px-6 py-2 hover:text-[#e39e39] border border-transparent hover:border hover:border-[#e39e39] ">Career Advice</Link>
                        
                     </div>
                     <div className=' w-[200px] grid items-center justify-center '>
-                        <a href="https://myteachingjobs.com.au/school-pricing/" target="_blank"  className="text-[#f4a10c]  font-bold shadow-md rounded-full px-4 py-2 border border-[#f4a10c] hover:bg-[#f4a10c] hover:text-white ">Post A Job</a>
+                        <a href="https://myteachingjobs.com.au/school-pricing/" target="_blank"  className="text-[#e39e39]  font-bold shadow-md rounded-full px-4 py-2 border border-[#e39e39] hover:bg-[#e39e39] hover:text-white ">Post A Job</a>
                     </div>
                 </div>
             </nav>
