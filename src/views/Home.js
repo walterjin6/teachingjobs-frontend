@@ -152,7 +152,7 @@ const Home = () => {
           <img
             // src="https://academicjobs.s3.amazonaws.com/img/_misc/academic-jobs-logo.png"
             src="TeachingJobs-Logo.png"
-            alt="AcademicJobs Logo"
+            alt="TeachingJobs Logo"
             className="pl-4 w-[20rem] mb-[1rem] "
           />
         </div>
