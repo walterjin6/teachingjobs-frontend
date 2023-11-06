@@ -6,7 +6,7 @@ const AboutAJ = () => {
         <div className=" px-7 py-4 text-left  mb-0">
             <Helmet>
                 <title>About Teaching Jobs</title>
-                <meta name="description" content="The Number 1 job board for Teaching Jobs.  Listing higher ed jobs for faculty at colleges and universities in the United States and around the world.  " />
+                <meta name="description" content="Join our community of passionate teachers and make a difference in the lives of students. Visit teaching job board today and discover the opportunities waiting for you.  " />
                 <meta name="keywords" content="About Teaching Jobs, About Teaching Jobs, Teaching Jobs About  " />
             </Helmet>
             <img
