@@ -14,9 +14,9 @@ const Findemployerss = () => {
     <div className='w-full h-full'>
 
       <Helmet>
-        <title>Find Academic Employers</title>
+        <title>Top School Employers</title>
         <meta name="description" content="Browse through our comprehensive list of universities from around the world and find the best one for you. Whether you want to study in Australia, Canada, UK, USA, or anywhere else, we have the information you need to make an informed decision." />
-        <meta name="keywords" content="Find Universities. Find employers, Find institutions" />
+        <meta name="keywords" content="Top School Employers. Top Australian Schools" />
       </Helmet>
 
 
