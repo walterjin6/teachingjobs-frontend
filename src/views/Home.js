@@ -376,10 +376,11 @@ const Home = () => {
             <div className="faculty-container grid-cols-1 grid md:grid-cols-4 gap-4 py-2 px-7 hidden">
               <div className="column">
                 <ul className="">
-                  <li className='mb-1 mt-4 '><Link to="/jobs/Assistant-Associate-Professor,-Fall-2024---Artificial-Intelligence-in-Aerospace-Engineering/70907" className='text-blue-500 font-bold'>Assistant/Associate Professor, Fall 2024 - Artificial Intelligence in Aerospace Engineering</Link></li>
+                  <li className='mb-1 mt-4 '><Link to="/jobs/teacher---st-stephen-s-catholic-college,-mareeba/65193/" className='text-blue-500 font-bold'>
+Teacher - St Stephen's Catholic College, Mareeba</Link></li>
                   <ul className="innerUL">
-                   <li className='mb-2 '><Link to="" >The University of Texas at Austin</Link></li>
-                   <li className='mb-2 '><Link to="" >Austin, TX, USA</Link></li>
+                   <li className='mb-2 '><Link to="" >Catholic Education Services – Diocese of Cairns</Link></li>
+                   <li className='mb-2 '><Link to="" >130 Lake Street, Cairns City QLD, Australia</Link></li>
                    <li className='mb-2 '><Link to="" >11 Dec, 2023</Link></li>
                   </ul>
                 </ul>
