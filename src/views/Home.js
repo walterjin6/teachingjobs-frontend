@@ -182,7 +182,7 @@ const Home = () => {
              
            
              <li className='mb-2 '><Link to="/administrative/" >Admin</Link></li>
-             <li className='mb-2 '><Link to="/graduate/" >	Graduates</Link></li>
+             <li className='mb-2 '><Link to="/tutor/" >	Tutor</Link></li>
           
             </ul>
           </div>
