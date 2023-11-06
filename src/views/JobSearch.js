@@ -307,7 +307,7 @@ const JobSearch = () => {
             <input
               type="text"
               className="text-center md:w-[45%] md:text-left px-4 py-2 border border-gray-200  rounded-3xl   md:rounded-[0px] md:rounded-l-full  focus:ring-orange-500 focus:border-orange-500 "
-              placeholder="Type keywords like: professor harvard"
+              placeholder="Type Keywords"
               ref={keyWordRef}
               defaultValue={name}
             />
