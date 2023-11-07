@@ -208,43 +208,16 @@ const Home = () => {
             <p className=" px-7"></p>
           </div>
         </div>
-
-        <div className="bg-white flex flex-col  ">
-            <h2 className="text-1xl font-bold py-1 px-7 border-2 border-[#f4a10c] text-[#f4a10c] rounded-3xl shadow-md  mt-20 ">Choose Teaching Job Types</h2>
-            <ul className=" mb-8 text-left columns-1 md:columns-4  md:gap-2 py-2 pl-8 h-auto w-full text-transform: capitalize">
-              {position.map(({ Title, Name, break1, isBold }, key) => (
-                <li className={`pb-2 flex ${break1 ? 'md:break' : ''} ${isBold ? 'pt-4 font-bold text-[#f4a10c]' : ''}`} key={key}>
-                  <Link to={`/${Name?.replace(/\s+/g, '-')}/`}>{Name}</Link>
-                </li>
-              ))}
-            </ul>
-            <div className="newLine"></div>
-          </div>
+        <div class="bg-white flex flex-col  ">
+          <h2 class="text-1xl font-bold py-1 px-7 border-2 border-[#f4a10c] text-[#f4a10c] rounded-3xl shadow-md  mt-20 ">Choose Teaching Job Types</h2>
+          <ul class=" mb-8 text-left columns-1 md:columns-4  md:gap-2 py-2 pl-8 h-auto w-full text-transform: capitalize"><li class="pb-2 flex  "><a href="/graduate-teacher/">graduate teacher</a></li><li class="pb-2 flex  "><a href="/library-services/">library services</a></li><li class="pb-2 flex  "><a href="/information-management/">information management</a></li><li class="pb-2 flex  "><a href="/schools-management/">schools management</a></li><li class="pb-2 flex  "><a href="/vocational-management/">vocational management</a></li><li class="pb-2 flex  "><a href="/principal/">principal</a></li><li class="pb-2 flex  "><a href="/student-services/">student services</a></li><li class="pb-2 flex  "><a href="/early-childhood/">early childhood</a></li><li class="pb-2 flex  "><a href="/primary/">primary</a></li><li class="pb-2 flex  "><a href="/secondary/">secondary</a></li><li class="pb-2 flex  "><a href="/tertiary/">tertiary</a></li><li class="pb-2 flex  "><a href="/vocational/">vocational</a></li><li class="pb-2 flex  "><a href="/special-needs-aides/">special needs aides</a></li><li class="pb-2 flex  "><a href="/tutoring/">tutoring</a></li><li class="pb-2 flex  "><a href="/training-assessment/">training assessment</a></li><li class="pb-2 flex  "><a href="/relief-teaching/">relief teaching</a></li><li class="pb-2 flex  "><a href="/administrative/">administrative</a></li></ul><div class="newLine"></div></div>
 
 
-          <div className="bg-white flex flex-col  ">
-            <h2 className="text-1xl font-bold py-1 px-7 border-2 border-[#f4a10c] text-[#f4a10c] rounded-3xl shadow-md  mt-20 ">Choose Teaching Jobs by City</h2>
-            <ul className=" mb-8 text-left columns-1 md:columns-4  md:gap-2 py-2 pl-8 h-auto w-full text-transform: capitalize">
-              {cities.map(({ Title, Name, break1, isBold }, key) => (
-                <li className={`pb-2 flex ${break1 ? 'md:break' : ''} ${isBold ? 'pt-4 font-bold text-[#f4a10c]' : ''}`} key={key}>
-                  <Link to={`/${Name?.replace(/\s+/g, '-')}/`}>{Name}</Link>
-                </li>
-              ))}
-            </ul>
-            <div className="newLine"></div>
-          </div>
 
-          <div className="bg-white flex flex-col  ">
-            <h2 className="text-1xl font-bold py-1 px-7 border-2 border-[#f4a10c] text-[#f4a10c] rounded-3xl shadow-md  mt-20 ">Choose Teaching Jobs by State</h2>
-            <ul className=" mb-8 text-left columns-1 md:columns-4  md:gap-2 py-2 pl-8 h-auto w-full text-transform: capitalize">
-              {industry.map(({ Title, Name, break1, isBold }, key) => (
-                <li className={`pb-2 flex ${break1 ? 'md:break' : ''} ${isBold ? 'pt-4 font-bold text-[#f4a10c]' : ''}`} key={key}>
-                  <Link to={`/${Name?.replace(/\s+/g, '-')}/`}>{Name}</Link>
-                </li>
-              ))}
-            </ul>
-            <div className="newLine"></div>
-          </div>
+          <div class="bg-white flex flex-col  "><h2 class="text-1xl font-bold py-1 px-7 border-2 border-[#f4a10c] text-[#f4a10c] rounded-3xl shadow-md  mt-20 ">Choose Teaching Jobs by City</h2><ul class=" mb-8 text-left columns-1 md:columns-4  md:gap-2 py-2 pl-8 h-auto w-full text-transform: capitalize"><li class="pb-2 flex  "><a href="/melbourne/">melbourne</a></li><li class="pb-2 flex  "><a href="/sydney/">sydney</a></li><li class="pb-2 flex md:break "><a href="/brisbane/">brisbane</a></li><li class="pb-2 flex md:break "><a href="/gold-coast/">gold coast</a></li><li class="pb-2 flex  "><a href="/canberra/">canberra</a></li><li class="pb-2 flex md:break "><a href="/perth/">perth</a></li><li class="pb-2 flex md:break "><a href="/darwin/">darwin</a></li></ul><div class="newLine"></div></div>
+
+         
+          <div class="bg-white flex flex-col  "><h2 class="text-1xl font-bold py-1 px-7 border-2 border-[#f4a10c] text-[#f4a10c] rounded-3xl shadow-md  mt-20 ">Choose Teaching Jobs by State</h2><ul class=" mb-8 text-left columns-1 md:columns-4  md:gap-2 py-2 pl-8 h-auto w-full text-transform: capitalize"><li class="pb-2 flex  "><a href="/victoria/">victoria</a></li><li class="pb-2 flex  "><a href="/NSW/">NSW</a></li><li class="pb-2 flex md:break "><a href="/queensland/">queensland</a></li><li class="pb-2 flex  "><a href="/south-australia/">south australia</a></li><li class="pb-2 flex md:break "><a href="/western-australia/">western australia</a></li><li class="pb-2 flex  "><a href="/northern-territory/">northern territory</a></li><li class="pb-2 flex md:break "><a href="/tasmania/">tasmania</a></li></ul><div class="newLine"></div></div>
         
 
         <h2 className="text-1xl font-bold py-1 px-7 border-2 border-[#e39e39] text-[#e39e39] rounded-3xl mt-20 shadow-md">Top Teaching Jobs at Schools</h2>
