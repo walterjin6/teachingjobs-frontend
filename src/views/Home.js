@@ -64,31 +64,35 @@ const Home = () => {
                     "position": 3,
                     "name": "Principal Jobs",
                     "url": "/principle/",
-                   
+                    "description": "We are seeking an experienced and visionary educational leader to serve as a Principal. The Principal plays a pivotal role in providing effective leadership, fostering a positive learning environment, and ensuring the achievement of educational goals and objectives.",
                   },
                   {
                     "@type": "ListItem",
                     "position": 4,
                     "name": "Secondary School Jobs",
                     "url": "/secondary/",
+                    "description": "As a secondary school teacher, you will have the opportunity to make a difference in the lives of young people. You will also enjoy a rewarding career with flexible work hours, competitive salary and benefits, and ongoing professional development.",
                       },
                   {
                     "@type": "ListItem",
                     "position": 5,
                     "name": "Primary Jobs",
                     "url": "/primary/",
+                    "description": "As a Primary School Teacher, you'll play a vital role in providing quality education, creating a positive classroom environment, and nurturing the academic and social development of our primary-aged learners. If you're dedicated, creative, and committed to making a positive impact on children's lives, we invite you to apply and become a key part of our educational community.",
                          },
                   {
                     "@type": "ListItem",
                     "position": 6,
                     "name": "Early Childhood Jobs",
                     "url": "/early-childhood/",
+                    "description": "As an Early Childhood Teacher, you'll be responsible for providing a stimulating and engaging environment that promotes social, emotional, and cognitive development in young learners. If you have a love for teaching, creativity, and a dedication to fostering a lifelong love for learning, we invite you to apply for this rewarding opportunity.",
                       },
                   {
                     "@type": "ListItem",
                     "position": 7,
                     "name": "Administrative Jobs",
                     "url": "/administrative/",
+                    "description": "In this role, you will assist with a wide range of administrative tasks, from record-keeping and scheduling to communications and event coordination. If you're dedicated, resourceful, and committed to ensuring the efficiency and effectiveness of an educational organisation, we invite you to apply and become an integral part of our administrative team.",
                  }
                   ,
                   {
@@ -96,12 +100,14 @@ const Home = () => {
                     "position": 8,
                     "name": "Top School Jobs",
                     "url": "/top-schools/",
+                    "description": "Browse through our comprehensive list of universities from around the world and find the best one for you. Whether you want to study in Australia, Canada, UK, USA, or anywhere else, we have the information you need to make an informed decision.", 
                 },
                   {
                     "@type": "ListItem",
                     "position": 9,
-                    "name": "Academic Happiness and university life hacks",
+                    "name": "Career advice",
                     "url": "/career-advice/",
+                    "description": "Explore Australia's most in-demand roles with salary, job trends and career pathways. Our blog articles showcase the knowledge and experiences of real teachers.", 
               }
                   ,
                   {
@@ -109,24 +115,28 @@ const Home = () => {
                     "position": 10,
                     "name": "Post A Job",
                     "url": "/school-pricing/",
+                  
               },
                   {
                     "@type": "ListItem",
                     "position": 11,
                     "name": "Jobs in Melbourne",
                     "url": "/melbourne/",
+                    "Description": " Are you searching for a teaching job in the melbourne? Visit our website at Teaching Jobs, to see our available employment positions for teaching jobs in melbourne",
               },
                   {
                     "@type": "ListItem",
                     "position": 12,
                     "name": "Jobs in Sydney",
                     "url": "/sydney/",
+                    "Description": "Are you searching for a teaching job in the Sydney? Visit our website at Teaching Jobs, to see our available employment positions for teaching jobs in Sydney",
             },
                   {
                     "@type": "ListItem",
                     "position": 13,
                     "name": "Jobs in brisbane",
                     "url": "/brisbane/",
+                    "Description": "Are you searching for a teaching job in the brisbane? Visit our website at Teaching Jobs, to see our available employment positions for teaching jobs in brisbane",
                }
               
                 ]
