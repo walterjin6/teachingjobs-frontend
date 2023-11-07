@@ -57,6 +57,7 @@ const Home = () => {
                     "position": 2,
                     "name": "Find Teacher Jobs",
                     "url": "/jobs/",
+                    "description": "Discover Teaching jobs at on the largest teaching job board in Australia."
                      },
                   {
                     "@type": "ListItem",
