@@ -37,9 +37,9 @@ const Home = () => {
       <div className="bg-white  flex flex-col items-center  justify-center ">
         <div className='h-[25vh] flex flex-col items-end justify-end'>
           <Helmet>
-            <title>Academic Jobs: Academic, research and science positions locally and globally.</title>
-            <meta name="description" content="Discover academic jobs at all universities today! Explore your next academic positions through visiting our higher ed jobs, with new academic jobs added daily." />
-            <meta name="keywords" content="Academic Jobs. Higher Ed Jobs, Academic positions, University Jobs, College Jobs" />
+            <title>Teaching Jobs Australia - Find School Jobs | Teaching Jobs</title>
+            <meta name="description" content="Looking for Teaching Jobs in Australia? Visit our website at Teaching Jobs, to see our range of teaching jobs available near Melbourne, Sydney, Perth and all major cities." />
+            <meta name="keywords" content="Teaching Jobs. TeachingJobs, Teacher Jobs, Teacher positions" />
             <script type="application/ld+json">
               {JSON.stringify({
                 "@context": "https://schema.org/",
