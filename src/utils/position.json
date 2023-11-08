@@ -2,78 +2,246 @@
  
  {
 
-  "Name": "professor",
-  "Title": "Academic Professor Jobs",
-  "Description": "If you are ready to take the next step in your academic career, apply now for a professor job.",
-  "Keyword": "Academic Professor Jobs. Professor positions",
-  "content": "Academic professor Jobs are highly rewarding and satisfying. They allow you to use your skills and knowledge to advance your discipline and field, as well as to shape the future of education and society. They also allow you to enjoy a prestigious and fulfilling work-life balance. If you are ready for a new challenge and a rewarding experience, apply for more professor Jobs today!"
+  "Name": "graduate teacher",
+  "Title": "Graduate Teacher Jobs",
+  "Description": "If you are interested in becoming a graduate teacher, browse our job board for the latest vacancies in your area. You can also find more information about the requirements, qualifications and pathways for graduate teaching on our website.",
+  "Keyword": "Graduate Teacher Jobs, Teaching Graduate Jobs",
+  "content": "As a graduate teacher, you will have the opportunity to join a rewarding and dynamic profession that offers flexible work hours, competitive salary and benefits, and ongoing professional development. You will also receive support and guidance from experienced mentors, colleagues and school leaders to help you grow and succeed as a teacher."
  },
  
  {      
-  "Name": "lab technician",
-  "Title": "Academic Lab Technician Jobs",
-  "Description": "As a lab technician, you will have the opportunity to work with some of the best researchers and educators in your field. ",
-  "Keyword": "Academic Lab Technician Jobs. Lab Technician positions",
-  "content": "Are you a skilled and reliable worker who enjoys working in a laboratory setting with science and technology? Do you have a keen interest in lab technician jobs? If so, you should apply for a lab technician jobs at one of the renowned universities on AcademicJobs."
+  "Name": "library services",
+  "Title": "Library Service Jobs",
+  "Description": "If you are interested in becoming a school library professional, browse our job board for the latest vacancies in your area. You can also find more examples of great library services on our website.  ",
+  "Keyword": "Library Service Jobs. Library Service positions",
+  "content": "Library Services Jobs include teacher librarians, library technicians, library assistants and other staff who are involved in the operation and management of the school library. They play a vital role in promoting literacy, inquiry, creativity and critical thinking among students and teachers. They also contribute to the development of a positive school culture and a lifelong love of learning."
  },
  {
-  "Name": "assistant professor",
-  "Title": "Academic Assistant Professor Jobs",
-  "Description": "Do you have a PhD or equivalent qualification in your field of study? If so, you might be interested in applying for an assistant professor position at one of the outstanding universities",
-  "Keyword": "Academic Assistant Professor Jobs. Assistant Professor positions",
-  "content": "Assistant professor jobs are early-career academic staff who are expected to deliver high-quality education to undergraduate and postgraduate students, conduct original and impactful research in their fields of interest, and contribute to the academic community and society. Assistant professor jobs typically require a PhD or equivalent qualification, as well as relevant publications, grants, awards, and experience."
+  "Name": "information management",
+  "Title": "Information Management Jobs",
+  "Description": "Do you have the skills and knowledge to design, implement and evaluate information systems and services that support learning and teaching? If so, you might be interested in becoming an information management professional.",
+  "Keyword": "Information Management Jobs. Information Management positions",
+  "content": "Information management professionals are those who work in the field of information management, which is an emerging discipline that is concerned with the infrastructure, principles, contexts and purposes of information. They apply their expertise in information science, technology, management and education to help schools and other educational institutions achieve their goals and objectives."
  },
  {
  
-  "Name": "associate professor",
-  "Title": "Academic Associate Professor Jobs",
-  "Description": "Academicjobs has hundreds of academic associate professor opportunities from leading universities, research institutes, and private companies. ",
-  "Keyword": "Academic Associate Professor Jobs. Associate Professor positions",
-  "content": "If you are ready to take the next step in your academic career, apply now for an associate professor jobs in academia. You will need to submit your CV, cover letter, and other relevant documents as per the application instructions. Don’t miss this chance to join the academic community and make a difference as an academic associate professor jobs."
+  "Name": "schools management",
+  "Title": "Management - School Jobs",
+  "Description": "Educational Information Management Professionals are experts in the emerging discipline of information management, focused on information infrastructure, principles, contexts, and purposes. They leverage their knowledge in information science, technology, management, and education to support schools and educational institutions in achieving their objectives. ",
+  "Keyword": "School Management Jobs. School Management positions",
+  "content": "School Information Management Professionals are experts in the field of information management, dedicated to enhancing educational institutions' effectiveness by optimizing information infrastructure, principles, contexts, and purposes. Leveraging their knowledge in information science, technology, management, and education, they play a pivotal role in assisting schools to achieve their goals and objectives. This role involves streamlining data systems, ensuring information security, and employing data-driven strategies to support educational excellence."
    
 },
  {
  
-  "Name": "postdoctoral researcher",
-  "Title": "Academic Postdoctoral Researcher Jobs",
-  "Description": "As a postdoctoral researcher, you will have the chance to work with leading academics from across the globe, build your international network, and enhance your skills and competencies.",
-  "Keyword": "Academic Postdoctoral Researcher Jobs. Postdoctoral Researcher positions",
-  "content": "Postdoctoral researcher jobs are highly competitive and selective. Therefore, it is important to prepare your application carefully and tailor it to the specific requirements of the position. You may also want to contact the potential supervisor or employer directly to express your interest and ask any questions you may have on the postdoctoral researcher jobs."
+  "Name": "vocational management",
+  "Title": "Management - Vocational Jobs",
+  "Description": "Vocational Education Managers are pivotal in the realm of vocational training. These professionals play a vital role in shaping the infrastructure, principles, contexts, and goals of vocational education programs. They apply their expertise in education, management, and vocational training to guide schools and educational institutions in achieving their vocational training objectives.",
+  "Keyword": "Management - Vocational Jobs. Management - Vocational positions",
+  "content": "Vocational Education Management Professionals are skilled individuals specializing in vocational education. They play a crucial role in overseeing the infrastructure, principles, contexts, and purposes of vocational training programs. These professionals leverage their expertise in education, management, and vocational fields to support schools and educational institutions in achieving their vocational training goals and objectives."
  },
  {
-  "Name": "postdoctoral fellow",
-  "Title": "Academic Postdoctoral Fellow Jobs",
-  "Description": "Postdoctoral fellow jobs are an excellent way to enhance your research skills and experience, expand your professional network, and advance your career prospects.",
-  "Keyword": "Academic Postdoctoral Fellow Jobs. Postdoctoral Fellow positions",
-  "content": "To be eligible for postdoctoral fellow jobs, you will need to have a PhD or equivalent qualification in a relevant discipline, a strong track record of publications and presentations, and excellent communication and interpersonal skills. For postdoctoral fellow jobs you will also need to demonstrate your ability to work independently and collaboratively, as well as your passion and enthusiasm for research."
+  "Name": "principal",
+  "Title": "Principal Jobs",
+  "Description": "We are seeking an experienced and visionary educational leader to serve as a Principal. The Principal plays a pivotal role in providing effective leadership, fostering a positive learning environment, and ensuring the achievement of educational goals and objectives.",
+  "Keyword": "Principal Jobs. Principal positions",
+  "content": "As a Principal, you are the educational leader of our institution, responsible for shaping its vision, values, and academic excellence. You will play a pivotal role in providing guidance and leadership to staff, fostering a positive learning environment, and ensuring the school's success in achieving its educational goals and objectives."
  },
  {
-  "Name": "visiting global academic",
-  "Title": "Academic Visiting Global Jobs",
-  "Description": "Do you want to work on collaborative and interdisciplinary projects that have global impact and relevance? If so, you might be interested in applying for one of the visiting global academic jobs available on this page.",
-  "Keyword": "visiting global academic Jobs. visiting global academic positions",
-  "content": "Visiting global academic jobs are short-term or temporary positions that allow academics to work in a different institution, country, or region for a specified period of time. Visiting global academic jobs are designed to foster international exchange, cooperation, and innovation in research and teaching. They also offer academics the opportunity to expand their professional network, enhance their skills and competencies, and enrich their personal and cultural experiences."
+  "Name": "student services",
+  "Title": "Student Service Jobs",
+  "Description": "As a Student Services Coordinator, you play a crucial role in fostering a positive and supportive learning environment within educational institutions. Your responsibilities encompass providing guidance, counselling, and assistance to students, ensuring their academic success, personal development, and overall well-being. From organising engaging extracurricular activities, too assisting with admissions and maintaining accurate records, you are instrumental in enhancing the overall educational experience for students. If you are empathetic, resourceful, and passionate about helping students thrive, join our team and make a meaningful impact on their educational journey.",
+  "Keyword": "Student Service Jobs. Student Service positions",
+  "content": "As a Student Services Coordinator, you will play a pivotal role in fostering a positive learning environment, offering guidance and counselling to students, organising engaging extracurricular activities, and ensuring the overall well-being of our student community. If you are empathetic, resourceful, and committed to students' success, we invite you to apply and make a lasting impact on the educational experience."
  },
  {
-  "Name": "visiting scholar fellow",
-  "Title": "Academic Visiting Scholar or Fellow Jobs",
-  "Description": "All the best entomology university jobs and university careers. Search lecturing, research and faculty academic positions, university jobs and university careers in entomology. Go to academic entomology jobs and higher ed position today.",
-  "Keyword": "visiting scholar fellow Jobs. visiting scholar fellow positions",
-  "content": "Visiting scholar fellow jobs conduct research at a host institution, either independently or as part of a research team. They are designed to foster academic exchange, innovation, and impact in research and teaching. Visiting scholar fellow jobs offer scholars the opportunity to access new resources, facilities, and networks, as well as to enhance their skills and competencies."
+  "Name": "early childhood",
+  "Title": "Teaching - Early Childhood Jobs",
+  "Description": "As an Early Childhood Teacher, you'll be responsible for providing a stimulating and engaging environment that promotes social, emotional, and cognitive development in young learners. If you have a love for teaching, creativity, and a dedication to fostering a lifelong love for learning, we invite you to apply for this rewarding opportunity.",
+  "Keyword": "Teaching - Early Childhood Jobs. Teaching - Early Childhood positions",
+  "content": "As an Early Childhood Teacher, you'll play a pivotal role in providing a solid foundation for children's lifelong learning by creating a stimulating and nurturing environment where they can explore, discover, and develop essential skills and knowledge. If you're dedicated, patient, and committed to fostering a love for learning in the early years, we invite you to apply and be a part of our dynamic educational community."
  },
  {
-  "Name": "tutor",
-  "Title": "Academic Tutor Jobs",
-  "Description": "Do you want to work in a flexible and rewarding environment where you can make a difference in students’ academic performance and confidence? If so, you might be interested in applying for one of the academic tutor jobs available on this page.",
-  "Keyword": "Academic Tutor Jobs. Tutor positions",
-  "content": "Academic tutor jobs provide individual or group tutoring lessons to students in various subjects and skills. Academic tutor jobs help students improve their understanding of concepts, prepare for exams, complete assignments, and achieve their learning goals. They also provide feedback, guidance, and encouragement to students."
+  "Name": "primary",
+  "Title": "Teaching - Primary Jobs",
+  "Description": "As a Primary School Teacher, you'll play a vital role in providing quality education, creating a positive classroom environment, and nurturing the academic and social development of our primary-aged learners. If you're dedicated, creative, and committed to making a positive impact on children's lives, we invite you to apply and become a key part of our educational community.",
+  "Keyword": "Teaching - Primary Jobs. Teaching - Primary positions",
+  "content": "As a Primary School Teacher, you will play a vital role in providing a strong educational foundation for students in their formative years. You'll create engaging and inspiring classroom experiences, nurture a supportive learning environment, and help students develop essential skills and knowledge. If you're passionate about education, dedicated to student success, and excited about helping children reach their full potential, we invite you to apply and be a part of our dynamic educational community."
  },
  {
-  "Name": "other positions",
-  "Title": "Other Positions",
-  "Description": "Do you have skills and experience that can support and enhance the research and teaching activities of universities and research institutions? If so, you might be interested in applying for one of the Academic Other Jobs available on this page.",
-  "Keyword": "Academic Other Jobs. Other positions",
-  "content": "Academic other positions are jobs that are not directly related to research or teaching, but are essential for the smooth and successful operation of the academic sector. Academic other positions include roles such as administration, management, finance, human resources, marketing, communication, IT, library, student services, and more. They provide support and advice to academic staff and students, as well as to external stakeholders and partners."
+  "Name": "secondary",
+  "Title": "Teaching - Secondary Jobs",
+  "Description": "As a secondary school teacher, you will have the opportunity to make a difference in the lives of young people. You will also enjoy a rewarding career with flexible work hours, competitive salary and benefits, and ongoing professional development.",
+  "Keyword": "Teaching - Secondary Jobs. Teaching - Secondary positions",
+  "content": "Secondary school teachers are instrumental in shaping teenagers into who they will become. They guide students through their most formative years, between the ages of 12 and 18 (or Year 7 to Year 12). They teach one or more subjects from the Australian Curriculum, such as mathematics, science, English, languages, arts, and more. They use a variety of methods, including formal lessons, discussions, practical activities, experiments, assessments and excursions to engage students and enhance their learning experiences."
+ },
+ {
+  "Name": "tertiary",
+  "Title": "Teaching - Tertiary Jobs",
+  "Description": "As a Tertiary Education Instructor, you'll play a pivotal role in delivering high-quality education to college or university students, fostering critical thinking, research skills, and intellectual curiosity. If you're dedicated to academic excellence, enthusiastic about your subject matter, and committed to empowering students to reach their full potential.",
+  "Keyword": "Teaching - Tertiary Jobs. Teaching - Tertiary positions",
+  "content": "As a Tertiary Teaching Faculty member, you'll have the opportunity to engage with diverse and motivated students, share your expertise, and contribute to their academic and personal growth. If you're dedicated to fostering a dynamic and transformative learning environment and have a strong commitment to excellence in higher education, we invite you to apply and become part of our vibrant academic community."
+ },
+ {
+  "Name": "vocational",
+  "Title": "Teaching - Vocational Jobs",
+  "Description": "As a Vocational Teaching Instructor, you will play a vital role in delivering specialised vocational education programs, sharing your expertise, and preparing students for real-world careers. If you're dedicated to equipping the next generation with valuable skills and helping them thrive in their chosen vocations, we invite you to apply and become an integral part of our dynamic educational community.",
+  "Keyword": "Teaching - Vocational Jobs. Teaching - Vocational positions",
+  "content": "Join our institution as a Vocational Education Instructor and play a vital role in preparing students for successful careers in vocational fields. As a Vocational Education Instructor, you will deliver hands-on, industry-relevant training, mentor students, and provide the foundation they need to excel in their chosen careers. If you're passionate about vocational education, possess real-world expertise, and are committed to empowering students with practical skills, we invite you to apply and contribute to our dynamic vocational education programs."
+ },
+ {
+  "Name": "special needs aides",
+  "Title": "Teaching Aides & Special Needs Jobs",
+  "Description": "As a Teaching Aide & Special Needs Support member, you will work closely with educators to provide individualised assistance, guidance, and care to students with special needs. Your dedication will contribute to creating an inclusive and supportive learning environment where every student has the opportunity to thrive. If you are passionate about making education accessible to all, possess empathy and patience, and are committed to helping students reach their full potential, we invite you to apply and be a part of our inclusive educational community.",
+  "Keyword": "Teaching Aides & Special Needs Jobs. Teaching Aides & Special Needs positions",
+  "content": "In this role, you will provide dedicated assistance to students with special needs, working collaboratively with educators to ensure every student has the opportunity to succeed. If you have a caring and patient nature, a commitment to inclusion, and a desire to empower students with diverse learning needs, we invite you to apply and contribute to our inclusive educational community."
+ },
+ {
+  "Name": "tutoring",
+  "Title": "Tutoring Jobs",
+  "Description": " As a Tutor, you will provide personalized, one-on-one or small group instruction to students seeking additional support in various subjects and areas of study. Whether you're an experienced educator, a subject matter expert, or a dedicated enthusiast, your guidance can make a difference. If you're committed to helping students succeed and thrive academically, we invite you to apply and become an essential part of our educational support network.",
+  "Keyword": "Tutoring Jobs. Tutoring positions",
+  "content": "As a Tutor, you'll provide personalized one-on-one or small group instruction, helping students master subjects, improve study skills, and build confidence. Whether you're an expert in a specific subject or a general academic mentor, your guidance and support can make a significant difference in students' lives. If you're patient, knowledgeable, and dedicated to empowering students to succeed, we invite you to apply and be a part of our tutoring team."
+ },
+ {
+  "Name": "training assessment",
+  "Title": "Workplace Training & Assessment Jobs",
+  "Description": " As a Workplace Training & Assessment Instructor, you will have the opportunity to impart essential skills, evaluate competency, and contribute to the professional development of adult learners. If you are an experienced educator with a passion for practical training and assessment, we invite you to apply and be a part of our mission to empower individuals for workplace excellence.",
+  "Keyword": "Workplace Training & Assessment Jobs. Workplace Training & Assessment positions",
+  "content": "Join our team as a Workplace Training & Assessment Specialist and play a vital role in developing and delivering effective training programs. As a specialist, you will assess the learning needs of employees, design tailored training initiatives, and evaluate their impact on workplace performance. If you have a deep understanding of adult learning principles, workplace training strategies, and a commitment to enhancing workforce capabilities, we invite you to apply and contribute to our dynamic approach to employee development."
+ }, 
+ {
+  "Name": "relief teaching",
+  "Title": "Relief Teaching Jobs",
+  "Description": "As a Relief Teacher, you will step into various classroom settings, nurture a positive learning environment, and ensure educational continuity during teacher absences. If you have a strong commitment to education, adaptability, and a desire to inspire young minds, we invite you to apply and become an essential part of our educational community.",
+  "Keyword": "Relief Teaching Jobs. Relief Teaching positions",
+  "content": "As a Relief Teacher, you'll step in when regular classroom teachers are absent, providing continuity in education and ensuring that students continue to receive high-quality instruction. If you're passionate about teaching, quick on your feet, and ready to inspire and guide students in diverse classroom settings, we invite you to apply and become an essential part of our educational team."
+ },
+ {
+  "Name": "administrative",
+  "Title": "Administrative & Support Services Jobs",
+  "Description": "In this role, you will assist with a wide range of administrative tasks, from record-keeping and scheduling to communications and event coordination. If you're dedicated, resourceful, and committed to ensuring the efficiency and effectiveness of an educational organisation, we invite you to apply and become an integral part of our administrative team.",
+  "Keyword": "Administrative & Support Services Jobs. Administrative & Support Services positions",
+  "content": "Join our team as an Administrative & Support Services Coordinator and play a pivotal role in providing essential support to educators, students, and staff. In this position, you will oversee administrative tasks, manage resources, and ensure the efficient functioning of various support services within the school. If you excel at multitasking, problem-solving, and thrive in a dynamic educational environment, we invite you to apply and become an integral part of our educational community."
+ },
+ 
+
+   
+ {
+ "Name": "victoria",
+ "Title": "Victoria | Job Vacancies Online",
+ "Description": "Teaching Jobs in Victoria are now available through our job board at Teaching Jobs. Browse our website to see the available employment positions throughout Victoria.",
+ "Keyword": "victoria teaching jobs . melbourne teaching jobs",
+ "content": "If you’re on the hunt for teaching jobs in Victoria, TeachingJobs is able to provide you with Australia’s largest resource of employment opportunities. We take the stress out of finding a new teaching job by providing you with an unbeatable selection of exciting job vacancies at your fingertips.By making a profile with us, you’ll be kept up to date on all the latest openings in your area and be the first to know about any new positions. Demonstrate your qualifications, skills and experience to recruiters and get yourself noticed. Whether you’re looking for something in the inner-north of Melbourne or the south-east of Victoria, we have plenty of jobs waiting for the perfect candidate." },
+{
+
+ "Name": "NSW",
+ "Title": "NSW | Apply Online | Job Vacancies",
+ "Description": "Do you wish to apply for a teaching job in NSW? Visit our website today at Teaching Jobs, to see all our available positions throughout NSW. Apply online now!",
+ "Keyword": " nsw teaching jobs . new south whales teaching positions ",
+ "content": "If you’re looking for the latest job opportunities in the education sector, look no further than Teaching Jobs. Finding the right teaching jobs in NSW can be difficult and time-consuming, but we go out of our way to make your job hunt as smooth and painless as possible. By making an online profile on our site, you’ll be the first to know about exciting new employment opportunities and NSW teacher jobs. By entering your preferences, you are able to filter out jobs that don’t match your criteria and only be shown vacancies that align with your skills, qualifications and goals."  },
+
+{   
+ "break1": true,   
+ "Name": "queensland",
+ "Title": "Queensland | Apply Online - Job Vacancies",
+ "Description": "Teaching Jobs have teaching jobs in QLD available throughout the state. Visit our website to see the employment positions available in private, public and catholic schools.",
+ "Keyword": "queensland teaching jobs . queensland teaching positions",
+ "content": "Looking for a new challenge? Looking for teaching jobs in Queensland? TeachingJobs is Australia’s leading jobsite for employment resources for education professionals, providing an unbeatable selection of job vacancies across various positions. Covering all types of schools from Christian to Catholic, kindergarten to secondary and everything in between, we have an extensive selection of jobs available for all education professionals.The perfect QLD teacher jobs can be difficult to come by when taking into consideration your personal preferences, skills and qualifications. Sign up to TeachingJobs today and we will do all the hard work for you and notify you of any available positions that match your criteria. This way, you won’t miss out on any dream education jobs you’ve been searching for and can be confident that no opportunities are passing you by."  },
+{
+ "Name": "south australia",
+ "Title": "South Australia | Apply Online | Vacancies",
+ "Description": "At Teaching Jobs, we have a wide range of job vacancies & employments for teaching in Adelaide. Visit our job board for private and public jobs. Apply online now!",
+ "Keyword": "aidelaide teaching jobs . south australia teaching jobs",
+ "content": "If you’re looking for teaching jobs in Adelaide, TeachingJobs has you covered. We are Australia’s #1 education jobsite with the most comprehensive collection of education jobs available online. We take pride in connecting top educators with fulfilling positions that allow them to inspire, lead and enlighten.Wherever you are in Adelaide, from Mount Osmond to Woodville South, TeachingJobs has a varied range of positions ready for you to browse. Regardless of whether you’re looking for a primary teaching job in Adelaide, a casual relief teaching position or a school aide job, we have plenty of rewarding employment openings just waiting for you to apply."  },
+{
+ "break1": true,   
+ "Name": "western australia",
+ "Title": "Western Australia | Apply Online | Job Vacancies",
+ "Description": "Visit our job board today at Teaching Jobs, to see all of our employment and job vacancies available including public, private and catholic teaching jobs in Western Australia.",
+ "Keyword": "western australia teaching jobs . western austrlaia teaching positions",
+ "content": "Western Australia is a state located in the western part of Australia. It is the largest state in the country, covering an area of 2,529,875 square kilometers. The state is home to a diverse range of flora and fauna, including 13,000 species of wildflowers. Western Australia is known for its mining industry, which is the state’s largest industry, and it is also a significant producer of wheat, wool, and other agricultural products.Western Australia has a well-established education system that provides quality education to students. The Department of Education is the largest employer in the state, providing a range of career opportunities in public education. The department offers a variety of teaching positions, including full-time, part-time, and casual positions. The department also provides a range of attractive professional and personal benefits to its employees"    
+},
+
+{
+ "Name": "northern territory",
+ "Title": "NT | Apply Online  | Job Vacancies",
+ "Description": "Are you searching for a teaching job in the NT? Visit our website at Teaching Jobs, to see our available employment positions for teaching jobs in the northern territory",
+ "Keyword": "Northern terriorty teaching jobs .  northern territory teaching positions",
+ "content": "Northern Australia is a vast region that encompasses the northern part of Australia, including the Northern Territory and parts of Western Australia and Queensland. The region is known for its unique landscapes, diverse cultures, and rich history.If you are interested in teaching jobs in Northern Australia, the Northern Territory Department of Education is the largest employer in the region and offers a range of career opportunities in public education. The department provides a variety of teaching positions, including full-time, part-time, and casual positions. It also offers a range of attractive professional and personal benefits to its employees"},
+{
+ "break1": true,   
+ "Name": "tasmania",
+ "Title": "Tasmania  | Apply Online  | Job Vacancies",
+ "Description": "Are you searching for a teaching job in the Tasmania? Visit our website at Teaching Jobs, to see our available employment positions for teaching jobs in the Tasmania.",
+ "Keyword": "tasmania teaching jobs . tasmania teaching positions",
+ "content": "To teach in Tasmania, you must be registered with the Teachers Registration Board (TRB), an independent statutory authority separate from any educational authority. The TRB registers teachers for all Tasmanian schools and colleges. Mutual recognition may apply for teachers who are currently registered in other states or territories. We hope this information helps you in your search for teaching opportunities in Tasmania. Good luck!"  },
+ {
+  "Name": "melbourne",
+  "Title": "Melbourne | Apply Online - Job Vacancies",
+  "Description": " Are you searching for a teaching job in the melbourne? Visit our website at Teaching Jobs, to see our available employment positions for teaching jobs in melbourne",
+  "Keyword": "teaching Jobs Melbourne, teaching positions Melbourne",
+  "content": "to teach in Victoria, you must be registered with the Victorian Institute of Teaching (VIT), an independent statutory authority separate from any educational authority. The VIT registers teachers for all Victorian schools and colleges. Mutual recognition may apply for teachers who are currently registered in other states or territories.We hope this information helps you in your search for teaching opportunities in Melbourne. Good luck!"
+},
+ {
+
+  "Name": "sydney",
+  "Title": "Sydney | Apply Online - Job Vacancies",
+  "Description": "Are you searching for a teaching job in the Sydney? Visit our website at Teaching Jobs, to see our available employment positions for teaching jobs in Sydney",
+  "Keyword": "teaching Jobs Sydney, teaching positions Sydney",
+  "content": "The New South Wales Education Standards Authority (NESA), an independent statutory body distinct from any educational authority, is where one must register in order to teach in the state. Teachers in all New South Wales schools and colleges are registered with the NESA. Teachers who are currently registered in other states or territories may be eligible for mutual recognition. We hope that this information may be useful to you as you look for Sydney teaching opportunities. Best of luck!"
+},
+ 
+ {   
+  "break1": true,   
+  "Name": "brisbane",
+  "Title": "Brisbane | Apply Online - Job Vacancies",
+  "Description": "Are you searching for a teaching job in the brisbane? Visit our website at Teaching Jobs, to see our available employment positions for teaching jobs in brisbane",
+  "Keyword": "Teaching Jobs Brisbane, teaching positions Brisbane",
+  "content": "Being registered with the Queensland College of Teachers (QCT), an independent statutory body distinct from any educational authority, is a requirement for teaching in Queensland. Teachers in all Queensland colleges and schools are registered with the QCT. Teachers who are now registered in other states or territories may be eligible for mutual recognition. We hope that this information will be useful to you as you look for teaching opportunities in Brisbane. I wish you luck!"
+ },
+
+ {   
+  "break1": true,   
+  "Name": "gold coast",
+  "Title": "Gold Coast| Apply Online - Job Vacancies",
+  "Description": "Don’t miss this chance to work in one of the best teaching environments in the world. Apply now for your dream teaching job in the Gold Coast! ",
+  "Keyword": "Teaching Jobs Gold Coast, teaching positions Gold Coast",
+  "content": "Renowned Australian and international universities, including Bond University, Griffith University, Southern Cross University, and others, are located in the Gold Coast. From the humanities and arts to science and engineering, from health and medicine to law and business, these universities provide a broad range of academic specialisations. Joining their outstanding and cooperative uni jobs will allow you to support their outstanding influence, teaching, lecturing, and research."
+
+  
+ },
+
+
+
+ {
+
+  "Name": "canberra",
+  "Title": "Canberra | Apply Online - Job Vacancies",
+  "Description": "Are you searching for a teaching job in the Canberra? Visit our website at Teaching Jobs, to see our available employment positions for teaching jobs in Canberra",
+  "Keyword": "Teaching Jobs Canberra, teaching positions Canberra",
+  "content": "A registration with the Teacher Quality Institute (TQI), an autonomous statutory body distinct from any educational authority, is a prerequisite for teaching in the Australian Capital Territory. All ACT schools and institutions register teachers with the TQI. For teachers who are currently registered in other states or territories, mutual recognition may be applicable. In your pursuit of teaching opportunities in Canberra, we hope this material is useful. Wishing you luck!"
+},
+ 
+ {   
+  "break1": true,   
+  "Name": "perth",
+  "Title": "Perth | Apply Online - Job Vacancies",
+  "Description": " On Teaching Jobs Perth You can filter by discipline, level, type, location, and more. You can also sign up for email alerts to get notified of new opportunities as they arise.  ",
+  "Keyword": "Teaching Jobs Perth, teaching positions Perth",
+  "content": "You need to be registered with the Teacher Registration Board of Western Australia (TRBWA), a separate and independent statutory body from any educational authority, in order to teach in Western Australia. Teachers are registered with the TRBWA for all schools and colleges in Western Australia. For educators who are currently registered in different states or territories, mutual recognition may be applicable. With any luck, this material will be useful to you as you look for teaching opportunities in Perth. Hope all goes well!"
+ },
+
+ {   
+  "break1": true,   
+  "Name": "darwin",
+  "Title": "Darwin | Apply Online - Job Vacancies",
+  "Description": " On Teaching Jobs Darwin You can filter by discipline, level, type, location, and more. You can also sign up for email alerts to get notified of new opportunities as they arise.  ",
+  "Keyword": "Teaching Jobs Darwin, teaching positions Darwin",
+  "content": "The Teacher Registration Board of the Northern Territory (TRBNT), an independent statutory body distinct from any educational authority, is where you must register if you want to teach in the Northern Territory. Teachers are registered with the TRBNT for all Northern Territory colleges and schools. Teachers who are currently registered in other states or territories may be eligible for mutual recognition. With this material, we hope to assist you in your quest for Darwin teaching possibilities. Best of luck!"
  }
+ 
+
+
 ]
  

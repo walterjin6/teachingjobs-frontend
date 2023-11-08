@@ -37,10 +37,10 @@ const Position = () => {
         <meta name="description" content={Description} />
         <meta name="keywords" content={Keyword} />
       </Helmet>
-      <h1 className='max-h-50 overflow-y  border border-[#f4a10c] text-gray-500 p-4 mb-4 rounded-lg shadow-lg'>
+      <h1 className='max-h-50 overflow-y text-[#f4a10c] border border-[#f4a10c] font-bold text-2xl p-4 mb-4 rounded-lg shadow-lg'>
         {Title}
       </h1>
-      <Link className='text-[#f4a10c] mb-4 ' to='/job-type/'>← View all Position Jobs</Link>
+      <Link className='text-[#f4a10c] mb-4 hidden' to='/job-type/'>← View all Position Jobs</Link>
       <div className='max-h-50 overflow-y  border border-[#f4a10c] text-gray-500 p-4 mb-4 rounded-lg shadow-lg'>
         {content1}
       </div>

@@ -296,7 +296,7 @@ const JobSearch = () => {
   }
   return <div className='overflow-y w-full'>
     <Helmet>
-      <title>Seek Academic Jobs</title>
+      <title>Seek Teaching Jobs</title>
       <meta name="description" content="Welcome to the top job board for Academic Jobs, listing higher education jobs available in international colleges and universities daily. Use filters such as city, employment type, and institution name to help your job search" />
       <meta name="keywords" content="Find Academic Jobs, Seek Academic Jobs, Academic Jobs Search" />
     </Helmet>
@@ -307,7 +307,7 @@ const JobSearch = () => {
             <input
               type="text"
               className="text-center md:w-[45%] md:text-left px-4 py-2 border border-gray-200  rounded-3xl   md:rounded-[0px] md:rounded-l-full  focus:ring-orange-500 focus:border-orange-500 "
-              placeholder="Type keywords like: professor harvard"
+              placeholder="Type Keywords"
               ref={keyWordRef}
               defaultValue={name}
             />

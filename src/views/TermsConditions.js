@@ -6,22 +6,22 @@ const TermsConditions = () => {
         <div className="">
 
 <Helmet>
-        <title>Terms and Conditions AcademicJobs</title>
-        <meta name="description" content="Review our comprehensive terms and conditions to understand the guidelines and agreements for using our academic job board. Learn about the user rights.  " />
-        <meta name="keywords" content="Terms and Conditions academicjobs, academicjobs Terms and Conditions" />
+        <title>Terms and Conditions TeachingJobs</title>
+        <meta name="description" content="... must be accepted and adhered to by Advertisers who use TJ's services and the Site. TJ also has a comprehensive privacy policy for users of the Site.  " />
+        <meta name="keywords" content="Terms and Conditions Teachingjobs, Teachingjobs Terms and Conditions" />
       </Helmet>
        
             <div className="px-12 py-8 text-gray-600">
                 <h4 className="text-orange-500 text-2xl mb-4">Introduction</h4>
                 <p>
                     Please read these Terms &amp; Conditions carefully before using
-                    AcademicJobs. AcademicJobs reserves the right to modify these Terms
+                    TeachingJobs. TeachingJobs reserves the right to modify these Terms
                     &amp; Conditions at any time.
                 </p>
 
                 <h4 className="text-orange-500 text-2xl mt-8">Services Provided</h4>
                 <p>
-                    AcademicJobs provides a service to bring Job Seekers and Employers
+                    TeachingJobs provides a service to bring Job Seekers and Employers
                     together. Job Seekers and Employers can register, create
                     profiles/job posts and search for jobs and resumes.
                 </p>
@@ -29,37 +29,37 @@ const TermsConditions = () => {
                 <h4 className="text-orange-500 text-2xl mt-8">Privacy Policy</h4>
                 <p>
                     Job Seeker personal data will be available to Employers visiting
-                    AcademicJobs. Personal data includes a Name which is mandatory, an
+                    TeachingJobs. Personal data includes a Name which is mandatory, an
                     email Address which is mandatory and a Telephone Number which is
                     optional.
                 </p>
                 <p>
-                    Personal data provided by the user may be used by AcademicJobs to
+                    Personal data provided by the user may be used by TeachingJobs to
                     notify the user of any news, and or promotional offers relating only
-                    to the AcademicJobs website. The user can unsubscribe from these
+                    to the TeachingJobs website. The user can unsubscribe from these
                     notifications at anytime.
                 </p>
-                <p>AcademicJobs will not disclose user personal data to any third party.</p>
+                <p>TeachingJobs will not disclose user personal data to any third party.</p>
 
                 <h4 className="text-orange-500 text-2xl mt-8">Website Use</h4>
-                <p>AcademicJobs may not be used for any of the following purposes:</p>
+                <p>TeachingJobs may not be used for any of the following purposes:</p>
                 <ul className="list-disc pl-8 mt-2">
-                    <li>To contact AcademicJobs users regarding any issue apart from the purpose of recruitment.</li>
-                    <li>To contact AcademicJobs users to offer any services from a 3rd party company.</li>
+                    <li>To contact TeachingJobs users regarding any issue apart from the purpose of recruitment.</li>
+                    <li>To contact TeachingJobs users to offer any services from a 3rd party company.</li>
                     <li>To post any illegal content.</li>
                 </ul>
                 <p>The user is required to provide truthful information in their profile or job post.</p>
-                <p>It is prohibited to use any text or images from AcademicJobs for personal or commercial use.</p>
+                <p>It is prohibited to use any text or images from TeachingJobs for personal or commercial use.</p>
 
                 <h4 className="text-orange-500 text-2xl mt-8">User Information</h4>
                 <p>
-                    AcademicJobs does not hold responsibility for any untruthful and/or inaccurate
+                    TeachingJobs does not hold responsibility for any untruthful and/or inaccurate
                     information included in job posts and profiles.
                 </p>
-                <p>AcademicJobs reserves the right to edit or delete any information submitted by the user to the website.</p>
+                <p>TeachingJobs reserves the right to edit or delete any information submitted by the user to the website.</p>
 
                 <h4 className="text-orange-500 text-2xl mt-8">Liability</h4>
-                <p>AcademicJobs will not be responsible for any loss or damage the user may encounter from using the website.</p>
+                <p>TeachingJobs will not be responsible for any loss or damage the user may encounter from using the website.</p>
 
                 <h4 className="text-orange-500 text-2xl mt-8">Cookies Policy</h4>
                 <p>Our website uses cookies.</p>

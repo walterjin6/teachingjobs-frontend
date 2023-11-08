@@ -110,10 +110,14 @@ const AppRouter = () => {
             <Route exact path='/faculty/' element={<Faculty />} />
             <Route exact path='/QUT/' element={<QUT />} />
             <Route exact path='/faculty/:category?' element={<Category />} />
-            <Route exact path='/job-type/:position?' element={<Position />} />
+            
+            <Route exact path='/:position?' element={<Position />} />
+            <Route exact path='/cities/:cities?' element={<Cities />} />
+            <Route exact path='/industry/:industry?' element={<Industry />} />
+
             <Route exact path='/job-type/' element={<Position2 />} />
             <Route exact path='/hr/:hr?' element={<HR />} />
-            <Route exact path='/:cities?' element={<Cities />} />
+        
             <Route exact path='/UK/:ukpositions?' element={<UKpositions />} />
             <Route exact path='/Asia/:asiapositions?' element={<AsiaPositions />} />
             <Route exact path='/Africa/:africapositions?' element={<AfricaPositions />} />
@@ -147,7 +151,7 @@ const AppRouter = () => {
             <Route exact path='/Australia/hr/' element={<HRAustralia />} />
             <Route exact path='/Australia/student/' element={<StudentsAustralia />} />
             <Route exact path='/Australia/indigenous/' element={<IndigenousAustralia />} />
-            <Route exact path='/industry/:industry?' element={<Industry />} />
+          
             <Route exact path='/industry/' element={<Industry2 />} />
             <Route exact path='/executive/:executive?' element={<Executive />} />
             <Route exact path='/executive/' element={<Executive2 />} />
@@ -158,7 +162,7 @@ const AppRouter = () => {
             <Route exact path='/school-career-advice/' element={<Careeradvice2 />} />
             <Route exact path='/student/:student?' element={<Student />} />
             <Route exact path='/student/' element={<Students />} />
-            <Route exact path='/post-job/' element={<PostJob />} />
+            <Route exact path='/school-pricing/' element={<PostJob />} />
             <Route exact path='/the-university-rankings/' element={<Rankings />} />
             <Route exact path='/about/' element={<AboutAJ />} />
             <Route exact path='/about/term-of-use/' element={<TermsConditions />} />
