@@ -1,4 +1,4 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
 Allow: /
-Sitemap: https://www.academicjobs.com/sitemap.xml
+Sitemap: https://www.teachingjobs.com.au/sitemap.xml
