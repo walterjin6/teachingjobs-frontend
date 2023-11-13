@@ -48,13 +48,7 @@ const Careeradvice2 = () => {
       /> Using PERMA pillars to support teachers </Link><a className=" text-gray-400" > 10 Aug, 2023</a></li>
             
       
-        <div className="card w-[96px bg-base-100 shadow-xl">
-  <div className="card-body">
-    <h2 className="card-title">Shoes!</h2>
-    <p>If a dog chews shoes whose shoes does he choose?</p>
-  </div>
-  <figure><img src="https://myteachingjobs.com.au/files/pictures/a3175s2331-crop.jpeg" alt="Shoes" /></figure>
-</div>  
+   
 
 
 
