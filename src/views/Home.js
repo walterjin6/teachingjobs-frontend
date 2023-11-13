@@ -195,7 +195,7 @@ const Home = () => {
       </div>
       <div className=" pt-12">
         <div className="blurb text-left pt-12 ">
-          <h1 className=" font-bold text-lg md:text-3xl py-4 px-6 bg-[#e39e39] text-white rounded-full mt-[18rem] shadow-xl border-4"># 1 TEACHING JOBS SITE</h1>
+          <h1 className=" font-bold text-lg md:text-3xl py-4 px-6 bg-[#e39e39] text-white rounded-full mt-[18rem] shadow-xl border-4">Australia's #1 Teaching Job Board Site</h1>
           <div className="newLine mb-4">
             <p className="font-semibold"></p>
             <p className="font-semibold"></p>
