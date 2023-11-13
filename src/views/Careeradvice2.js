@@ -39,6 +39,7 @@ const Careeradvice2 = () => {
         
       /> 5 Ways to Build Resilience in Students</Link> <a className=" text-gray-400" >06 Jul, 2023</a></li>
      
+
      
      <li className="text-1xl py-1 px-7  max-h-50 overflow-y text-[#f4ac10] border border-[#f4ac10] p-4 mb-4 rounded-3xl shadow-lg   "><Link to="/school-career-advice/perma-pillars-for-teachers/">  <img
         src="https://myteachingjobs.com.au/files/pictures/image_2_1.jpeg"
@@ -46,7 +47,14 @@ const Careeradvice2 = () => {
         className=""
       /> Using PERMA pillars to support teachers </Link><a className=" text-gray-400" > 10 Aug, 2023</a></li>
             
-          
+      
+        <div className="card w-[96px bg-base-100 shadow-xl">
+  <div className="card-body">
+    <h2 className="card-title">Shoes!</h2>
+    <p>If a dog chews shoes whose shoes does he choose?</p>
+  </div>
+  <figure><img src="https://myteachingjobs.com.au/files/pictures/a3175s2331-crop.jpeg" alt="Shoes" /></figure>
+</div>  
 
 
 
