@@ -341,7 +341,7 @@ const Home = () => {
         <div className="cate-group section23 ">
           <div className="widget__text-block">
             <div className="faculty-container grid-cols-1 grid md:grid-cols-4 gap-4 py-2 px-7 ">
-              <div className="column">
+              <div className="column ">
                 <ul className="">
                   <li className='mb-1 mt-4 '><Link to="/jobs/teacher---st-stephen-s-catholic-college,-mareeba/65193/" className='text-blue-500 font-bold'>A Teacher - St Stephen's Catholic College, Mareeba</Link></li>
                   <ul className="innerUL">
@@ -437,10 +437,10 @@ const Home = () => {
               </div>
               <div className="column">
                 <ul className="">
-                  <li className='mb-1 mt-4'><Link to="/jobs/primary-teacher/64843/" className='text-blue-500 font-bold'>Primary Teacher</Link></li>
+                  <li className='mb-1 mt-4'><Link to="jobs/secondary-english-hsie-teacher/65917/" className='text-blue-500 font-bold'>Secondary English/HSIE Teacher</Link></li>
                   <ul className="innerUL">
-                   <li className='mb-2 '><Link to="" >Townsville Catholic Education Office</Link></li>
-                   <li className='mb-2 '><Link to="" >Palm Island QLD</Link></li>
+                   <li className='mb-2 '><Link to="" >Belmont Christian College</Link></li>
+                   <li className='mb-2 '><Link to="" >Belmont North NSW</Link></li>
                    <li className='mb-2 '><Link to="" >30 Nov, 2023</Link></li>
                   </ul>
                 </ul>
@@ -493,9 +493,20 @@ const Home = () => {
                    <li className='mb-2 '><Link to="" >Currajong QLD</Link></li>
                    <li className='mb-2 '><Link to="" >30 Nov, 2023</Link></li>
                   </ul>
+                  </ul>
+                  </div>  
+                   <div className="column">
+                   <ul className="">
+                  <li className='mb-1 mt-4'><Link to="/jobs/primary-and-secondary-casual-teachers/63852/" className='text-blue-500 font-bold'>Primary and Secondary Casual Teachers</Link></li>
+                  <ul className="innerUL">
+                   <li className='mb-2 '><Link to="" >Belmont Christian College</Link></li>
+                   <li className='mb-2 '><Link to="" >Belmont North NSW</Link></li>
+                   <li className='mb-2 '><Link to="" >22 Nov, 2023</Link></li>
+                  </ul>
                 </ul>
               </div>
             </div>
+            
           </div>
         </div>
         <Link className='text-[#e39e39] mt-4 mb-4 px-2 hidden' to='/jobs/'>← view more</Link>
