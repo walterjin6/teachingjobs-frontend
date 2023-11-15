@@ -332,7 +332,7 @@ const JobSearch = () => {
               className="bg-[#f4a10c] hover:bg-orange-600 text-white py-2 px-6 md:rounded-[0px] md:rounded-r-full rounded-3xl focus:ring-2 focus:ring-orange-300 font-bold shadow-md"
               type="submit"
             >
-              Find Jobs
+              Search
             </button>
           </form>
         </div>
