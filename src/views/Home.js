@@ -208,135 +208,7 @@ const Home = () => {
             <p className=" px-7"></p>
           </div>
         </div>
-        <div class="bg-white flex flex-col  ">
-          <h2 class="text-1xl font-bold py-1 px-7 border-2 border-[#f4a10c] text-[#f4a10c] rounded-3xl shadow-md  mt-20 ">Choose Job Types</h2>
-          <ul class=" mb-8 text-left columns-1 md:columns-4  md:gap-2 py-2 pl-8 h-auto w-full text-transform: capitalize"><li class="pb-2 flex  "><a href="/graduate-teacher/">graduate teacher</a></li><li class="pb-2 flex  "><a href="/library-services/">library services</a></li><li class="pb-2 flex  "><a href="/information-management/">information management</a></li><li class="pb-2 flex  "><a href="/schools-management/">schools management</a></li><li class="pb-2 flex  "><a href="/vocational-management/">vocational management</a></li><li class="pb-2 flex  "><a href="/principal/">principal</a></li><li class="pb-2 flex  "><a href="/student-services/">student services</a></li><li class="pb-2 flex  "><a href="/early-childhood/">early childhood</a></li><li class="pb-2 flex  "><a href="/primary/">primary</a></li><li class="pb-2 flex  "><a href="/secondary/">secondary</a></li><li class="pb-2 flex  "><a href="/tertiary/">tertiary</a></li><li class="pb-2 flex  "><a href="/vocational/">vocational</a></li><li class="pb-2 flex  "><a href="/special-needs-aides/">special needs aides</a></li><li class="pb-2 flex  "><a href="/tutoring/">tutoring</a></li><li class="pb-2 flex  "><a href="/training-assessment/">training assessment</a></li><li class="pb-2 flex  "><a href="/relief-teaching/">relief teaching</a></li><li class="pb-2 flex  "><a href="/administrative/">administrative</a></li></ul><div class="newLine"></div></div>
 
-
-
-          <div class="bg-white flex flex-col  "><h2 class="text-1xl font-bold py-1 px-7 border-2 border-[#f4a10c] text-[#f4a10c] rounded-3xl shadow-md  mt-20 ">Choose Teaching Jobs by City</h2><ul class=" mb-8 text-left columns-1 md:columns-4  md:gap-2 py-2 pl-8 h-auto w-full text-transform: capitalize"><li class="pb-2 flex  "><a href="/melbourne/">melbourne</a></li><li class="pb-2 flex  "><a href="/sydney/">sydney</a></li><li class="pb-2 flex md:break "><a href="/brisbane/">brisbane</a></li><li class="pb-2 flex md:break "><a href="/gold-coast/">gold coast</a></li><li class="pb-2 flex  "><a href="/canberra/">canberra</a></li><li class="pb-2 flex md:break "><a href="/perth/">perth</a></li><li class="pb-2 flex md:break "><a href="/darwin/">darwin</a></li></ul><div class="newLine"></div></div>
-
-         
-          <div class="bg-white flex flex-col  "><h2 class="text-1xl font-bold py-1 px-7 border-2 border-[#f4a10c] text-[#f4a10c] rounded-3xl shadow-md  mt-20 ">Choose Teaching Jobs by State</h2><ul class=" mb-8 text-left columns-1 md:columns-4  md:gap-2 py-2 pl-8 h-auto w-full text-transform: capitalize"><li class="pb-2 flex  "><a href="/victoria/">victoria</a></li><li class="pb-2 flex  "><a href="/NSW/">NSW</a></li><li class="pb-2 flex md:break "><a href="/queensland/">queensland</a></li><li class="pb-2 flex  "><a href="/south-australia/">south australia</a></li><li class="pb-2 flex md:break "><a href="/western-australia/">western australia</a></li><li class="pb-2 flex  "><a href="/northern-territory/">northern territory</a></li><li class="pb-2 flex md:break "><a href="/tasmania/">tasmania</a></li></ul><div class="newLine"></div></div>
-        
-
-        <h2 className="text-1xl font-bold py-1 px-7 border-2 border-[#e39e39] text-[#e39e39] rounded-3xl mt-20 shadow-md">Top Teaching Jobs at Schools</h2>
-        <div className="cate-group section23 ">
-          <div className="widget__text-block">
-            <div className="faculty-container grid-cols-2 grid md:grid-cols-4 gap-8 py-2 px-7">
-              <div className="column">
-                <ul className="">
-                  <li className='mb-1 mt-4'><Link to="/USA/" className='text-[#e39e39] font-bold'>NSW</Link></li>
-                  <ul className="innerUL">
-                    
-                   <li className='mb-2 '><Link to="/employers/sceggs-darlinghurst/15840/" >SCEGGS Darlinghurst</Link></li>
-                   <li className='mb-2 '><Link to="/employers/ascham-School/11527/" >Ascham  School</Link></li>
-                   <li className='mb-2 '><Link to="/employers/al-noori-muslim-school/15858/" >AL Noori Muslim school</Link></li>
-                   <li className='mb-2 '><Link to="/employers/sydney-grammar-school/11556/" >Sydney Grammar school</Link></li>
-                   <li className='mb-2 '><Link to="/employers/presbyterian-ladies-college-sydney/15839/" >Presbyterian Ladies College Sydney</Link></li>
-                   <li className='mb-2 '><Link to="/employers/meriden-school/15835/" >Meriden school</Link></li>
-                   <li className='mb-2 '><Link to="/employers/brisbane-girls-grammar-school/15844/" >Brisbane girls grammar-school</Link></li>
-                   <li className='mb-2 '><Link to="/employers/redeemer-baptist-school/15838/" >Redeemer Baptist school</Link></li>
-                   <li className='mb-2 '><Link to="employers/red-bend-catholic-college/1040/" >Red Bend Catholic college</Link></li>
-                   <li className='mb-2 '><Link to="/employers/brisbane-grammar-school/15837" >Brisbane Grammar school</Link></li>
-                   <li className='mb-2 '><Link to="/employers/queenwood/15859" >Queenwood</Link></li>
-
-                    
-                   
-                 
-                   
-                    
-                    
-                    
-                    
-                    
-                    
-                   
-                    
-                   
-                    
-                    
-                    
-                   
-                  </ul>
-                </ul>
-              </div>
-              <div className="column">
-                <ul className="">
-                  <li className='mb-1 mt-4'><Link to="/Australia/" className='text-[#e39e39] font-bold'>Victoria</Link></li>
-                  <ul className="innerUL">
-                 <li className='mb-2 '><Link to="/employers/victoria-state-government-education-and-training/19/" >Victoria State Government Education and Training</Link></li>
-                 <li className='mb-2 '><Link to="/employers/presbyterian-ladies-college/15842/" >Presbyterian Ladies College</Link></li>
-                 <li className='mb-2 '><Link to="/employers/st-aloysius-college/15841/" >St Aloysius College</Link></li>
-                 <li className='mb-2 '><Link to="/employers/ballarat-clarendon-college/15836/" >Ballarat Clarendon College</Link></li>
-                 <li className='mb-2 '><Link to="/employers/korowa-anglican-girls-school/15845/" >Korowa Anglican girls school</Link></li>
-                 <li className='mb-2 '><Link to="/employers/camberwell-grammar-school/15846/" >Camberwell Grammar school</Link></li>
-                 <li className='mb-2 '><Link to="/employers/st-andrews-christian-college/15856/" >St Andrews Christian College</Link></li>
-                 <li className='mb-2 '><Link to="/employers/haileybury-college/15855/" >Haileybury College</Link></li>
-                 <li className='mb-2 '><Link to="/employers/christ-church-grammar-school/15860/" >Christ Church Grammar school</Link></li>
-                 <li className='mb-2 '><Link to="/employers/huntingtower-school/15834/" >Huntingtower school</Link></li>
-                 <li className='mb-2 '><Link to="/employers/belmont-christian-college/15898/" >Belmont Christian College</Link></li>
-                 <li className='mb-2 '><Link to="/employers/lighthouse-christian-college-cranbourne/15843/" >Lighthouse Christian College Cranbourne</Link></li>
-                 <li className='mb-2 '><Link to="/employers/fintona-girls-school/11527/" >Fintona girls school</Link></li>
-
-                    
-                  </ul>
-                
-                </ul>
-              </div>
-              <div className="column">
-                <ul className="">
-                <li className='mb-1 mt-4'><Link to="/UK/" className='text-[#e39e39] font-bold'>Queensland</Link></li>
-                  <ul className="innerUL">
-                 <li className='mb-2 '><Link to="/employers/queensland-government-department-of-education/18/" >Queensland - Government - Department of Education</Link></li>
-                   <li className='mb-2 '><Link to="/employers/catholic-education-services-diocese-of-cairns/60/" >Catholic - Education services Diocese of Cairns</Link></li>
-                   <li className='mb-2 '><Link to="/employers/townsville-catholic-education-office/35/" >Townsville Catholic Education Office</Link></li>
-                   <li className='mb-2 '><Link to="/employers/somerville-house/15847/" >Somerville House</Link></li>
-                    
-                  </ul>
-                  <li className='mb-1 mt-4'><Link to="/Europe/" className='text-[#e39e39] font-bold'>ACT</Link></li>
-                  <ul className="innerUL">
-                 <li className='mb-2 '><Link to="/employers/act-government-department-of-education/20/" >ACT Government - Department of Education</Link></li>
-                 <li className='mb-2 '><Link to="/employers/orana-steiner-school/14803/" >Orana Steiner school</Link></li>
-                    </ul>
-
-
-
-                </ul>
-              </div>
-              <div className="column">
-                <ul className="">
-                  <li className='mb-1 mt-4'><Link to="/Europe/" className='text-[#e39e39] font-bold'>Western Australia</Link></li>
-                  <ul className="innerUL">
-                    
-                    
-                   <li className='mb-2 '><Link to="/employers/international-school-of-western-australia/15848/" >International School of Western Australia</Link></li>
-                    
-                   <li className='mb-2 '><Link to="/employers/st-hildas-anglican-school-for-girls/11459/" >St Hildas Anglican school for girls</Link></li>
-                   
-                    
-                  </ul>
-                  <li className='mb-1 mt-4'><Link to="/Europe/" className='text-[#e39e39] font-bold'>South Australia</Link></li>
-                  <ul className="innerUL">
-                 <li className='mb-2 '><Link to="/employers/government-of-south-australia-department-for-education/17/" >Government of South Australia Department for Education</Link></li>
-                   
-                    </ul>
-                    <li className='mb-1 mt-4'><Link to="/Europe/" className='text-[#e39e39] font-bold'>Nothern Territory</Link></li>
-                  <ul className="innerUL">
-                 <li className='mb-2 '><Link to="/employers/northern-territory-department-of-education/21/" >Northern Territory Department of Education</Link></li>
-                  
-                   
-                    </ul>
-                    <li className='mb-1 mt-4'><Link to="/Europe/" className='text-[#e39e39] font-bold'>Tasmania</Link></li>
-                  <ul className="innerUL">
-                 <li className='mb-2 '><Link to="/employers/tasmanian-government-education/12/" >Tasmanian Government Education</Link></li>
-                   
-                    </ul>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
         <h2 className="text-1xl font-bold py-1 px-7 border-2 border-[#e39e39] text-[#e39e39] rounded-3xl mt-20 shadow-md ">Top Academic Jobs Today</h2>
         <div className="cate-group section23 ">
           <div className="widget__text-block">
@@ -509,6 +381,137 @@ const Home = () => {
             
           </div>
         </div>
+
+        <div class="bg-white flex flex-col  ">
+          <h2 class="text-1xl font-bold py-1 px-7 border-2 border-[#f4a10c] text-[#f4a10c] rounded-3xl shadow-md  mt-20 ">Choose Job Types</h2>
+          <ul class=" mb-8 text-left columns-1 md:columns-4  md:gap-2 py-2 pl-8 h-auto w-full text-transform: capitalize"><li class="pb-2 flex  "><a href="/graduate-teacher/">graduate teacher</a></li><li class="pb-2 flex  "><a href="/library-services/">library services</a></li><li class="pb-2 flex  "><a href="/information-management/">information management</a></li><li class="pb-2 flex  "><a href="/schools-management/">schools management</a></li><li class="pb-2 flex  "><a href="/vocational-management/">vocational management</a></li><li class="pb-2 flex  "><a href="/principal/">principal</a></li><li class="pb-2 flex  "><a href="/student-services/">student services</a></li><li class="pb-2 flex  "><a href="/early-childhood/">early childhood</a></li><li class="pb-2 flex  "><a href="/primary/">primary</a></li><li class="pb-2 flex  "><a href="/secondary/">secondary</a></li><li class="pb-2 flex  "><a href="/tertiary/">tertiary</a></li><li class="pb-2 flex  "><a href="/vocational/">vocational</a></li><li class="pb-2 flex  "><a href="/special-needs-aides/">special needs aides</a></li><li class="pb-2 flex  "><a href="/tutoring/">tutoring</a></li><li class="pb-2 flex  "><a href="/training-assessment/">training assessment</a></li><li class="pb-2 flex  "><a href="/relief-teaching/">relief teaching</a></li><li class="pb-2 flex  "><a href="/administrative/">administrative</a></li></ul><div class="newLine"></div></div>
+
+
+
+          <div class="bg-white flex flex-col  "><h2 class="text-1xl font-bold py-1 px-7 border-2 border-[#f4a10c] text-[#f4a10c] rounded-3xl shadow-md  mt-20 ">Choose Teaching Jobs by City</h2><ul class=" mb-8 text-left columns-1 md:columns-4  md:gap-2 py-2 pl-8 h-auto w-full text-transform: capitalize"><li class="pb-2 flex  "><a href="/melbourne/">melbourne</a></li><li class="pb-2 flex  "><a href="/sydney/">sydney</a></li><li class="pb-2 flex md:break "><a href="/brisbane/">brisbane</a></li><li class="pb-2 flex md:break "><a href="/gold-coast/">gold coast</a></li><li class="pb-2 flex  "><a href="/canberra/">canberra</a></li><li class="pb-2 flex md:break "><a href="/perth/">perth</a></li><li class="pb-2 flex md:break "><a href="/darwin/">darwin</a></li></ul><div class="newLine"></div></div>
+
+         
+          <div class="bg-white flex flex-col  "><h2 class="text-1xl font-bold py-1 px-7 border-2 border-[#f4a10c] text-[#f4a10c] rounded-3xl shadow-md  mt-20 ">Choose Teaching Jobs by State</h2><ul class=" mb-8 text-left columns-1 md:columns-4  md:gap-2 py-2 pl-8 h-auto w-full text-transform: capitalize"><li class="pb-2 flex  "><a href="/victoria/">victoria</a></li><li class="pb-2 flex  "><a href="/NSW/">NSW</a></li><li class="pb-2 flex md:break "><a href="/queensland/">queensland</a></li><li class="pb-2 flex  "><a href="/south-australia/">south australia</a></li><li class="pb-2 flex md:break "><a href="/western-australia/">western australia</a></li><li class="pb-2 flex  "><a href="/northern-territory/">northern territory</a></li><li class="pb-2 flex md:break "><a href="/tasmania/">tasmania</a></li></ul><div class="newLine"></div></div>
+        
+
+        <h2 className="text-1xl font-bold py-1 px-7 border-2 border-[#e39e39] text-[#e39e39] rounded-3xl mt-20 shadow-md">Top Teaching Jobs at Schools</h2>
+        <div className="cate-group section23 ">
+          <div className="widget__text-block">
+            <div className="faculty-container grid-cols-2 grid md:grid-cols-4 gap-8 py-2 px-7">
+              <div className="column">
+                <ul className="">
+                  <li className='mb-1 mt-4'><Link to="/USA/" className='text-[#e39e39] font-bold'>NSW</Link></li>
+                  <ul className="innerUL">
+                    
+                   <li className='mb-2 '><Link to="/employers/sceggs-darlinghurst/15840/" >SCEGGS Darlinghurst</Link></li>
+                   <li className='mb-2 '><Link to="/employers/ascham-School/11527/" >Ascham  School</Link></li>
+                   <li className='mb-2 '><Link to="/employers/al-noori-muslim-school/15858/" >AL Noori Muslim school</Link></li>
+                   <li className='mb-2 '><Link to="/employers/sydney-grammar-school/11556/" >Sydney Grammar school</Link></li>
+                   <li className='mb-2 '><Link to="/employers/presbyterian-ladies-college-sydney/15839/" >Presbyterian Ladies College Sydney</Link></li>
+                   <li className='mb-2 '><Link to="/employers/meriden-school/15835/" >Meriden school</Link></li>
+                   <li className='mb-2 '><Link to="/employers/brisbane-girls-grammar-school/15844/" >Brisbane girls grammar-school</Link></li>
+                   <li className='mb-2 '><Link to="/employers/redeemer-baptist-school/15838/" >Redeemer Baptist school</Link></li>
+                   <li className='mb-2 '><Link to="employers/red-bend-catholic-college/1040/" >Red Bend Catholic college</Link></li>
+                   <li className='mb-2 '><Link to="/employers/brisbane-grammar-school/15837" >Brisbane Grammar school</Link></li>
+                   <li className='mb-2 '><Link to="/employers/queenwood/15859" >Queenwood</Link></li>
+
+                    
+                   
+                 
+                   
+                    
+                    
+                    
+                    
+                    
+                    
+                   
+                    
+                   
+                    
+                    
+                    
+                   
+                  </ul>
+                </ul>
+              </div>
+              <div className="column">
+                <ul className="">
+                  <li className='mb-1 mt-4'><Link to="/Australia/" className='text-[#e39e39] font-bold'>Victoria</Link></li>
+                  <ul className="innerUL">
+                 <li className='mb-2 '><Link to="/employers/victoria-state-government-education-and-training/19/" >Victoria State Government Education and Training</Link></li>
+                 <li className='mb-2 '><Link to="/employers/presbyterian-ladies-college/15842/" >Presbyterian Ladies College</Link></li>
+                 <li className='mb-2 '><Link to="/employers/st-aloysius-college/15841/" >St Aloysius College</Link></li>
+                 <li className='mb-2 '><Link to="/employers/ballarat-clarendon-college/15836/" >Ballarat Clarendon College</Link></li>
+                 <li className='mb-2 '><Link to="/employers/korowa-anglican-girls-school/15845/" >Korowa Anglican girls school</Link></li>
+                 <li className='mb-2 '><Link to="/employers/camberwell-grammar-school/15846/" >Camberwell Grammar school</Link></li>
+                 <li className='mb-2 '><Link to="/employers/st-andrews-christian-college/15856/" >St Andrews Christian College</Link></li>
+                 <li className='mb-2 '><Link to="/employers/haileybury-college/15855/" >Haileybury College</Link></li>
+                 <li className='mb-2 '><Link to="/employers/christ-church-grammar-school/15860/" >Christ Church Grammar school</Link></li>
+                 <li className='mb-2 '><Link to="/employers/huntingtower-school/15834/" >Huntingtower school</Link></li>
+                 <li className='mb-2 '><Link to="/employers/belmont-christian-college/15898/" >Belmont Christian College</Link></li>
+                 <li className='mb-2 '><Link to="/employers/lighthouse-christian-college-cranbourne/15843/" >Lighthouse Christian College Cranbourne</Link></li>
+                 <li className='mb-2 '><Link to="/employers/fintona-girls-school/11527/" >Fintona girls school</Link></li>
+
+                    
+                  </ul>
+                
+                </ul>
+              </div>
+              <div className="column">
+                <ul className="">
+                <li className='mb-1 mt-4'><Link to="/UK/" className='text-[#e39e39] font-bold'>Queensland</Link></li>
+                  <ul className="innerUL">
+                 <li className='mb-2 '><Link to="/employers/queensland-government-department-of-education/18/" >Queensland - Government - Department of Education</Link></li>
+                   <li className='mb-2 '><Link to="/employers/catholic-education-services-diocese-of-cairns/60/" >Catholic - Education services Diocese of Cairns</Link></li>
+                   <li className='mb-2 '><Link to="/employers/townsville-catholic-education-office/35/" >Townsville Catholic Education Office</Link></li>
+                   <li className='mb-2 '><Link to="/employers/somerville-house/15847/" >Somerville House</Link></li>
+                    
+                  </ul>
+                  <li className='mb-1 mt-4'><Link to="/Europe/" className='text-[#e39e39] font-bold'>ACT</Link></li>
+                  <ul className="innerUL">
+                 <li className='mb-2 '><Link to="/employers/act-government-department-of-education/20/" >ACT Government - Department of Education</Link></li>
+                 <li className='mb-2 '><Link to="/employers/orana-steiner-school/14803/" >Orana Steiner school</Link></li>
+                    </ul>
+
+
+
+                </ul>
+              </div>
+              <div className="column">
+                <ul className="">
+                  <li className='mb-1 mt-4'><Link to="/Europe/" className='text-[#e39e39] font-bold'>Western Australia</Link></li>
+                  <ul className="innerUL">
+                    
+                    
+                   <li className='mb-2 '><Link to="/employers/international-school-of-western-australia/15848/" >International School of Western Australia</Link></li>
+                    
+                   <li className='mb-2 '><Link to="/employers/st-hildas-anglican-school-for-girls/11459/" >St Hildas Anglican school for girls</Link></li>
+                   
+                    
+                  </ul>
+                  <li className='mb-1 mt-4'><Link to="/Europe/" className='text-[#e39e39] font-bold'>South Australia</Link></li>
+                  <ul className="innerUL">
+                 <li className='mb-2 '><Link to="/employers/government-of-south-australia-department-for-education/17/" >Government of South Australia Department for Education</Link></li>
+                   
+                    </ul>
+                    <li className='mb-1 mt-4'><Link to="/Europe/" className='text-[#e39e39] font-bold'>Nothern Territory</Link></li>
+                  <ul className="innerUL">
+                 <li className='mb-2 '><Link to="/employers/northern-territory-department-of-education/21/" >Northern Territory Department of Education</Link></li>
+                  
+                   
+                    </ul>
+                    <li className='mb-1 mt-4'><Link to="/Europe/" className='text-[#e39e39] font-bold'>Tasmania</Link></li>
+                  <ul className="innerUL">
+                 <li className='mb-2 '><Link to="/employers/tasmanian-government-education/12/" >Tasmanian Government Education</Link></li>
+                   
+                    </ul>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        
         <Link className='text-[#e39e39] mt-4 mb-4 px-2 hidden' to='/jobs/'>← view more</Link>
         <h2 className="text-1xl font-bold py-1 px-7 border-2 border-[#e39e39] text-[#e39e39] rounded-3xl mt-20 shadow-md hidden">Top Universities To Work For</h2>
         <div className="cate-group section23 hidden">
