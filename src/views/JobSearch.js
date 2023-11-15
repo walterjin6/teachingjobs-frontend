@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react'
+import React, { useState, useEffect, useLayoutEffect, useRef } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 import { store } from '../store/store'
 import { apiSlice } from '../store/apiSlice'
@@ -15,7 +15,18 @@ import { Helmet } from "react-helmet";
 import { filterType } from "../utils/data";
 import { BsHandbag } from 'react-icons/bs';
 const JobSearch = () => {
+  
+  const job = useSelector((state) => state.posts.job)
+  const componentRef = useRef(null);
+  useLayoutEffect(() => {
+    console.log("useLayoutEffect");
+    if (componentRef.current) {
+      console.log("Scrolling to top");
+      componentRef.current.scrollTop = 0;
+    }
+  }, [job]);
   const region = useSelector((state) => state.posts.region)
+  
   const [isShowFilter, setIsShowFilter] = useState(false)
   const [filter1, setfilter] = useState([])
   const [filterTypes, setfilterTypes] = useState(filterType)
@@ -172,7 +183,7 @@ const JobSearch = () => {
           <div className='flex flex-col md:flex  md:justify-start py-4 px-6 mb-4 md:' >
             < div className='px-2 pb-4 flex justify-start items-start  font-bold gap-2 ' >
               <BsHandbag />
-              {qty && <span>{`${qty} jobs found`}</span>}
+              {qty && <h1>{`${qty} jobs found`}</h1>}
             </div >
             <div className=' flex flex-col hidden md:block '>
               {// 顶层已选X  top
@@ -277,9 +288,9 @@ const JobSearch = () => {
               </div>
             </div>
           </details>
-          <div className='flex  w-full h-screen  justify-between'>
-            <div className='overflow-y-auto md:w-[40%] h-screen' ><JobList endOfJobs={qty < ((page + 1) * 20)} data={data} nextPage={nextPage} /></div>
-            <div className=' hidden md:block overflow-y-auto w-[60%] h-screen'><JobDetail /></div>
+          <div className='flex  w-full gap-4  justify-between'>
+            <div className='overflow-y-auto md:w-[40%] ' ><JobList endOfJobs={qty < ((page + 1) * 20)} data={data} nextPage={nextPage} /></div>
+            <div ref={componentRef}  className=' hidden md:block overflow-y-auto w-[60%] top-0 h-screen sticky'><JobDetail /></div>
           </div>
         </div>
       )
