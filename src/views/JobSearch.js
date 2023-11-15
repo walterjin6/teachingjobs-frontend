@@ -183,7 +183,7 @@ const JobSearch = () => {
           <div className='flex flex-col md:flex  md:justify-start py-4 px-6 mb-4 md:' >
             < div className='px-2 pb-4 flex justify-start items-start  font-bold gap-2 ' >
               <BsHandbag />
-              {qty && <h1>{`${qty} jobs found`}</h1>}
+              {qty && <h1>{`${qty} teaching jobs found`}</h1>}
             </div >
             <div className=' flex flex-col hidden md:block '>
               {// 顶层已选X  top
