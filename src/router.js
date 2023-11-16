@@ -45,6 +45,7 @@ import PostJob from "./views/PostJob"
 import Rankings from "./views/Rankings"
 import FAQ from "./views/FAQ"
 import ContactUs from "./views/ContactUs"
+import Nominate from "./views/Nominate"
 import DiversayStatement from "./views/DiversayStatement"
 import FindEmployers from "./views/FindEmployers"
 import Australia from "./views/Australia"
@@ -103,9 +104,9 @@ import WesternAustralia from "./views/WesternAustralia"
 import SouthAustralia from "./views/SouthAustralia" 
 import NorthernTerritory from "./views/NorthernTerritory"    
 import Canberra from "./views/Canberra"   
-import GoldCoast from "./views/GoldCoast"   
-import Brisbane from "./views/Brisbane"  
-import Melbourne from "./views/Melbourne"
+import GoldCoast from "./views/GoldCoast" 
+const AppRouter = () => {
+  return (
     <BrowserRouter>
       <Scroll2Top>
         <Routes>
@@ -181,6 +182,7 @@ import Melbourne from "./views/Melbourne"
             <Route exact path='/about/diversity-statement/' element={<DiversayStatement />} />
             <Route exact path='/faq' element={<FAQ />} />
             <Route exact path='/contact-us/' element={<ContactUs />} />
+            <Route exact path='/nominate/' element={<Nominate />} />
             <Route exact path='/employers/' element={<FindEmployers />} />
             <Route exact path='/sitemap/' element={<SiteMap />} />
             <Route exact path='/Australia/faq/' element={<FAQaustralia />} />

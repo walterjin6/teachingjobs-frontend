@@ -182,7 +182,7 @@ const Home = () => {
           
             </ul>
           </div>
-          <div className=" mt-4 pb-8" >
+          <div className=" mt-4 " >
             <ul className="faculty-container flex  gap-4 items-center justify-center text-[#e39e39] ">
            
              <li className='mb-2 hover:underline'><Link to="/jobs/remote/" >	Remote</Link></li>
@@ -191,7 +191,16 @@ const Home = () => {
              <li className='mb-2 hover:underline'><Link to="/jobs/casual/" >	Casual</Link></li>
             </ul>
           </div>
-          <div className="text-[#e39e39]  flex flex-col items-center justify-center  text-2xl pt-8  animate-bounce h-6" >
+
+          <div className=" mt-4 pb-4" >
+            <ul className="faculty-container flex  gap-4 items-center justify-center text-[#e39e39] font-bold ">
+           
+             <li className='mb-2 hover:underline'><Link to="/nominate/" >	Nominate a Principal for 2023</Link></li>
+      
+            </ul>
+          </div>
+
+          <div className="text-[#e39e39]  flex flex-col items-center justify-center  text-2xl pt-4  animate-bounce h-6" >
             <a >▼</a></div>
         </div>
       </div>
