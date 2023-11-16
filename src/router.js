@@ -92,6 +92,7 @@ import HRAustralia from "./views/HRAustralia"
 import IndigenousAustralia from "./views/IndigenousAustralia"
 import StudentsAustralia from "./views/StudentsAustralia"
 import Scroll2Top from "./utils/Scroll2Top"
+import Victoria from "./views/Victoria"
 const AppRouter = () => {
   return (
     <BrowserRouter>
@@ -193,6 +194,7 @@ const AppRouter = () => {
             <Route exact path='/Canada/' element={<Canada />} />
             <Route exact path='/Europe/' element={<Europe />} />
             <Route exact path='/Middle-East/' element={<MiddleEast />} />
+            <Route exact path='/Victoria/' element={<Victoria />} />
             {/* <Route path='/:name' element={<Region />} /> */}
           </Route>
         </Routes>
