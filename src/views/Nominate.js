@@ -39,13 +39,12 @@ const Nominate = () => {
       </Helmet>
 
             <div className="px-7 py-8 container mx-auto py-16">
-                <h1 className="text-5xl font-semibold  text-[#f4a10c] ">LET’S GET TOGETHER!</h1>
-                <h4 className=" text-gray-700 text-lg mt-4">Tell us what you need, and we will be straight back to you.
-We make it easy for you at Teaching Jobs!</h4>
-                <h4 className=" text-[#f4a10c] text-lg mt-4"> </h4>
-                <h4 className=" text-[#f4a10c] text-lg mt-4"> <span className="font-semibold">Fun Fact: </span> Did you know that TeachingJobs.com is the fastest growing job board by audience.
-and job numbers than any other higher education job board?  Yep, our mothers are super proud of us!  </h4>
-
+                <h1 className="text-5xl font-semibold  text-[#f4a10c] ">Nominate a Principal for 2023!</h1>
+                <h4 className=" text-gray-700 text-lg mt-4">
+</h4>
+                <h4 className=" text-gray-700 text-lg mt-4"> Nominating a school principal for an award is a great way to show your appreciation and support for their work. It can also help them gain recognition and visibility in the education sector, and inspire others to follow their example.</h4>
+                <h4 className=" text-[#f4a10c] text-lg mt-4"> <span className="font-semibold">To nominate a school principal for an THE BEST PRINCIPLE AWARD 2023, you need to: </span>  </h4>
+                <h4 className=" text-[#f4a10c] text-lg mt-4 pb-8"> Write a nomination letter that explains why you think they deserve the award. </h4>
 
 
     <div className="p-4 bg-gray-100 mt-[3rem] hidden">
@@ -85,7 +84,7 @@ and job numbers than any other higher education job board?  Yep, our mothers are
                                     id="name-input"
                                     name="name"
                                     className="w-full px-4 py-3 bg-gray-200 rounded-lg text-black focus:outline-none focus:border-orange-500"
-                                    placeholder="Name"
+                                    placeholder="Nominee"
                                     onChange={handleChange}
                                 />
                             </div>
