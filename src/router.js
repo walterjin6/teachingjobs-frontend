@@ -93,7 +93,17 @@ import IndigenousAustralia from "./views/IndigenousAustralia"
 import StudentsAustralia from "./views/StudentsAustralia"
 import Scroll2Top from "./utils/Scroll2Top"
 import Victoria from "./views/Victoria" 
-import Sydney from "./views/Sydney"
+import Sydney from "./views/Sydney" 
+import Perth from "./views/Perth" 
+import Queensland from "./views/Queensland" 
+import NSW from "./views/NSW" 
+import Darwin from "./views/Darwin" 
+import Tasmania from "./views/Tasmania" 
+import WesternAustralia from "./views/WesternAustralia"  
+import SouthAustralia from "./views/SouthAustralia" 
+import NorthernTerritory from "./views/NorthernTerritory"    
+import Canberra from "./views/Canberra"   
+import GoldCoast from "./views/GoldCoast" 
 const AppRouter = () => {
   return (
     <BrowserRouter>
@@ -196,7 +206,17 @@ const AppRouter = () => {
             <Route exact path='/Europe/' element={<Europe />} />
             <Route exact path='/Middle-East/' element={<MiddleEast />} />
             <Route exact path='/Victoria/' element={<Victoria />} />  
-            <Route exact path='/Sydney/' element={<Sydney />} />
+            <Route exact path='/Sydney/' element={<Sydney />} /> 
+            <Route exact path='/Perth/' element={<Perth />} /> 
+            <Route exact path='/Queensland/' element={<Queensland />} />   
+            <Route exact path='/NSW/' element={<NSW />} /> 
+            <Route exact path='/Darwin/' element={<Darwin />} /> 
+            <Route exact path='/Tasmania/' element={<Tasmania />} />   
+            <Route exact path='/WesternAustralia/' element={<WesternAustralia />} />  
+            <Route exact path='/SouthAustralia/' element={<SouthAustralia />} />      
+            <Route exact path='/NorthernTerritory/' element={<NorthernTerritory />} />   
+            <Route exact path='/Canberra/' element={<Canberra />} />    
+            <Route exact path='/GoldCoast/' element={<GoldCoast />} /> 
             {/* <Route path='/:name' element={<Region />} /> */}
           </Route>
         </Routes>
