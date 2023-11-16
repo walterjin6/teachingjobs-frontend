@@ -25,7 +25,7 @@ const NSW = () => {
 
     <div className="">
       <Helmet>
-        <title>PhD Jobs</title>
+        <title>NSW</title>
         <meta name="description" content="Do you wish to apply for a teaching job in NSW? Visit our website today at Teaching Jobs, to see all our available positions throughout NSW. Apply online now!" />
         <meta name="keywords" content="nsw teaching jobs . new south whales teaching positions" />
       </Helmet>
