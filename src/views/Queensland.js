@@ -84,7 +84,7 @@ const Queensland = () => {
 
 
 
-      <SearchResults q={{ q: "", l:"sydney"  }} />
+      <SearchResults q={{ q: "", l:"queensland"  }} />
     </div> </div>
 
   );
