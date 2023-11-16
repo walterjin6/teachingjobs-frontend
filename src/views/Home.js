@@ -172,17 +172,19 @@ const Home = () => {
                <li className='mb-2 hover:underline'><Link to="/early-childhood/" >	Kindergarten</Link></li>
                <li className='mb-2 hover:underline'><Link to="/primary/" >	Primary </Link></li>
                <li className='mb-2 hover:underline'><Link to="/secondary/" >	Secondary</Link></li>
+               
               </ul>
              
            
              <li className='mb-2 hover:underline'><Link to="/administrative/" >Admin</Link></li>
+             <li className='mb-2 hover:underline'><Link to="/jobs/online/" >	Online </Link></li>
             
           
             </ul>
           </div>
           <div className=" mt-4 pb-8" >
             <ul className="faculty-container flex  gap-4 items-center justify-center text-[#e39e39] ">
-             <li className='mb-2 hover:underline'><Link to="/jobs/online/" >	Online </Link></li>
+           
              <li className='mb-2 hover:underline'><Link to="/jobs/remote/" >	Remote</Link></li>
              <li className='mb-2 hover:underline'><Link to="/jobs/full-time/" >Full-Time</Link></li>
              <li className='mb-2 hover:underline'><Link to="/jobs/part-time/" >	Part-Time</Link></li>
@@ -201,9 +203,9 @@ const Home = () => {
             <p className="font-semibold"></p>
           </div>
           <div className="newLine">
-            <p className=" px-7 text-[#e39e39] text-2xl font-bold">Find all Australian Teaching Career opportunities here
+            <p className=" px-7 text-[#e39e39] text-2xl font-bold">Find all Australian Teaching Career opportunities here, we make it easy. 
 
-</p>
+</p><p className=" px-7 text-[#e39e39]  text-xl pt-4">It is time to shine in 2024, with finding your opportunities on TeachingJobs Today!</p>
             <p className=" px-7 text-[#334680]  text-xl pt-4">Kindergarten Jobs | Primary School Jobs | Secondary School Jobs</p>
             <p className=" px-7"></p>
           </div>
