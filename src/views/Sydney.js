@@ -6,7 +6,7 @@ import SearchResults from './SearchResults';
 
 import { Link } from 'react-router-dom'
 
-const Victoria = () => {
+const Sydney = () => {
   const handleFormSubmit = (event) => {
 
     event.preventDefault();
@@ -25,12 +25,12 @@ const Victoria = () => {
 
     <div className="">
       <Helmet>
-        <title>victoria</title>
-        <meta name="description" content="Teaching Jobs in Victoria are now available through our job board at Teaching Jobs. Browse our website to see the available employment positions throughout Victoria." />
-        <meta name="keywords" content="victoria teaching jobs . melbourne teaching jobs" />
+        <title>PhD Jobs</title>
+        <meta name="description" content="Discover flexible and fulfilling on-campus employment opportunities for Ph.D. candidates. Explore a myriad of PhD positions across diverse departments at your university. Take the next step in your career, apply today, and cultivate valuable work experience and skills." />
+        <meta name="keywords" content="PhD Jobs , PhD academic Jobs" />
       </Helmet>
       <div className="blurb text-left py-8 ">
-        <h1 className=" font-bold text-lg md:text-2xl py-4 px-7 bg-[#f4a10c] text-white rounded-full shadow-xl ">Victoria | Job Vacancies Online</h1>
+        <h1 className=" font-bold text-lg md:text-2xl py-4 px-7 bg-[#f4a10c] text-white rounded-full shadow-xl ">Graduate Jobs</h1>
 
         <div className="newLine mb-4">
           <p className="font-semibold"></p>
@@ -39,7 +39,7 @@ const Victoria = () => {
         <div className="newLine">
           <div className="py-4 px-7 rounded-2xl ">
 
-            <p >If you’re on the hunt for teaching jobs in Victoria, TeachingJobs is able to provide you with Australia’s largest resource of employment opportunities. We take the stress out of finding a new teaching job by providing you with an unbeatable selection of exciting job vacancies at your fingertips.By making a profile with us, you’ll be kept up to date on all the latest openings in your area and be the first to know about any new positions. Demonstrate your qualifications, skills and experience to recruiters and get yourself noticed. Whether you’re looking for something in the inner-north of Melbourne or the south-east of Victoria, we have plenty of jobs waiting for the perfect candidate.  </p>
+            <p >PhD jobs on campus involve working part-time or casually in various roles and departments within a university or research institute setting. These jobs provide PhD graduates with the opportunity to earn income, gain valuable work experience, develop employability skills, and enhance their academic and social networks. PhD jobs on campus can cover administration, customer service, events, marketing, IT, library, research, teaching, and other roles. You can find hundreds of job postings from universities across Australia and around the world. Gain valuable work experience and skills by applying today!  </p>
           </div>
           <div className="newLine mb-2"></div>
    
@@ -84,10 +84,10 @@ const Victoria = () => {
 
 
 
-      <SearchResults q={{ q: "", l:"victoria"  }} />
+      <SearchResults q={{ q: "", l:"sydney"  }} />
     </div> </div>
 
   );
 };
 
-export default Victoria;
+export default Sydney;
