@@ -103,9 +103,9 @@ import WesternAustralia from "./views/WesternAustralia"
 import SouthAustralia from "./views/SouthAustralia" 
 import NorthernTerritory from "./views/NorthernTerritory"    
 import Canberra from "./views/Canberra"   
-import GoldCoast from "./views/GoldCoast" 
-const AppRouter = () => {
-  return (
+import GoldCoast from "./views/GoldCoast"   
+import Brisbane from "./views/Brisbane"  
+import Melbourne from "./views/Melbourne"
     <BrowserRouter>
       <Scroll2Top>
         <Routes>
@@ -216,7 +216,9 @@ const AppRouter = () => {
             <Route exact path='/SouthAustralia/' element={<SouthAustralia />} />      
             <Route exact path='/NorthernTerritory/' element={<NorthernTerritory />} />   
             <Route exact path='/Canberra/' element={<Canberra />} />    
-            <Route exact path='/GoldCoast/' element={<GoldCoast />} /> 
+            <Route exact path='/GoldCoast/' element={<GoldCoast />} />    
+            <Route exact path='/ Brisbane/' element={< Brisbane />} />    
+            <Route exact path='/  Melbourne/' element={<  Melbourne />} />  
             {/* <Route path='/:name' element={<Region />} /> */}
           </Route>
         </Routes>
