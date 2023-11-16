@@ -25,12 +25,12 @@ const Queensland = () => {
 
     <div className="">
       <Helmet>
-        <title>PhD Jobs</title>
-        <meta name="description" content="Discover flexible and fulfilling on-campus employment opportunities for Ph.D. candidates. Explore a myriad of PhD positions across diverse departments at your university. Take the next step in your career, apply today, and cultivate valuable work experience and skills." />
-        <meta name="keywords" content="PhD Jobs , PhD academic Jobs" />
+        <title>Queensland</title>
+        <meta name="description" content="Teaching Jobs have teaching jobs in QLD available throughout the state. Visit our website to see the employment positions available in private, public and catholic schools." />
+        <meta name="keywords" content="queensland teaching jobs . queensland teaching positions" />
       </Helmet>
       <div className="blurb text-left py-8 ">
-        <h1 className=" font-bold text-lg md:text-2xl py-4 px-7 bg-[#f4a10c] text-white rounded-full shadow-xl ">Graduate Jobs</h1>
+        <h1 className=" font-bold text-lg md:text-2xl py-4 px-7 bg-[#f4a10c] text-white rounded-full shadow-xl ">Queensland | Apply Online - Job Vacancies</h1>
 
         <div className="newLine mb-4">
           <p className="font-semibold"></p>
@@ -39,7 +39,7 @@ const Queensland = () => {
         <div className="newLine">
           <div className="py-4 px-7 rounded-2xl ">
 
-            <p >PhD jobs on campus involve working part-time or casually in various roles and departments within a university or research institute setting. These jobs provide PhD graduates with the opportunity to earn income, gain valuable work experience, develop employability skills, and enhance their academic and social networks. PhD jobs on campus can cover administration, customer service, events, marketing, IT, library, research, teaching, and other roles. You can find hundreds of job postings from universities across Australia and around the world. Gain valuable work experience and skills by applying today!  </p>
+            <p >Looking for a new challenge? Looking for teaching jobs in Queensland? TeachingJobs is Australia’s leading jobsite for employment resources for education professionals, providing an unbeatable selection of job vacancies across various positions. Covering all types of schools from Christian to Catholic, kindergarten to secondary and everything in between, we have an extensive selection of jobs available for all education professionals.The perfect QLD teacher jobs can be difficult to come by when taking into consideration your personal preferences, skills and qualifications. Sign up to TeachingJobs today and we will do all the hard work for you and notify you of any available positions that match your criteria. This way, you won’t miss out on any dream education jobs you’ve been searching for and can be confident that no opportunities are passing you by.  </p>
           </div>
           <div className="newLine mb-2"></div>
    

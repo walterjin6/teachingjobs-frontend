@@ -6,7 +6,7 @@ import SearchResults from './SearchResults';
 
 import { Link } from 'react-router-dom'
 
-const SouthAustralia = () => {
+const Melbourne = () => {
   const handleFormSubmit = (event) => {
 
     event.preventDefault();
@@ -25,12 +25,12 @@ const SouthAustralia = () => {
 
     <div className="">
       <Helmet>
-        <title>South Australia</title>
-        <meta name="description" content="At Teaching Jobs, we have a wide range of job vacancies & employments for teaching in Adelaide. Visit our job board for private and public jobs. Apply online now!" />
-        <meta name="keywords" content="aidelaide teaching jobs . south australia teaching jobs" />
+        <title>PhD Jobs</title>
+        <meta name="description" content="Discover flexible and fulfilling on-campus employment opportunities for Ph.D. candidates. Explore a myriad of PhD positions across diverse departments at your university. Take the next step in your career, apply today, and cultivate valuable work experience and skills." />
+        <meta name="keywords" content="PhD Jobs , PhD academic Jobs" />
       </Helmet>
       <div className="blurb text-left py-8 ">
-        <h1 className=" font-bold text-lg md:text-2xl py-4 px-7 bg-[#f4a10c] text-white rounded-full shadow-xl ">South Australia | Apply Online | Vacancies</h1>
+        <h1 className=" font-bold text-lg md:text-2xl py-4 px-7 bg-[#f4a10c] text-white rounded-full shadow-xl ">Graduate Jobs</h1>
 
         <div className="newLine mb-4">
           <p className="font-semibold"></p>
@@ -39,7 +39,7 @@ const SouthAustralia = () => {
         <div className="newLine">
           <div className="py-4 px-7 rounded-2xl ">
 
-            <p >If you’re looking for teaching jobs in Adelaide, TeachingJobs has you covered. We are Australia’s #1 education jobsite with the most comprehensive collection of education jobs available online. We take pride in connecting top educators with fulfilling positions that allow them to inspire, lead and enlighten.Wherever you are in Adelaide, from Mount Osmond to Woodville South, TeachingJobs has a varied range of positions ready for you to browse. Regardless of whether you’re looking for a primary teaching job in Adelaide, a casual relief teaching position or a school aide job, we have plenty of rewarding employment openings just waiting for you to apply. </p>
+            <p >PhD jobs on campus involve working part-time or casually in various roles and departments within a university or research institute setting. These jobs provide PhD graduates with the opportunity to earn income, gain valuable work experience, develop employability skills, and enhance their academic and social networks. PhD jobs on campus can cover administration, customer service, events, marketing, IT, library, research, teaching, and other roles. You can find hundreds of job postings from universities across Australia and around the world. Gain valuable work experience and skills by applying today!  </p>
           </div>
           <div className="newLine mb-2"></div>
    
@@ -84,10 +84,10 @@ const SouthAustralia = () => {
 
 
 
-      <SearchResults q={{ q: "", l:"southaustralia"  }} />
+      <SearchResults q={{ q: "", l:"sydney"  }} />
     </div> </div>
 
   );
 };
 
-export default SouthAustralia;
+export default Melbourne;

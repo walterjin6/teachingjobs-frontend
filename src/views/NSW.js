@@ -25,12 +25,12 @@ const NSW = () => {
 
     <div className="">
       <Helmet>
-        <title>PhD Jobs</title>
-        <meta name="description" content="Discover flexible and fulfilling on-campus employment opportunities for Ph.D. candidates. Explore a myriad of PhD positions across diverse departments at your university. Take the next step in your career, apply today, and cultivate valuable work experience and skills." />
-        <meta name="keywords" content="PhD Jobs , PhD academic Jobs" />
+        <title>NSW</title>
+        <meta name="description" content="Do you wish to apply for a teaching job in NSW? Visit our website today at Teaching Jobs, to see all our available positions throughout NSW. Apply online now!" />
+        <meta name="keywords" content="nsw teaching jobs . new south whales teaching positions" />
       </Helmet>
       <div className="blurb text-left py-8 ">
-        <h1 className=" font-bold text-lg md:text-2xl py-4 px-7 bg-[#f4a10c] text-white rounded-full shadow-xl ">Graduate Jobs</h1>
+        <h1 className=" font-bold text-lg md:text-2xl py-4 px-7 bg-[#f4a10c] text-white rounded-full shadow-xl ">NSW | Apply Online | Job Vacancies</h1>
 
         <div className="newLine mb-4">
           <p className="font-semibold"></p>
@@ -39,7 +39,7 @@ const NSW = () => {
         <div className="newLine">
           <div className="py-4 px-7 rounded-2xl ">
 
-            <p >PhD jobs on campus involve working part-time or casually in various roles and departments within a university or research institute setting. These jobs provide PhD graduates with the opportunity to earn income, gain valuable work experience, develop employability skills, and enhance their academic and social networks. PhD jobs on campus can cover administration, customer service, events, marketing, IT, library, research, teaching, and other roles. You can find hundreds of job postings from universities across Australia and around the world. Gain valuable work experience and skills by applying today!  </p>
+            <p >If you’re looking for the latest job opportunities in the education sector, look no further than Teaching Jobs. Finding the right teaching jobs in NSW can be difficult and time-consuming, but we go out of our way to make your job hunt as smooth and painless as possible. By making an online profile on our site, you’ll be the first to know about exciting new employment opportunities and NSW teacher jobs. By entering your preferences, you are able to filter out jobs that don’t match your criteria and only be shown vacancies that align with your skills, qualifications and goals.  </p>
           </div>
           <div className="newLine mb-2"></div>
    
