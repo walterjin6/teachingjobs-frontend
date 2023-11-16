@@ -33,35 +33,35 @@ const ContactUs = () => {
     return (
         <div className="">
 <Helmet>
-        <title>Contact Academic Jobs</title>
-        <meta name="description" content="Contact our knowledgeable team today for assistance and information on our number 1 academic job board site in higher education and academia. " />
-        <meta name="keywords" content="Contact Academicjobs, Contact Academic Jobs, Academicjobs Contact " />
+        <title>Contact Teaching Jobs</title>
+        <meta name="description" content="Contact our knowledgeable team today for assistance and information on our number 1 Teaching job board site in higher education and academia. " />
+        <meta name="keywords" content="Contact Teachingjobs, Contact Teaching Jobs, Teachingjobs Contact " />
       </Helmet>
 
             <div className="px-7 py-8 container mx-auto py-16">
                 <h1 className="text-5xl font-semibold  text-[#f4a10c] ">LET’S GET TOGETHER!</h1>
                 <h4 className=" text-gray-700 text-lg mt-4">Tell us what you need, and we will be straight back to you.
-We make it easy for you at Academic Jobs!</h4>
+We make it easy for you at Teaching Jobs!</h4>
                 <h4 className=" text-[#f4a10c] text-lg mt-4"> </h4>
-                <h4 className=" text-[#f4a10c] text-lg mt-4"> <span className="font-semibold">Fun Fact: </span> Did you know that AcademicJobs.com is the fastest growing job board by audience.
+                <h4 className=" text-[#f4a10c] text-lg mt-4"> <span className="font-semibold">Fun Fact: </span> Did you know that TeachingJobs.com is the fastest growing job board by audience.
 and job numbers than any other higher education job board?  Yep, our mothers are super proud of us!  </h4>
 
 
 
-    <div className="p-4 bg-gray-100 mt-[3rem] ">
+    <div className="p-4 bg-gray-100 mt-[3rem] hidden">
       <p className="mb-4 text-lg font-semibold text-[#f4a10c]">Drop us an email:</p>
       <ul className="list-disc ml-6 space-y-2">
         <li>
-          <span className="font-semibold">University and College Advertisers:</span> BestResults (AT) Academicjobs.com
+          <span className="font-semibold">University and College Advertisers:</span> BestResults (AT) Teachingjobs.com
         </li>
         <li>
-          <span className="font-semibold">Academics and Higher Ed Staff:</span> TheBestJobs (AT) AcademicJobs.com
+          <span className="font-semibold">Teachings and Higher Ed Staff:</span> TheBestJobs (AT) TeachingJobs.com
         </li>
         <li>
-          <span className="font-semibold">Student Jobs on Campus:</span> StudentWork (AT) AcademicJobs.com
+          <span className="font-semibold">Student Jobs on Campus:</span> StudentWork (AT) TeachingJobs.com
         </li>
         <li>
-          <span className="font-semibold">Academic Talent Pool:</span> TalentPool (AT) AcadmeicJobs.com
+          <span className="font-semibold">Teaching Talent Pool:</span> TalentPool (AT) AcadmeicJobs.com
         </li>
       </ul>
       <p className="mt-4">Or call us:</p>
@@ -69,14 +69,14 @@ and job numbers than any other higher education job board?  Yep, our mothers are
 
 
 
-<Link to="https://iloveacademicjobs.com/contact/"><img
-          src="https://academicjobs.s3.amazonaws.com/img/_misc/contact-us.jpeg"
+<Link to="https://iloveTeachingjobs.com/contact/"><img
+          src="https://Teachingjobs.s3.amazonaws.com/img/_misc/contact-us.jpeg"
           alt="contact us"
           className="  mt-[4rem] hidden  "
           
         /></Link>
 
-                <form className="mt-8 hidden" onSubmit={handleSubmit}>
+<form className="mt-8" onSubmit={handleSubmit}>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                         <div className="col-span-1">
                             <div className="relative">
@@ -84,11 +84,10 @@ and job numbers than any other higher education job board?  Yep, our mothers are
                                     type="text"
                                     id="name-input"
                                     name="name"
-                                    className="w-full px-4 py-3 bg-gray-300 rounded-lg text-white focus:outline-none focus:border-orange-500"
+                                    className="w-full px-4 py-3 bg-gray-200 rounded-lg text-black focus:outline-none focus:border-orange-500"
                                     placeholder="Name"
                                     onChange={handleChange}
                                 />
-
                             </div>
                         </div>
                         <div className="col-span-1">
@@ -97,11 +96,10 @@ and job numbers than any other higher education job board?  Yep, our mothers are
                                     type="text"
                                     id="email-input"
                                     name="email"
-                                    className="w-full px-4 py-3 bg-gray-300 rounded-lg text-white focus:outline-none focus:border-orange-500"
+                                    className="w-full px-4 py-3 bg-gray-200 rounded-lg text-black focus:outline-none focus:border-orange-500"
                                     placeholder="Email"
                                     onChange={handleChange}
                                 />
-
                             </div>
                         </div>
                         <div className="col-span-1">
@@ -110,11 +108,10 @@ and job numbers than any other higher education job board?  Yep, our mothers are
                                     type="text"
                                     id="phone-input"
                                     name="phone"
-                                    className="w-full px-4 py-3 bg-gray-300 rounded-lg text-white focus:outline-none focus:border-orange-500"
+                                    className="w-full px-4 py-3 bg-gray-200 rounded-lg text-black focus:outline-none focus:border-orange-500"
                                     placeholder="Phone Number"
                                     onChange={handleChange}
                                 />
-
                             </div>
                         </div>
                         <div className="col-span-2">
@@ -122,12 +119,11 @@ and job numbers than any other higher education job board?  Yep, our mothers are
                                 <textarea
                                     id="description-input"
                                     name="desc"
-                                    className="w-full px-4 py-3 bg-gray-300 rounded-lg text-white focus:outline-none focus:border-orange-500"
+                                    className="w-full px-4 py-3 bg-gray-200 rounded-lg text-black focus:outline-none focus:border-orange-500"
                                     placeholder="Message"
                                     onChange={handleChange}
                                 />
                                 <label htmlFor="description-input" className="absolute left-4 top-2 text-gray-600 transition-all">
-
                                 </label>
                             </div>
                         </div>
@@ -135,20 +131,20 @@ and job numbers than any other higher education job board?  Yep, our mothers are
                     <div className="text-right mt-6">
                         <button
                             type="submit"
-                            className="px-6 py-2 rounded-full bg-transparent border-2 border-orange-500 text-orange-500 font-semibold hover:bg-[#f4a10c] hover:text-white transition duration-300 ease-in-out"
+                            className="px-6 py-2 rounded-full bg-transparent border-2 border-orange-500 text-orange-500 font-semibold hover:bg-[#f4a10c] hover:text-black transition duration-300 ease-in-out"
                         >
                             Send
                         </button>
                     </div>
                     {submitStatus === 'success' && (
-                        <p className="mt-4 text-center text-green-500">Thank you for your message/feedback, our team will get back to you soon!</p>
+                        <p className="mt-4 text-center text-2xl font-bold text-green-500">Thank you for your message/feedback, our team will get back to you soon!</p>
                     )}
                     {submitStatus === 'error' && (
-                        <p className="mt-4 text-center text-red-500">An unknown error occurred.</p>
+                        <p className="mt-4 text-center text-2xl font-bold text-red-500">An unknown error occurred.</p>
                     )}
                 </form>
             </div>
-            <div className="mainContent px-7 pb-4 ">
+            <div className="mainContent px-7 pb-4 hidden">
                 <div className="container1b bg-white text-[#f4a10c] font-openSans font-bold py-4" >
                     GLOBAL OFFICE PHONE NUMBERS
                 </div>
