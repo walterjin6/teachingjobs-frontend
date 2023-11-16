@@ -25,12 +25,12 @@ const Sydney = () => {
 
     <div className="">
       <Helmet>
-        <title>Sydney | Apply Online - Job Vacancies</title>
+        <title>Sydney </title>
         <meta name="description" content="Are you searching for a teaching job in the Sydney? Visit our website at Teaching Jobs, to see our available employment positions for teaching jobs in Sydney" />
         <meta name="keywords" content="teaching Jobs Sydney, teaching positions Sydney" />
       </Helmet>
       <div className="blurb text-left py-8 ">
-        <h1 className=" font-bold text-lg md:text-2xl py-4 px-7 bg-[#f4a10c] text-white rounded-full shadow-xl ">Graduate Jobs</h1>
+        <h1 className=" font-bold text-lg md:text-2xl py-4 px-7 bg-[#f4a10c] text-white rounded-full shadow-xl ">Sydney | Apply Online - Job Vacancies</h1>
 
         <div className="newLine mb-4">
           <p className="font-semibold"></p>
