@@ -39,7 +39,7 @@ const Adelaide = () => {
         <div className="newLine">
           <div className="py-4 px-7 rounded-2xl ">
 
-            <p >If you’re looking for teaching jobs in Adelaide, TeachingJobs has you covered. We are Australia’s #1 education jobsite with the most comprehensive collection of education jobs available online. We take pride in connecting top educators with fulfilling positions that allow them to inspire, lead and enlighten.Wherever you are in Adelaide, from Mount Osmond to Woodville South, TeachingJobs has a varied range of positions ready for you to browse. Regardless of whether you’re looking for a primary teaching job in Adelaide, a casual relief teaching position or a school aide job, we have plenty of rewarding employment openings just waiting for you to apply. </p>
+            <p >TeachingJobs provides all the information you need to find teaching positions in Adelaide. With the largest selection of education jobs available online, we are Australia's top job portal for education. We take great satisfaction in matching accomplished educators with rewarding roles that let them mentor, inspire, and educate.From Woodville South to Mount Osmond, everywhere in Adelaide has a variety of jobs available for you to peruse on TeachingJobs. We have several fulfilling work opportunities waiting for you to apply, whether you're seeking for a main teaching job in Adelaide, a casual relief teaching post, or a school assistant job. </p>
           </div>
           <div className="newLine mb-2"></div>
    
