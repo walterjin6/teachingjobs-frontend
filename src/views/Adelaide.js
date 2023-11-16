@@ -1,18 +1,13 @@
-
 import React, { useState, useEffect, useRef } from 'react'
+
+import { useParams, useNavigate } from 'react-router-dom';
 import { Helmet } from "react-helmet";
 import SearchResults from './SearchResults';
-import admin from "../utils/admin.json";
-import { useParams, useNavigate } from 'react-router-dom';
+
 import { Link } from 'react-router-dom'
 
-
-
-
 const Adelaide = () => {
-
   const handleFormSubmit = (event) => {
-
 
     event.preventDefault();
     const a = {}
@@ -25,18 +20,18 @@ const Adelaide = () => {
   const navigate = useNavigate()
   const keyWordRef = useRef('')
   const locationRef = useRef('')
-
   return (
 
-   
+
     <div className="">
       <Helmet>
-        <title> Academic Jobs Adelaide</title>
-        <meta name="description" content="Don’t miss this chance to work in one of the best academic environments in the world. Apply now for your dream academic job in Gold Coast! " />
-        <meta name="keywords" content="Adelaide Academic Jobs Australia, Adelaide AcademicJobs" />
+        <title>South Australia</title>
+        <meta name="description" content="At Teaching Jobs, we have a wide range of job vacancies & employments for teaching in Adelaide. Visit our job board for private and public jobs. Apply online now!" />
+        <meta name="keywords" content="aidelaide teaching jobs . south australia teaching jobs" />
       </Helmet>
       <div className="blurb text-left py-8 ">
-        <h1 className=" font-bold text-lg md:text-2xl py-4 px-7 bg-[#f4a10c] text-white rounded-full shadow-xl ">Adelaide Academic Jobs Australia</h1>
+        <h1 className=" font-bold text-lg md:text-2xl py-4 px-7 bg-[#f4a10c] text-white rounded-full shadow-xl ">South Australia | Apply Online | Vacancies</h1>
+
         <div className="newLine mb-4">
           <p className="font-semibold"></p>
           <p className="font-semibold"></p>
@@ -44,58 +39,21 @@ const Adelaide = () => {
         <div className="newLine">
           <div className="py-4 px-7 rounded-2xl ">
 
-            <p>The University of Adelaide, Flinders University, the University of South Australia provide a broad spectrum of academic programmes, spanning from business and law to science and engineering, health and medical, and the arts and humanities. To support their brilliance in research, teaching, and impact, you can become a member of their outstanding and cooperative academic communities.</p> </div>
-          <div className="newLine mb-2"></div>
-
-
-          <h2 className="text-1xl font-bold py-1 px-7 border-2 border-[#f4a10c] text-[#f4a10c] rounded-3xl  shadow-md">Top Australian Universities To Work For</h2>
-      <div className="cate-group section23 ">
-        <div className="widget__text-block">
-          <div className="faculty-container grid-cols-1 grid md:grid-cols-4 gap-4 py-2 px-7 pb-8">
-          <div className="column">
-              <ul className="">
-                <li className='mb-1 mt-4'><Link to="/employers/the-university-of-adelaide/3737/" className='text-[#A51C30] font-bold'>University of Adelaide</Link></li>
-                <ul className="innerUL">
-                  <li><Link to="/jobs/Adelaide/" >Adelaide Lecturing Jobs</Link></li>
-                  <li><Link to="/jobs/Adelaide/" >Adelaide Research Jobs</Link></li>
-                  <li><Link to="/jobs/Adelaide/" >Adelaide Professorial Jobs</Link></li>
-                  <li><Link to="/jobs/Adelaide/" >Adelaide Executive</Link></li>
-                  <li><Link to="/jobs/Adelaide/" >Adelaide Administration</Link></li>
-                  <li><Link to="/jobs/Adelaide/" >Adelaide Human Resources</Link></li>
-                </ul>
-              </ul>
-            </div>
-            <div className="column">
-              <ul className="">
-                <li className='mb-1 mt-4'><Link to="/employers/bond-university/3785/" className='text-[#f1b821] font-bold'>Flinders University</Link></li>
-                <ul className="innerUL">
-                  <li><Link to="/jobs/flinders-lecturer/" >Flinders Lecturing Jobs</Link></li>
-                  <li><Link to="/jobs/flinders-research/" >Flinders Research Jobs</Link></li>
-                  <li><Link to="/jobs/flinders-professor/" >Flinders Professorial Jobs</Link></li>
-                  <li><Link to="/jobs/flinders-Executive/" >Flinders Executive</Link></li>
-                  <li><Link to="/jobs/flinders-Administration/" >Flinders Administration</Link></li>
-                  <li><Link to="/jobs/flinders-Human-Resources/" >Flinders Human Resources</Link></li>
-                </ul>
-              </ul>
-            </div>
-           
-            <div className="column">
-              <ul className="">
-                <li className='mb-1 mt-4'><Link to="/employers/university-of-western-australia/3173/" className='text-[#192847] font-bold'>University of South Australia</Link></li>
-                <ul className="innerUL">
-                  <li><Link to="/jobs/UniSA/" >UniSA Lecturing Jobs</Link></li>
-                  <li><Link to="/jobs/UniSA/" >UniSA Research Jobs</Link></li>
-                  <li><Link to="/jobs/UniSA/" >UniSA Professorial Jobs</Link></li>
-                  <li><Link to="/jobs/UniSA/" >UniSA Executive</Link></li>
-                  <li><Link to="/jobs/UniSA/" >UniSA Administration</Link></li>
-                  <li><Link to="/jobs/UniSA/" >UniSA Human Resources</Link></li>
-                </ul>
-              </ul>
-            </div>
+            <p >If you’re looking for teaching jobs in Adelaide, TeachingJobs has you covered. We are Australia’s #1 education jobsite with the most comprehensive collection of education jobs available online. We take pride in connecting top educators with fulfilling positions that allow them to inspire, lead and enlighten.Wherever you are in Adelaide, from Mount Osmond to Woodville South, TeachingJobs has a varied range of positions ready for you to browse. Regardless of whether you’re looking for a primary teaching job in Adelaide, a casual relief teaching position or a school aide job, we have plenty of rewarding employment openings just waiting for you to apply. </p>
           </div>
-        </div>
-      </div>
+          <div className="newLine mb-2"></div>
+   
 
+
+
+
+         
+
+
+
+
+
+      </div>
 
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 mb-4">
@@ -103,14 +61,14 @@ const Adelaide = () => {
           <form className="flex flex-col  gap-2 md:flex-row md:gap-2 mx-18 w-full " onSubmit={handleFormSubmit}>
             <input
               type="text"
-              className="text-center md:w-[41%] md:text-left px-4 py-2 border border-gray-300 rounded-md focus:ring-orange-500 focus:border-orange-500"
+              className="text-center md:w-[41%] md:text-left px-4 py-2 border border-[#f4a10c] text-gray-500 rounded-md focus:ring-orange-500 focus:border-orange-500"
               placeholder="Keyword"
               ref={keyWordRef}
-            //defaultValue={name}cc
+            //defaultValue={name}
             />
             <input
               type="text"
-              className="text-center md:w-[41%] md:text-left px-4 py-2 border border-gray-300 rounded-md focus:ring-orange-500 focus:border-orange-500"
+              className="text-center md:w-[41%] md:text-left px-4 py-2 border border-[#f4a10c] text-gray-500 rounded-md focus:ring-orange-500 focus:border-orange-500"
               placeholder="Location"
               ref={locationRef}
             />
@@ -125,10 +83,9 @@ const Adelaide = () => {
       </div>
 
 
-      <SearchResults q={{ q: "", l: "Adelaide" || 0 }} />
-    </div>
-    </div>
-     </div>
+
+      <SearchResults q={{ q: "", l:"south-australia"  }} />
+    </div> </div>
 
   );
 };

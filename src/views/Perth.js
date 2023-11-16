@@ -84,7 +84,7 @@ const Perth = () => {
 
 
 
-      <SearchResults q={{ q: "", l:"sydney"  }} />
+      <SearchResults q={{ q: "", l:"perth"  }} />
     </div> </div>
 
   );
