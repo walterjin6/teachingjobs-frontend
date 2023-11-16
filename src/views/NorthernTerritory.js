@@ -25,7 +25,7 @@ const NorthernTerritory = () => {
 
     <div className="">
       <Helmet>
-        <title>PhD Jobs</title>
+        <title>northern territory</title>
         <meta name="description" content="Are you searching for a teaching job in the NT? Visit our website at Teaching Jobs, to see our available employment positions for teaching jobs in the northern territory" />
         <meta name="keywords" content="Northern terriorty teaching jobs .  northern territory teaching positions" />
       </Helmet>
