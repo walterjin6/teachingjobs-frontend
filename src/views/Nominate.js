@@ -38,13 +38,12 @@ const Nominate = () => {
         <meta name="keywords" content="Nominate Teachingjobs, Nominate Teaching Jobs, Teachingjobs Nominate " />
       </Helmet>
 
-            <div className="px-7 py-8 container mx-auto py-16">
-                <h1 className="text-5xl font-semibold  text-[#f4a10c] ">Nominate a Principal for 2023!</h1>
-                <h4 className=" text-gray-700 text-lg mt-4">
-</h4>
-                <h4 className=" text-gray-700 text-lg mt-4"> Nominating a school principal for an award is a great way to show your appreciation and support for their work. It can also help them gain recognition and visibility in the education sector, and inspire others to follow their example.</h4>
-                <h4 className=" text-[#f4a10c] text-lg mt-4"> <span className="font-semibold">To nominate a school principal for an THE BEST PRINCIPLE AWARD 2023, you need to: </span>  </h4>
-                <h4 className=" text-[#f4a10c] text-lg mt-4 pb-8"> Write a nomination letter that explains why you think they deserve the award. </h4>
+            <div className="px-7 py-8 container mx-auto py-16 bg-orange-100 p-4 pt-4 rounded-3xl mt-8">
+                <h1 className="text-5xl font-semibold  text-[#f4a10c] ">Principal of the year 2023!</h1>
+                <h4 className=" text-gray-500 text-lg mt-4">Nominate for outstanding achievement as a principal. To nominate a school principal for an "PRINCIPLE OF THE YEAR 2023 AWARD", you need to: </h4>
+                <h4 className=" text-gray-700 text-lg mt-4 hidden"> Nominating a school principal for an award is a great way to show your appreciation and support for their work. It can also help them gain recognition and visibility in the education sector, and inspire others to follow their example. </h4>
+                <h4 className=" text-[#f4a10c] text-lg mt-4"> <span className="font-semibold"></span>  </h4>
+                <h4 className=" text-[#f4a10c] text-lg mt-4 pb-8"> Write a nomination letter that explains why you think they deserve the award. All noimations are kept confidential</h4>
 
 
     <div className="p-4 bg-gray-100 mt-[3rem] hidden">
@@ -75,7 +74,7 @@ const Nominate = () => {
           
         /></Link>
 
-<form className="mt-8" onSubmit={handleSubmit}>
+<form className="mt-8 " onSubmit={handleSubmit}>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                         <div className="col-span-1">
                             <div className="relative">
@@ -83,8 +82,8 @@ const Nominate = () => {
                                     type="text"
                                     id="name-input"
                                     name="name"
-                                    className="w-full px-4 py-3 bg-gray-200 rounded-lg text-black focus:outline-none focus:border-orange-500"
-                                    placeholder="Nominee"
+                                    className="w-full px-4 py-3  rounded-lg text-black focus:outline-none focus:border-orange-500"
+                                    placeholder="Nominee First Name"
                                     onChange={handleChange}
                                 />
                             </div>
@@ -93,9 +92,22 @@ const Nominate = () => {
                             <div className="relative">
                                 <input
                                     type="text"
+                                    id="name-input"
+                                    name="name"
+                                    className="w-full px-4 py-3  rounded-lg text-black focus:outline-none focus:border-orange-500"
+                                    placeholder="Nominee Last Name"
+                                    onChange={handleChange}
+                                />
+                            </div>
+                        </div>
+                        
+                        <div className="col-span-1">
+                            <div className="relative">
+                                <input
+                                    type="text"
                                     id="email-input"
                                     name="email"
-                                    className="w-full px-4 py-3 bg-gray-200 rounded-lg text-black focus:outline-none focus:border-orange-500"
+                                    className="w-full px-4 py-3 0 rounded-lg text-black focus:outline-none focus:border-orange-500"
                                     placeholder="Email"
                                     onChange={handleChange}
                                 />
@@ -107,19 +119,48 @@ const Nominate = () => {
                                     type="text"
                                     id="phone-input"
                                     name="phone"
-                                    className="w-full px-4 py-3 bg-gray-200 rounded-lg text-black focus:outline-none focus:border-orange-500"
+                                    className="w-full px-4 py-3 0 rounded-lg text-black focus:outline-none focus:border-orange-500"
                                     placeholder="Phone Number"
                                     onChange={handleChange}
                                 />
                             </div>
                         </div>
+
+                        <div className="col-span-1">
+                            <div className="relative">
+                                <input
+                                    type="text"
+                                    id="name-input"
+                                    name="name"
+                                    className="w-full px-4 py-3 0 rounded-lg text-black focus:outline-none focus:border-orange-500"
+                                    placeholder="School Name"
+                                    onChange={handleChange}
+                                />
+                            </div>
+                        </div>
+
+                        <div className="col-span-1">
+                            <div className="relative">
+                                <input
+                                    type="text"
+                                    id="name-input"
+                                    name="name"
+                                    className="w-full px-4 py-3 0 rounded-lg text-black focus:outline-none focus:border-orange-500"
+                                    placeholder="Principal Email (If known)"
+                                    onChange={handleChange}
+                                />
+                            </div>
+                        </div>
+
+
+
                         <div className="col-span-2">
                             <div className="relative">
                                 <textarea
                                     id="description-input"
                                     name="desc"
-                                    className="w-full px-4 py-3 bg-gray-200 rounded-lg text-black focus:outline-none focus:border-orange-500"
-                                    placeholder="Message"
+                                    className="w-full px-4 py-3 0 rounded-lg text-black focus:outline-none focus:border-orange-500"
+                                    placeholder="Please write a brief description as to why your principal deserves our award (maxium 200 words)"
                                     onChange={handleChange}
                                 />
                                 <label htmlFor="description-input" className="absolute left-4 top-2 text-gray-600 transition-all">
