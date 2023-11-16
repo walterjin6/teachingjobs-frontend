@@ -27,10 +27,10 @@ const Adelaide = () => {
       <Helmet>
         <title>South Australia</title>
         <meta name="description" content="At Teaching Jobs, we have a wide range of job vacancies & employments for teaching in Adelaide. Visit our job board for private and public jobs. Apply online now!" />
-        <meta name="keywords" content="aidelaide teaching jobs . south australia teaching jobs" />
+        <meta name="keywords" content="adelaide teaching jobs . adelaide teaching positions" />
       </Helmet>
       <div className="blurb text-left py-8 ">
-        <h1 className=" font-bold text-lg md:text-2xl py-4 px-7 bg-[#f4a10c] text-white rounded-full shadow-xl ">South Australia | Apply Online | Vacancies</h1>
+        <h1 className=" font-bold text-lg md:text-2xl py-4 px-7 bg-[#f4a10c] text-white rounded-full shadow-xl "> Adelaide | Apply Online | Job Vacancies</h1>
 
         <div className="newLine mb-4">
           <p className="font-semibold"></p>
@@ -84,7 +84,7 @@ const Adelaide = () => {
 
 
 
-      <SearchResults q={{ q: "", l:"south-australia"  }} />
+      <SearchResults q={{ q: "", l:"adelaide"  }} />
     </div> </div>
 
   );
