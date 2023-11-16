@@ -26,11 +26,11 @@ const Melbourne = () => {
     <div className="">
       <Helmet>
         <title>PhD Jobs</title>
-        <meta name="description" content="Discover flexible and fulfilling on-campus employment opportunities for Ph.D. candidates. Explore a myriad of PhD positions across diverse departments at your university. Take the next step in your career, apply today, and cultivate valuable work experience and skills." />
-        <meta name="keywords" content="PhD Jobs , PhD academic Jobs" />
+        <meta name="description" content="Are you searching for a teaching job in the melbourne? Visit our website at Teaching Jobs, to see our available employment positions for teaching jobs in melbourne" />
+        <meta name="keywords" content="teaching Jobs Melbourne, teaching positions Melbourne" />
       </Helmet>
       <div className="blurb text-left py-8 ">
-        <h1 className=" font-bold text-lg md:text-2xl py-4 px-7 bg-[#f4a10c] text-white rounded-full shadow-xl ">Graduate Jobs</h1>
+        <h1 className=" font-bold text-lg md:text-2xl py-4 px-7 bg-[#f4a10c] text-white rounded-full shadow-xl ">Melbourne | Apply Online - Job Vacancies</h1>
 
         <div className="newLine mb-4">
           <p className="font-semibold"></p>
@@ -39,7 +39,7 @@ const Melbourne = () => {
         <div className="newLine">
           <div className="py-4 px-7 rounded-2xl ">
 
-            <p >PhD jobs on campus involve working part-time or casually in various roles and departments within a university or research institute setting. These jobs provide PhD graduates with the opportunity to earn income, gain valuable work experience, develop employability skills, and enhance their academic and social networks. PhD jobs on campus can cover administration, customer service, events, marketing, IT, library, research, teaching, and other roles. You can find hundreds of job postings from universities across Australia and around the world. Gain valuable work experience and skills by applying today!  </p>
+            <p >to teach in Victoria, you must be registered with the Victorian Institute of Teaching (VIT), an independent statutory authority separate from any educational authority. The VIT registers teachers for all Victorian schools and colleges. Mutual recognition may apply for teachers who are currently registered in other states or territories.We hope this information helps you in your search for teaching opportunities in Melbourne. Good luck!  </p>
           </div>
           <div className="newLine mb-2"></div>
    
@@ -84,7 +84,7 @@ const Melbourne = () => {
 
 
 
-      <SearchResults q={{ q: "", l:"sydney"  }} />
+      <SearchResults q={{ q: "", l:"melbourne"  }} />
     </div> </div>
 
   );
