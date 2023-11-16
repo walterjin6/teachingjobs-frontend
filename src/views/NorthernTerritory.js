@@ -84,7 +84,7 @@ const NorthernTerritory = () => {
 
 
 
-      <SearchResults q={{ q: "", l:"northern-territory"  }} />
+      <SearchResults q={{ q: "", l:"nt"  }} />
     </div> </div>
 
   );
