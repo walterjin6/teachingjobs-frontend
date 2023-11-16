@@ -207,20 +207,20 @@ const AppRouter = () => {
             <Route exact path='/Canada/' element={<Canada />} />
             <Route exact path='/Europe/' element={<Europe />} />
             <Route exact path='/Middle-East/' element={<MiddleEast />} />
-            <Route exact path='/Victoria/' element={<Victoria />} />  
-            <Route exact path='/Sydney/' element={<Sydney />} /> 
-            <Route exact path='/Perth/' element={<Perth />} /> 
-            <Route exact path='/Queensland/' element={<Queensland />} />   
-            <Route exact path='/NSW/' element={<NSW />} /> 
-            <Route exact path='/Darwin/' element={<Darwin />} /> 
-            <Route exact path='/Tasmania/' element={<Tasmania />} />   
-            <Route exact path='/WesternAustralia/' element={<WesternAustralia />} />  
-            <Route exact path='/SouthAustralia/' element={<SouthAustralia />} />      
-            <Route exact path='/NorthernTerritory/' element={<NorthernTerritory />} />   
-            <Route exact path='/Canberra/' element={<Canberra />} />    
-            <Route exact path='/GoldCoast/' element={<GoldCoast />} />    
-            <Route exact path='/ Brisbane/' element={< Brisbane />} />    
-            <Route exact path='/  Melbourne/' element={<  Melbourne />} />  
+            <Route exact path='/victoria/' element={<Victoria />} />  
+            <Route exact path='/sydney/' element={<Sydney />} /> 
+            <Route exact path='/perth/' element={<Perth />} /> 
+            <Route exact path='/queensland/' element={<Queensland />} />   
+            <Route exact path='/nsw/' element={<NSW />} /> 
+            <Route exact path='/darwin/' element={<Darwin />} /> 
+            <Route exact path='/tasmania/' element={<Tasmania />} />   
+            <Route exact path='/western-australia/' element={<WesternAustralia />} />  
+            <Route exact path='/south-australia/' element={<SouthAustralia />} />      
+            <Route exact path='/northern-territory/' element={<NorthernTerritory />} />   
+            <Route exact path='/canberra/' element={<Canberra />} />    
+            <Route exact path='/goldCoast/' element={<GoldCoast />} />    
+            <Route exact path='/brisbane/' element={< Brisbane />} />    
+            <Route exact path='/melbourne/' element={<  Melbourne />} />  
             {/* <Route path='/:name' element={<Region />} /> */}
           </Route>
         </Routes>
