@@ -40,7 +40,7 @@ const Nominate = () => {
 
             <div className="px-7 py-8 container mx-auto py-16 bg-orange-100 p-4 pt-4 rounded-3xl mt-8">
                 <h1 className="text-5xl font-semibold  text-[#f4a10c] ">Principal of the year 2023!</h1>
-                <h4 className=" text-gray-500 text-lg mt-4">Nominate for outstanding achievement as a principal. To nominate a school principal for an "PRINCIPLE OF THE YEAR 2023 AWARD", you need to: </h4>
+                <h4 className=" text-gray-500 text-lg mt-4">Nominate for outstanding achievement as a principal. To nominate a school principal for an "PRINCIPAL OF THE YEAR 2023 AWARD", you need to: </h4>
                 <h4 className=" text-gray-700 text-lg mt-4 hidden"> Nominating a school principal for an award is a great way to show your appreciation and support for their work. It can also help them gain recognition and visibility in the education sector, and inspire others to follow their example. </h4>
                 <h4 className=" text-[#f4a10c] text-lg mt-4"> <span className="font-semibold"></span>  </h4>
                 <h4 className=" text-[#f4a10c] text-lg mt-4 pb-8"> Write a nomination letter that explains why you think they deserve the award. All noimations are kept confidential</h4>
