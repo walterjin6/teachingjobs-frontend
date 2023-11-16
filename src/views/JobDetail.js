@@ -23,9 +23,9 @@ const JobDetail = () => {
               </Link>
             </div>
             <div className="w-3/4">
-              <h1 className="text-2xl font-bold mb-2 ">
+              <h2 className="text-2xl font-bold mb-2 ">
                 {title}
-              </h1>
+              </h2>
               <div className="mb-4">
                 <Link to="/academic-hub/" className="inline-block bg-blue-400 text-white px-2 py-1 text-xs font-bold rounded-full mr-2 mb-1">Academic Hub</Link>
               </div>
@@ -98,9 +98,9 @@ const JobDetail = () => {
               </Link>
             </div>
             <div className="w-3/4">
-              <h1 className="text-2xl font-bold mb-2 text-blue-500">
+              <h2 className="text-2xl font-bold mb-2 text-blue-500">
                 {title}
-              </h1>
+              </h2>
               <div className="mb-4 text-blue-500">
                 <Link to={`/employers/${company_name?.replace(/[&' \/]/g, '-').toLowerCase()}/${employer_id}/`}><a>{company_name}</a></Link>
               </div>

@@ -132,7 +132,7 @@ const SearchResults = ({ q }) => {
             <BsHandbag />
             {qty && <span>{`${qty} jobs found`}</span>}
           </div >
-          <div className='flex  w-full h-screen  justify-between'>
+          <div className='flex  w-full h-screen gap-4 justify-between'>
             <div className='overflow-y-auto md:w-[40%] h-screen' ><JobList data={data} nextPage={nextPage} /></div>
             <div className='hidden md:block overflow-y-auto w-[60%] h-screen'><JobDetail /></div>
           </div>
