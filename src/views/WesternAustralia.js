@@ -25,12 +25,12 @@ const WesternAustralia = () => {
 
     <div className="">
       <Helmet>
-        <title>PhD Jobs</title>
-        <meta name="description" content="Discover flexible and fulfilling on-campus employment opportunities for Ph.D. candidates. Explore a myriad of PhD positions across diverse departments at your university. Take the next step in your career, apply today, and cultivate valuable work experience and skills." />
-        <meta name="keywords" content="PhD Jobs , PhD academic Jobs" />
+        <title>western australia</title>
+        <meta name="description" content="Visit our job board today at Teaching Jobs, to see all of our employment and job vacancies available including public, private and catholic teaching jobs in Western Australia." />
+        <meta name="keywords" content="western australia teaching jobs . western austrlaia teaching positions" />
       </Helmet>
       <div className="blurb text-left py-8 ">
-        <h1 className=" font-bold text-lg md:text-2xl py-4 px-7 bg-[#f4a10c] text-white rounded-full shadow-xl ">Graduate Jobs</h1>
+        <h1 className=" font-bold text-lg md:text-2xl py-4 px-7 bg-[#f4a10c] text-white rounded-full shadow-xl ">Western Australia | Apply Online | Job Vacancies</h1>
 
         <div className="newLine mb-4">
           <p className="font-semibold"></p>
@@ -39,7 +39,7 @@ const WesternAustralia = () => {
         <div className="newLine">
           <div className="py-4 px-7 rounded-2xl ">
 
-            <p >PhD jobs on campus involve working part-time or casually in various roles and departments within a university or research institute setting. These jobs provide PhD graduates with the opportunity to earn income, gain valuable work experience, develop employability skills, and enhance their academic and social networks. PhD jobs on campus can cover administration, customer service, events, marketing, IT, library, research, teaching, and other roles. You can find hundreds of job postings from universities across Australia and around the world. Gain valuable work experience and skills by applying today!  </p>
+            <p >Western Australia is a state located in the western part of Australia. It is the largest state in the country, covering an area of 2,529,875 square kilometers. The state is home to a diverse range of flora and fauna, including 13,000 species of wildflowers. Western Australia is known for its mining industry, which is the state’s largest industry, and it is also a significant producer of wheat, wool, and other agricultural products.Western Australia has a well-established education system that provides quality education to students. The Department of Education is the largest employer in the state, providing a range of career opportunities in public education. The department offers a variety of teaching positions, including full-time, part-time, and casual positions. The department also provides a range of attractive professional and personal benefits to its employees  </p>
           </div>
           <div className="newLine mb-2"></div>
    
@@ -84,7 +84,7 @@ const WesternAustralia = () => {
 
 
 
-      <SearchResults q={{ q: "", l:"sydney"  }} />
+      <SearchResults q={{ q: "", l:"westernaustralia"  }} />
     </div> </div>
 
   );
