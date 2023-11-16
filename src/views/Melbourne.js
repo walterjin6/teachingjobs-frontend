@@ -25,7 +25,7 @@ const Melbourne = () => {
 
     <div className="">
       <Helmet>
-        <title>Melbourne</title>
+        <title>melbourne</title>
         <meta name="description" content="Are you searching for a teaching job in the melbourne? Visit our website at Teaching Jobs, to see our available employment positions for teaching jobs in melbourne" />
         <meta name="keywords" content="teaching Jobs Melbourne, teaching positions Melbourne" />
       </Helmet>
