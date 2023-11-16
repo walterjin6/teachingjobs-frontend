@@ -137,14 +137,7 @@ const Home = () => {
                     "name": "Jobs in brisbane",
                     "url": "/brisbane/",
                     "Description": "Are you searching for a teaching job in the brisbane? Visit our website at Teaching Jobs, to see our available employment positions for teaching jobs in brisbane",
-               },
-               {
-                "@type": "ListItem",
-                "position": 14,
-                "name": "Jobs in adelaide",
-                "url": "/adelaide/",
-                "Description": "Are you searching for a teaching job in the adelaide? Visit our website at Teaching Jobs, to see our available employment positions for teaching jobs in adelaide",
-           }
+               }
               
                 ]
               })}
