@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import { Helmet } from "react-helmet";
 import { Link } from 'react-router-dom';
-const ContactUs = () => {
+const Nominate = () => {
     const [formData, setFormData] = useState({
         name: '',
         email: '',
@@ -33,19 +33,17 @@ const ContactUs = () => {
     return (
         <div className="">
 <Helmet>
-        <title>Contact Teaching Jobs</title>
-        <meta name="description" content="Contact our knowledgeable team today for assistance and information on our number 1 Teaching job board site in higher education and academia. " />
-        <meta name="keywords" content="Contact Teachingjobs, Contact Teaching Jobs, Teachingjobs Contact " />
+        <title>Nominate Teaching Jobs</title>
+        <meta name="description" content="Nominate our knowledgeable team today for assistance and information on our number 1 Teaching job board site in higher education and academia. " />
+        <meta name="keywords" content="Nominate Teachingjobs, Nominate Teaching Jobs, Teachingjobs Nominate " />
       </Helmet>
 
-            <div className="px-7 py-8 container mx-auto py-16">
-                <h1 className="text-5xl font-semibold  text-[#f4a10c] ">LET’S GET TOGETHER!</h1>
-                <h4 className=" text-gray-700 text-lg mt-4">Tell us what you need, and we will be straight back to you.
-We make it easy for you at Teaching Jobs!</h4>
-                <h4 className=" text-[#f4a10c] text-lg mt-4"> </h4>
-                <h4 className=" text-[#f4a10c] text-lg mt-4"> <span className="font-semibold">Fun Fact: </span> Did you know that TeachingJobs.com is the fastest growing job board by audience.
-and job numbers than any other higher education job board?  Yep, our mothers are super proud of us!  </h4>
-
+            <div className="px-7 py-8 container mx-auto py-16 bg-orange-100 p-4 pt-4 rounded-3xl mt-8">
+                <h1 className="text-5xl font-semibold  text-[#f4a10c] ">Principal of the year 2023!</h1>
+                <h4 className=" text-gray-500 text-lg mt-4">Nominate for outstanding achievement as a principal. To nominate a school principal for an "PRINCIPAL OF THE YEAR 2023 AWARD", you need to: </h4>
+                <h4 className=" text-gray-700 text-lg mt-4 hidden"> Nominating a school principal for an award is a great way to show your appreciation and support for their work. It can also help them gain recognition and visibility in the education sector, and inspire others to follow their example. </h4>
+                <h4 className=" text-[#f4a10c] text-lg mt-4"> <span className="font-semibold"></span>  </h4>
+                <h4 className=" text-[#f4a10c] text-lg mt-4 pb-8"> Write a nomination letter that explains why you think they deserve the award. All noimations are kept confidential</h4>
 
 
     <div className="p-4 bg-gray-100 mt-[3rem] hidden">
@@ -69,14 +67,14 @@ and job numbers than any other higher education job board?  Yep, our mothers are
 
 
 
-<Link to="https://iloveTeachingjobs.com/contact/"><img
-          src="https://Teachingjobs.s3.amazonaws.com/img/_misc/contact-us.jpeg"
-          alt="contact us"
+<Link to="https://iloveTeachingjobs.com/Nominate/"><img
+          src="https://Teachingjobs.s3.amazonaws.com/img/_misc/Nominate-us.jpeg"
+          alt="Nominate us"
           className="  mt-[4rem] hidden  "
           
         /></Link>
 
-<form className="mt-8" onSubmit={handleSubmit}>
+<form className="mt-8 " onSubmit={handleSubmit}>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                         <div className="col-span-1">
                             <div className="relative">
@@ -84,8 +82,8 @@ and job numbers than any other higher education job board?  Yep, our mothers are
                                     type="text"
                                     id="name-input"
                                     name="name"
-                                    className="w-full px-4 py-3 bg-gray-200 rounded-lg text-black focus:outline-none focus:border-orange-500"
-                                    placeholder="Name"
+                                    className="w-full px-4 py-3  rounded-lg text-black focus:outline-none focus:border-orange-500"
+                                    placeholder="Nominee First Name"
                                     onChange={handleChange}
                                 />
                             </div>
@@ -94,9 +92,22 @@ and job numbers than any other higher education job board?  Yep, our mothers are
                             <div className="relative">
                                 <input
                                     type="text"
+                                    id="name-input"
+                                    name="name"
+                                    className="w-full px-4 py-3  rounded-lg text-black focus:outline-none focus:border-orange-500"
+                                    placeholder="Nominee Last Name"
+                                    onChange={handleChange}
+                                />
+                            </div>
+                        </div>
+                        
+                        <div className="col-span-1">
+                            <div className="relative">
+                                <input
+                                    type="text"
                                     id="email-input"
                                     name="email"
-                                    className="w-full px-4 py-3 bg-gray-200 rounded-lg text-black focus:outline-none focus:border-orange-500"
+                                    className="w-full px-4 py-3 0 rounded-lg text-black focus:outline-none focus:border-orange-500"
                                     placeholder="Email"
                                     onChange={handleChange}
                                 />
@@ -108,19 +119,48 @@ and job numbers than any other higher education job board?  Yep, our mothers are
                                     type="text"
                                     id="phone-input"
                                     name="phone"
-                                    className="w-full px-4 py-3 bg-gray-200 rounded-lg text-black focus:outline-none focus:border-orange-500"
+                                    className="w-full px-4 py-3 0 rounded-lg text-black focus:outline-none focus:border-orange-500"
                                     placeholder="Phone Number"
                                     onChange={handleChange}
                                 />
                             </div>
                         </div>
+
+                        <div className="col-span-1">
+                            <div className="relative">
+                                <input
+                                    type="text"
+                                    id="name-input"
+                                    name="name"
+                                    className="w-full px-4 py-3 0 rounded-lg text-black focus:outline-none focus:border-orange-500"
+                                    placeholder="School Name"
+                                    onChange={handleChange}
+                                />
+                            </div>
+                        </div>
+
+                        <div className="col-span-1">
+                            <div className="relative">
+                                <input
+                                    type="text"
+                                    id="name-input"
+                                    name="name"
+                                    className="w-full px-4 py-3 0 rounded-lg text-black focus:outline-none focus:border-orange-500"
+                                    placeholder="Principal Email (If known)"
+                                    onChange={handleChange}
+                                />
+                            </div>
+                        </div>
+
+
+
                         <div className="col-span-2">
                             <div className="relative">
                                 <textarea
                                     id="description-input"
                                     name="desc"
-                                    className="w-full px-4 py-3 bg-gray-200 rounded-lg text-black focus:outline-none focus:border-orange-500"
-                                    placeholder="Message"
+                                    className="w-full px-4 py-3 0 rounded-lg text-black focus:outline-none focus:border-orange-500"
+                                    placeholder="Please write a brief description as to why your principal deserves our award (maxium 200 words)"
                                     onChange={handleChange}
                                 />
                                 <label htmlFor="description-input" className="absolute left-4 top-2 text-gray-600 transition-all">
@@ -202,4 +242,4 @@ and job numbers than any other higher education job board?  Yep, our mothers are
     );
 };
 
-export default ContactUs;
+export default Nominate;

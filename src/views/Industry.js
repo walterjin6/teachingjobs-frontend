@@ -71,7 +71,7 @@ const Industry = () => {
         </div>
       </div>
 
-      <SearchResults q={{ q: Name }} />
+      <SearchResults q={{ q: '' , l: Name }} />
     </div>
   )
   return <div className='overflow-y w-full'>{content}</div>

@@ -6,7 +6,7 @@ import SearchResults from './SearchResults';
 
 import { Link } from 'react-router-dom'
 
-const Adelaide = () => {
+const Perth = () => {
   const handleFormSubmit = (event) => {
 
     event.preventDefault();
@@ -25,12 +25,12 @@ const Adelaide = () => {
 
     <div className="">
       <Helmet>
-        <title>South Australia</title>
-        <meta name="description" content="At Teaching Jobs, we have a wide range of job vacancies & employments for teaching in Adelaide. Visit our job board for private and public jobs. Apply online now!" />
-        <meta name="keywords" content="adelaide teaching jobs . adelaide teaching positions" />
+        <title>Perth</title>
+        <meta name="description" content="On Teaching Jobs Perth You can filter by discipline, level, type, location, and more. You can also sign up for email alerts to get notified of new opportunities as they arise. " />
+        <meta name="keywords" content="Teaching Jobs Perth, teaching positions Perth" />
       </Helmet>
       <div className="blurb text-left py-8 ">
-        <h1 className=" font-bold text-lg md:text-2xl py-4 px-7 bg-[#f4a10c] text-white rounded-full shadow-xl "> Adelaide | Apply Online | Job Vacancies</h1>
+        <h1 className=" font-bold text-lg md:text-2xl py-4 px-7 bg-[#f4a10c] text-white rounded-full shadow-xl ">Perth | Apply Online - Job Vacancies</h1>
 
         <div className="newLine mb-4">
           <p className="font-semibold"></p>
@@ -39,7 +39,7 @@ const Adelaide = () => {
         <div className="newLine">
           <div className="py-4 px-7 rounded-2xl ">
 
-            <p >TeachingJobs provides all the information you need to find teaching positions in Adelaide. With the largest selection of education jobs available online, we are Australia's top job portal for education. We take great satisfaction in matching accomplished educators with rewarding roles that let them mentor, inspire, and educate.From Woodville South to Mount Osmond, everywhere in Adelaide has a variety of jobs available for you to peruse on TeachingJobs. We have several fulfilling work opportunities waiting for you to apply, whether you're seeking for a main teaching job in Adelaide, a casual relief teaching post, or a school assistant job. </p>
+            <p >You need to be registered with the Teacher Registration Board of Western Australia (TRBWA), a separate and independent statutory body from any educational authority, in order to teach in Western Australia. Teachers are registered with the TRBWA for all schools and colleges in Western Australia. For educators who are currently registered in different states or territories, mutual recognition may be applicable. With any luck, this material will be useful to you as you look for teaching opportunities in Perth. Hope all goes well!  </p>
           </div>
           <div className="newLine mb-2"></div>
    
@@ -84,10 +84,10 @@ const Adelaide = () => {
 
 
 
-      <SearchResults q={{ q: "", l:"adelaide"  }} />
+      <SearchResults q={{ q: "", l:"perth"  }} />
     </div> </div>
 
   );
 };
 
-export default Adelaide;
+export default Perth;

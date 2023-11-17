@@ -6,7 +6,7 @@ import SearchResults from './SearchResults';
 
 import { Link } from 'react-router-dom'
 
-const Adelaide = () => {
+const GoldCoast = () => {
   const handleFormSubmit = (event) => {
 
     event.preventDefault();
@@ -25,12 +25,12 @@ const Adelaide = () => {
 
     <div className="">
       <Helmet>
-        <title>South Australia</title>
-        <meta name="description" content="At Teaching Jobs, we have a wide range of job vacancies & employments for teaching in Adelaide. Visit our job board for private and public jobs. Apply online now!" />
-        <meta name="keywords" content="adelaide teaching jobs . adelaide teaching positions" />
+        <title>PhD Jobs</title>
+        <meta name="description" content="Don’t miss this chance to work in one of the best teaching environments in the world. Apply now for your dream teaching job in the Gold Coast!" />
+        <meta name="keywords" content="Teaching Jobs Gold Coast, teaching positions Gold Coast" />
       </Helmet>
       <div className="blurb text-left py-8 ">
-        <h1 className=" font-bold text-lg md:text-2xl py-4 px-7 bg-[#f4a10c] text-white rounded-full shadow-xl "> Adelaide | Apply Online | Job Vacancies</h1>
+        <h1 className=" font-bold text-lg md:text-2xl py-4 px-7 bg-[#f4a10c] text-white rounded-full shadow-xl ">Gold Coast| Apply Online - Job Vacancies</h1>
 
         <div className="newLine mb-4">
           <p className="font-semibold"></p>
@@ -39,7 +39,7 @@ const Adelaide = () => {
         <div className="newLine">
           <div className="py-4 px-7 rounded-2xl ">
 
-            <p >TeachingJobs provides all the information you need to find teaching positions in Adelaide. With the largest selection of education jobs available online, we are Australia's top job portal for education. We take great satisfaction in matching accomplished educators with rewarding roles that let them mentor, inspire, and educate.From Woodville South to Mount Osmond, everywhere in Adelaide has a variety of jobs available for you to peruse on TeachingJobs. We have several fulfilling work opportunities waiting for you to apply, whether you're seeking for a main teaching job in Adelaide, a casual relief teaching post, or a school assistant job. </p>
+            <p >Renowned Australian and international universities, including Bond University, Griffith University, Southern Cross University, and others, are located in the Gold Coast. From the humanities and arts to science and engineering, from health and medicine to law and business, these universities provide a broad range of academic specialisations. Joining their outstanding and cooperative uni jobs will allow you to support their outstanding influence, teaching, lecturing, and research.  </p>
           </div>
           <div className="newLine mb-2"></div>
    
@@ -84,10 +84,10 @@ const Adelaide = () => {
 
 
 
-      <SearchResults q={{ q: "", l:"adelaide"  }} />
+      <SearchResults q={{ q: "", l:"goldcoast"  }} />
     </div> </div>
 
   );
 };
 
-export default Adelaide;
+export default GoldCoast;

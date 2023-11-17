@@ -6,7 +6,7 @@ import SearchResults from './SearchResults';
 
 import { Link } from 'react-router-dom'
 
-const Adelaide = () => {
+const Queensland = () => {
   const handleFormSubmit = (event) => {
 
     event.preventDefault();
@@ -25,12 +25,12 @@ const Adelaide = () => {
 
     <div className="">
       <Helmet>
-        <title>South Australia</title>
-        <meta name="description" content="At Teaching Jobs, we have a wide range of job vacancies & employments for teaching in Adelaide. Visit our job board for private and public jobs. Apply online now!" />
-        <meta name="keywords" content="adelaide teaching jobs . adelaide teaching positions" />
+        <title>Queensland</title>
+        <meta name="description" content="Teaching Jobs have teaching jobs in QLD available throughout the state. Visit our website to see the employment positions available in private, public and catholic schools." />
+        <meta name="keywords" content="queensland teaching jobs . queensland teaching positions" />
       </Helmet>
       <div className="blurb text-left py-8 ">
-        <h1 className=" font-bold text-lg md:text-2xl py-4 px-7 bg-[#f4a10c] text-white rounded-full shadow-xl "> Adelaide | Apply Online | Job Vacancies</h1>
+        <h1 className=" font-bold text-lg md:text-2xl py-4 px-7 bg-[#f4a10c] text-white rounded-full shadow-xl ">Queensland | Apply Online - Job Vacancies</h1>
 
         <div className="newLine mb-4">
           <p className="font-semibold"></p>
@@ -39,7 +39,7 @@ const Adelaide = () => {
         <div className="newLine">
           <div className="py-4 px-7 rounded-2xl ">
 
-            <p >TeachingJobs provides all the information you need to find teaching positions in Adelaide. With the largest selection of education jobs available online, we are Australia's top job portal for education. We take great satisfaction in matching accomplished educators with rewarding roles that let them mentor, inspire, and educate.From Woodville South to Mount Osmond, everywhere in Adelaide has a variety of jobs available for you to peruse on TeachingJobs. We have several fulfilling work opportunities waiting for you to apply, whether you're seeking for a main teaching job in Adelaide, a casual relief teaching post, or a school assistant job. </p>
+            <p >Looking for a new challenge? Looking for teaching jobs in Queensland? TeachingJobs is Australia’s leading jobsite for employment resources for education professionals, providing an unbeatable selection of job vacancies across various positions. Covering all types of schools from Christian to Catholic, kindergarten to secondary and everything in between, we have an extensive selection of jobs available for all education professionals.The perfect QLD teacher jobs can be difficult to come by when taking into consideration your personal preferences, skills and qualifications. Sign up to TeachingJobs today and we will do all the hard work for you and notify you of any available positions that match your criteria. This way, you won’t miss out on any dream education jobs you’ve been searching for and can be confident that no opportunities are passing you by.  </p>
           </div>
           <div className="newLine mb-2"></div>
    
@@ -84,10 +84,10 @@ const Adelaide = () => {
 
 
 
-      <SearchResults q={{ q: "", l:"adelaide"  }} />
+      <SearchResults q={{ q: "", l:"queensland"  }} />
     </div> </div>
 
   );
 };
 
-export default Adelaide;
+export default Queensland;

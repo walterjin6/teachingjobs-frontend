@@ -6,7 +6,7 @@ import SearchResults from './SearchResults';
 
 import { Link } from 'react-router-dom'
 
-const Adelaide = () => {
+const Victoria = () => {
   const handleFormSubmit = (event) => {
 
     event.preventDefault();
@@ -25,12 +25,12 @@ const Adelaide = () => {
 
     <div className="">
       <Helmet>
-        <title>South Australia</title>
-        <meta name="description" content="At Teaching Jobs, we have a wide range of job vacancies & employments for teaching in Adelaide. Visit our job board for private and public jobs. Apply online now!" />
-        <meta name="keywords" content="adelaide teaching jobs . adelaide teaching positions" />
+        <title>victoria</title>
+        <meta name="description" content="Teaching Jobs in Victoria are now available through our job board at Teaching Jobs. Browse our website to see the available employment positions throughout Victoria." />
+        <meta name="keywords" content="victoria teaching jobs . melbourne teaching jobs" />
       </Helmet>
       <div className="blurb text-left py-8 ">
-        <h1 className=" font-bold text-lg md:text-2xl py-4 px-7 bg-[#f4a10c] text-white rounded-full shadow-xl "> Adelaide | Apply Online | Job Vacancies</h1>
+        <h1 className=" font-bold text-lg md:text-2xl py-4 px-7 bg-[#f4a10c] text-white rounded-full shadow-xl ">Victoria | Job Vacancies Online</h1>
 
         <div className="newLine mb-4">
           <p className="font-semibold"></p>
@@ -39,7 +39,7 @@ const Adelaide = () => {
         <div className="newLine">
           <div className="py-4 px-7 rounded-2xl ">
 
-            <p >TeachingJobs provides all the information you need to find teaching positions in Adelaide. With the largest selection of education jobs available online, we are Australia's top job portal for education. We take great satisfaction in matching accomplished educators with rewarding roles that let them mentor, inspire, and educate.From Woodville South to Mount Osmond, everywhere in Adelaide has a variety of jobs available for you to peruse on TeachingJobs. We have several fulfilling work opportunities waiting for you to apply, whether you're seeking for a main teaching job in Adelaide, a casual relief teaching post, or a school assistant job. </p>
+            <p >If you’re on the hunt for teaching jobs in Victoria, TeachingJobs is able to provide you with Australia’s largest resource of employment opportunities. We take the stress out of finding a new teaching job by providing you with an unbeatable selection of exciting job vacancies at your fingertips.By making a profile with us, you’ll be kept up to date on all the latest openings in your area and be the first to know about any new positions. Demonstrate your qualifications, skills and experience to recruiters and get yourself noticed. Whether you’re looking for something in the inner-north of Melbourne or the south-east of Victoria, we have plenty of jobs waiting for the perfect candidate.  </p>
           </div>
           <div className="newLine mb-2"></div>
    
@@ -84,10 +84,10 @@ const Adelaide = () => {
 
 
 
-      <SearchResults q={{ q: "", l:"adelaide"  }} />
+      <SearchResults q={{ q: "", l:"victoria"  }} />
     </div> </div>
 
   );
 };
 
-export default Adelaide;
+export default Victoria;

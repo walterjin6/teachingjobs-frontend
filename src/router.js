@@ -45,6 +45,7 @@ import PostJob from "./views/PostJob"
 import Rankings from "./views/Rankings"
 import FAQ from "./views/FAQ"
 import ContactUs from "./views/ContactUs"
+import Nominate from "./views/Nominate"
 import DiversayStatement from "./views/DiversayStatement"
 import FindEmployers from "./views/FindEmployers"
 import Australia from "./views/Australia"
@@ -92,6 +93,21 @@ import HRAustralia from "./views/HRAustralia"
 import IndigenousAustralia from "./views/IndigenousAustralia"
 import StudentsAustralia from "./views/StudentsAustralia"
 import Scroll2Top from "./utils/Scroll2Top"
+import Victoria from "./views/Victoria" 
+import Sydney from "./views/Sydney" 
+import Perth from "./views/Perth" 
+import Queensland from "./views/Queensland" 
+import NSW from "./views/NSW" 
+import Darwin from "./views/Darwin" 
+import Tasmania from "./views/Tasmania" 
+import WesternAustralia from "./views/WesternAustralia"  
+import SouthAustralia from "./views/SouthAustralia" 
+import NorthernTerritory from "./views/NorthernTerritory"    
+import Canberra from "./views/Canberra"   
+import GoldCoast from "./views/GoldCoast" 
+import Brisbane from "./views/Brisbane" 
+import Melbourne from "./views/Melbourne" 
+
 const AppRouter = () => {
   return (
     <BrowserRouter>
@@ -169,6 +185,7 @@ const AppRouter = () => {
             <Route exact path='/about/diversity-statement/' element={<DiversayStatement />} />
             <Route exact path='/faq' element={<FAQ />} />
             <Route exact path='/contact-us/' element={<ContactUs />} />
+            <Route exact path='/nominate/' element={<Nominate />} />
             <Route exact path='/employers/' element={<FindEmployers />} />
             <Route exact path='/sitemap/' element={<SiteMap />} />
             <Route exact path='/Australia/faq/' element={<FAQaustralia />} />
@@ -193,6 +210,20 @@ const AppRouter = () => {
             <Route exact path='/Canada/' element={<Canada />} />
             <Route exact path='/Europe/' element={<Europe />} />
             <Route exact path='/Middle-East/' element={<MiddleEast />} />
+            <Route exact path='/victoria/' element={<Victoria />} />  
+            <Route exact path='/sydney/' element={<Sydney />} /> 
+            <Route exact path='/perth/' element={<Perth />} /> 
+            <Route exact path='/queensland/' element={<Queensland />} />   
+            <Route exact path='/nsw/' element={<NSW />} /> 
+            <Route exact path='/darwin/' element={<Darwin />} /> 
+            <Route exact path='/tasmania/' element={<Tasmania />} />   
+            <Route exact path='/western-australia/' element={<WesternAustralia />} />  
+            <Route exact path='/south-australia/' element={<SouthAustralia />} />      
+            <Route exact path='/northern-territory/' element={<NorthernTerritory />} />   
+            <Route exact path='/canberra/' element={<Canberra />} />    
+            <Route exact path='/gold-coast/' element={<GoldCoast />} />    
+            <Route exact path='/brisbane/' element={< Brisbane />} />    
+            <Route exact path='/melbourne/' element={< Melbourne />} />  
             {/* <Route path='/:name' element={<Region />} /> */}
           </Route>
         </Routes>

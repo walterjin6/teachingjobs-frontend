@@ -6,7 +6,7 @@ import SearchResults from './SearchResults';
 
 import { Link } from 'react-router-dom'
 
-const Adelaide = () => {
+const NSW = () => {
   const handleFormSubmit = (event) => {
 
     event.preventDefault();
@@ -25,12 +25,12 @@ const Adelaide = () => {
 
     <div className="">
       <Helmet>
-        <title>South Australia</title>
-        <meta name="description" content="At Teaching Jobs, we have a wide range of job vacancies & employments for teaching in Adelaide. Visit our job board for private and public jobs. Apply online now!" />
-        <meta name="keywords" content="adelaide teaching jobs . adelaide teaching positions" />
+        <title>NSW</title>
+        <meta name="description" content="Do you wish to apply for a teaching job in NSW? Visit our website today at Teaching Jobs, to see all our available positions throughout NSW. Apply online now!" />
+        <meta name="keywords" content="nsw teaching jobs . new south whales teaching positions" />
       </Helmet>
       <div className="blurb text-left py-8 ">
-        <h1 className=" font-bold text-lg md:text-2xl py-4 px-7 bg-[#f4a10c] text-white rounded-full shadow-xl "> Adelaide | Apply Online | Job Vacancies</h1>
+        <h1 className=" font-bold text-lg md:text-2xl py-4 px-7 bg-[#f4a10c] text-white rounded-full shadow-xl ">NSW | Apply Online | Job Vacancies</h1>
 
         <div className="newLine mb-4">
           <p className="font-semibold"></p>
@@ -39,7 +39,7 @@ const Adelaide = () => {
         <div className="newLine">
           <div className="py-4 px-7 rounded-2xl ">
 
-            <p >TeachingJobs provides all the information you need to find teaching positions in Adelaide. With the largest selection of education jobs available online, we are Australia's top job portal for education. We take great satisfaction in matching accomplished educators with rewarding roles that let them mentor, inspire, and educate.From Woodville South to Mount Osmond, everywhere in Adelaide has a variety of jobs available for you to peruse on TeachingJobs. We have several fulfilling work opportunities waiting for you to apply, whether you're seeking for a main teaching job in Adelaide, a casual relief teaching post, or a school assistant job. </p>
+            <p >If you’re looking for the latest job opportunities in the education sector, look no further than Teaching Jobs. Finding the right teaching jobs in NSW can be difficult and time-consuming, but we go out of our way to make your job hunt as smooth and painless as possible. By making an online profile on our site, you’ll be the first to know about exciting new employment opportunities and NSW teacher jobs. By entering your preferences, you are able to filter out jobs that don’t match your criteria and only be shown vacancies that align with your skills, qualifications and goals.  </p>
           </div>
           <div className="newLine mb-2"></div>
    
@@ -84,10 +84,10 @@ const Adelaide = () => {
 
 
 
-      <SearchResults q={{ q: "", l:"adelaide"  }} />
+      <SearchResults q={{ q: "", l:"nsw"  }} />
     </div> </div>
 
   );
 };
 
-export default Adelaide;
+export default NSW;
