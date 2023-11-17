@@ -201,11 +201,11 @@ const Home = () => {
           </div>
 
           <div className="text-[#e39e39]  flex flex-col items-center justify-center  text-2xl pt-4  animate-bounce h-6" >
-            <a >▼</a></div>
+            <a href="#section">▼</a></div>
         </div>
       </div>
-      <div className=" pt-12">
-        <div className="blurb text-left pt-12 ">
+      <div  className=" pt-12">
+        <div id="section" className="blurb text-left pt-12 ">
           <h1 className=" font-bold text-lg md:text-3xl py-4 px-6 bg-[#e39e39] text-white rounded-full mt-[18rem] shadow-xl border-4">Australia's #1 Teaching Job Board Site</h1>
           <div className="newLine mb-4">
             <p className="font-semibold"></p>
