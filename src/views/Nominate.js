@@ -2,35 +2,35 @@ import React, { useState } from "react";
 import axios from "axios";
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
+import {
+  useSendEmail1Mutation
+} from '../store/apiSlice'
+
 const Nominate = () => {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    phone: "",
-    desc: "",
-  });
-
-  const [submitStatus, setSubmitStatus] = useState("");
-
+  const [sendEmail, {
+    isSuccess: isSendSuccess,
+    isError: isSendError,
+    error: senderror
+  }] = useSendEmail1Mutation()
+  const [formData, setFormData] = useState({});
+  const [submitStatus, setSubmitStatus] = useState('');
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
-
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    const endpoint =
-      "https://x0p2y2mno7.execute-api.us-east-1.amazonaws.com/default/sendMail2PostJob";
-
-    axios
-      .post(endpoint, formData)
-      .then((response) => {
-        setSubmitStatus("success");
-      })
-      .catch((error) => {
-        setSubmitStatus("error");
-      });
-  };
-
+    const response = await sendEmail(formData);
+    //try {
+    console.log(response)
+    // Check the response for success or failure
+    if (response) {
+      console.log('Mutation was successful');
+      setSubmitStatus('success');
+    } else {
+      console.error('Mutation failed:', response.error);
+      setSubmitStatus('error');
+    }
+  }
   return (
     <div className="">
       <Helmet>
@@ -110,7 +110,7 @@ const Nominate = () => {
                 <input
                   type="text"
                   id="nominee-first-name"
-                  name="nominee-name"
+                  name="01_nominee-first-name"
                   className="w-full px-4 py-3  rounded-lg text-black focus:outline-none focus:border-orange-500"
                   placeholder="Nominee First Name"
                   onChange={handleChange}
@@ -124,7 +124,7 @@ const Nominate = () => {
                 <input
                   type="text"
                   id="nominee-family-name"
-                  name="nominee-family-name"
+                  name="02_nominee-family-name"
                   className="w-full px-4 py-3  rounded-lg text-black focus:outline-none focus:border-orange-500"
                   placeholder="Nominee Last Name"
                   onChange={handleChange}
@@ -138,7 +138,7 @@ const Nominate = () => {
                 <input
                   type="email"
                   id="name-email"
-                  name="nominee-email"
+                  name="03_nominee-email"
                   className="w-full px-4 py-3 0 rounded-lg text-black focus:outline-none focus:border-orange-500"
                   placeholder="Principal Email (If known)"
                   onChange={handleChange}
@@ -152,7 +152,7 @@ const Nominate = () => {
                 <input
                   type="text"
                   id="nominee-phone"
-                  name="nominee-phone"
+                  name="04_nominee-phone"
                   className="w-full px-4 py-3 0 rounded-lg text-black focus:outline-none focus:border-orange-500"
                   placeholder="Phone Number (If known)"
                   onChange={handleChange}
@@ -166,7 +166,7 @@ const Nominate = () => {
                 <input
                   type="text"
                   id="nominee-school"
-                  name="nominee-school"
+                  name="05_nominee-school"
                   className="w-full px-4 py-3 0 rounded-lg text-black focus:outline-none focus:border-orange-500"
                   placeholder="School Name"
                   onChange={handleChange}
@@ -180,7 +180,7 @@ const Nominate = () => {
                 <select
                   className="select w-full "
                   id="nominee-school-type"
-                  name="nominee-school-type"
+                  name="06_nominee-school-type"
                   onChange={handleChange}
                 >
                   <option disabled selected>
@@ -211,7 +211,7 @@ const Nominate = () => {
                 <input
                   type="text"
                   id="nominee-school-suburb"
-                  name="nominee-school-suburb"
+                  name="07_nominee-school-suburb"
                   className="w-full px-4 py-3 0 rounded-lg text-black focus:outline-none focus:border-orange-500"
                   placeholder="School Suburb (Town)"
                   onChange={handleChange}
@@ -225,7 +225,7 @@ const Nominate = () => {
                 <select
                   className="select w-full "
                   id="nominee-school-region-type"
-                  name="nominee-school-region-type"
+                  name="08_nominee-school-region-type"
                   onChange={handleChange}
                 >
                   <option disabled selected>
@@ -243,7 +243,7 @@ const Nominate = () => {
                 <select
                   className="select w-full "
                   id="nominee-school-state-territory"
-                  name="nominee-school-state-territory"
+                  name="09_nominee-school-state-territory"
                   onChange={handleChange}
                 >
                   <option disabled selected>
@@ -266,7 +266,7 @@ const Nominate = () => {
               <div className="relative">
                 <textarea
                   id="nomination-reason"
-                  name="nomination-reason"
+                  name="10_nomination-reason"
                   className="w-full px-4 py-3 0 rounded-lg text-black focus:outline-none focus:border-orange-500"
                   placeholder="Please write a brief description as to why your principal deserves our award (maximum 200 words)"
                   onChange={handleChange}
@@ -291,7 +291,7 @@ const Nominate = () => {
                 <input
                   type="text"
                   id="first-name-input"
-                  name="Nominator-First-Name"
+                  name="11_Nominator-First-Name"
                   className="w-full px-4 py-3  rounded-lg text-black focus:outline-none focus:border-orange-500"
                   placeholder=" First Name"
                   autocomplete="given-name"
@@ -306,7 +306,7 @@ const Nominate = () => {
                 <input
                   type="text"
                   id="last-name-input"
-                  name="Nominator-Last-Name"
+                  name="12_Nominator-Last-Name"
                   className="w-full px-4 py-3  rounded-lg text-black focus:outline-none focus:border-orange-500"
                   placeholder=" Last Name"
                   autocomplete="family-name"
@@ -321,7 +321,7 @@ const Nominate = () => {
                 <input
                   type="text"
                   id="role-position-input"
-                  name="Nominator-Role-Position"
+                  name="13_Nominator-Role-Position"
                   className="w-full px-4 py-3 0 rounded-lg text-black focus:outline-none focus:border-orange-500"
                   placeholder="Role or Position (student, parent, teacher, etc.)"
                   onChange={handleChange}
@@ -335,7 +335,7 @@ const Nominate = () => {
                 <input
                   type="email"
                   id="email-input"
-                  name="Nominator-Email"
+                  name="14_Nominator-Email"
                   className="w-full px-4 py-3 0 rounded-lg text-black focus:outline-none focus:border-orange-500"
                   placeholder="Email"
                   autocomplete="email"
