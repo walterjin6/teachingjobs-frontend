@@ -226,11 +226,11 @@ const Home = () => {
             <div className="faculty-container grid-cols-1 grid md:grid-cols-4 gap-4 py-2 px-7 ">
               <div className="column ">
                 <ul className="">
-                  <li className='mb-1 mt-4 '><Link to="/jobs/teacher---st-stephen-s-catholic-college,-mareeba/65193/" className='text-blue-500 font-bold'>A Teacher - St Stephen's Catholic College, Mareeba</Link></li>
+                  <li className='mb-1 mt-4 '><Link to="/jobs/middle-leader---the-arts/66672/" className='text-blue-500 font-bold'>Middle Leader - The Arts</Link></li>
                   <ul className="innerUL">
-                   <li className='mb-2 '><Link to="" >St Stephen's Catholic College Mareeba </Link></li>
-                   <li className='mb-2 '><Link to="" >Mareeba, QLD</Link></li>
-                   <li className='mb-2 '><Link to="" >17 Nov, 2023</Link></li>
+                   <li className='mb-2 '><Link to="" >Columba Catholic College </Link></li>
+                   <li className='mb-2 '><Link to="" >Charters Towers, QLD</Link></li>
+                   <li className='mb-2 '><Link to="" > Feb 18, 2024</Link></li>
                   </ul>
                 </ul>
               </div>
@@ -246,21 +246,21 @@ const Home = () => {
               </div>
               <div className="column">
                 <ul className="">
-                  <li className='mb-1 mt-4'><Link to="jobs/p.e.-teacher---st-augustine-s-college,-cairns/64974/" className='text-blue-500 font-bold'>P.E. Teacher - St Augustine's College, Cairns</Link></li>
+                  <li className='mb-1 mt-4'><Link to="/jobs/secondary-teacher---english-(classroom-teacher)/66503/" className='text-blue-500 font-bold'>Secondary Teacher - English (Classroom Teacher)</Link></li>
                   <ul className="innerUL">
-                   <li className='mb-2 '><Link to="" >St Augustine's College - Cairns</Link></li>
-                   <li className='mb-2 '><Link to="" >Cairns, QLD</Link></li>
-                   <li className='mb-2 '><Link to="" >17 Nov, 2023</Link></li>
+                   <li className='mb-2 '><Link to="" >Tarneit P-9 College</Link></li>
+                   <li className='mb-2 '><Link to="" >Tarneit, VIC</Link></li>
+                   <li className='mb-2 '><Link to="" > Nov 26, 2023</Link></li>
                   </ul>
                 </ul>
               </div>
               <div className="column">
                 <ul className="">
-                  <li className='mb-1 mt-4'><Link to="/jobs/science-teacher---st-augustine-s-college,-cairns/64973/" className='text-blue-500 font-bold'>Science Teacher - St Augustine's College, Cairns (71101)</Link></li>
+                  <li className='mb-1 mt-4'><Link to="/jobs/secondary-teacher-(english---humanities)/66671/" className='text-blue-500 font-bold'>Secondary Teacher (English & Humanities) (71101)</Link></li>
                   <ul className="innerUL">
-                   <li className='mb-2 '><Link to="" >St Augustine's College - Cairns</Link></li>
-                   <li className='mb-2 '><Link to="" >Cairns, QLD</Link></li>
-                   <li className='mb-2 '><Link to="" >17 Nov, 2023</Link></li>
+                   <li className='mb-2 '><Link to="" >Good Shepherd Catholic College</Link></li>
+                   <li className='mb-2 '><Link to="" >Mount Isa, QLD</Link></li>
+                   <li className='mb-2 '><Link to="" >Feb 18, 2024</Link></li>
                   </ul>
                 </ul>
               </div>
@@ -270,9 +270,9 @@ const Home = () => {
                 <ul className="">
                   <li className='mb-1 mt-4'><Link to="/jobs/primary-teacher/64949/" className='text-blue-500 font-bold'>Primary Teacher</Link></li>
                   <ul className="innerUL">
-                   <li className='mb-2 '><Link to="" >Townsville Catholic Education Office</Link></li>
+                   <li className='mb-2 '><Link to="" >St Anthony's Catholic College</Link></li>
                    <li className='mb-2 '><Link to="" >Townsville, QLD</Link></li>
-                   <li className='mb-2 '><Link to="" >20 Nov, 2023</Link></li>
+                   <li className='mb-2 '><Link to="" >Dec 1, 2023</Link></li>
                   </ul>
                 </ul>
               </div>
@@ -280,7 +280,7 @@ const Home = () => {
                 <ul className="">
                   <li className='mb-1 mt-4'><Link to="/jobs/secondary-teachers-(multiple-positions)/64940/" className='text-blue-500 font-bold'>Secondary Teachers (Multiple Positions)</Link></li>
                   <ul className="innerUL">
-                   <li className='mb-2 '><Link to="" >Townsville Catholic Education Office</Link></li>
+                   <li className='mb-2 '><Link to="" >St Teresa's College</Link></li>
                    <li className='mb-2 '><Link to="" >Abergowrie, QLD</Link></li>
                    <li className='mb-2 '><Link to="" >30 Nov, 2023</Link></li>
                   </ul>
@@ -290,9 +290,9 @@ const Home = () => {
                 <ul className="">
                   <li className='mb-1 mt-4'><Link to="/jobs/foundation-principal/64922/" className='text-blue-500 font-bold'>Foundation Principal</Link></li>
                   <ul className="innerUL">
-                   <li className='mb-2 '><Link to="" >Townsville Catholic Education Office</Link></li>
+                   <li className='mb-2 '><Link to="" >Mary Help of Christians Catholic College</Link></li>
                    <li className='mb-2 '><Link to="" >Townsville, QLD</Link></li>
-                   <li className='mb-2 '><Link to="" >13 Nov, 2023</Link></li>
+                   <li className='mb-2 '><Link to="" > Nov 30, 2023</Link></li>
                   </ul>
                 </ul>
               </div>
@@ -300,9 +300,9 @@ const Home = () => {
                 <ul className="">
                   <li className='mb-1 mt-4'><Link to="/jobs/secondary-teacher-(mathematics,-science---biology)/64839/" className='text-blue-500 font-bold'>Secondary Teacher (Mathematics, Science & Biology)</Link></li>
                   <ul className="innerUL">
-                   <li className='mb-2 '><Link to="" >Townsville Catholic Education Office</Link></li>
-                   <li className='mb-2 '><Link to="" >Charters Towers QLD</Link></li>
-                   <li className='mb-2 '><Link to="" >20 Nov, 2023</Link></li>
+                   <li className='mb-2 '><Link to="" >Columba Catholic College</Link></li>
+                   <li className='mb-2 '><Link to="" >Charters Towers, QLD</Link></li>
+                   <li className='mb-2 '><Link to="" >Exp. Nov 30, 2023</Link></li>
                   </ul>
                 </ul>
               </div>
@@ -310,11 +310,11 @@ const Home = () => {
             <div className="faculty-container grid-cols-1 grid md:grid-cols-4 gap-4 py-2 px-7">
               <div className="column">
                 <ul className="">
-                  <li className='mb-1 mt-4'><Link to="/jobs/vet-trainer-and-assessor-–-education-support/64832/" className='text-blue-500 font-bold'>VET Trainer and Assessor – Education Support</Link></li>
+                  <li className='mb-1 mt-4'><Link to="/jobs/vet-trainer-and-assessor-–-education-support/64832/" className='text-blue-500 font-bold'>Classroom Teachers</Link></li>
                   <ul className="innerUL">
-                   <li className='mb-2 '><Link to="" >Townsville Catholic Education Office</Link></li>
-                   <li className='mb-2 '><Link to="" >Townsville QLD</Link></li>
-                   <li className='mb-2 '><Link to="" >13 Nov, 2023</Link></li>
+                   <li className='mb-2 '><Link to="" >Our Lady of the Sacred Heart School, Waiben (Thursday Island)</Link></li>
+                   <li className='mb-2 '><Link to="" >Thursday Island, QLD</Link></li>
+                   <li className='mb-2 '><Link to="" >4 Dec, 2024</Link></li>
                   </ul>
                 </ul>
               </div>
@@ -323,7 +323,7 @@ const Home = () => {
                   <li className='mb-1 mt-4'><Link to="jobs/secondary-english-hsie-teacher/65917/" className='text-blue-500 font-bold'>Secondary English/HSIE Teacher</Link></li>
                   <ul className="innerUL">
                    <li className='mb-2 '><Link to="" >Belmont Christian College</Link></li>
-                   <li className='mb-2 '><Link to="" >Belmont North NSW</Link></li>
+                   <li className='mb-2 '><Link to="" >Belmont North, NSW</Link></li>
                    <li className='mb-2 '><Link to="" >30 Nov, 2023</Link></li>
                   </ul>
                 </ul>
@@ -332,19 +332,19 @@ const Home = () => {
                 <ul className="">
                   <li className='mb-1 mt-4'><Link to="/jobs/primary-teachers/64841/" className='text-blue-500 font-bold'>Primary Teachers</Link></li>
                   <ul className="innerUL">
-                   <li className='mb-2 '><Link to="" >Townsville Catholic Education Office</Link></li>
-                   <li className='mb-2 '><Link to="" >Mount Isa QLD</Link></li>
+                   <li className='mb-2 '><Link to="" >St Kieran's Catholic School</Link></li>
+                   <li className='mb-2 '><Link to="" >Mount Isa, QLD</Link></li>
                    <li className='mb-2 '><Link to="" >30 Nov, 2023</Link></li>
                   </ul>
                 </ul>
               </div>
               <div className="column">
                 <ul className="">
-                  <li className='mb-1 mt-4'><Link to="/jobs/middle-leader-curriculum,-pedagogy,-assessment-and-reporting-year-7---8---mount-st-bernard-college,-herberton/65194/" className='text-blue-500 font-bold'>Middle Leader Curriculum, Pedagogy, Assessment and Reporting Year 7 & 8 - Mount St Bernard College, Herberton</Link></li>
+                  <li className='mb-1 mt-4'><Link to="/jobs/middle-leader---inclusive-practices/66667/" className='text-blue-500 font-bold'>Middle Leader - Inclusive Practices</Link></li>
                   <ul className="innerUL">
-                   <li className='mb-2 '><Link to="" >Catholic Education Services – Diocese of Cairns</Link></li>
-                   <li className='mb-2 '><Link to="" >Herberton,QLD</Link></li>
-                   <li className='mb-2 '><Link to="" >12 Nov, 2023</Link></li>
+                   <li className='mb-2 '><Link to="" >St Joseph's Catholic School</Link></li>
+                   <li className='mb-2 '><Link to="" >Cloncurry, QLD</Link></li>
+                   <li className='mb-2 '><Link to="" >Feb 18, 2024</Link></li>
                   </ul>
                 </ul>
               </div>
@@ -352,8 +352,8 @@ const Home = () => {
                 <ul className="">
                   <li className='mb-1 mt-4'><Link to="/jobs/primary-teacher---year-2/64848/" className='text-blue-500 font-bold'>Primary Teacher - Year 2</Link></li>
                   <ul className="innerUL">
-                   <li className='mb-2 '><Link to="" >Townsville Catholic Education Office</Link></li>
-                   <li className='mb-2 '><Link to="" >Mundingburra QLD</Link></li>
+                   <li className='mb-2 '><Link to="" >St Joseph's Catholic School</Link></li>
+                   <li className='mb-2 '><Link to="" >Mundingburra, QLD</Link></li>
                    <li className='mb-2 '><Link to="" >30 Nov, 2023</Link></li>
                   </ul>
                 </ul>
@@ -362,8 +362,8 @@ const Home = () => {
                 <ul className="">
                   <li className='mb-1 mt-4'><Link to="/jobs/primary-teacher/64911/" className='text-blue-500 font-bold'>Primary Teacher</Link></li>
                   <ul className="innerUL">
-                   <li className='mb-2 '><Link to="" >Townsville Catholic Education Office</Link></li>
-                   <li className='mb-2 '><Link to="" >Hughenden QLD</Link></li>
+                   <li className='mb-2 '><Link to="" >St Francis Catholic School</Link></li>
+                   <li className='mb-2 '><Link to="" >Hughenden, QLD</Link></li>
                    <li className='mb-2 '><Link to="" >30 Nov, 2023</Link></li>
                   </ul>
                 </ul>
@@ -372,19 +372,19 @@ const Home = () => {
                 <ul className="">
                   <li className='mb-1 mt-4'><Link to="/jobs/primary-teacher/64837/" className='text-blue-500 font-bold'>Primary Teacher</Link></li>
                   <ul className="innerUL">
-                   <li className='mb-2 '><Link to="" >Townsville Catholic Education Office</Link></li>
-                   <li className='mb-2 '><Link to="" >Currajong QLD</Link></li>
+                   <li className='mb-2 '><Link to="" >Marian Catholic School</Link></li>
+                   <li className='mb-2 '><Link to="" >Currajong, QLD</Link></li>
                    <li className='mb-2 '><Link to="" >30 Nov, 2023</Link></li>
                   </ul>
                   </ul>
                   </div>  
                    <div className="column">
                    <ul className="">
-                  <li className='mb-1 mt-4'><Link to="/jobs/primary-and-secondary-casual-teachers/63852/" className='text-blue-500 font-bold'>Primary and Secondary Casual Teachers</Link></li>
+                  <li className='mb-1 mt-4'><Link to="/jobs/hospitality,-food-and-fibre-teacher-(secondary)/66664/" className='text-blue-500 font-bold'>Hospitality, Food and Fibre Teacher (Secondary)</Link></li>
                   <ul className="innerUL">
-                   <li className='mb-2 '><Link to="" >Belmont Christian College</Link></li>
-                   <li className='mb-2 '><Link to="" >Belmont North NSW</Link></li>
-                   <li className='mb-2 '><Link to="" >22 Nov, 2023</Link></li>
+                   <li className='mb-2 '><Link to="" >Ryan Catholic College</Link></li>
+                   <li className='mb-2 '><Link to="" >Townsville, QLD</Link></li>
+                   <li className='mb-2 '><Link to="" >Dec 31, 2023</Link></li>
                   </ul>
                 </ul>
               </div>
