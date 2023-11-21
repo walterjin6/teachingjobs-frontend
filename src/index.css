@@ -58,3 +58,7 @@ iframe {
 .post-a-job {
   background-color: var(--color-primary-light);
 }
+
+.poty {
+  font-weight: bold;
+}
