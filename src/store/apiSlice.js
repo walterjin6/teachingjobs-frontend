@@ -17,6 +17,15 @@ export const apiSlice = createApi({
   }),
   tagTypes: ['employers', 'employer', 'job', 'jobs'],
   endpoints: (builder) => ({
+    sendEmail1: builder.mutation({
+      query: (data) => ({
+        url: `/sendemail1`,
+        method: 'POST',
+        body: data,
+        mode: 'cors',
+      }),
+      invalidatesTags: [],
+    }),
     getJobs: builder.query({
       query: (data) => ({
         url: `/jobs`,
@@ -129,6 +138,7 @@ export const apiSlice = createApi({
   }),
 })
 export const {
+  useSendEmail1Mutation,
   useGetFiltersQuery,
   useGetJobByIdQuery,
   useGetSingleQAQuery,
