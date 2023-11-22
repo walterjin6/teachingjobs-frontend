@@ -186,7 +186,6 @@ const Nominate = () => {
                   <option disabled selected>
                     School type…
                   </option>
-                  <option value="State School">State School</option>
                   <option value="Public School">Public School</option>
                   <option value="Private School">Private School</option>
                   <option value="Catholic School">Catholic School</option>

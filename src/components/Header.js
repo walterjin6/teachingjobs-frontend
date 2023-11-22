@@ -185,37 +185,59 @@ export default function Header() {
             </ul>
           </div>
         </section>
-        <div className="DESKTOP-MENU w-full justify-between hidden space-x-8 lg:flex">
-          <div className="w-full columns-1 flex justify-start  md:items-center  md:gap-8 ">
+        <div className="DESKTOP-MENU w-full justify-between hidden space-x-1 lg:flex">
+          <div className="w-full columns-1 flex justify-start  md:items-center  md:gap-1 ">
             <NavLink
               to="/jobs/"
-              className="text-[#334680]  shadow-md rounded-full px-6 py-2 hover:text-[#e39e39] border border-transparent hover:border hover:border-[#e39e39]  "
+              className="nav-link nav-link-ltr whitespace-nowrap text-gray-900"
               activeClassName="active"
             >
               Teacher Jobs
             </NavLink>
             <NavLink
               to="/principal/"
-              className="text-[#334680]  shadow-md rounded-full px-6 py-2 hover:text-[#e39e39] border border-transparent hover:border hover:border-[#e39e39]  "
+              className="nav-link nav-link-ltr whitespace-nowrap text-gray-900"
               activeClassName="active"
             >
               Principal Jobs
             </NavLink>
             <NavLink
               to="/employers/"
-              className="text-[#334680]  shadow-md rounded-full px-6 py-2 hover:text-[#e39e39] border border-transparent hover:border hover:border-[#e39e39] "
+              className="nav-link nav-link-ltr whitespace-nowrap text-gray-900"
               activeClassName="active"
             >
               Top Schools
             </NavLink>
             <NavLink
               to="/school-career-advice/"
-              className="text-[#334680]  shadow-md rounded-full px-6 py-2 hover:text-[#e39e39] border border-transparent hover:border hover:border-[#e39e39] "
+              className="nav-link nav-link-ltr whitespace-nowrap text-gray-900"
               activeClassName="active"
             >
               Career Advice
             </NavLink>
+            <NavLink
+              to="/principal-of-the-year-2023-nominations"
+              className="nav-link nav-link-ltr whitespace-nowrap text-gray-900"
+              activeClassName="active"
+            >
+              <span className="flex flex-row items-center justify-center gap-1 m-auto">
+                <img
+                  className="academic-award"
+                  src="/academic-award.svg"
+                  alt="Academic Awards - Principal of the Year 2023"
+                  style={{ height: "22px", marginLeft: "-8px" }}
+                />
+                <span className="flex flex-col">
+                  <span>Nominate Now</span>
+                  <span className="nav-sub-heading">
+                    Principal of the Year 2023
+                  </span>
+                </span>
+              </span>
+            </NavLink>
           </div>
+
+          {/* Post A Job Button */}
           <div className=" w-[200px] grid items-center justify-center ">
             <a
               href="https://myteachingjobs.com.au/school-pricing/"

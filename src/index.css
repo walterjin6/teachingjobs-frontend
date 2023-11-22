@@ -137,3 +137,8 @@ iframe {
 .mobile-icons.triangle {
   font-size: 20px;
 }
+
+.nav-sub-heading {
+  font-size: 9px;
+  line-height: 0.2;
+}
