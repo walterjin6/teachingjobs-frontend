@@ -412,7 +412,7 @@ const Nominate = () => {
         </form>
       </div>
 
-      <section className="px-7 py-8 container mx-auto py-16 bg-slate-100 p-4 pt-4 rounded-3xl mt-8">
+      <section className="px-7 py-8 container mx-auto py-16 bg-slate-100 p-4 pt-4 rounded-3xl mt-8 mb-8">
         <h2>
           Recognising and presenting the most auspicious award for Exceptional
           Leadership in Australian Schools
