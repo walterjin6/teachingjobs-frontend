@@ -509,6 +509,14 @@ const Nominate = () => {
         </p>
         <p>Your Vote, Their Future. Nominate your Principal Today!</p>
 
+        <p>
+          View{" "}
+          <Link className="link link-warning" to="/nominee-promotion-ideas">
+            helpful information and promotion resources
+          </Link>{" "}
+          for the Australian 'Principal of the Year' 2023
+        </p>
+
         <p>Winners will be announced on 22 December 2023.</p>
       </section>
 
