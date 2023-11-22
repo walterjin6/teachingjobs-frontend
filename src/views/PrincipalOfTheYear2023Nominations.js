@@ -187,20 +187,21 @@ const Nominate = () => {
                     School type…
                   </option>
                   <option value="State School">State School</option>
+                  <option value="Public School">Public School</option>
                   <option value="Private School">Private School</option>
                   <option value="Catholic School">Catholic School</option>
-                  <option value="Independent School">Independent School</option>
                   <option value="Special Education School">
-                    Special Education School
+                    Specialist School
                   </option>
-                  <option value="Montessori School">Montessori School</option>
+                  <option value="Independent School">Independent School</option>
+                  {/* <option value="Montessori School">Montessori School</option>
                   <option value="Steiner School">
                     Steiner (Waldorf) School
                   </option>
                   <option value="International School">
                     International School
                   </option>
-                  <option value="Selective School">Selective School</option>
+                  <option value="Selective School">Selective School</option> */}
                 </select>
               </div>
             </div>
