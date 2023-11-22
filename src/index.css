@@ -142,3 +142,46 @@ iframe {
   font-size: 9px;
   line-height: 0.2;
 }
+input {
+  position: relative;
+}
+i.required {
+  display: none;
+}
+
+p[required] {
+  margin-left: 10px;
+  font-size: 12px;
+  margin-top: 6px;
+  font-style: italic;
+}
+
+input[required] + i.required,
+select[required] + i.required,
+textarea[required] + i.required,
+p[required]::before {
+  display: block;
+  color: red;
+  position: absolute;
+  inset: 0;
+  left: 6px;
+  top: 0px;
+  font-style: normal;
+  font-size: 20px;
+  width: 10px;
+  height: 20px;
+}
+p[required]::before {
+  content: "*";
+  left: 0px;
+  top: -2px;
+}
+.asterisk {
+  color: red;
+  position: relative;
+  top: 8px;
+  left: 1px;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 0;
+}

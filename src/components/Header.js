@@ -185,8 +185,8 @@ export default function Header() {
             </ul>
           </div>
         </section>
-        <div className="DESKTOP-MENU w-full justify-between hidden space-x-1 lg:flex">
-          <div className="w-full columns-1 flex justify-start  md:items-center  md:gap-1 ">
+        <div className="DESKTOP-MENU w-full justify-between hidden space-x lg:flex">
+          <div className="w-full columns-1 flex justify-start  md:items-center ">
             <NavLink
               to="/jobs/"
               className="nav-link nav-link-ltr whitespace-nowrap text-gray-900"

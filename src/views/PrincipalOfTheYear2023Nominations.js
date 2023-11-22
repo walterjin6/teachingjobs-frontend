@@ -108,13 +108,16 @@ const Nominate = () => {
             <div className="col-span-1">
               <div className="relative">
                 <input
+                  tabindex="1"
                   type="text"
                   id="nominee-first-name"
                   name="nominee-name"
                   className="w-full px-4 py-3  rounded-lg text-black focus:outline-none focus:border-orange-500"
                   placeholder="Nominee First Name"
                   onChange={handleChange}
+                  required
                 />
+                <i className="required">*</i>
               </div>
             </div>
 
@@ -122,27 +125,33 @@ const Nominate = () => {
             <div className="col-span-1">
               <div className="relative">
                 <input
+                  tabindex="2"
                   type="text"
                   id="nominee-family-name"
                   name="nominee-family-name"
                   className="w-full px-4 py-3  rounded-lg text-black focus:outline-none focus:border-orange-500"
                   placeholder="Nominee Last Name"
                   onChange={handleChange}
+                  required
                 />
+                <i className="required">*</i>
               </div>
             </div>
 
             {/* Principal Nominee Email */}
-            <div className="col-span-1">
+            <div className="col-span-2">
               <div className="relative">
                 <input
+                  tabindex="3"
                   type="email"
                   id="name-email"
                   name="nominee-email"
                   className="w-full px-4 py-3 0 rounded-lg text-black focus:outline-none focus:border-orange-500"
-                  placeholder="Principal Email (If known)"
+                  placeholder="Principal Email"
                   onChange={handleChange}
+                  required
                 />
+                <i className="required">*</i>
               </div>
             </div>
 
@@ -150,13 +159,15 @@ const Nominate = () => {
             <div className="col-span-1">
               <div className="relative">
                 <input
+                  tabindex="4"
                   type="text"
                   id="nominee-phone"
                   name="nominee-phone"
                   className="w-full px-4 py-3 0 rounded-lg text-black focus:outline-none focus:border-orange-500"
-                  placeholder="Phone Number (If known)"
+                  placeholder="Phone Number"
                   onChange={handleChange}
                 />
+                <i className="required">*</i>
               </div>
             </div>
 
@@ -164,13 +175,33 @@ const Nominate = () => {
             <div className="col-span-1">
               <div className="relative">
                 <input
+                  tabindex="5"
                   type="text"
                   id="nominee-school"
                   name="nominee-school"
                   className="w-full px-4 py-3 0 rounded-lg text-black focus:outline-none focus:border-orange-500"
                   placeholder="School Name"
                   onChange={handleChange}
+                  required
                 />
+                <i className="required">*</i>
+              </div>
+            </div>
+
+            {/* Nominee suburb */}
+            <div className="col-span-1">
+              <div className="relative">
+                <input
+                  tabindex="6"
+                  type="text"
+                  id="nominee-school-suburb"
+                  name="nominee-school-suburb"
+                  className="w-full px-4 py-3 0 rounded-lg text-black focus:outline-none focus:border-orange-500"
+                  placeholder="School Suburb (Town)"
+                  onChange={handleChange}
+                  required
+                />
+                <i className="required">*</i>
               </div>
             </div>
 
@@ -179,9 +210,11 @@ const Nominate = () => {
               <div className="relative">
                 <select
                   className="select w-full "
+                  tabindex="7"
                   id="nominee-school-type"
                   name="nominee-school-type"
                   onChange={handleChange}
+                  required
                 >
                   <option disabled selected>
                     School type…
@@ -202,20 +235,7 @@ const Nominate = () => {
                   </option>
                   <option value="Selective School">Selective School</option> */}
                 </select>
-              </div>
-            </div>
-
-            {/* Nominee suburb */}
-            <div className="col-span-1">
-              <div className="relative">
-                <input
-                  type="text"
-                  id="nominee-school-suburb"
-                  name="nominee-school-suburb"
-                  className="w-full px-4 py-3 0 rounded-lg text-black focus:outline-none focus:border-orange-500"
-                  placeholder="School Suburb (Town)"
-                  onChange={handleChange}
-                />
+                <i className="required">*</i>
               </div>
             </div>
 
@@ -223,10 +243,12 @@ const Nominate = () => {
             <div className="col-span-1">
               <div className="relative">
                 <select
+                  tabindex="8"
                   className="select w-full "
                   id="nominee-school-region-type"
                   name="nominee-school-region-type"
                   onChange={handleChange}
+                  required
                 >
                   <option disabled selected>
                     School region…
@@ -234,6 +256,7 @@ const Nominate = () => {
                   <option value="City">City</option>
                   <option value="Rural">Rural</option>
                 </select>
+                <i className="required">*</i>
               </div>
             </div>
 
@@ -241,23 +264,26 @@ const Nominate = () => {
             <div className="col-span-1">
               <div className="relative">
                 <select
+                  tabindex="9"
                   className="select w-full "
                   id="nominee-school-state-territory"
                   name="nominee-school-state-territory"
                   onChange={handleChange}
+                  required
                 >
                   <option disabled selected>
                     School's state or territory…
                   </option>
-                  <option value="QLD">Queensland</option>
-                  <option value="NSW">New South Wales</option>
-                  <option value="VIC">Victoria</option>
-                  <option value="SA">South Australia</option>
                   <option value="ACT">Australian Capital Territory</option>
-                  <option value="WA">Western Australia</option>
-                  <option value="TAS">Tasmania</option>
+                  <option value="NSW">New South Wales</option>
                   <option value="NT">Northern Territory</option>
+                  <option value="QLD">Queensland</option>
+                  <option value="SA">South Australia</option>
+                  <option value="TAS">Tasmania</option>
+                  <option value="VIC">Victoria</option>
+                  <option value="WA">Western Australia</option>
                 </select>
+                <i className="required">*</i>
               </div>
             </div>
 
@@ -265,12 +291,15 @@ const Nominate = () => {
             <div className="col-span-2">
               <div className="relative">
                 <textarea
+                  tabindex="10"
                   id="nomination-reason"
                   name="nomination-reason"
                   className="w-full px-4 py-3 0 rounded-lg text-black focus:outline-none focus:border-orange-500"
                   placeholder="Please write a brief description as to why your principal deserves our award (maximum 200 words)"
                   onChange={handleChange}
+                  required
                 />
+                <i className="required">*</i>
                 <label
                   htmlFor="nomination-reason"
                   className="absolute left-4 top-2 text-gray-600 transition-all"
@@ -289,6 +318,7 @@ const Nominate = () => {
             <div className="col-span-1">
               <div className="relative">
                 <input
+                  tabindex="11"
                   type="text"
                   id="first-name-input"
                   name="Nominator-First-Name"
@@ -296,7 +326,9 @@ const Nominate = () => {
                   placeholder=" First Name"
                   autocomplete="given-name"
                   onChange={handleChange}
+                  required
                 />
+                <i className="required">*</i>
               </div>
             </div>
 
@@ -304,6 +336,7 @@ const Nominate = () => {
             <div className="col-span-1">
               <div className="relative">
                 <input
+                  tabindex="12"
                   type="text"
                   id="last-name-input"
                   name="Nominator-Last-Name"
@@ -311,7 +344,9 @@ const Nominate = () => {
                   placeholder=" Last Name"
                   autocomplete="family-name"
                   onChange={handleChange}
+                  required
                 />
+                <i className="required">*</i>
               </div>
             </div>
 
@@ -319,6 +354,7 @@ const Nominate = () => {
             <div className="col-span-1">
               <div className="relative">
                 <input
+                  tabindex="13"
                   type="text"
                   id="role-position-input"
                   name="Nominator-Role-Position"
@@ -326,6 +362,7 @@ const Nominate = () => {
                   placeholder="Role or Position (student, parent, teacher, etc.)"
                   onChange={handleChange}
                 />
+                <i className="required">*</i>
               </div>
             </div>
 
@@ -333,6 +370,7 @@ const Nominate = () => {
             <div className="col-span-1">
               <div className="relative">
                 <input
+                  tabindex="14"
                   type="email"
                   id="email-input"
                   name="Nominator-Email"
@@ -340,13 +378,25 @@ const Nominate = () => {
                   placeholder="Email"
                   autocomplete="email"
                   onChange={handleChange}
+                  required
                 />
+                <i className="required">*</i>
               </div>
+            </div>
+          </div>
+
+          <div className="col-span-1">
+            <div className="relative">
+              <p required>
+                Any field with an asterisk (<span className="asterisk">*</span>)
+                is a required field!
+              </p>
             </div>
           </div>
 
           <div className="text-right mt-6">
             <button
+              tabindex="15"
               type="submit"
               className="px-6 py-2 rounded-full bg-transparent border-2 border-orange-500 text-orange-500 font-semibold hover:bg-[#f4a10c] hover:text-black transition duration-300 ease-in-out"
             >
