@@ -228,9 +228,16 @@ const Home = () => {
           <div className=" mt-4 pb-4">
             <ul className="faculty-container flex  gap-4 items-center justify-center text-[#e39e39] font-bold ">
               <li className="mb-2 hover:underline">
-                <Link to="/principal-of-the-year-2023-nominations">
-                  {" "}
-                  Nominate your Principal of the Year 2023
+                <Link
+                  className="flex flex-row items-center justify-center gap-2"
+                  to="/principal-of-the-year-2023-nominations"
+                >
+                  <img
+                    className="academic-award"
+                    src="/academic-award.svg"
+                    alt="Academic Awards - Principal of the Year 2023"
+                  />
+                  <span>Nominate your Principal of the Year 2023</span>
                 </Link>
               </li>
             </ul>
