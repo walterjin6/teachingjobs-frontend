@@ -45,16 +45,11 @@ const Nominate = () => {
         />
       </Helmet>
 
-      <div className="px-7 py-8 container mx-auto py-16 bg-orange-100 p-4 pt-4 rounded-3xl mt-8">
+      <div className="px-7 py-8 container mx-auto py-16 bg-orange-100 p-4 pt-4 rounded-3xl mt-8 mb-56">
         <h1 className="text-5xl font-semibold  text-[#f4a10c] ">
           Principal of the year 2023!
         </h1>
-        <h3 className="text-lg mt-4 pb-8">
-          Is your school led by or do you know a principal who truly makes a
-          difference? Someone who inspires, motivates, and fosters excellence
-          not only in students but also in fellow teachers? Here's your chance
-          to shine a spotlight on their exceptional work!
-        </h3>
+        <h3 className="text-lg mt-4 pb-8">Nominate your Principal NOW!</h3>
 
         <h4 className="text-lg text-[#f4a10c]">
           To nominate an outstanding principal for the auspicious{" "}
@@ -416,6 +411,106 @@ const Nominate = () => {
           )}
         </form>
       </div>
+
+      <section className="px-7 py-8 container mx-auto py-16 bg-slate-100 p-4 pt-4 rounded-3xl mt-8">
+        <h2>
+          Recognising and presenting the most auspicious award for Exceptional
+          Leadership in Australian Schools
+        </h2>
+        <p>Have you witnessed remarkable leadership?</p>
+        <h4 className="text-lg mt-4 pb-8">
+          Is your school led by or do you know a principal who truly makes a
+          difference? Someone who inspires, motivates, and fosters excellence
+          not only in students but also in fellow teachers? Here's your chance
+          to shine a spotlight on their exceptional work!
+        </h4>
+
+        <h3>Categories for Every School</h3>
+        <p>
+          This year, we're honouring principals from all corners of the
+          education sector:
+        </p>
+        <ul>
+          <li>
+            <span className="font-bold">Public Schools:</span> Celebrating the
+            leaders of our public education system.
+          </li>
+          <li>
+            <span className="font-bold">Private Schools:</span> Acknowledging
+            the unique contributions in private education.
+          </li>
+          <li>
+            <span className="font-bold">Catholic Schools:</span> Recognising the
+            values-driven leadership in our Catholic schools.
+          </li>
+          <li>
+            <span className="font-bold">Specialist Schools:</span> Recognising
+            the dedicated focus on special educational needs.
+          </li>
+          <li>
+            <span className="font-bold">Independent Schools:</span> Celebrating
+            the freedom and innovation in education.
+          </li>
+        </ul>
+
+        <h2>Awards at Every Level</h2>
+        <p>We're going local and national:</p>
+        <ul>
+          <li>
+            <span className="font-bold">City Level:</span> Honouring local
+            heroes in education.
+          </li>
+          <li>
+            <span className="font-bold">Regional Level:</span> Recognising the
+            leaders making a difference in their regions.
+          </li>
+          <li>
+            <span className="font-bold">State Level:</span> Celebrating the top
+            leadership across each state.
+          </li>
+        </ul>
+
+        <h3>What Makes a Principal Great?</h3>
+        <p>
+          Is it their innovative approach to education? Their tireless
+          commitment to student welfare? Or the way they lead and uplift their
+          teaching team? Tell us what makes your principal stand out!
+        </p>
+
+        <h3>An Auspicious and Prestigious Honour</h3>
+        <p>
+          Being nominated for the Principal of the Year is a significant
+          accolade, symbolising dedication, leadership, and a profound impact on
+          the educational community. The winners will not only hold the title of
+          The Teaching Jobs Principal of the Year but will also be recognised as
+          pinnacles of educational excellence.
+        </p>
+
+        <h3>How to Nominate</h3>
+        <p>
+          <span className="font-bold">Share Your Story:</span> Tell us about
+          your principal's achievements, leadership qualities, and impact.
+        </p>
+        <p>
+          <span className="font-bold">Gather Support:</span> Encourage fellow
+          teachers, students, and parents to join in and share their
+          experiences.
+        </p>
+        <p>
+          <span className="font-bold">Submit Your Nomination:</span> Complete
+          the nomination form below with all the details by 20 December 2023.
+        </p>
+
+        <h3>Spread the Word</h3>
+        <p>
+          Your vote and support can make a world of difference. Join us in
+          celebrating the extraordinary leaders who shape the future of
+          education in Australia.
+        </p>
+        <p>Your Vote, Their Future. Nominate your Principal Today!</p>
+
+        <p>Winners will be announced on 22 December 2023.</p>
+      </section>
 
       {/* contact details */}
       <div className="mainContent px-7 pb-4 hidden">

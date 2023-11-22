@@ -225,7 +225,7 @@ export default function Header() {
                   className="academic-award"
                   src="/academic-award.svg"
                   alt="Academic Awards - Principal of the Year 2023"
-                  style={{ height: "22px", marginLeft: "-8px" }}
+                  style={{ height: "22px", marginLeft: "-18px" }}
                 />
                 <span className="flex flex-col">
                   <span>Nominate Now</span>

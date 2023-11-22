@@ -186,3 +186,36 @@ p[required]::before {
   font-size: 20px;
   line-height: 0;
 }
+
+section h2,
+section h3,
+section h4 {
+  color: var(--color-primary);
+  margin-top: 1.5rem;
+}
+section h2 {
+  font-size: 1.8rem;
+}
+section h3 {
+  font-size: 1.4rem;
+}
+section h4 {
+  font-size: 1.1rem;
+  color: #757575;
+  font-weight: bold;
+}
+section p {
+  margin-bottom: 6px;
+  line-height: 1.4;
+}
+
+/* Style the unordered list */
+section ul {
+  list-style-type: disc; /* Use disc bullets */
+  padding-left: 40px; /* Add left padding to create space between bullets and text */
+}
+
+/* Style the list items */
+section li {
+  margin-bottom: 8px; /* Add margin between list items */
+}
