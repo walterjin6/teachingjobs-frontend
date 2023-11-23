@@ -206,17 +206,45 @@ section h4 {
   font-weight: bold;
 }
 section p {
-  margin-bottom: 6px;
+  font-size: 1rem;
+  margin-bottom: 8px;
   line-height: 1.4;
 }
 
+section.template a {
+  color: rgb(0, 107, 213);
+  text-decoration: underline;
+  font-weight: bold;
+  font-weight: 600;
+}
+section.template .school-images {
+  display: flex;
+}
+section.template .school-images img {
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+section.template .school-images img.school-logo {
+  max-width: 100px;
+}
+section.template .nomination-badge {
+  max-width: 140px;
+  height: auto;
+  margin-top: 20px;
+}
 /* Style the unordered list */
+section.template ul,
 section ul {
   list-style-type: disc; /* Use disc bullets */
   padding-left: 40px; /* Add left padding to create space between bullets and text */
 }
 
 /* Style the list items */
+section.template li,
 section li {
   margin-bottom: 8px; /* Add margin between list items */
 }
