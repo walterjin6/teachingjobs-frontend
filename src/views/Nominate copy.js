@@ -30,7 +30,6 @@ const Nominate = () => {
       setSubmitStatus('error');
     }
   }
-
   return (
     <div className="">
       <Helmet>
@@ -44,19 +43,21 @@ const Nominate = () => {
           content="Nominate Teachingjobs, Nominate Teaching Jobs, Teachingjobs Nominate "
         />
       </Helmet>
-
-      <div className="px-7 py-8 container mx-auto py-16 bg-orange-100 p-4 pt-4 rounded-3xl mt-8 mb-56">
+      <div className="px-7 py-8 container mx-auto py-16 bg-orange-100 p-4 pt-4 rounded-3xl mt-8">
         <h1 className="text-5xl font-semibold  text-[#f4a10c] ">
           Principal of the year 2023!
         </h1>
-        <h3 className="text-lg mt-4 pb-8">Nominate your Principal NOW!</h3>
-
+        <h3 className="text-lg mt-4 pb-8">
+          Is your school led by or do you know a principal who truly makes a
+          difference? Someone who inspires, motivates, and fosters excellence
+          not only in students but also in fellow teachers? Here's your chance
+          to shine a spotlight on their exceptional work!
+        </h3>
         <h4 className="text-lg text-[#f4a10c]">
           To nominate an outstanding principal for the auspicious{" "}
           <span className="poty">"PRINCIPAL OF THE YEAR 2023 AWARD"</span>{" "}
           simply complete the form below:{" "}
         </h4>
-
         <div className="p-4 bg-gray-100 mt-[3rem] hidden">
           <p className="mb-4 text-lg font-semibold text-[#f4a10c]">
             Drop us an email:
@@ -85,7 +86,6 @@ const Nominate = () => {
           </ul>
           <p className="mt-4">Or call us:</p>
         </div>
-
         <Link to="https://iloveTeachingjobs.com/Nominate/">
           <img
             src="https://Teachingjobs.s3.amazonaws.com/img/_misc/Nominate-us.jpeg"
@@ -93,7 +93,6 @@ const Nominate = () => {
             className="mt-[4rem] hidden"
           />
         </Link>
-
         <form className="mt-8" onSubmit={handleSubmit}>
           <h4 className="text-[#f4a10c] text-3xl mt-8 mb-4 font-semibold">
             Nominee
@@ -103,147 +102,118 @@ const Nominate = () => {
             <div className="col-span-1">
               <div className="relative">
                 <input
-                  tabindex="1"
                   type="text"
                   id="nominee-first-name"
                   name="01_nominee-first-name"
                   className="w-full px-4 py-3  rounded-lg text-black focus:outline-none focus:border-orange-500"
                   placeholder="Nominee First Name"
                   onChange={handleChange}
-                  required
                 />
-                <i className="required">*</i>
               </div>
             </div>
-
             {/* Nominee Last Name */}
             <div className="col-span-1">
               <div className="relative">
                 <input
-                  tabindex="2"
                   type="text"
                   id="nominee-family-name"
                   name="02_nominee-family-name"
                   className="w-full px-4 py-3  rounded-lg text-black focus:outline-none focus:border-orange-500"
                   placeholder="Nominee Last Name"
                   onChange={handleChange}
-                  required
                 />
-                <i className="required">*</i>
               </div>
             </div>
-
             {/* Principal Nominee Email */}
-            <div className="col-span-2">
+            <div className="col-span-1">
               <div className="relative">
                 <input
-                  tabindex="3"
                   type="email"
                   id="name-email"
                   name="03_nominee-email"
                   className="w-full px-4 py-3 0 rounded-lg text-black focus:outline-none focus:border-orange-500"
-                  placeholder="Principal Email"
+                  placeholder="Principal Email (If known)"
                   onChange={handleChange}
-                  required
                 />
-                <i className="required">*</i>
               </div>
             </div>
-
             {/* Nominee phone */}
             <div className="col-span-1">
               <div className="relative">
                 <input
-                  tabindex="4"
                   type="text"
                   id="nominee-phone"
                   name="04_nominee-phone"
                   className="w-full px-4 py-3 0 rounded-lg text-black focus:outline-none focus:border-orange-500"
-                  placeholder="Phone Number"
+                  placeholder="Phone Number (If known)"
                   onChange={handleChange}
                 />
-                <i className="required">*</i>
               </div>
             </div>
-
             {/* Nominee school */}
             <div className="col-span-1">
               <div className="relative">
                 <input
-                  tabindex="5"
                   type="text"
                   id="nominee-school"
                   name="05_nominee-school"
                   className="w-full px-4 py-3 0 rounded-lg text-black focus:outline-none focus:border-orange-500"
                   placeholder="School Name"
                   onChange={handleChange}
-                  required
                 />
-                <i className="required">*</i>
               </div>
             </div>
-
-            {/* Nominee suburb */}
-            <div className="col-span-1">
-              <div className="relative">
-                <input
-                  tabindex="6"
-                  type="text"
-                  id="nominee-school-suburb"
-                  name="06_nominee-school-suburb"
-                  className="w-full px-4 py-3 0 rounded-lg text-black focus:outline-none focus:border-orange-500"
-                  placeholder="School Suburb (Town)"
-                  onChange={handleChange}
-                  required
-                />
-                <i className="required">*</i>
-              </div>
-            </div>
-
             {/* Nominee school type */}
             <div className="col-span-1">
               <div className="relative">
                 <select
                   className="select w-full "
-                  tabindex="7"
                   id="nominee-school-type"
-                  name="07_nominee-school-type"
+                  name="06_nominee-school-type"
                   onChange={handleChange}
-                  required
                 >
                   <option disabled selected>
                     School type…
                   </option>
-                  <option value="Public School">Public School</option>
+                  <option value="State School">State School</option>
                   <option value="Private School">Private School</option>
                   <option value="Catholic School">Catholic School</option>
-                  <option value="Special Education School">
-                    Specialist School
-                  </option>
                   <option value="Independent School">Independent School</option>
-                  {/* <option value="Montessori School">Montessori School</option>
+                  <option value="Special Education School">
+                    Special Education School
+                  </option>
+                  <option value="Montessori School">Montessori School</option>
                   <option value="Steiner School">
                     Steiner (Waldorf) School
                   </option>
                   <option value="International School">
                     International School
                   </option>
-                  <option value="Selective School">Selective School</option> */}
+                  <option value="Selective School">Selective School</option>
                 </select>
-                <i className="required">*</i>
               </div>
             </div>
-
+            {/* Nominee suburb */}
+            <div className="col-span-1">
+              <div className="relative">
+                <input
+                  type="text"
+                  id="nominee-school-suburb"
+                  name="07_nominee-school-suburb"
+                  className="w-full px-4 py-3 0 rounded-lg text-black focus:outline-none focus:border-orange-500"
+                  placeholder="School Suburb (Town)"
+                  onChange={handleChange}
+                />
+              </div>
+            </div>
             {/* Nominee region-type */}
             <div className="col-span-1">
               <div className="relative">
                 <select
-                  tabindex="8"
                   className="select w-full "
                   id="nominee-school-region-type"
                   name="08_nominee-school-region-type"
                   onChange={handleChange}
-                  required
                 >
                   <option disabled selected>
                     School region…
@@ -251,69 +221,57 @@ const Nominate = () => {
                   <option value="City">City</option>
                   <option value="Rural">Rural</option>
                 </select>
-                <i className="required">*</i>
               </div>
             </div>
-
             {/* Nominee state */}
             <div className="col-span-1">
               <div className="relative">
                 <select
-                  tabindex="9"
                   className="select w-full "
                   id="nominee-school-state-territory"
                   name="09_nominee-school-state-territory"
                   onChange={handleChange}
-                  required
                 >
                   <option disabled selected>
                     School's state or territory…
                   </option>
-                  <option value="ACT">Australian Capital Territory</option>
-                  <option value="NSW">New South Wales</option>
-                  <option value="NT">Northern Territory</option>
                   <option value="QLD">Queensland</option>
-                  <option value="SA">South Australia</option>
-                  <option value="TAS">Tasmania</option>
+                  <option value="NSW">New South Wales</option>
                   <option value="VIC">Victoria</option>
+                  <option value="SA">South Australia</option>
+                  <option value="ACT">Australian Capital Territory</option>
                   <option value="WA">Western Australia</option>
+                  <option value="TAS">Tasmania</option>
+                  <option value="NT">Northern Territory</option>
                 </select>
-                <i className="required">*</i>
               </div>
             </div>
-
             {/* Nomination reason */}
             <div className="col-span-2">
               <div className="relative">
                 <textarea
-                  tabindex="10"
                   id="nomination-reason"
                   name="10_nomination-reason"
                   className="w-full px-4 py-3 0 rounded-lg text-black focus:outline-none focus:border-orange-500"
                   placeholder="Please write a brief description as to why your principal deserves our award (maximum 200 words)"
                   onChange={handleChange}
-                  required
                 />
-                <i className="required">*</i>
                 <label
                   htmlFor="nomination-reason"
                   className="absolute left-4 top-2 text-gray-600 transition-all"
                 ></label>
               </div>
             </div>
-
             {/* Nominator section */}
             <div className="col-span-2">
               <h4 className="text-[#f4a10c] text-3xl mt-8 mb-2 font-semibold">
                 About You
               </h4>
             </div>
-
             {/* Nominator first name */}
             <div className="col-span-1">
               <div className="relative">
                 <input
-                  tabindex="11"
                   type="text"
                   id="first-name-input"
                   name="11_Nominator-First-Name"
@@ -321,17 +279,13 @@ const Nominate = () => {
                   placeholder=" First Name"
                   autocomplete="given-name"
                   onChange={handleChange}
-                  required
                 />
-                <i className="required">*</i>
               </div>
             </div>
-
             {/* Nominator last name */}
             <div className="col-span-1">
               <div className="relative">
                 <input
-                  tabindex="12"
                   type="text"
                   id="last-name-input"
                   name="12_Nominator-Last-Name"
@@ -339,17 +293,13 @@ const Nominate = () => {
                   placeholder=" Last Name"
                   autocomplete="family-name"
                   onChange={handleChange}
-                  required
                 />
-                <i className="required">*</i>
               </div>
             </div>
-
             {/* Nominator role position */}
             <div className="col-span-1">
               <div className="relative">
                 <input
-                  tabindex="13"
                   type="text"
                   id="role-position-input"
                   name="13_Nominator-Role-Position"
@@ -357,15 +307,12 @@ const Nominate = () => {
                   placeholder="Role or Position (student, parent, teacher, etc.)"
                   onChange={handleChange}
                 />
-                <i className="required">*</i>
               </div>
             </div>
-
             {/* Nominator email */}
             <div className="col-span-1">
               <div className="relative">
                 <input
-                  tabindex="14"
                   type="email"
                   id="email-input"
                   name="14_Nominator-Email"
@@ -373,25 +320,12 @@ const Nominate = () => {
                   placeholder="Email"
                   autocomplete="email"
                   onChange={handleChange}
-                  required
                 />
-                <i className="required">*</i>
               </div>
             </div>
           </div>
-
-          <div className="col-span-1">
-            <div className="relative">
-              <p required>
-                Any field with an asterisk (<span className="asterisk">*</span>)
-                is a required field!
-              </p>
-            </div>
-          </div>
-
           <div className="text-right mt-6">
             <button
-              tabindex="15"
               type="submit"
               className="px-6 py-2 rounded-full bg-transparent border-2 border-orange-500 text-orange-500 font-semibold hover:bg-[#f4a10c] hover:text-black transition duration-300 ease-in-out"
             >
@@ -411,115 +345,6 @@ const Nominate = () => {
           )}
         </form>
       </div>
-
-      <section className="px-7 py-8 container mx-auto py-16 bg-slate-100 p-4 pt-4 rounded-3xl mt-8 mb-8">
-        <h2>
-          Recognising and presenting the most auspicious award for Exceptional
-          Leadership in Australian Schools
-        </h2>
-        <p>Have you witnessed remarkable leadership?</p>
-        <h4 className="text-lg mt-4 pb-8">
-          Is your school led by or do you know a principal who truly makes a
-          difference? Someone who inspires, motivates, and fosters excellence
-          not only in students but also in fellow teachers? Here's your chance
-          to shine a spotlight on their exceptional work!
-        </h4>
-
-        <h3>Categories for Every School</h3>
-        <p>
-          This year, we're honouring principals from all corners of the
-          education sector:
-        </p>
-        <ul>
-          <li>
-            <span className="font-bold">Public Schools:</span> Celebrating the
-            leaders of our public education system.
-          </li>
-          <li>
-            <span className="font-bold">Private Schools:</span> Acknowledging
-            the unique contributions in private education.
-          </li>
-          <li>
-            <span className="font-bold">Catholic Schools:</span> Recognising the
-            values-driven leadership in our Catholic schools.
-          </li>
-          <li>
-            <span className="font-bold">Specialist Schools:</span> Recognising
-            the dedicated focus on special educational needs.
-          </li>
-          <li>
-            <span className="font-bold">Independent Schools:</span> Celebrating
-            the freedom and innovation in education.
-          </li>
-        </ul>
-
-        <h2>Awards at Every Level</h2>
-        <p>We're going local and national:</p>
-        <ul>
-          <li>
-            <span className="font-bold">City Level:</span> Honouring local
-            heroes in education.
-          </li>
-          <li>
-            <span className="font-bold">Regional Level:</span> Recognising the
-            leaders making a difference in their regions.
-          </li>
-          <li>
-            <span className="font-bold">State Level:</span> Celebrating the top
-            leadership across each state.
-          </li>
-        </ul>
-
-        <h3>What Makes a Principal Great?</h3>
-        <p>
-          Is it their innovative approach to education? Their tireless
-          commitment to student welfare? Or the way they lead and uplift their
-          teaching team? Tell us what makes your principal stand out!
-        </p>
-
-        <h3>An Auspicious and Prestigious Honour</h3>
-        <p>
-          Being nominated for the Principal of the Year is a significant
-          accolade, symbolising dedication, leadership, and a profound impact on
-          the educational community. The winners will not only hold the title of
-          The Teaching Jobs Principal of the Year but will also be recognised as
-          pinnacles of educational excellence.
-        </p>
-
-        <h3>How to Nominate</h3>
-        <p>
-          <span className="font-bold">Share Your Story:</span> Tell us about
-          your principal's achievements, leadership qualities, and impact.
-        </p>
-        <p>
-          <span className="font-bold">Gather Support:</span> Encourage fellow
-          teachers, students, and parents to join in and share their
-          experiences.
-        </p>
-        <p>
-          <span className="font-bold">Submit Your Nomination:</span> Complete
-          the nomination form below with all the details by 20 December 2023.
-        </p>
-
-        <h3>Spread the Word</h3>
-        <p>
-          Your vote and support can make a world of difference. Join us in
-          celebrating the extraordinary leaders who shape the future of
-          education in Australia.
-        </p>
-        <p>Your Vote, Their Future. Nominate your Principal Today!</p>
-
-        <p>
-          View{" "}
-          <Link className="link link-warning" to="/nominee-promotion-ideas">
-            helpful information and promotion resources
-          </Link>{" "}
-          for the Australian 'Principal of the Year' 2023
-        </p>
-
-        <p>Winners will be announced on 22 December 2023.</p>
-      </section>
-
       {/* contact details */}
       <div className="mainContent px-7 pb-4 hidden">
         <div className="container1b bg-white text-[#f4a10c] font-openSans font-bold py-4">
@@ -577,5 +402,4 @@ const Nominate = () => {
     </div>
   );
 };
-
 export default Nominate;
