@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 import {
   useSendEmail1Mutation
 } from '../store/apiSlice'
-
 const Nominate = () => {
   const [sendEmail, {
     isSuccess: isSendSuccess,
@@ -44,7 +43,6 @@ const Nominate = () => {
           content="Nominate Teachingjobs, Nominate Teaching Jobs, Teachingjobs Nominate "
         />
       </Helmet>
-
       <div className="px-7 py-8 container mx-auto py-16 bg-orange-100 p-4 pt-4 rounded-3xl mt-8">
         <h1 className="text-5xl font-semibold  text-[#f4a10c] ">
           Principal of the year 2023!
@@ -55,13 +53,11 @@ const Nominate = () => {
           not only in students but also in fellow teachers? Here's your chance
           to shine a spotlight on their exceptional work!
         </h3>
-
         <h4 className="text-lg text-[#f4a10c]">
           To nominate an outstanding principal for the auspicious{" "}
           <span className="poty">"PRINCIPAL OF THE YEAR 2023 AWARD"</span>{" "}
           simply complete the form below:{" "}
         </h4>
-
         <div className="p-4 bg-gray-100 mt-[3rem] hidden">
           <p className="mb-4 text-lg font-semibold text-[#f4a10c]">
             Drop us an email:
@@ -90,7 +86,6 @@ const Nominate = () => {
           </ul>
           <p className="mt-4">Or call us:</p>
         </div>
-
         <Link to="https://iloveTeachingjobs.com/Nominate/">
           <img
             src="https://Teachingjobs.s3.amazonaws.com/img/_misc/Nominate-us.jpeg"
@@ -98,7 +93,6 @@ const Nominate = () => {
             className="mt-[4rem] hidden"
           />
         </Link>
-
         <form className="mt-8" onSubmit={handleSubmit}>
           <h4 className="text-[#f4a10c] text-3xl mt-8 mb-4 font-semibold">
             Nominee
@@ -117,7 +111,6 @@ const Nominate = () => {
                 />
               </div>
             </div>
-
             {/* Nominee Last Name */}
             <div className="col-span-1">
               <div className="relative">
@@ -131,7 +124,6 @@ const Nominate = () => {
                 />
               </div>
             </div>
-
             {/* Principal Nominee Email */}
             <div className="col-span-1">
               <div className="relative">
@@ -145,7 +137,6 @@ const Nominate = () => {
                 />
               </div>
             </div>
-
             {/* Nominee phone */}
             <div className="col-span-1">
               <div className="relative">
@@ -159,7 +150,6 @@ const Nominate = () => {
                 />
               </div>
             </div>
-
             {/* Nominee school */}
             <div className="col-span-1">
               <div className="relative">
@@ -173,7 +163,6 @@ const Nominate = () => {
                 />
               </div>
             </div>
-
             {/* Nominee school type */}
             <div className="col-span-1">
               <div className="relative">
@@ -204,7 +193,6 @@ const Nominate = () => {
                 </select>
               </div>
             </div>
-
             {/* Nominee suburb */}
             <div className="col-span-1">
               <div className="relative">
@@ -218,7 +206,6 @@ const Nominate = () => {
                 />
               </div>
             </div>
-
             {/* Nominee region-type */}
             <div className="col-span-1">
               <div className="relative">
@@ -236,7 +223,6 @@ const Nominate = () => {
                 </select>
               </div>
             </div>
-
             {/* Nominee state */}
             <div className="col-span-1">
               <div className="relative">
@@ -260,7 +246,6 @@ const Nominate = () => {
                 </select>
               </div>
             </div>
-
             {/* Nomination reason */}
             <div className="col-span-2">
               <div className="relative">
@@ -277,14 +262,12 @@ const Nominate = () => {
                 ></label>
               </div>
             </div>
-
             {/* Nominator section */}
             <div className="col-span-2">
               <h4 className="text-[#f4a10c] text-3xl mt-8 mb-2 font-semibold">
                 About You
               </h4>
             </div>
-
             {/* Nominator first name */}
             <div className="col-span-1">
               <div className="relative">
@@ -299,7 +282,6 @@ const Nominate = () => {
                 />
               </div>
             </div>
-
             {/* Nominator last name */}
             <div className="col-span-1">
               <div className="relative">
@@ -314,7 +296,6 @@ const Nominate = () => {
                 />
               </div>
             </div>
-
             {/* Nominator role position */}
             <div className="col-span-1">
               <div className="relative">
@@ -328,7 +309,6 @@ const Nominate = () => {
                 />
               </div>
             </div>
-
             {/* Nominator email */}
             <div className="col-span-1">
               <div className="relative">
@@ -344,7 +324,6 @@ const Nominate = () => {
               </div>
             </div>
           </div>
-
           <div className="text-right mt-6">
             <button
               type="submit"
@@ -366,7 +345,6 @@ const Nominate = () => {
           )}
         </form>
       </div>
-
       {/* contact details */}
       <div className="mainContent px-7 pb-4 hidden">
         <div className="container1b bg-white text-[#f4a10c] font-openSans font-bold py-4">
@@ -424,5 +402,4 @@ const Nominate = () => {
     </div>
   );
 };
-
 export default Nominate;

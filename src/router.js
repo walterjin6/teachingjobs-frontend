@@ -121,14 +121,11 @@ const AppRouter = () => {
             <Route exact path="/faculty/" element={<Faculty />} />
             <Route exact path="/QUT/" element={<QUT />} />
             <Route exact path="/faculty/:category?" element={<Category />} />
-
             <Route exact path="/:position?" element={<Position />} />
             <Route exact path="/cities/:cities?" element={<Cities />} />
             <Route exact path="/industry/:industry?" element={<Industry />} />
-
             <Route exact path="/job-type/" element={<Position2 />} />
             <Route exact path="/hr/:hr?" element={<HR />} />
-
             <Route exact path="/UK/:ukpositions?" element={<UKpositions />} />
             <Route
               exact

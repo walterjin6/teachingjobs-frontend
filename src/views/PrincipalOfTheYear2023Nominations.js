@@ -2,34 +2,34 @@ import React, { useState } from "react";
 import axios from "axios";
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
+import {
+  useSendEmail1Mutation
+} from '../store/apiSlice'
 const Nominate = () => {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    phone: "",
-    desc: "",
-  });
-
-  const [submitStatus, setSubmitStatus] = useState("");
-
+  const [sendEmail, {
+    isSuccess: isSendSuccess,
+    isError: isSendError,
+    error: senderror
+  }] = useSendEmail1Mutation()
+  const [formData, setFormData] = useState({});
+  const [submitStatus, setSubmitStatus] = useState('');
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
-
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    const endpoint =
-      "https://x0p2y2mno7.execute-api.us-east-1.amazonaws.com/default/sendMail2PostJob";
-
-    axios
-      .post(endpoint, formData)
-      .then((response) => {
-        setSubmitStatus("success");
-      })
-      .catch((error) => {
-        setSubmitStatus("error");
-      });
-  };
+    const response = await sendEmail(formData);
+    //try {
+    console.log(response)
+    // Check the response for success or failure
+    if (response) {
+      console.log('Mutation was successful');
+      setSubmitStatus('success');
+    } else {
+      console.error('Mutation failed:', response.error);
+      setSubmitStatus('error');
+    }
+  }
 
   return (
     <div className="">
