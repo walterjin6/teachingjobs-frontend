@@ -18,9 +18,9 @@ const NomineePromoIdeas = () => {
         />
       </Helmet>
 
-      <div className="px-7 py-8 container mx-auto py-16 bg-orange-100 p-4 pt-4 rounded-3xl mt-8 mb-56">
+      <div className="px-7 py-8 container mx-auto py-16 p-4 pt-4 rounded-3xl mt-8 mb-56">
         <h1 className="text-5xl font-semibold  text-[#f4a10c] ">
-          Principal of the year 2023!
+          Principal of the Year Resources!
         </h1>
         <h3 className="text-lg mt-4 pb-8">Nominate your Principal NOW!</h3>
 
