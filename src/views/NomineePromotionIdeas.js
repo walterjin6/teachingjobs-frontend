@@ -229,6 +229,18 @@ const NomineePromoIdeas = () => {
             and enthusiasm. Together, we make our school a wonderful place to
             learn and grow.
           </p>
+          <p>
+            To help me secure this auspicious award please submit a nomination
+            at{" "}
+            <a
+              target="_blank"
+              href="https://www.teachingjobs.com.au/principal-of-the-year-2023-nominations"
+              rel="noreferrer"
+            >
+              www.TeachingJobs.com.au
+            </a>
+          </p>
+
           <p>Thank you for being an integral part of this journey.</p>
           <p>Warm regards,</p>
           <p>[Your Name]</p>
