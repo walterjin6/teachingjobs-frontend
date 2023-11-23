@@ -106,7 +106,7 @@ const Nominate = () => {
                   tabindex="1"
                   type="text"
                   id="nominee-first-name"
-                  name="nominee-name"
+                  name="01_nominee-first-name"
                   className="w-full px-4 py-3  rounded-lg text-black focus:outline-none focus:border-orange-500"
                   placeholder="Nominee First Name"
                   onChange={handleChange}
@@ -123,7 +123,7 @@ const Nominate = () => {
                   tabindex="2"
                   type="text"
                   id="nominee-family-name"
-                  name="nominee-family-name"
+                  name="02_nominee-family-name"
                   className="w-full px-4 py-3  rounded-lg text-black focus:outline-none focus:border-orange-500"
                   placeholder="Nominee Last Name"
                   onChange={handleChange}
@@ -140,7 +140,7 @@ const Nominate = () => {
                   tabindex="3"
                   type="email"
                   id="name-email"
-                  name="nominee-email"
+                  name="03_nominee-email"
                   className="w-full px-4 py-3 0 rounded-lg text-black focus:outline-none focus:border-orange-500"
                   placeholder="Principal Email"
                   onChange={handleChange}
@@ -157,7 +157,7 @@ const Nominate = () => {
                   tabindex="4"
                   type="text"
                   id="nominee-phone"
-                  name="nominee-phone"
+                  name="04_nominee-phone"
                   className="w-full px-4 py-3 0 rounded-lg text-black focus:outline-none focus:border-orange-500"
                   placeholder="Phone Number"
                   onChange={handleChange}
@@ -173,7 +173,7 @@ const Nominate = () => {
                   tabindex="5"
                   type="text"
                   id="nominee-school"
-                  name="nominee-school"
+                  name="05_nominee-school"
                   className="w-full px-4 py-3 0 rounded-lg text-black focus:outline-none focus:border-orange-500"
                   placeholder="School Name"
                   onChange={handleChange}
@@ -190,7 +190,7 @@ const Nominate = () => {
                   tabindex="6"
                   type="text"
                   id="nominee-school-suburb"
-                  name="nominee-school-suburb"
+                  name="06_nominee-school-suburb"
                   className="w-full px-4 py-3 0 rounded-lg text-black focus:outline-none focus:border-orange-500"
                   placeholder="School Suburb (Town)"
                   onChange={handleChange}
@@ -207,7 +207,7 @@ const Nominate = () => {
                   className="select w-full "
                   tabindex="7"
                   id="nominee-school-type"
-                  name="nominee-school-type"
+                  name="07_nominee-school-type"
                   onChange={handleChange}
                   required
                 >
@@ -241,7 +241,7 @@ const Nominate = () => {
                   tabindex="8"
                   className="select w-full "
                   id="nominee-school-region-type"
-                  name="nominee-school-region-type"
+                  name="08_nominee-school-region-type"
                   onChange={handleChange}
                   required
                 >
@@ -262,7 +262,7 @@ const Nominate = () => {
                   tabindex="9"
                   className="select w-full "
                   id="nominee-school-state-territory"
-                  name="nominee-school-state-territory"
+                  name="09_nominee-school-state-territory"
                   onChange={handleChange}
                   required
                 >
@@ -288,7 +288,7 @@ const Nominate = () => {
                 <textarea
                   tabindex="10"
                   id="nomination-reason"
-                  name="nomination-reason"
+                  name="10_nomination-reason"
                   className="w-full px-4 py-3 0 rounded-lg text-black focus:outline-none focus:border-orange-500"
                   placeholder="Please write a brief description as to why your principal deserves our award (maximum 200 words)"
                   onChange={handleChange}
@@ -316,7 +316,7 @@ const Nominate = () => {
                   tabindex="11"
                   type="text"
                   id="first-name-input"
-                  name="Nominator-First-Name"
+                  name="11_Nominator-First-Name"
                   className="w-full px-4 py-3  rounded-lg text-black focus:outline-none focus:border-orange-500"
                   placeholder=" First Name"
                   autocomplete="given-name"
@@ -334,7 +334,7 @@ const Nominate = () => {
                   tabindex="12"
                   type="text"
                   id="last-name-input"
-                  name="Nominator-Last-Name"
+                  name="12_Nominator-Last-Name"
                   className="w-full px-4 py-3  rounded-lg text-black focus:outline-none focus:border-orange-500"
                   placeholder=" Last Name"
                   autocomplete="family-name"
@@ -352,7 +352,7 @@ const Nominate = () => {
                   tabindex="13"
                   type="text"
                   id="role-position-input"
-                  name="Nominator-Role-Position"
+                  name="13_Nominator-Role-Position"
                   className="w-full px-4 py-3 0 rounded-lg text-black focus:outline-none focus:border-orange-500"
                   placeholder="Role or Position (student, parent, teacher, etc.)"
                   onChange={handleChange}
@@ -368,7 +368,7 @@ const Nominate = () => {
                   tabindex="14"
                   type="email"
                   id="email-input"
-                  name="Nominator-Email"
+                  name="14_Nominator-Email"
                   className="w-full px-4 py-3 0 rounded-lg text-black focus:outline-none focus:border-orange-500"
                   placeholder="Email"
                   autocomplete="email"
