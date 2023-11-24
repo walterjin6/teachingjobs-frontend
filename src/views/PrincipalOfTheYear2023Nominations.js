@@ -1,4 +1,6 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
+
 import axios from "axios";
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
@@ -27,6 +29,13 @@ const Nominate = () => {
       setSubmitStatus("error");
     }
   };
+
+  const navigate = useNavigate();
+  useEffect(() => {
+    if (submitStatus === "success") {
+      navigate("/nomination-successful");
+    }
+  }, [submitStatus, navigate]);
 
   return (
     <div className="">
@@ -395,12 +404,14 @@ const Nominate = () => {
               Send
             </button>
           </div>
+          {/* 
+          This is now redirecting to a new page
           {submitStatus === "success" && (
             <p className="mt-6 text-center text-2xl font-bold text-green-500">
               Thank you for nominating a principal, your nomination has been
               received!
             </p>
-          )}
+          )} */}
           {submitStatus === "error" && (
             <p className="mt-6 text-center text-2xl font-bold text-red-500">
               Sorry! We encountered an error, please try again.

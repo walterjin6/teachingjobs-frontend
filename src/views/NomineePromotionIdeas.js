@@ -19,11 +19,41 @@ const NomineePromoIdeas = () => {
       </Helmet>
 
       <div className="px-7 py-8 container mx-auto py-16 p-4 pt-4 rounded-3xl mt-8 mb-56">
-        <h1 className="text-5xl font-semibold  text-[#f4a10c] ">
-          Principal of the Year Resources!
-        </h1>
+        <section>
+          <h1 className="text-5xl font-semibold  text-[#f4a10c] ">
+            Principal of the Year Resources!
+          </h1>
+          <p className="mt-10">
+            Use the resources below to help you promote your nominations. The
+            CSS file can be used for the website and intranet templates and all
+            styles are embedded into the email template.
+          </p>
+          <ul>
+            <li>
+              <strong>Tokens:</strong> remember to replace any text in{" "}
+              <em style={{ color: "red" }}>[square brackets]</em> with your own
+              information.
+            </li>
+            <li>
+              <strong>Images &amp; Logos:</strong> don't forget to replace any
+              the placeholder images with your own. Mainly the principal's
+              headshot and the school logo. You can also delete these if easier!
+            </li>
+            <li>
+              <strong>Nomination Badge:</strong> feel free to use the provided
+              nomination badge anywhere you like!{" "}
+              <a
+                className="link link-warning hover:text-[#f4a10c]"
+                href="/principal-of-the-year/principal-of-the-year-nominee-badge.png"
+                download
+              >
+                Download Badge
+              </a>
+            </li>
+          </ul>
+        </section>
 
-        <h2 className="text-sky-500 mt-10 text-xl mt-20">
+        <h2 className="text-sky-500 mt-10 text-xl mt-8">
           Website Announcement Helper Template (between red lines){" "}
           <a
             className="link link-warning"
@@ -91,12 +121,17 @@ const NomineePromoIdeas = () => {
             to find out more about this auspicious award.
           </p>
 
-          <img
-            width={140}
-            src="/principal-of-the-year/principal-of-the-year-nominee-badge.png"
-            alt="Digital Nomination Badge"
-            class="nomination-badge"
-          />
+          <a
+            href="/principal-of-the-year/principal-of-the-year-nominee-badge.png"
+            download
+          >
+            <img
+              width="140"
+              src="/principal-of-the-year/principal-of-the-year-nominee-badge.png"
+              alt="Digital Nomination Badge"
+              class="nomination-badge"
+            />
+          </a>
         </section>
         {/* Website Announcement Helper Template END */}
 

@@ -42,6 +42,7 @@ import FAQ from "./views/FAQ";
 import ContactUs from "./views/ContactUs";
 import Nominate from "./views/PrincipalOfTheYear2023Nominations";
 import NomineePromoIdeas from "./views/NomineePromotionIdeas";
+import NominationSuccessful from "./views/NominationSuccessful";
 import DiversayStatement from "./views/DiversayStatement";
 import FindEmployers from "./views/FindEmployers";
 import Australia from "./views/Australia";
@@ -285,6 +286,11 @@ const AppRouter = () => {
               exact
               path="/nominee-promotion-ideas/"
               element={<NomineePromoIdeas />}
+            />
+            <Route
+              exact
+              path="/nomination-successful/"
+              element={<NominationSuccessful />}
             />
             <Route exact path="/employers/" element={<FindEmployers />} />
             <Route exact path="/sitemap/" element={<SiteMap />} />
