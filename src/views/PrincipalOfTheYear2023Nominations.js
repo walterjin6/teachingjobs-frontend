@@ -2,17 +2,14 @@ import React, { useState } from "react";
 import axios from "axios";
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
-import {
-  useSendEmail1Mutation
-} from '../store/apiSlice'
+import { useSendEmail1Mutation } from "../store/apiSlice";
 const Nominate = () => {
-  const [sendEmail, {
-    isSuccess: isSendSuccess,
-    isError: isSendError,
-    error: senderror
-  }] = useSendEmail1Mutation()
+  const [
+    sendEmail,
+    { isSuccess: isSendSuccess, isError: isSendError, error: senderror },
+  ] = useSendEmail1Mutation();
   const [formData, setFormData] = useState({});
-  const [submitStatus, setSubmitStatus] = useState('');
+  const [submitStatus, setSubmitStatus] = useState("");
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
@@ -20,16 +17,16 @@ const Nominate = () => {
     e.preventDefault();
     const response = await sendEmail(formData);
     //try {
-    console.log(response)
+    console.log(response);
     // Check the response for success or failure
     if (response) {
-      console.log('Mutation was successful');
-      setSubmitStatus('success');
+      console.log("Mutation was successful");
+      setSubmitStatus("success");
     } else {
-      console.error('Mutation failed:', response.error);
-      setSubmitStatus('error');
+      console.error("Mutation failed:", response.error);
+      setSubmitStatus("error");
     }
-  }
+  };
 
   return (
     <div className="">
@@ -503,11 +500,11 @@ const Nominate = () => {
 
         <h3>Spread the Word</h3>
         <p>
-          Your vote and support can make a world of difference. Join us in
-          celebrating the extraordinary leaders who shape the future of
-          education in Australia.
+          Each nomination increases support and can make a world of difference.
+          Join us in celebrating the extraordinary leaders who shape the future
+          of education in Australia.
         </p>
-        <p>Your Vote, Their Future. Nominate your Principal Today!</p>
+        <p>Nominate your Principal Today!</p>
 
         <p>
           View{" "}

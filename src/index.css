@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* @import url("/public/templates.css"); */
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -239,12 +240,12 @@ section.template .nomination-badge {
 /* Style the unordered list */
 section.template ul,
 section ul {
-  list-style-type: disc; /* Use disc bullets */
-  padding-left: 40px; /* Add left padding to create space between bullets and text */
+  list-style-type: disc;
+  padding-left: 40px;
 }
 
 /* Style the list items */
 section.template li,
 section li {
-  margin-bottom: 8px; /* Add margin between list items */
+  margin-bottom: 8px;
 }

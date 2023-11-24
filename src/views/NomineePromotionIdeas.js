@@ -24,7 +24,14 @@ const NomineePromoIdeas = () => {
         </h1>
 
         <h2 className="text-sky-500 mt-10 text-xl mt-20">
-          Website Announcement Helper Template (between red lines)
+          Website Announcement Helper Template (between red lines){" "}
+          <a
+            className="link link-warning"
+            target="_blank"
+            href="/templates.css"
+          >
+            Get the CSS
+          </a>
         </h2>
         {/* Divider */}
         <div className="pt-6 border-b-2 border-red-500 mb-8"></div>
