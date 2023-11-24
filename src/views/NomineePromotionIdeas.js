@@ -70,6 +70,18 @@ const NomineePromoIdeas = () => {
           <h2 class="header">Principal of the Year 2023 Nominee</h2>
           <h4 class="sub-header">Celebrating Excellence in Leadership</h4>
           <div className="school-images">
+            <a
+              href="/principal-of-the-year/principal-of-the-year-nominee-badge.png"
+              download
+            >
+              <img
+                width="140"
+                src="/principal-of-the-year/principal-of-the-year-nominee-badge.png"
+                alt="Digital Nomination Badge"
+                class="nomination-badge"
+              />
+            </a>
+
             <span>
               <img
                 src="/placeholders/principal-headshot.png"
@@ -120,18 +132,6 @@ const NomineePromoIdeas = () => {
             </a>{" "}
             to find out more about this auspicious award.
           </p>
-
-          <a
-            href="/principal-of-the-year/principal-of-the-year-nominee-badge.png"
-            download
-          >
-            <img
-              width="140"
-              src="/principal-of-the-year/principal-of-the-year-nominee-badge.png"
-              alt="Digital Nomination Badge"
-              class="nomination-badge"
-            />
-          </a>
         </section>
         {/* Website Announcement Helper Template END */}
 
