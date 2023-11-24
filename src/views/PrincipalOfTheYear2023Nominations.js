@@ -1,18 +1,17 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
+
 import axios from "axios";
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
-import {
-  useSendEmail1Mutation
-} from '../store/apiSlice'
+import { useSendEmail1Mutation } from "../store/apiSlice";
 const Nominate = () => {
-  const [sendEmail, {
-    isSuccess: isSendSuccess,
-    isError: isSendError,
-    error: senderror
-  }] = useSendEmail1Mutation()
+  const [
+    sendEmail,
+    { isSuccess: isSendSuccess, isError: isSendError, error: senderror },
+  ] = useSendEmail1Mutation();
   const [formData, setFormData] = useState({});
-  const [submitStatus, setSubmitStatus] = useState('');
+  const [submitStatus, setSubmitStatus] = useState("");
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
@@ -20,16 +19,23 @@ const Nominate = () => {
     e.preventDefault();
     const response = await sendEmail(formData);
     //try {
-    console.log(response)
+    console.log(response);
     // Check the response for success or failure
     if (response) {
-      console.log('Mutation was successful');
-      setSubmitStatus('success');
+      console.log("Mutation was successful");
+      setSubmitStatus("success");
     } else {
-      console.error('Mutation failed:', response.error);
-      setSubmitStatus('error');
+      console.error("Mutation failed:", response.error);
+      setSubmitStatus("error");
     }
-  }
+  };
+
+  const navigate = useNavigate();
+  useEffect(() => {
+    if (submitStatus === "success") {
+      navigate("/nomination-successful");
+    }
+  }, [submitStatus, navigate]);
 
   return (
     <div className="">
@@ -398,12 +404,14 @@ const Nominate = () => {
               Send
             </button>
           </div>
+          {/* 
+          This is now redirecting to a new page
           {submitStatus === "success" && (
             <p className="mt-6 text-center text-2xl font-bold text-green-500">
               Thank you for nominating a principal, your nomination has been
               received!
             </p>
-          )}
+          )} */}
           {submitStatus === "error" && (
             <p className="mt-6 text-center text-2xl font-bold text-red-500">
               Sorry! We encountered an error, please try again.
@@ -503,11 +511,19 @@ const Nominate = () => {
 
         <h3>Spread the Word</h3>
         <p>
-          Your vote and support can make a world of difference. Join us in
-          celebrating the extraordinary leaders who shape the future of
-          education in Australia.
+          Each nomination increases support and can make a world of difference.
+          Join us in celebrating the extraordinary leaders who shape the future
+          of education in Australia.
         </p>
-        <p>Your Vote, Their Future. Nominate your Principal Today!</p>
+        <p>Nominate your Principal Today!</p>
+
+        <p>
+          View{" "}
+          <Link className="link link-warning" to="/nominee-promotion-ideas">
+            helpful information and promotion resources
+          </Link>{" "}
+          for the Australian 'Principal of the Year' 2023
+        </p>
 
         <p>Winners will be announced on 22 December 2023.</p>
       </section>

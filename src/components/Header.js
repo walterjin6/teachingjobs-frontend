@@ -139,6 +139,20 @@ export default function Header() {
               >
                 Career Advice{" "}
               </button>
+              <button
+                className="text-gray-900 hover:underline p-4 mb-4  border rounded-r-3xl"
+                onClick={() => {
+                  navigate("/school-career-advice/");
+                  setIsNavOpen(false);
+                }}
+              >
+                <span className="flex flex-col items-start">
+                  <span>Nominate someone for</span>
+                  <span className="nav-sub-heading">
+                    Principal of the Year 2023
+                  </span>
+                </span>
+              </button>
               <div className=" flex justify-between items-center gap-10">
                 <a
                   href="https://myteachingjobs.com.au/school-pricing/"
@@ -228,7 +242,7 @@ export default function Header() {
                   style={{ height: "22px", marginLeft: "-18px" }}
                 />
                 <span className="flex flex-col">
-                  <span>Nominate Now</span>
+                  <span>Nominate someone for</span>
                   <span className="nav-sub-heading">
                     Principal of the Year 2023
                   </span>
