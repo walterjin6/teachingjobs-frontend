@@ -236,21 +236,22 @@ const Home = () => {
               </div>
               <div className="column">
                 <ul className="">
-                  <li className='mb-1 mt-4'><Link to="/jobs/leader-–-educational-leadership-development---catholic-education-cairns/65061/" className='text-blue-500 font-bold'>Leader – Educational Leadership Development - Catholic Education Cairns</Link></li>
+                  <li className='mb-1 mt-4'><Link to="/jobs/primary-teacher-(hpe)/64334/" className='text-blue-500 font-bold'>
+                  Primary Teacher (HPE)</Link></li>
                   <ul className="innerUL">
-                   <li className='mb-2 '><Link to="" >Catholic Education Services - Diocese of Cairns</Link></li>
-                   <li className='mb-2 '><Link to="" >Cairns, QLD</Link></li>
-                   <li className='mb-2 '><Link to="" >26 Nov, 2023</Link></li>
+                   <li className='mb-2 '><Link to="" >St Joseph's Catholic School </Link></li>
+                   <li className='mb-2 '><Link to="" >Mount Isa, QLD</Link></li>
+                   <li className='mb-2 '><Link to="" >Jan 24, 2024</Link></li>
                   </ul>
                 </ul>
               </div>
               <div className="column">
                 <ul className="">
-                  <li className='mb-1 mt-4'><Link to="/jobs/secondary-teacher---english-(classroom-teacher)/66503/" className='text-blue-500 font-bold'>Secondary Teacher - English (Classroom Teacher)</Link></li>
+                  <li className='mb-1 mt-4'><Link to="/jobs/secondary-teacher-(english)/64027/" className='text-blue-500 font-bold'>Secondary Teacher (English)</Link></li>
                   <ul className="innerUL">
-                   <li className='mb-2 '><Link to="" >Tarneit P-9 College</Link></li>
-                   <li className='mb-2 '><Link to="" >Tarneit, VIC</Link></li>
-                   <li className='mb-2 '><Link to="" > Nov 26, 2023</Link></li>
+                   <li className='mb-2 '><Link to="" >Columba Catholic College</Link></li>
+                   <li className='mb-2 '><Link to="" >Charters Towers, QLD</Link></li>
+                   <li className='mb-2 '><Link to="" > Jan 22, 2024</Link></li>
                   </ul>
                 </ul>
               </div>
