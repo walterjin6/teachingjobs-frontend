@@ -34,7 +34,7 @@ const Careeradvice2 = () => {
           </ul>
         </div>
       </div>
-      <h1 className=" font-bold text-xl md:text-xl px-7 text-[#f4ac10] "> All Academic Hub Posts</h1>
+      <h1 className=" font-bold text-xl md:text-xl px-7 text-[#f4ac10] "> Career Advices</h1>
       <hr className="w-ful  mx-auto  bg-[#f4ac10] border-8 rounded-full md:my-2 md:mb-4  border-[#f4a10c] shadow-xl "></hr>
       <div className="mt-[-3.3rem] "><SearchResults q={{ l: "Academic_Hub" }} /></div>
     </div>
