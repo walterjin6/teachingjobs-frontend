@@ -13,13 +13,13 @@ const JobDetail = () => {
   console.log(job)
   const { employer_id, id, company_name, logo, title, location, activation_date, expiration_date, description, how_to_apply, featured } = job
   if (job) {
-    if (location == 'Academic Hub') {
+    if (location == 'Career_Hub') {
       content = (
         <div className='bg-white'>
           <div className="flex items-center p-4">
             <div className="w-1/4 pr-4 hidden">
               <Link to={`/employers/${company_name?.replace(/[&' \/]/g, '-').toLowerCase()}/${employer_id}/`}>
-                <img className="w-full rounded-xl" src={logo || ''} alt={company_name} />
+                <img className="w-full rounded-xl" src={logo || "/favicon.png"} alt={company_name} />
               </Link>
             </div>
             <div className="w-3/4">
@@ -94,7 +94,7 @@ const JobDetail = () => {
           <div className="flex items-center p-4">
             <div className="w-1/4 pr-4">
               <Link to={`/employers/${company_name?.replace(/[&' \/]/g, '-').toLowerCase()}/${employer_id}/`}>
-                <img className="w-full rounded-xl" src={logo || ''} alt={company_name} />
+                <img className="w-full rounded-xl" src={logo || "/favicon.png"} alt={company_name} />
               </Link>
             </div>
             <div className="w-3/4">
@@ -118,12 +118,10 @@ const JobDetail = () => {
                 >
                   Apply Now
                 </button>
-
               </div>
             </div>
           </div>
           <div className='flex flex-wrap gap-6 bg-white border border-gray-300 p-4 mb-4 rounded-lg shadow-lg '>
-            
             <span className="font-bold">{location}</span>
             <span>
               {expiration_date && (

@@ -56,7 +56,7 @@ const JobDetail = () => {
     )
   } else if (isSuccess) {
     const { employer_id, id, company_name, logo, title, location, activation_date, expiration_date, description, how_to_apply, featured } = job
-    if (location == 'Academic Hub') {
+    if (location == 'Career_Hub') {
       console.log(expiration_date)
       console.log(new Date(expiration_date) < new Date())
       content = (
@@ -69,7 +69,7 @@ const JobDetail = () => {
           <div className="flex items-center p-4">
             <div className="w-1/4 pr-4 hidden">
               <Link to={`/employers/${company_name?.replace(/[&' \/]/g, '-').toLowerCase()}/${employer_id}/`}>
-                <img className="w-full rounded-xl " src={logo || ''} alt={company_name} />
+                <img className="w-full rounded-xl " src={logo || "/favicon.png"} alt={company_name} />
               </Link>
             </div>
             <div className="w-3/4">
@@ -123,7 +123,7 @@ const JobDetail = () => {
           <div className="flex items-center p-4">
             <div className="w-1/4 pr-4">
               <Link to={`/employers/${company_name?.replace(/[&' \/]/g, '-').toLowerCase()}/${employer_id}/`}>
-                <img className="w-full rounded-xl" src={logo || ''} alt={company_name} />
+                <img className="w-full rounded-xl" src={logo || "/favicon.png"} alt={company_name} />
               </Link>
             </div>
             <div className="w-3/4">
