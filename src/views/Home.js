@@ -305,8 +305,7 @@ const Home = () => {
               <div className="column">
                 <ul className="">
                   <li className="mb-1 mt-4">
-                  
-            
+                    
                   </li>
                   <li className='mb-1 mt-4'><Link to="/jobs/primary-teacher-(hpe)/64334/" className='text-blue-500 font-bold'>
                   Primary Teacher (HPE)</Link></li>
