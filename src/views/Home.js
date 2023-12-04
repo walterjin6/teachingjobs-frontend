@@ -305,13 +305,7 @@ const Home = () => {
               <div className="column">
                 <ul className="">
                   <li className="mb-1 mt-4">
-                    <Link
-                      to="/jobs/leader-–-educational-leadership-development---catholic-education-cairns/65061/"
-                      className="text-blue-500 font-bold"
-                    >
-                      Leader – Educational Leadership Development - Catholic
-                      Education Cairns
-                    </Link>
+                    
                   </li>
                   <li className='mb-1 mt-4'><Link to="/jobs/primary-teacher-(hpe)/64334/" className='text-blue-500 font-bold'>
                   Primary Teacher (HPE)</Link></li>
@@ -375,13 +369,7 @@ const Home = () => {
                    <li className='mb-2 '><Link to="" >Cloncurry QLD</Link></li>
                    <li className='mb-2 '><Link to="" >Feb 29, 2024</Link></li>
                     <li className="mb-2 ">
-                      <Link to="">St Teresa's College</Link>
-                    </li>
-                    <li className="mb-2 ">
-                      <Link to="">Abergowrie, QLD</Link>
-                    </li>
-                    <li className="mb-2 ">
-                      <Link to="">30 Nov, 2023</Link>
+                    
                     </li>
                   </ul>
                 </ul>
