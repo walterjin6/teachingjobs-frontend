@@ -12,7 +12,7 @@ const Job = ({ job }) => {
     data,
     isLoading,
     isSuccess,
-  } = useGetEmployerQuery(employer_id ||0)
+  } = useGetEmployerQuery(employer_id || 0)
   let content
   if (isLoading) {
     content = <p> </p>
@@ -24,7 +24,7 @@ const Job = ({ job }) => {
         <div className="bg-white w-36 h-36 flex items-center justify-center shadow-md rounded-lg overflow-hidden">
           <img
             className="max-w-full max-h-full"
-            src={logo}
+            src={logo || "/favicon.png"}
             alt="Company Logo"
           />
         </div>

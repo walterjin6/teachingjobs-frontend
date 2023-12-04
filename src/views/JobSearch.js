@@ -15,7 +15,18 @@ import { Helmet } from "react-helmet";
 import { filterType } from "../utils/data";
 import { BsHandbag } from 'react-icons/bs';
 const JobSearch = () => {
-  
+  const filterValues9 = {
+    'Country': 'Country',
+    'State': 'State',
+    'City': 'City',
+    'Job Type(i.e. Faculty, Human Resources)': 'Job Type',
+    'Faculty/Department(i.e. Science, Business)': 'Faculty/Department',
+    'Academic Position Type(i.e. Lecturer, Fellow)': 'Academic Position Type',
+    'Executive Jobs(i.e. Directors, Registrars)': 'Executive Jobs',
+    'Employment Type(i.e. Full-time, casual)': 'Employment Type',
+    'Institution Name': 'Institution Name',
+    'Onsite/Remote': 'Onsite/Remote'
+  };
   const job = useSelector((state) => state.posts.job)
   const componentRef = useRef(null);
   useLayoutEffect(() => {
@@ -216,7 +227,7 @@ const JobSearch = () => {
                       console.log(filterType)
                       setCategory(filterType)
                     }}
-                  >{filterType}</button>)}
+                  >{filterValues9[filterType]}</button>)}
               </div>
               {
                 isShowFilter &&
@@ -268,7 +279,7 @@ const JobSearch = () => {
                           console.log(filterType)
                           setCategory(filterType)
                         }}
-                      >{filterType}</button>)}
+                      >{filterValues9[filterType]}</button>)}
                   </div>
                   {
                     isShowFilter &&
