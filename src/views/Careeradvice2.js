@@ -20,19 +20,70 @@ const Careeradvice2 = () => {
         <div className="py-4 px-7  text-black rounded-2xl ">
           <p >Our career advice page is designed to help you find the best school teaching jobs in your area, as well as provide you with useful tips and resources on how to prepare for your application, interview, and classroom. Whether you are a new graduate, a career changer, or an experienced teacher looking for a new challenge, we have something for you.</p>
         </div>
-        <div className="bg-white flex flex-col  ">
-          <ul className="  text-left grid grid-cols-1  gap-12 pt-4 px-1 h-auto w-[80vh]">
-            <li className="text-1xl py-1 px-7  max-h-50 overflow-y text-[#f4ac10] border border-[#f4ac10] p-4 mb-4 rounded-3xl shadow-lg   "><Link to="/school-career-advice/build-students-resilience/">  <img className="scale-[90%]"
-              src="https://myteachingjobs.com.au/files/pictures/a3175s2331-crop.jpeg"
-              alt="5 Ways to Build Resilience in Students"
-            /> 5 Ways to Build Resilience in Students</Link> <a className=" text-gray-400" >06 Jul, 2023</a></li>
-            <li className="text-1xl py-1 px-7  max-h-50 overflow-y text-[#f4ac10] border border-[#f4ac10] p-4 mb-4 rounded-3xl shadow-lg   "><Link to="/school-career-advice/perma-pillars-for-teachers/">  <img
-              src="https://myteachingjobs.com.au/files/pictures/image_2_1.jpeg"
-              alt="How to Land Your Dream College Job: A Step-by-Step Guide"
-              className=""
-            /> Using PERMA pillars to support teachers </Link><a className=" text-gray-400" > 10 Aug, 2023</a></li>
-          </ul>
-        </div>
+        <h2 className=" font-bold text-xl md:text-xl px-7 text-[#f4ac10] border-2 border-[#f4ac10] rounded-3xl mt-12 py-2"> Top Career Hub Posts</h2>
+        {/* <div className="bg-white flex flex-col  ">
+          <ul className=" mb-8 text-left items-stretch grid grid-cols-1 md:grid-cols-3 gap-4 py-10 px-1  w-full ">
+           
+    
+              <Link to="/career-hub/school-career-advice/">
+              <div className="card w-96 bg-base-100 shadow-xl">
+                <div className="card-body">
+                  <h2 className="card-title"> A Guide to Teacher Well-Being and Mental Health </h2>   
+                  <a className=" text-gray-400" > 10 Aug, 2023</a>
+                </div>
+                <figure><img src="https://academicjobs.s3.amazonaws.com/img/_misc/Teacher_mental_health.png" alt="A Guide to Teacher Well-Being and Mental Health" /></figure>
+              </div></Link>
+              
+              <Link to="/career-hub/school-career-advice/">
+              <div className="card w-96 bg-base-100 shadow-xl">
+                <div className="card-body">
+                  <h2 className="card-title"> A Guide to Teacher Well-Being and Mental Health </h2>   
+                  <a className=" text-gray-400" > 10 Aug, 2023</a>
+                </div>
+                <figure><img src="https://academicjobs.s3.amazonaws.com/img/_misc/Teacher_mental_health.png" alt="A Guide to Teacher Well-Being and Mental Health" /></figure>
+              </div></Link>
+              
+              <Link to="/career-hub/school-career-advice/">
+              <div className="card w-96 bg-base-100 shadow-xl">
+                <div className="card-body">
+                  <h2 className="card-title"> A Guide to Teacher Well-Being and Mental Health </h2>   
+                  <a className=" text-gray-400" > 10 Aug, 2023</a>
+                </div>
+                <figure><img src="https://academicjobs.s3.amazonaws.com/img/_misc/Teacher_mental_health.png" alt="A Guide to Teacher Well-Being and Mental Health" /></figure>
+              </div></Link>
+
+              <Link to="/career-hub/school-career-advice/">
+              <div className="card w-96 bg-base-100 shadow-xl">
+                <div className="card-body">
+                  <h2 className="card-title"> A Guide to Teacher Well-Being and Mental Health </h2>   
+                  <a className=" text-gray-400" > 10 Aug, 2023</a>
+                </div>
+                <figure><img src="https://academicjobs.s3.amazonaws.com/img/_misc/Teacher_mental_health.png" alt="A Guide to Teacher Well-Being and Mental Health" /></figure>
+              </div></Link>
+
+              <Link to="/career-hub/school-career-advice/">
+              <div className="card w-96 bg-base-100 shadow-xl">
+                <div className="card-body">
+                  <h2 className="card-title"> A Guide to Teacher Well-Being and Mental Health </h2>   
+                  <a className=" text-gray-400" > 10 Aug, 2023</a>
+                </div>
+                <figure><img src="https://academicjobs.s3.amazonaws.com/img/_misc/Teacher_mental_health.png" alt="A Guide to Teacher Well-Being and Mental Health" /></figure>
+              </div></Link>
+
+              <Link to="/career-hub/school-career-advice/">
+              <div className="card w-96 bg-base-100 shadow-xl">
+                <div className="card-body">
+                  <h2 className="card-title"> A Guide to Teacher Well-Being and Mental Health </h2>   
+                  <a className=" text-gray-400" > 10 Aug, 2023</a>
+                </div>
+                <figure><img src="https://academicjobs.s3.amazonaws.com/img/_misc/Teacher_mental_health.png" alt="A Guide to Teacher Well-Being and Mental Health" /></figure>
+              </div></Link>
+              
+              
+              
+              </ul>
+              </div> */}
+
       </div>
       <h1 className=" font-bold text-xl md:text-xl px-7 text-[#f4ac10] "> Career Advices11</h1>
       <hr className="w-ful  mx-auto  bg-[#f4ac10] border-8 rounded-full md:my-2 md:mb-4  border-[#f4a10c] shadow-xl "></hr>
