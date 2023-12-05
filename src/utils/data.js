@@ -1,3 +1,9 @@
+export const blurb = {
+    remote: `Are you looking for an academic hub, career advice, tips, and insights from academics and researchers? Check out these academic jobs blogs and learn from the experts in your field. Whether you are a PhD student, a postdoc, or a professor, you will find valuable information and inspiration to advance your academic career. Read these blogs now and discover the best opportunities and practices for academic hub.`,
+    "full-time": `Are you looking for an academic hub, career advice, tips, and insights from academics and researchers? Check out these academic jobs blogs and learn from the experts in your field.Whether you are a PhD student, a postdoc, or a professor, you will find valuable information and inspiration to advance your academic career.Read these blogs now and discover the best opportunities and practices for academic hub.`,
+
+};
+
 export const filterType = [
 
     'State',

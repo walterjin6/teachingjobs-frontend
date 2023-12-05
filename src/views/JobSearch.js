@@ -12,7 +12,7 @@ import {
 import { useParams } from 'react-router-dom';
 import { setJob } from '../store/postsSlice';
 import { Helmet } from "react-helmet";
-import { filterType } from "../utils/data";
+import { filterType, blurb } from "../utils/data";
 import { BsHandbag } from 'react-icons/bs';
 const JobSearch = () => {
   const filterValues9 = {
@@ -51,7 +51,9 @@ const JobSearch = () => {
   //console.log(location.state.l)
   const keyWordRef = useRef('')
   const locationRef = useRef('')
+  let blurbData
   if (name) {
+    blurbData = blurb[name]
     q = name?.replace(/-/g, ' ');
   } else if (location.state?.q || location.state?.l) {
     // alert(location.state.l)
@@ -322,6 +324,7 @@ const JobSearch = () => {
       <meta name="description" content="Welcome to the top job board for Academic Jobs, listing higher education jobs available in international colleges and universities daily. Use filters such as city, employment type, and institution name to help your job search" />
       <meta name="keywords" content="Find Academic Jobs, Seek Academic Jobs, Academic Jobs Search" />
     </Helmet>
+    <div className=" max-w-screen-xl mx-auto py-4 bg-gradient-to-b to-white from-orange-300 p-4 rounded-3xl">{blurbData}</div>
     <div className="bg-gray-100 py-6 md:rounded-full rounded shadow-md">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-screen-xl mx-auto">
