@@ -25,8 +25,8 @@ import EuropePositions from "./views/EuropePositions";
 import CanadaPositions from "./views/CanadaPositions";
 import AfricaPositions from "./views/AfricaPositions";
 import AsiaPositions from "./views/AsiaPositions";
-import Industry from "./views/Industry";
-import Industry2 from "./views/Industry2";
+// import Industry from "./views/Industry";
+// import Industry2 from "./views/Industry2";
 import Executive from "./views/Executive";
 import Executive2 from "./views/Executive2";
 import Admin from "./views/Admin";
@@ -125,7 +125,7 @@ const AppRouter = () => {
             <Route exact path="/faculty/:category?" element={<Category />} />
             <Route exact path="/:position?" element={<Position />} />
             <Route exact path="/cities/:cities?" element={<Cities />} />
-            <Route exact path="/industry/:industry?" element={<Industry />} />
+            {/* <Route exact path="/industry/:industry?" element={<Industry />} /> */}
             <Route exact path="/job-type/" element={<Position2 />} />
             <Route exact path="/hr/:hr?" element={<HR />} />
             <Route exact path="/UK/:ukpositions?" element={<UKpositions />} />
@@ -226,7 +226,7 @@ const AppRouter = () => {
               element={<IndigenousAustralia />}
             />
 
-            <Route exact path="/industry/" element={<Industry2 />} />
+            {/* <Route exact path="/industry/" element={<Industry2 />} /> */}
             <Route
               exact
               path="/executive/:executive?"
