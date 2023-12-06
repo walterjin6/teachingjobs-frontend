@@ -198,6 +198,9 @@ const Home = () => {
                 <li className="mb-2 hover:underline">
                   <Link to="/secondary/"> Secondary</Link>
                 </li>
+                <li className="mb-2 hover:underline">
+                  <Link to="/relief-teaching-jobs/"> Relief teaching</Link>
+                </li>
               </ul>
 
               <li className="mb-2 hover:underline">
