@@ -155,7 +155,7 @@ export default function Header() {
               </button>
               <div className=" flex justify-between items-center gap-10">
                 <a
-                  href="https://myteachingjobs.com.au/school-pricing/"
+                  href="https://postmyjob.online/school-pricing/"
                   target="_blank"
                   className="text-[#e39e39] hover:underline font-bold p-4 border border-[#e39e39] rounded-r-3xl "
                   rel="noreferrer"
@@ -254,7 +254,7 @@ export default function Header() {
           {/* Post A Job Button */}
           <div className=" w-[200px] grid items-center justify-center ">
             <a
-              href="https://myteachingjobs.com.au/school-pricing/"
+              href="https://postmyjob.online/school-pricing/"
               target="_blank"
               className="text-[#e39e39]  font-bold shadow-md rounded-full px-4 py-2 border border-[#e39e39] hover:bg-[#334680] hover:text-white "
               rel="noreferrer"
