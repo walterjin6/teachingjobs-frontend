@@ -103,7 +103,9 @@ import NorthernTerritory from "./views/NorthernTerritory";
 import Canberra from "./views/Canberra";
 import GoldCoast from "./views/GoldCoast";
 import Brisbane from "./views/Brisbane";
-import Melbourne from "./views/Melbourne";
+import Melbourne from "./views/Melbourne"; 
+import ReliefTalentPool from "./views/ReliefTalentPool";  
+import ReliefTeaching from "./views/ReliefTeaching";  
 
 const AppRouter = () => {
   return (
@@ -347,6 +349,8 @@ const AppRouter = () => {
             <Route exact path="/nsw/" element={<NSW />} />
             <Route exact path="/darwin/" element={<Darwin />} />
             <Route exact path="/tasmania/" element={<Tasmania />} />
+            <Route exact path="/relief-talent-pool/" element={<ReliefTalentPool />} />  
+            <Route exact path="/relief-teaching/" element={<ReliefTeaching />} /> 
             <Route
               exact
               path="/western-australia/"
