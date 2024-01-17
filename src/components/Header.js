@@ -118,6 +118,15 @@ export default function Header() {
                   navigate("/principal/");
                   setIsNavOpen(false);
                 }}
+                >
+                Relief Jobs
+              </button>
+              <button
+                className="text-gray-900 hover:underline p-4 mb-4  border rounded-r-3xl"
+                onClick={() => {
+                  navigate("/relief-jobs/");
+                  setIsNavOpen(false);
+                }}
               >
                 Principal Jobs
               </button>
@@ -207,6 +216,14 @@ export default function Header() {
               activeClassName="active"
             >
               Teacher Jobs
+
+              </NavLink>
+            <NavLink
+              to="/relief-teaching-jobs/"
+              className="nav-link nav-link-ltr whitespace-nowrap text-gray-900"
+              activeClassName="active"
+            >
+              Relief Jobs
             </NavLink>
             <NavLink
               to="/principal/"
