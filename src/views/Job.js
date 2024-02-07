@@ -21,7 +21,7 @@ const Job = ({ job }) => {
         <div className="flex items-center mb-4">
           <div className="w-20 h-20 mr-4 hidden">
             {/* <Link to={`/employers/${company_name}/${employer_id}/`}> */}
-            <img src={logo || "/favicon.png"} alt={company_name} className="w-full h-full object-contain rounded-lg" />
+            <img src={`https://postmyjob.online/${logo}` || "/favicon.png"} alt={company_name} className="w-full h-full object-contain rounded-lg" />
             {/* </Link> */}
           </div>
           <div className="flex-1">
