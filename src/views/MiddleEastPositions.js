@@ -7,7 +7,7 @@ import { setJob, setId, setEmployer } from '../store/postsSlice'
 import SearchResults from './SearchResults'
 import middleeastpositionsData from "../utils/middleeastpositions.json";
 import { Helmet } from "react-helmet";
-const MiddleEastPositions = () => {
+const MiddleEastPositions = () => {  
   const dispatch = useDispatch()
   let { middleeastpositions } = useParams();
   middleeastpositions = middleeastpositions?.replace(/-/g, ' ')
@@ -27,6 +27,10 @@ const MiddleEastPositions = () => {
   }
 
   const { Name, Title, Description, Keyword, content: content1 } = middleeastpositionsData.find(item => item.Name === middleeastpositions);
+ 
+  window.location.replace(`https://www.academicjobs.com/middle-east/${middleeastpositions}`);
+
+ 
   let content
   //const { logo, company_name, website, company_description, location } = data
   //console.log(company_description)
@@ -41,13 +45,13 @@ const MiddleEastPositions = () => {
 
 
 
-      <h1 className='max-h-50 overflow-y  border border-[#f4a10c] text-gray-500 p-4 mb-4 rounded-lg shadow-lg'>
+      <h1 className='max-h-50 overflow-y  border border-[#00aeef] text-gray-500 p-4 mb-4 rounded-lg shadow-lg'>
         {Title}
       </h1>
 
-      <Link className='text-[#f4a10c] mb-4 ' to='/Middle-East/'>← View all Middle East Jobs</Link>
+      <Link className='text-[#00aeef] mb-4 ' to='/Middle-East/'>← View all Middle East Jobs</Link>
 
-      <div className='max-h-50 overflow-y  border border-[#f4a10c] text-gray-500 p-4 mb-4 rounded-lg shadow-lg'>
+      <div className='max-h-50 overflow-y  border border-[#00aeef] text-gray-500 p-4 mb-4 rounded-lg shadow-lg'>
         {content1}
       </div>
 
@@ -56,19 +60,19 @@ const MiddleEastPositions = () => {
           <form className="flex flex-col  gap-2 md:flex-row md:gap-2 mx-18 w-full " onSubmit={handleFormSubmit}>
             <input
               type="text"
-              className="text-center md:w-[41%] md:text-left px-4 py-2 border border-[#f4a10c] text-gray-500 rounded-md focus:ring-orange-500 focus:border-orange-500"
+              className="text-center md:w-[41%] md:text-left px-4 py-2 border border-[#00aeef] text-gray-500 rounded-md focus:ring-orange-500 focus:border-orange-500"
               placeholder="Keyword"
               ref={keyWordRef}
             //defaultValue={name}
             />
             <input
               type="text"
-              className="text-center md:w-[41%] md:text-left px-4 py-2 border border-[#f4a10c] text-gray-500 rounded-md focus:ring-orange-500 focus:border-orange-500"
+              className="text-center md:w-[41%] md:text-left px-4 py-2 border border-[#00aeef] text-gray-500 rounded-md focus:ring-orange-500 focus:border-orange-500"
               placeholder="Location"
               ref={locationRef}
             />
             <button
-              className="bg-[#f4a10c] hover:bg-orange-600 text-white py-2 px-6 rounded-md focus:ring-2 focus:ring-orange-300"
+              className="bg-[#00aeef] hover:bg-orange-600 text-white py-2 px-6 rounded-md focus:ring-2 focus:ring-orange-300"
               type="submit"
             >
               Find Jobs

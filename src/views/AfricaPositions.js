@@ -7,13 +7,11 @@ import { setJob, setId, setEmployer } from '../store/postsSlice'
 import SearchResults from './SearchResults'
 import africapositionsData from "../utils/africapositions.json";
 import { Helmet } from "react-helmet";
-const AfricaPositions = () => {
+const AfricaPositions = () => {  
   const dispatch = useDispatch()
   let { africapositions } = useParams();
-  africapositions = africapositions?.replace(/-/g, ' ')
+  //africapositions = africapositions?.replace(/-/g, ' ')
   console.log(africapositions)
-  console.log(africapositions)
-
   const [page, setPage] = useState(0);
   const navigate = useNavigate()
   const keyWordRef = useRef('')
@@ -27,6 +25,9 @@ const AfricaPositions = () => {
   }
 
   const { Name, Title, Description, Keyword, content: content1 } = africapositionsData.find(item => item.Name === africapositions);
+  
+  window.location.replace(`https://www.academicjobs.com/africa/${africapositions}`);
+  
   let content
   //const { logo, company_name, website, company_description, location } = data
   //console.log(company_description)
@@ -45,7 +46,7 @@ const AfricaPositions = () => {
         {Title}
       </h1>
 
-      <Link className='text-[#f4a10c] mb-4 ' to='/Africa/'>← View all Africa Jobs</Link>
+      <Link className='text-[#00aeef] mb-4 ' to='/Africa/'>← View all Africa Jobs</Link>
 
       <div className='max-h-50 overflow-y  border border-gray-300 p-4 mb-4 rounded-lg shadow-lg'>
         {content1}
@@ -68,7 +69,7 @@ const AfricaPositions = () => {
               ref={locationRef}
             />
             <button
-              className="bg-[#f4a10c] hover:bg-orange-600 text-white py-2 px-6 rounded-md focus:ring-2 focus:ring-orange-300"
+              className="bg-[#00aeef] hover:bg-orange-600 text-white py-2 px-6 rounded-md focus:ring-2 focus:ring-orange-300"
               type="submit"
             >
               Find Jobs

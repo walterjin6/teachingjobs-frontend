@@ -7,7 +7,7 @@ import { setJob, setId, setEmployer } from '../store/postsSlice'
 import SearchResults from './SearchResults'
 import indiapositionsData from "../utils/indiapositions.json";
 import { Helmet } from "react-helmet";
-const IndiaPositions = () => {
+const IndiaPositions = () => {  
   const dispatch = useDispatch()
   let { indiapositions } = useParams();
   indiapositions = indiapositions?.replace(/-/g, ' ')
@@ -27,6 +27,9 @@ const IndiaPositions = () => {
   }
 
   const { Name, Title, Description, Keyword, content: content1 } = indiapositionsData.find(item => item.Name === indiapositions);
+ 
+  window.location.replace(`https://www.academicjobs.com/india/${indiapositions}`);
+ 
   let content
   //const { logo, company_name, website, company_description, location } = data
   //console.log(company_description)
@@ -45,7 +48,7 @@ const IndiaPositions = () => {
         {Title}
       </h1>
 
-      <Link className='text-[#f4a10c] mb-4 ' to='/India/'>← View all India Jobs</Link>
+      <Link className='text-[#00aeef] mb-4 ' to='/India/'>← View all India Jobs</Link>
 
       <div className='max-h-50 overflow-y  border border-gray-300 p-4 mb-4 rounded-lg shadow-lg'>
         {content1}
@@ -68,7 +71,7 @@ const IndiaPositions = () => {
               ref={locationRef}
             />
             <button
-              className="bg-[#f4a10c] hover:bg-orange-600 text-white py-2 px-6 rounded-md focus:ring-2 focus:ring-orange-300"
+              className="bg-[#00aeef] hover:bg-orange-600 text-white py-2 px-6 rounded-md focus:ring-2 focus:ring-orange-300"
               type="submit"
             >
               Find Jobs

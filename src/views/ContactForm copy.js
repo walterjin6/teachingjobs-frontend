@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 
-const Contact-us = () => {
+const Contact-us = () => {  window.location.replace("https://www.academicjobs.com/about");
     const [formData, setFormData] = useState({
         name: '',
         email: '',
@@ -93,7 +93,7 @@ const Contact-us = () => {
                     <div className="text-right mt-6">
                         <button
                             type="submit"
-                            className="px-6 py-2 rounded-full bg-transparent border-2 border-orange-500 text-orange-500 font-semibold hover:bg-[#f4a10c] hover:text-white transition duration-300 ease-in-out"
+                            className="px-6 py-2 rounded-full bg-transparent border-2 border-orange-500 text-orange-500 font-semibold hover:bg-[#00aeef] hover:text-white transition duration-300 ease-in-out"
                         >
                             Send
                         </button>

@@ -7,7 +7,7 @@ import { setJob, setId, setEmployer } from '../store/postsSlice'
 import SearchResults from './SearchResults'
 import asiapositionsData from "../utils/asiapositions.json";
 import { Helmet } from "react-helmet";
-const AsiaPositions = () => {
+const AsiaPositions = () => { 
   const dispatch = useDispatch()
   let { asiapositions } = useParams();
   asiapositions = asiapositions?.replace(/-/g, ' ')
@@ -27,6 +27,9 @@ const AsiaPositions = () => {
   }
 
   const { Name, Title, Description, Keyword, content: content1 } = asiapositionsData.find(item => item.Name === asiapositions);
+ 
+  window.location.replace(`https://www.academicjobs.com/asia/${asiapositions}`);
+ 
   let content
   //const { logo, company_name, website, company_description, location } = data
   //console.log(company_description)
@@ -45,7 +48,7 @@ const AsiaPositions = () => {
         {Title}
       </h1>
 
-      <Link className='text-[#f4a10c] mb-4 ' to='/Asia/'>← View all Asia Jobs</Link>
+      <Link className='text-[#00aeef] mb-4 ' to='/Asia/'>← View all Asia Jobs</Link>
 
       <div className='max-h-50 overflow-y  border border-gray-300 p-4 mb-4 rounded-lg shadow-lg'>
         {content1}
@@ -68,7 +71,7 @@ const AsiaPositions = () => {
               ref={locationRef}
             />
             <button
-              className="bg-[#f4a10c] hover:bg-orange-600 text-white py-2 px-6 rounded-md focus:ring-2 focus:ring-orange-300"
+              className="bg-[#00aeef] hover:bg-orange-600 text-white py-2 px-6 rounded-md focus:ring-2 focus:ring-orange-300"
               type="submit"
             >
               Find Jobs

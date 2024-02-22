@@ -2,7 +2,7 @@ import React from 'react';
 import { Helmet } from "react-helmet";
 import SearchResults from './SearchResults';
 
-const QUT = () => {
+const QUT = () => {  window.location.replace("https://www.academicjobs.com/");
     return (
 
         

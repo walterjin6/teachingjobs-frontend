@@ -2,7 +2,7 @@ import React from 'react';
 import { Helmet } from "react-helmet";
 import SearchResults from './SearchResults';
 
-const MassachusettsAmherst = () => {
+const MassachusettsAmherst = () => {  window.location.replace("https://www.academicjobs.com/company/3396/university-of-massachusetts-amherst");
     return (
 
         
@@ -19,11 +19,11 @@ const MassachusettsAmherst = () => {
                     
                 >
                     <div className="max-w-screen-xl mx-auto py-12 px-6 text-gray-700">
-                        <h1 className="text-orange-500 text-2xl font-semibold">university of massachusetts amherst jobs</h1>
+                        <h1 className="text-orange-500 text-2xl font-semibold">University of Massachusetts Amherst jobs</h1>
                         <p>
                             Are you interested in working at a renowned and progressive university that offers a wide range of programs, research opportunities, and benefits? Do you want to join a diverse and collaborative community that values excellence, innovation, and social justice? If so, you might want to check out the job listings at the University of Massachusetts Amherst.
 
-The University of Massachusetts Amherst is the flagship campus of the UMass system and a nationally ranked public research university located in the scenic Pioneer Valley of Western Massachusetts. It has more than 32,000 undergraduate and graduate students, and offers more than 50 majors and minors in eight colleges and schools. The University of Massachusetts Amherst is also known for its research, service, and athletics. </p>
+The University of Massachusetts Amherst is the flagship campus of the UMass system and a nationally ranked public research university located in the scenic Pioneer Valley of Western Massachusetts. It has more than 32,000 undergraduate and graduate students and offers more than 50 majors and minors in eight colleges and schools. The University of Massachusetts Amherst is also known for its research, service, and athletics. </p>
 
 
                     </div>
