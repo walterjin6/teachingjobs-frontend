@@ -39,7 +39,7 @@ const Lecturer = () => {
     content: content1,
   } = lecturerData.find((item) => item.Name === lecturer);
 
-  window.location.replace(`https://www.academicjobs.com/lecturer/${lecturer}`);
+  window.location.replace(`https://www.academicjobs.com/lecturer/${lecturer?.replace(/\W+/g, '-').toLowerCase()}`);
 
 
   let content;

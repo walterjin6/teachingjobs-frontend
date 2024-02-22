@@ -28,7 +28,7 @@ const IndiaPositions = () => {
 
   const { Name, Title, Description, Keyword, content: content1 } = indiapositionsData.find(item => item.Name === indiapositions);
  
-  window.location.replace(`https://www.academicjobs.com/india/${indiapositions}`);
+  window.location.replace(`https://www.academicjobs.com/india/${indiapositions?.replace(/\W+/g, '-').toLowerCase()}`);
  
   let content
   //const { logo, company_name, website, company_description, location } = data

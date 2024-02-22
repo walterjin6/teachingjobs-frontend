@@ -28,7 +28,7 @@ const CanadaPositions = () => {
 
   const { Name, Title, Description, Keyword, content: content1 } = canadapositionsData.find(item => item.Name === canadapositions);
   
-  window.location.replace(`https://www.academicjobs.com/canada/${canadapositions}`);
+  window.location.replace(`https://www.academicjobs.com/canada/${canadapositions?.replace(/\W+/g, '-').toLowerCase()}`);
   
   let content
   //const { logo, company_name, website, company_description, location } = data

@@ -28,7 +28,7 @@ const Executive = () => {  window.location.replace("https://www.academicjobs.com
 
   const { Name, Title, Description, Keyword, content: content1 } = executiveData.find(item => item.Name === executive);
  
-  window.location.replace(`https://www.academicjobs.com/executive/${executive}`);
+  window.location.replace(`https://www.academicjobs.com/executive/${executive?.replace(/\W+/g, '-').toLowerCase()}`);
  
   let content
   //const { logo, company_name, website, company_description, location } = data

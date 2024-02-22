@@ -28,7 +28,7 @@ const AustraliaPositions = () => {
 
   const { Name, Title, Description, Keyword, content: content1 } = australiapositionsData.find(item => item.Name === australiapositions);
   
-  window.location.replace(`https://www.academicjobs.com/australia/${australiapositions}`);
+  window.location.replace(`https://www.academicjobs.com/australia/${australiapositions?.replace(/\W+/g, '-').toLowerCase()}`);
   
   let content
   //const { logo, company_name, website, company_description, location } = data

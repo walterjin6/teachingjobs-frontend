@@ -27,7 +27,7 @@ const Category = () => {
   const { Name, Title, Description, Keyword, content: content1 } = categoryData.find(item => item.Name === category);
   
   
-  window.location.replace(`https://www.academicjobs.com/faculty/${category}`);
+window.location.replace(`https://www.academicjobs.com/faculty/${category?.replace(/\W+/g, '-').toLowerCase()} `);
   
   let content
   //const { logo, company_name, website, company_description, location } = data

@@ -26,7 +26,7 @@ const HR = () => {
   }
   const { Name, Title, Description, Keyword, content: content1 } = hrData.find(item => item.Name === hr);
  
-  window.location.replace(`https://www.academicjobs.com/hr-jobs/${hr}`);
+  window.location.replace(`https://www.academicjobs.com/hr-jobs/${hr?.replace(/\W+/g, '-').toLowerCase()}`);
 
   let content
   //const { logo, company_name, website, company_description, location } = data

@@ -40,7 +40,7 @@ const Research = () => {
     content: content1,
   } = researchData.find((item) => item.Name === research);
 
-  window.location.replace(`https://www.academicjobs.com/research/${research}`);
+  window.location.replace(`https://www.academicjobs.com/research/${research?.replace(/\W+/g, '-').toLowerCase()}`);
 
   let content;
   //const { logo, company_name, website, company_description, location } = data

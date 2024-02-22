@@ -28,7 +28,7 @@ const NewZealandPositions = () => {
 
   const { Name, Title, Description, Keyword, content: content1 } = newzealandpositionsData.find(item => item.Name === newzealandpositions);
   
-  window.location.replace(`https://www.academicjobs.com/new-zealand/${newzealandpositions}`);
+  window.location.replace(`https://www.academicjobs.com/new-zealand/${newzealandpositions?.replace(/\W+/g, '-').toLowerCase()}`);
 
   
   let content

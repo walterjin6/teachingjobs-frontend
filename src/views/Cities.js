@@ -28,7 +28,7 @@ const Cities = () => {
 
   const { Name, Title, Description, Keyword, content: content1 } = citiesData.find(item => item.Name === cities);
   
-  window.location.replace(`https://www.academicjobs.com/${cities}`);
+  window.location.replace(`https://www.academicjobs.com/${cities?.replace(/\W+/g, '-').toLowerCase()}`);
 
   let content
   //const { logo, company_name, website, company_description, location } = data

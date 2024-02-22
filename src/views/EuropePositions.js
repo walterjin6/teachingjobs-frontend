@@ -28,7 +28,7 @@ const EuropePositions = () => {
 
   const { Name, Title, Description, Keyword, content: content1 } = europepositionsData.find(item => item.Name === europepositions);
  
-  window.location.replace(`https://www.academicjobs.com/europe/${europepositions}`);
+  window.location.replace(`https://www.academicjobs.com/europe/${europepositions?.replace(/\W+/g, '-').toLowerCase()}`);
 
  
   let content

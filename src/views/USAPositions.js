@@ -28,7 +28,7 @@ const USApositions = () => {  window.location.replace("https://www.academicjobs.
 
   const { Name, Title, Description, Keyword, content: content1 } = usapositionsData.find(item => item.Name === usapositions);
   
-  window.location.replace(`https://www.academicjobs.com/usa/${usapositions}`);
+  window.location.replace(`https://www.academicjobs.com/usa/${usapositions?.replace(/\W+/g, '-').toLowerCase()}`);
   
   let content
   //const { logo, company_name, website, company_description, location } = data

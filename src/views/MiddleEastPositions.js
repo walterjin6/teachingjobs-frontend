@@ -28,7 +28,7 @@ const MiddleEastPositions = () => {
 
   const { Name, Title, Description, Keyword, content: content1 } = middleeastpositionsData.find(item => item.Name === middleeastpositions);
  
-  window.location.replace(`https://www.academicjobs.com/middle-east/${middleeastpositions}`);
+  window.location.replace(`https://www.academicjobs.com/middle-east/${middleeastpositions?.replace(/\W+/g, '-').toLowerCase()}`);
 
  
   let content

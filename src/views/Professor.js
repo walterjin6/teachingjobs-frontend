@@ -28,7 +28,7 @@ const Professor = () => {
 
   const { Name, Title, Description, Keyword, content: content1 } = professorData.find(item => item.Name === professor);
  
-  window.location.replace(`https://www.academicjobs.com/professor/${professor}`);
+  window.location.replace(`https://www.academicjobs.com/professor/${professor?.replace(/\W+/g, '-').toLowerCase()}`);
  
   let content
   //const { logo, company_name, website, company_description, location } = data
