@@ -229,7 +229,7 @@ const Home = () => {
           </div>
 
           <div className=" mt-4 pb-4">
-            <ul className="faculty-container flex  gap-4 items-center justify-center text-[#e39e39] font-bold ">
+            {/* <ul className="faculty-container flex  gap-4 items-center justify-center text-[#e39e39] font-bold ">
               <li className="mb-2 hover:underline">
                 <Link
                   className="flex flex-row items-center justify-center gap-2"
@@ -243,7 +243,7 @@ const Home = () => {
                   <span>Nominate your Principal of the Year 2023</span>
                 </Link>
               </li>
-            </ul>
+            </ul> */}
           </div>
 
           <div className="text-[#e39e39]  flex flex-col items-center justify-center  text-2xl pt-4  animate-bounce h-6">

@@ -155,12 +155,12 @@ export default function Header() {
                   setIsNavOpen(false);
                 }}
               >
-                <span className="flex flex-col items-start">
+                {/* <span className="flex flex-col items-start">
                   <span>Nominate someone for</span>
                   <span className="nav-sub-heading">
                     Principal of the Year 2023
                   </span>
-                </span>
+                </span> */}
               </button>
               <div className=" flex justify-between items-center gap-10">
                 <a
@@ -246,7 +246,7 @@ export default function Header() {
             >
               Career Advice
             </NavLink>
-            <NavLink
+            {/* <NavLink
               to="/principal-of-the-year-2023-nominations"
               className="nav-link nav-link-ltr whitespace-nowrap text-gray-900"
               activeClassName="active"
@@ -265,7 +265,7 @@ export default function Header() {
                   </span>
                 </span>
               </span>
-            </NavLink>
+            </NavLink> */}
           </div>
 
           {/* Post A Job Button */}
