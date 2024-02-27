@@ -2,7 +2,7 @@ import React from 'react';
 import { Helmet } from "react-helmet";
 import SearchResults from './SearchResults';
 
-const BostonCollege = () => {
+const BostonCollege = () => {  window.location.replace("https://www.academicjobs.com/company/3604/boston-college");
     return (
 
         
@@ -25,7 +25,7 @@ const BostonCollege = () => {
 
                             To apply for Boston College employment, you can use the online application system. You can browse the current openings by category, location, or keyword. You can also create a profile and upload your resume and cover letter. If you are a current employee of Boston College, you can log in with your BC credentials and view the internal postings. You can also check the status of your application and update your information at any time.
                             
-                            If you have any questions about the application process or the job requirements, you can contact the Department of Human Resources at employment@bc.edu or 617-552-3330. You can also visit the Work at BC website1 for more information about the benefits, policies, and events related to Boston College employment.</p>
+                            If you have any questions about the application process or the job requirements, you can contact the Department of Human Resources at employment@bc.edu or 617-552-3330. You can also visit the Work at BC website for more information about the benefits, policies, and events related to Boston College employment.</p>
 
 
                     </div>

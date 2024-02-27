@@ -10,7 +10,7 @@ const Job = ({ job }) => {
   //console.log(job)
   //let logo = '', company_name = ''
   const { employer_id, title, location, activation_date, expiration_date, how_to_apply, logo, company_name, featured, id } = job
-  if (location == 'Academic Hub') {
+  if (location == 'Career_Hub') {
     content = (
       <article className="media bg-white border-2 border-[#f4a10c] p-4 mb-4 rounded-xl shadow-lg" data-id="59972"
         onClick={() => {
@@ -20,8 +20,8 @@ const Job = ({ job }) => {
       >
         <div className="flex items-center mb-4">
           <div className="w-20 h-20 mr-4 hidden">
-            {/* <Link to={`/employers/${company_name}/${employer_id}/`}> */}
-            <img src={logo} alt={company_name} className="w-full h-full object-contain rounded-lg" />
+            {/* <img src={`https://postmyjob.online/files/pictures/${logo}` || */}
+            <img src={`${logo}` || "/favicon.png"} alt={company_name} className="w-full h-full object-contain rounded-lg" />
             {/* </Link> */}
           </div>
           <div className="flex-1">
@@ -53,7 +53,7 @@ const Job = ({ job }) => {
         <div className="flex items-center pb-2">
           <div className="w-20 h-20 mr-4">
             {/* <Link to={`/employers/${company_name}/${employer_id}/`}> */}
-            <img src={logo} alt={company_name} className="w-full h-full object-contain rounded-lg" />
+            <img src={`${logo}` || "/favicon.png"} alt={company_name} className="w-full h-full object-contain rounded-lg" />
             {/* </Link> */}
           </div>
           <div className="flex-1">

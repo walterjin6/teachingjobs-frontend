@@ -4,7 +4,7 @@ import SearchResults from './SearchResults';
 import executive from "../utils/executive.json";
 import { Link } from 'react-router-dom'
 import { useParams, useNavigate } from 'react-router-dom';
-const Executive2 = () => {
+const Executive2 = () => {  window.location.replace("https://www.academicjobs.com/australia/executive");
   const handleFormSubmit = (event) => {
     event.preventDefault();
     const a = {}
@@ -24,7 +24,7 @@ const Executive2 = () => {
         <meta name="keywords" content=" Executive Academic Jobs Australia, Executive AcademicJobs Australia" />
       </Helmet>
       <div className="blurb text-left py-8 ">
-        <h1 className=" font-bold text-lg md:text-2xl py-4 px-7 bg-[#f4a10c] text-white rounded-full shadow-xl "> Executive Academic Jobs Australia</h1>
+        <h1 className=" font-bold text-lg md:text-2xl py-4 px-7 bg-[#00aeef] text-white rounded-full shadow-xl "> Executive Academic Jobs Australia</h1>
         <div className="newLine mb-4">
           <p className="font-semibold"></p>
           <p className="font-semibold"></p>
@@ -35,10 +35,10 @@ const Executive2 = () => {
           </div>
           <div className="newLine mb-2"></div>
           <div className="bg-white flex flex-col  ">
-            <h2 className="text-1xl font-bold py-1 px-7 border-2 border-[#f4a10c] text-[#f4a10c] rounded-3xl shadow-md  mt-20 ">Choose Higher Ed Executive Jobs in Australia</h2>
+            <h2 className="text-1xl font-bold py-1 px-7 border-2 border-[#00aeef] text-[#00aeef] rounded-3xl shadow-md  mt-20 ">Choose Higher Ed Executive Jobs in Australia</h2>
             <ul className=" mb-8 text-left columns-1 md:columns-4  md:gap-2 py-2 px-7 h-auto w-full">
               {executive.map(({ Title, Name, break1, isBold }, key) => (
-                <li className={`pb-2 flex ${break1 ? 'md:break' : ''} ${isBold ? 'pt-4 font-bold text-[#f4a10c]' : ''}`} key={key}>
+                <li className={`pb-2 flex ${break1 ? 'md:break' : ''} ${isBold ? 'pt-4 font-bold text-[#00aeef]' : ''}`} key={key}>
                   <Link to={`/executive/${Name?.replace(/\s+/g, '-')}/`}>{Name}</Link>
                 </li>
               ))}
@@ -64,7 +64,7 @@ const Executive2 = () => {
               ref={locationRef}
             />
             <button
-              className="bg-[#f4a10c] hover:bg-orange-600 text-white py-2 px-6 rounded-md focus:ring-2 focus:ring-orange-300"
+              className="bg-[#00aeef] hover:bg-orange-600 text-white py-2 px-6 rounded-md focus:ring-2 focus:ring-orange-300"
               type="submit"
             >
               Find Jobs

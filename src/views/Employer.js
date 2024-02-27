@@ -84,7 +84,7 @@ const Employer = () => {
       To advertise a Job for ${company_name}, please <a href="/post-job/" style="text-decoration: underline; color: blue" >click here</a><br><br>
       To join the  ${company_name} Talent Pool, please <a href="#" style="text-decoration: underline; color: blue" >click here</a>
       `
-   
+
     }
     content = (
       <div className='flex-col gap-4'>
@@ -97,11 +97,11 @@ const Employer = () => {
         >
           <div class="md:flex md:justify-start .col-auto ">
             <div className="w-[8rem] h-[8rem] mr-4  ">
-              <img src={logo}                
-                alt={company_name}               
+              <img src={logo || "/favicon.png"}
+                alt={company_name}
                 className="w-full h-full object-contain rounded-md bg-white "
                 onError={(e) => {
-                  e.target.src = 'https://academicjobs.s3.amazonaws.com/img/_misc/uni-profiles.png' 
+                  e.target.src = 'https://academicjobs.s3.amazonaws.com/img/_misc/uni-profiles.png'
                 }}
               />
             </div>

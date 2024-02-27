@@ -6,7 +6,7 @@ import SearchResults from './SearchResults';
 import professor from "../utils/professor.json";
 import { Link } from 'react-router-dom'
 
-const Professor2 = () => {
+const Professor2 = () => {  window.location.replace("https://www.academicjobs.com/usa/professor");
   const handleFormSubmit = (event) => {
 
     event.preventDefault();
@@ -32,7 +32,7 @@ const Professor2 = () => {
         <meta name="keywords" content="Professor Academia Jobs USA. professor positions USA" />
       </Helmet>
       <div className="blurb text-left py-8 ">
-        <h1 className=" font-bold text-lg md:text-2xl py-4 px-7 bg-[#f4a10c] text-white rounded-2xl ">Professor Academia Jobs USA</h1>
+        <h1 className=" font-bold text-lg md:text-2xl py-4 px-7 bg-[#00aeef] text-white rounded-2xl ">Professor Academia Jobs USA</h1>
         <div className="newLine mb-4">
           <p className="font-semibold"></p>
           <p className="font-semibold"></p>
@@ -48,10 +48,10 @@ const Professor2 = () => {
 
 
           <div className="bg-white flex flex-col  ">
-            <h2 className="text-1xl font-bold py-1 px-7 bg-[#f4a10c] text-white rounded-3xl mt-20 ">Choose Higher Ed Professor Jobs in USA</h2>
+            <h2 className="text-1xl font-bold py-1 px-7 bg-[#00aeef] text-white rounded-3xl mt-20 ">Choose Higher Ed Professor Jobs in USA</h2>
             <ul className=" mb-8 text-left columns-1 md:columns-4  md:gap-2 py-2 px-7 h-auto w-full text-transform: capitalize">
               {professor.map(({ Title, Name, break1, isBold }, key) => (
-                <li className={`pb-2 flex ${break1 ? ' md:break' : ''} ${isBold ? 'pt-4 font-bold text-[#f4a10c]' : ''}`} key={key}>
+                <li className={`pb-2 flex ${break1 ? ' md:break' : ''} ${isBold ? 'pt-4 font-bold text-[#00aeef]' : ''}`} key={key}>
                   <Link to={`/professor/${Name?.replace(/\s+/g, '-')}/`}>{Name}</Link>
                 </li>
               ))}
@@ -72,19 +72,19 @@ const Professor2 = () => {
           <form className="flex flex-col  gap-2 md:flex-row md:gap-2 mx-18 w-full " onSubmit={handleFormSubmit}>
             <input
               type="text"
-              className="text-center md:w-[41%] md:text-left px-4 py-2 border border-[#f4a10c] text-gray-500 rounded-md focus:ring-orange-500 focus:border-orange-500"
+              className="text-center md:w-[41%] md:text-left px-4 py-2 border border-[#00aeef] text-gray-500 rounded-md focus:ring-orange-500 focus:border-orange-500"
               placeholder="Keyword"
               ref={keyWordRef}
             //defaultValue={name}
             />
             <input
               type="text"
-              className="text-center md:w-[41%] md:text-left px-4 py-2 border border-[#f4a10c] text-gray-500 rounded-md focus:ring-orange-500 focus:border-orange-500"
+              className="text-center md:w-[41%] md:text-left px-4 py-2 border border-[#00aeef] text-gray-500 rounded-md focus:ring-orange-500 focus:border-orange-500"
               placeholder="Location"
               ref={locationRef}
             />
             <button
-              className="bg-[#f4a10c] hover:bg-orange-600 text-white py-2 px-6 rounded-md focus:ring-2 focus:ring-orange-300"
+              className="bg-[#00aeef] hover:bg-orange-600 text-white py-2 px-6 rounded-md focus:ring-2 focus:ring-orange-300"
               type="submit"
             >
               Find Jobs

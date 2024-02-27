@@ -7,7 +7,7 @@ import { setJob, setId, setEmployer } from '../store/postsSlice'
 import SearchResults from './SearchResults'
 import canadapositionsData from "../utils/canadapositions.json";
 import { Helmet } from "react-helmet";
-const CanadaPositions = () => {
+const CanadaPositions = () => {  
   const dispatch = useDispatch()
   let { canadapositions } = useParams();
   canadapositions = canadapositions?.replace(/-/g, ' ')
@@ -27,6 +27,9 @@ const CanadaPositions = () => {
   }
 
   const { Name, Title, Description, Keyword, content: content1 } = canadapositionsData.find(item => item.Name === canadapositions);
+  
+  window.location.replace(`https://www.academicjobs.com/canada/${canadapositions?.replace(/\W+/g, '-').toLowerCase()}`);
+  
   let content
   //const { logo, company_name, website, company_description, location } = data
   //console.log(company_description)
@@ -45,7 +48,7 @@ const CanadaPositions = () => {
         {Title}
       </h1>
 
-      <Link className='text-[#f4a10c] mb-4 ' to='/Canada/'>← View all Canada Jobs</Link>
+      <Link className='text-[#00aeef] mb-4 ' to='/Canada/'>← View all Canada Jobs</Link>
 
       <div className='max-h-50 overflow-y  border border-gray-300 p-4 mb-4 rounded-lg shadow-lg'>
         {content1}
@@ -68,7 +71,7 @@ const CanadaPositions = () => {
               ref={locationRef}
             />
             <button
-              className="bg-[#f4a10c] hover:bg-orange-600 text-white py-2 px-6 rounded-md focus:ring-2 focus:ring-orange-300"
+              className="bg-[#00aeef] hover:bg-orange-600 text-white py-2 px-6 rounded-md focus:ring-2 focus:ring-orange-300"
               type="submit"
             >
               Find Jobs

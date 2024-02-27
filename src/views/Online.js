@@ -6,7 +6,7 @@ import SearchResults from './SearchResults';
 
 import { Link } from 'react-router-dom'
 
-const Online2 = () => {
+const Online2 = () => {  window.location.replace("https://www.academicjobs.com/online");
   const handleFormSubmit = (event) => {
 
     event.preventDefault();
@@ -25,14 +25,14 @@ const Online2 = () => {
 
      
         
-        <div className="">
+        <div className="container mx-auto">
             <Helmet>
         <title>Academic Jobs Online</title>
         <meta name="description" content="If you are looking for academic jobs online, you can browse through our job board to find the latest opportunities in this flexible and rewarding field. " />
         <meta name="keywords" content="Academic Jobs Online. online positions" />
       </Helmet>
       <div className="blurb text-left py-8 ">
-        <h1 className=" font-bold text-lg md:text-2xl py-4 px-7 bg-[#f4a10c] text-white rounded-2xl ">Academic Jobs Online</h1>
+        <h1 className=" font-bold text-lg md:text-2xl py-4 px-7 bg-[#00aeef] text-white rounded-full ">Academic Jobs Online</h1>
         <div className="newLine mb-4">
           <p className="font-semibold"></p>
           <p className="font-semibold"></p>
@@ -40,8 +40,12 @@ const Online2 = () => {
         <div className="newLine">
             <div className="py-4 px-7 rounded-2xl ">
         
-          <p >Academic jobs online allow students, graduates, or professionals the opportunity to earn income, gain valuable work experience, develop employability skills, and enhance their academic and social networks. Academic jobs online can cover a wide range of fields and disciplines, such as teaching, research, administration, customer service, events, marketing, IT, library, and other academic online jobs. </p>
-          </div>
+          <p >Explore all higher education opportunities through academic jobs online, whether your a student, graduate, or professional. Beyond the prospect of earning income, these roles offer a unique avenue to delve into the complexities of higher education settings. Engaging in academic online jobs, particularly in higher education, involves a spectrum of roles—from teaching and research to administration, customer service, events management, marketing, IT, and library curation.</p>
+          <div className="py-4  rounded-2xl ">
+          <p > Participants not only improve their employability skills but also cultivate a deep connection with the academic community, creating a comprehensive and rewarding experience. Through higher ed jobs online, individuals can actively contribute to the advancement of knowledge, the cultivation of learning environments, and the overall growth of the academic landscape while simultaneously expanding their professional horizons.</p>
+
+
+          </div> </div> 
           <div className="newLine mb-2"></div>
          
           
@@ -60,19 +64,19 @@ const Online2 = () => {
           <form className="flex flex-col  gap-2 md:flex-row md:gap-2 mx-18 w-full " onSubmit={handleFormSubmit}>
             <input
               type="text"
-              className="text-center md:w-[41%] md:text-left px-4 py-2 border border-[#f4a10c] text-gray-500 rounded-md focus:ring-orange-500 focus:border-orange-500"
+              className="text-center md:w-[41%] md:text-left px-4 py-2 border border-[#00aeef] text-gray-500 rounded-md focus:ring-orange-500 focus:border-orange-500"
               placeholder="Keyword"
               ref={keyWordRef}
               //defaultValue={name}
             />
             <input
               type="text"
-              className="text-center md:w-[41%] md:text-left px-4 py-2 border border-[#f4a10c] text-gray-500 rounded-md focus:ring-orange-500 focus:border-orange-500"
+              className="text-center md:w-[41%] md:text-left px-4 py-2 border border-[#00aeef] text-gray-500 rounded-md focus:ring-orange-500 focus:border-orange-500"
               placeholder="Location"
               ref={locationRef}
             />
             <button
-              className="bg-[#f4a10c] hover:bg-orange-600 text-white py-2 px-6 rounded-md focus:ring-2 focus:ring-orange-300"
+              className="bg-[#00aeef] hover:bg-orange-600 text-white py-2 px-6 rounded-md focus:ring-2 focus:ring-orange-300"
               type="submit"
             >
               Find Jobs

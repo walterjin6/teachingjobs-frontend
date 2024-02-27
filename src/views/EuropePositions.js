@@ -7,7 +7,7 @@ import { setJob, setId, setEmployer } from '../store/postsSlice'
 import SearchResults from './SearchResults'
 import europepositionsData from "../utils/europepositions.json";
 import { Helmet } from "react-helmet";
-const EuropePositions = () => {
+const EuropePositions = () => {  
   const dispatch = useDispatch()
   let { europepositions } = useParams();
   europepositions = europepositions?.replace(/-/g, ' ')
@@ -27,6 +27,10 @@ const EuropePositions = () => {
   }
 
   const { Name, Title, Description, Keyword, content: content1 } = europepositionsData.find(item => item.Name === europepositions);
+ 
+  window.location.replace(`https://www.academicjobs.com/europe/${europepositions?.replace(/\W+/g, '-').toLowerCase()}`);
+
+ 
   let content
   //const { logo, company_name, website, company_description, location } = data
   //console.log(company_description)
@@ -45,7 +49,7 @@ const EuropePositions = () => {
         {Title}
       </h1>
 
-      <Link className='text-[#f4a10c] mb-4 ' to='/Europe/'>← View all Europe Jobs</Link>
+      <Link className='text-[#00aeef] mb-4 ' to='/Europe/'>← View all Europe Jobs</Link>
 
       <div className='max-h-50 overflow-y  border border-gray-300 p-4 mb-4 rounded-lg shadow-lg'>
         {content1}
@@ -68,7 +72,7 @@ const EuropePositions = () => {
               ref={locationRef}
             />
             <button
-              className="bg-[#f4a10c] hover:bg-orange-600 text-white py-2 px-6 rounded-md focus:ring-2 focus:ring-orange-300"
+              className="bg-[#00aeef] hover:bg-orange-600 text-white py-2 px-6 rounded-md focus:ring-2 focus:ring-orange-300"
               type="submit"
             >
               Find Jobs

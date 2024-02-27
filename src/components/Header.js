@@ -118,6 +118,15 @@ export default function Header() {
                   navigate("/principal/");
                   setIsNavOpen(false);
                 }}
+                >
+                Relief Jobs
+              </button>
+              <button
+                className="text-gray-900 hover:underline p-4 mb-4  border rounded-r-3xl"
+                onClick={() => {
+                  navigate("/relief-jobs/");
+                  setIsNavOpen(false);
+                }}
               >
                 Principal Jobs
               </button>
@@ -146,16 +155,16 @@ export default function Header() {
                   setIsNavOpen(false);
                 }}
               >
-                <span className="flex flex-col items-start">
+                {/* <span className="flex flex-col items-start">
                   <span>Nominate someone for</span>
                   <span className="nav-sub-heading">
                     Principal of the Year 2023
                   </span>
-                </span>
+                </span> */}
               </button>
               <div className=" flex justify-between items-center gap-10">
                 <a
-                  href="https://myteachingjobs.com.au/school-pricing/"
+                  href="https://postmyjob.online/school-pricing/"
                   target="_blank"
                   className="text-[#e39e39] hover:underline font-bold p-4 border border-[#e39e39] rounded-r-3xl "
                   rel="noreferrer"
@@ -207,6 +216,14 @@ export default function Header() {
               activeClassName="active"
             >
               Teacher Jobs
+
+              </NavLink>
+            <NavLink
+              to="/relief-teaching-jobs/"
+              className="nav-link nav-link-ltr whitespace-nowrap text-gray-900"
+              activeClassName="active"
+            >
+              Relief Jobs
             </NavLink>
             <NavLink
               to="/principal/"
@@ -229,7 +246,7 @@ export default function Header() {
             >
               Career Advice
             </NavLink>
-            <NavLink
+            {/* <NavLink
               to="/principal-of-the-year-2023-nominations"
               className="nav-link nav-link-ltr whitespace-nowrap text-gray-900"
               activeClassName="active"
@@ -248,13 +265,13 @@ export default function Header() {
                   </span>
                 </span>
               </span>
-            </NavLink>
+            </NavLink> */}
           </div>
 
           {/* Post A Job Button */}
           <div className=" w-[200px] grid items-center justify-center ">
             <a
-              href="https://myteachingjobs.com.au/school-pricing/"
+              href="https://postmyjob.online/school-pricing/"
               target="_blank"
               className="text-[#e39e39]  font-bold shadow-md rounded-full px-4 py-2 border border-[#e39e39] hover:bg-[#334680] hover:text-white "
               rel="noreferrer"

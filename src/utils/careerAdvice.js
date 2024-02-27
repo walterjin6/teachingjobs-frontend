@@ -1,16 +1,16 @@
-const data =[
+const data = [
 
 
- {
-  "break1": true,   
-  
-  "Name": "build students resilience",
-  "Title": "5 Ways to Build Resilience in Students",
-  "Description": "The epidemic affected almost every area of the lives of many youngsters in the last year, causing massive upheaval.",
-  "Keyword": "build students resilience. 5 Ways to Build Resilience in Students",
-  "content": "06 Jul, 2023" ,
-  "content2": `  
-  <img src="https://myteachingjobs.com.au/files/pictures/a3175s2331-crop.jpeg" alt="5 Ways to Build Resilience in Students">
+  {
+    "break1": true,
+
+    "Name": "build students resilience",
+    "Title": "5 Ways to Build Resilience in Students",
+    "Description": "The epidemic affected almost every area of the lives of many youngsters in the last year, causing massive upheaval.",
+    "Keyword": "build students resilience. 5 Ways to Build Resilience in Students",
+    "content": "06 Jul, 2023",
+    "content2": `  
+  <img src="https://postmyjob.online/files/pictures/a3175s2331-crop.jpeg" alt="5 Ways to Build Resilience in Students">
   <div class="container">
   <h2 style="font-size: 20px; font-weight: bold; margin-top: 20px;">Building Resilience in Students</h2>
   <p style="text-align: justify;">For many children, the past year brought disruption on a grand scale, with the pandemic affecting virtually every aspect of their daily lives. And while “caregivers can’t always alter children’s circumstances or shield them from discomfort, they can offer a more enduring gift: tools to manage adversity,” writes therapist and school counselor Phyllis L. Fagell for The Washington Post.</p>
@@ -53,17 +53,17 @@ const data =[
   <p style="text-align: justify;">But the topic of resilience isn’t bound to one class—ELA, for example—it’s relevant across the curriculum. “Opportunities abound to connect resilience with personal success, achievement, and positive social change,” Price-Mitchell notes. “Expand discussions about political leaders, scientists, literary figures, innovators, and inventors beyond what they accomplished to the personal strengths they possess, and the hardships they endured and overcame to reach their goals. Help students learn to see themselves and their own strengths through these success stories.”</p>
 </div>
   `
-},
- {
-  "break1": true,   
-  "Name": "perma pillars for teachers",
-  "Title": "Using PERMA pillars to support teachers",
-  "Description": "You don't need to tell me—I have over 20 years of teaching experience—that educators are among the professions with the highest rates of job stress and burnout worldwide (Stoeber & Rennert, 2008).",
-  "Keyword": "Using PERMA pillars to support teachers. perma pillars for teachers",
-  "content": "10 Aug, 2023",
-  "content2": `  
+  },
+  {
+    "break1": true,
+    "Name": "perma pillars for teachers",
+    "Title": "Using PERMA pillars to support teachers",
+    "Description": "You don't need to tell me—I have over 20 years of teaching experience—that educators are among the professions with the highest rates of job stress and burnout worldwide (Stoeber & Rennert, 2008).",
+    "Keyword": "Using PERMA pillars to support teachers. perma pillars for teachers",
+    "content": "10 Aug, 2023",
+    "content2": `  
   <div class="blog__content">
-  <img src="https://myteachingjobs.com.au/files/pictures/image_2_1.jpeg" alt="Using PERMA pillars to support teachers">
+  <img src="https://postmyjob.online/files/pictures/image_2_1.jpeg" alt="Using PERMA pillars to support teachers">
   
 
   <h2 style="font-size: 20px; font-weight: bold;">Using PERMA pillars to support teachers</h2>
@@ -92,16 +92,16 @@ const data =[
             </div>
   `
 
-},
- 
- {   
-  "break1": true,   
-  "Name": "exploring the benefits of academic jobs online why virtual hiring is on the rise",
-  "Title": "Exploring the Benefits of Academic Jobs Online: Why Virtual Hiring is on the Rise",
-  "Description": "Learn how to find, apply, and succeed in your dream academic position with our expert tips and resources. ",
-  "Keyword": "benefits of academic jobs online. virtual hiring is on the rise",
-  "content": "20 Jun, 2023",
-  "content2": `   
+  },
+
+  {
+    "break1": true,
+    "Name": "exploring the benefits of academic jobs online why virtual hiring is on the rise",
+    "Title": "Exploring the Benefits of Academic Jobs Online: Why Virtual Hiring is on the Rise",
+    "Description": "Learn how to find, apply, and succeed in your dream academic position with our expert tips and resources. ",
+    "Keyword": "benefits of academic jobs online. virtual hiring is on the rise",
+    "content": "20 Jun, 2023",
+    "content2": `   
   <img src="https://academicjobs.s3.amazonaws.com/img/_misc/Virtual_Hiring.png" alt="Exploring the Benefits of Academic Jobs Online: Why Virtual Hiring is on the Rise">
   <div class="blog__content">
   <p>&nbsp;</p>
@@ -126,16 +126,16 @@ const data =[
 <p><span style="">If you want to talk to us more about virtual hiring, contact us at <a style="" href="https://academicjobs.com/contact-us/">AcademicJobs</a>.</span></p>
 </div>
   `
-},
+  },
 
-{   
-  "break1": true,   
-  "Name": "happiness and academics",
-  "Title": "Happiness and Academics: Scott Galloway's Algebra of Happiness",
-  "Description": "Learn how to find happiness in academia from Scott Galloway, a renowned professor and author of The Algebra of Happiness. ",
-  "Keyword": "Academic Happiness. happiness and academics",
-  "content": "16 Oct, 2023",
-  "content2": `   
+  {
+    "break1": true,
+    "Name": "happiness and academics",
+    "Title": "Happiness and Academics: Scott Galloway's Algebra of Happiness",
+    "Description": "Learn how to find happiness in academia from Scott Galloway, a renowned professor and author of The Algebra of Happiness. ",
+    "Keyword": "Academic Happiness. happiness and academics",
+    "content": "16 Oct, 2023",
+    "content2": `   
   <img src="https://academicjobs.s3.amazonaws.com/img/_misc/how-to-be-a-happy-academic.jpg" alt="Exploring the Benefits of Academic Jobs Online: Why Virtual Hiring is on the Rise">
  
       <div className="container mx-auto py-4">
@@ -190,16 +190,16 @@ const data =[
   
 </div>
   `
-},
+  },
 
-{   
-  "break1": true,   
-  "Name": "top academic jobs australia",
-  "Title": "Top Academic Jobs Australia",
-  "Description": "Looking for the best academic jobs in Australia? This blog shows the best of faculty, research, and administrative positions at leading universities. ",
-  "Keyword": "Top Academic Jobs Australia. Academic Jobs Australia",
-  "content": "10 Aug, 2023",
-  "content2": `   
+  {
+    "break1": true,
+    "Name": "top academic jobs australia",
+    "Title": "Top Academic Jobs Australia",
+    "Description": "Looking for the best academic jobs in Australia? This blog shows the best of faculty, research, and administrative positions at leading universities. ",
+    "Keyword": "Top Academic Jobs Australia. Academic Jobs Australia",
+    "content": "10 Aug, 2023",
+    "content2": `   
   <img src="https://academicjobs.s3.amazonaws.com/img/_misc/top-academic-jobs-australia.jpg" alt="Exploring the Benefits of Academic Jobs Online: Why Virtual Hiring is on the Rise">
  
   <div class="blog__content">
@@ -253,16 +253,16 @@ const data =[
 <cib-overlay></cib-overlay></div>
 </div>
   `
-},
+  },
 
-{   
-  "break1": true,   
-  "Name": "the evolution of university recruitment",
-  "Title": "The Evolution of University Recruitment: Embracing Digital Platforms",
-  "Description": "Learn how digital platforms are transforming the way universities recruit and hire academic talent. Explore the benefits now!",
-  "Keyword": "evolution of university recruitment. evolution of academic recruitment",
-  "content": "May 15, 2023",
-  "content2": `   
+  {
+    "break1": true,
+    "Name": "the evolution of university recruitment",
+    "Title": "The Evolution of University Recruitment: Embracing Digital Platforms",
+    "Description": "Learn how digital platforms are transforming the way universities recruit and hire academic talent. Explore the benefits now!",
+    "Keyword": "evolution of university recruitment. evolution of academic recruitment",
+    "content": "May 15, 2023",
+    "content2": `   
   <img src="https://academicjobs.s3.amazonaws.com/img/_misc/Recruitment_Evolution_2.png " alt="Exploring the Benefits of Academic Jobs Online: Why Virtual Hiring is on the Rise">
  
   <div class="blog__content">
@@ -320,16 +320,16 @@ const data =[
 <p><span style="";">If you want to talk to us more about university recruitment in academia, contact us at <a href="https://academicjobs.com/contact-us/">AcademicJobs</a>.</span></p>
             </div>
   `
-},
+  },
 
-{   
-  "break1": true,   
-  "Name": "highest paid academic jobs australia 2023",
-  "Title": "The Highest Paid Academic Jobs Australia for 2023",
-  "Description": "If you are looking for a rewarding and lucrative career in the academic sector, you might be wondering what is the highest paid job in Australian higher education.",
-  "Keyword": "highest paid academic jobs Australia 2023 .",
-  "content": "May 15, 2023",
-  "content2": `   
+  {
+    "break1": true,
+    "Name": "highest paid academic jobs australia 2023",
+    "Title": "The Highest Paid Academic Jobs Australia for 2023",
+    "Description": "If you are looking for a rewarding and lucrative career in the academic sector, you might be wondering what is the highest paid job in Australian higher education.",
+    "Keyword": "highest paid academic jobs Australia 2023 .",
+    "content": "May 15, 2023",
+    "content2": `   
   <img src="https://academicjobs.s3.amazonaws.com/img/_misc/Recruitment_Evolution_2.png " alt="Exploring the Benefits of Academic Jobs Online: Why Virtual Hiring is on the Rise">
  
   <div class="container">
@@ -399,16 +399,16 @@ const data =[
   <p>If you want to learn more about the highest paying academic jobs in Australia or other career options in higher education, you can visit our website or contact us for more information.</p>
 </div>
   `
-},
+  },
 
-{   
-  "break1": true,   
-  "Name": "the highest paid academic job in 2023",
-  "Title": "Unveiling the Pinnacle: The Highest-Paid Academic Job in 2023",
-  "Description": "While there are many factors that can influence your earning potential, such as your field of expertise, there are some general trends that can help you identify the most profitable positions.",
-  "Keyword": "highest paid academic job 2023 .",
-  "content": "May 15, 2023",
-  "content2": `   
+  {
+    "break1": true,
+    "Name": "the highest paid academic job in 2023",
+    "Title": "Unveiling the Pinnacle: The Highest-Paid Academic Job in 2023",
+    "Description": "While there are many factors that can influence your earning potential, such as your field of expertise, there are some general trends that can help you identify the most profitable positions.",
+    "Keyword": "highest paid academic job 2023 .",
+    "content": "May 15, 2023",
+    "content2": `   
   <img src="https://academicjobs.s3.amazonaws.com/img/_misc/Recruitment_Evolution_2.png " alt="Exploring the Benefits of Academic Jobs Online: Why Virtual Hiring is on the Rise">
  
 
@@ -437,13 +437,13 @@ const data =[
  
   
   `
-}
+  }
 
 
 
- 
+
 ]
- 
+
 
 
 

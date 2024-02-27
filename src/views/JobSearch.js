@@ -12,10 +12,21 @@ import {
 import { useParams } from 'react-router-dom';
 import { setJob } from '../store/postsSlice';
 import { Helmet } from "react-helmet";
-import { filterType } from "../utils/data";
+import { filterType, blurb } from "../utils/data";
 import { BsHandbag } from 'react-icons/bs';
 const JobSearch = () => {
-  
+  const filterValues9 = {
+    'Country': 'Country',
+    'State': 'State',
+    'City': 'City',
+    'Job Type(i.e. Faculty, Human Resources)': 'Job Type',
+    'Faculty/Department(i.e. Science, Business)': 'Faculty/Department',
+    'Academic Position Type(i.e. Lecturer, Fellow)': 'Academic Position Type',
+    'Executive Jobs(i.e. Directors, Registrars)': 'Executive Jobs',
+    'Employment Type(i.e. Full-time, casual)': 'Employment Type',
+    'Institution Name': 'Institution Name',
+    'Onsite/Remote': 'Onsite/Remote'
+  };
   const job = useSelector((state) => state.posts.job)
   const componentRef = useRef(null);
   useLayoutEffect(() => {
@@ -40,7 +51,9 @@ const JobSearch = () => {
   //console.log(location.state.l)
   const keyWordRef = useRef('')
   const locationRef = useRef('')
+  let blurbData
   if (name) {
+    blurbData = blurb[name]
     q = name?.replace(/-/g, ' ');
   } else if (location.state?.q || location.state?.l) {
     // alert(location.state.l)
@@ -183,7 +196,8 @@ const JobSearch = () => {
           <div className='flex flex-col md:flex  md:justify-start py-4 px-6 mb-4 md:' >
             < div className='px-2 pb-4 flex justify-start items-start  font-bold gap-2 ' >
               <BsHandbag />
-              {qty && <h1>{`${qty} teaching jobs found`}</h1>}
+              {qty && <h1>{`9156 teaching jobs found`}</h1>}
+              {/* ${qty} */}
             </div >
             <div className=' flex flex-col hidden md:block '>
               {// 顶层已选X  top
@@ -216,7 +230,7 @@ const JobSearch = () => {
                       console.log(filterType)
                       setCategory(filterType)
                     }}
-                  >{filterType}</button>)}
+                  >{filterValues9[filterType]}</button>)}
               </div>
               {
                 isShowFilter &&
@@ -268,7 +282,7 @@ const JobSearch = () => {
                           console.log(filterType)
                           setCategory(filterType)
                         }}
-                      >{filterType}</button>)}
+                      >{filterValues9[filterType]}</button>)}
                   </div>
                   {
                     isShowFilter &&
@@ -311,6 +325,7 @@ const JobSearch = () => {
       <meta name="description" content="Welcome to the top job board for Academic Jobs, listing higher education jobs available in international colleges and universities daily. Use filters such as city, employment type, and institution name to help your job search" />
       <meta name="keywords" content="Find Academic Jobs, Seek Academic Jobs, Academic Jobs Search" />
     </Helmet>
+    <div className=" ">{blurbData}</div>
     <div className="bg-gray-100 py-6 md:rounded-full rounded shadow-md">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-screen-xl mx-auto">

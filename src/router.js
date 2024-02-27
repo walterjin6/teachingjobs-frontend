@@ -25,8 +25,8 @@ import EuropePositions from "./views/EuropePositions";
 import CanadaPositions from "./views/CanadaPositions";
 import AfricaPositions from "./views/AfricaPositions";
 import AsiaPositions from "./views/AsiaPositions";
-import Industry from "./views/Industry";
-import Industry2 from "./views/Industry2";
+// import Industry from "./views/Industry";
+// import Industry2 from "./views/Industry2";
 import Executive from "./views/Executive";
 import Executive2 from "./views/Executive2";
 import Admin from "./views/Admin";
@@ -103,7 +103,9 @@ import NorthernTerritory from "./views/NorthernTerritory";
 import Canberra from "./views/Canberra";
 import GoldCoast from "./views/GoldCoast";
 import Brisbane from "./views/Brisbane";
-import Melbourne from "./views/Melbourne";
+import Melbourne from "./views/Melbourne"; 
+import ReliefTalentPool from "./views/ReliefTalentPool";  
+import ReliefTeaching from "./views/ReliefTeaching";  
 
 const AppRouter = () => {
   return (
@@ -125,7 +127,7 @@ const AppRouter = () => {
             <Route exact path="/faculty/:category?" element={<Category />} />
             <Route exact path="/:position?" element={<Position />} />
             <Route exact path="/cities/:cities?" element={<Cities />} />
-            <Route exact path="/industry/:industry?" element={<Industry />} />
+            {/* <Route exact path="/industry/:industry?" element={<Industry />} /> */}
             <Route exact path="/job-type/" element={<Position2 />} />
             <Route exact path="/hr/:hr?" element={<HR />} />
             <Route exact path="/UK/:ukpositions?" element={<UKpositions />} />
@@ -226,7 +228,7 @@ const AppRouter = () => {
               element={<IndigenousAustralia />}
             />
 
-            <Route exact path="/industry/" element={<Industry2 />} />
+            {/* <Route exact path="/industry/" element={<Industry2 />} /> */}
             <Route
               exact
               path="/executive/:executive?"
@@ -347,6 +349,8 @@ const AppRouter = () => {
             <Route exact path="/nsw/" element={<NSW />} />
             <Route exact path="/darwin/" element={<Darwin />} />
             <Route exact path="/tasmania/" element={<Tasmania />} />
+            <Route exact path="/relief-talent-pool/" element={<ReliefTalentPool />} />  
+            <Route exact path="/relief-teaching/" element={<ReliefTeaching />} /> 
             <Route
               exact
               path="/western-australia/"

@@ -6,7 +6,7 @@ import SearchResults from './SearchResults';
 import category from "../utils/category.json";
 import { Link } from 'react-router-dom'
 
-const Faculty = () => {
+const Faculty = () => {  window.location.replace("https://www.academicjobs.com/faculty");
   const handleFormSubmit = (event) => {
 
     event.preventDefault();
@@ -23,33 +23,34 @@ const Faculty = () => {
   return (
 
 
-    <div className="">
+    <div className="container mx-auto">
       <Helmet>
         <title>Academic Faculty Jobs</title>
         <meta name="description" content="The leading job site for academic faculty jobs. Best list of college and university jobs by specialty in departments. " />
         <meta name="keywords" content="academic faculty jobs, Academic Jobs, jobs by specialty" />
       </Helmet>
       <div className="blurb text-left py-8 ">
-        <h1 className=" font-bold text-lg md:text-2xl py-4 px-7 bg-[#f4a10c] text-white rounded-2xl ">Search for a Faculty Position in Academia</h1>
+        <h1 className=" font-bold text-lg md:text-2xl py-4 px-7 bg-[#00aeef] text-white rounded-full ">Search for a Faculty Position in Academia</h1>
         <div className="newLine mb-4">
           <p className="font-semibold"></p>
           <p className="font-semibold"></p>
         </div>
         <div className="newLine">
           <div className="py-4 px-7 rounded-2xl ">
-
-            <p >Our page lists all the academic faculty from various disciplines and institutions around the world. You can browse by field of study, location, rank, salary, and more.
-              You can apply directly to the jobs that interest you or connect with the faculty members to learn more about their work and opportunities. Our page is updated regularly with new and exciting academic jobs. Don’t miss this chance to advance your academic career.  </p>
+          <p className="pb-2">
+          Find all academic positions by discipline, faculty and specialty.  
+            </p>
+            <p >All Lecturing, Research and Science jobs online today.  </p>
           </div>
           <div className="newLine mb-2"></div>
 
 
 
           <div className="bg-white flex flex-col  ">
-            <h2 className="text-1xl font-bold py-1 px-7 bg-[#f4a10c] text-white rounded-3xl mt-20 ">Choose Higher Ed Job faculty / Specialty</h2>
-            <ul className=" mb-8 text-left columns-1 md:columns-4  md:gap-2 py-2 px-7 h-auto w-full text-transform: capitalize">
-              {category.map(({ Title, Name, break1, isBold }, key) => (
-                <li className={`flex ${break1 ? 'md:break' : ''} ${isBold ? 'pt-4 font-bold text-[#f4a10c]' : ''}`} key={key}>
+            <h2 className="text-1xl font-bold py-1 px-7 border-2 border-[#00aeef] text-[#00aeef] rounded-3xl mt-20 ">Choose Higher Ed Job faculty / Specialty</h2>
+            <ul className=" mb-8 text-left columns-1 md:columns-5  md:gap-2 py-2 px-7 h-auto w-full text-transform: capitalize">
+              {category.map(({ Title, Name, break1, isBold, padding }, key) => (
+                <li className={`flex ${break1 ? 'md:break' : ''}  ${padding ? 'md:pt-[6.001rem]' : ''} ${isBold ? 'pt-4 font-bold text-[#00aeef]' : ''}`} key={key}>
                   <Link to={`/faculty/${Name?.replace(/\s+/g, '-')}/`}>{Name}</Link>
                 </li>
               ))}
@@ -83,7 +84,7 @@ const Faculty = () => {
               ref={locationRef}
             />
             <button
-              className="bg-[#f4a10c] hover:bg-orange-600 text-white py-2 px-6 rounded-md focus:ring-2 focus:ring-orange-300"
+              className="bg-[#00aeef] hover:bg-orange-600 text-white py-2 px-6 rounded-md focus:ring-2 focus:ring-orange-300"
               type="submit"
             >
               Find Jobs

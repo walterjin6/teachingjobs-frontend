@@ -6,7 +6,7 @@ import SearchResults from './SearchResults';
 import hr from "../utils/hr.json";
 import { Link } from 'react-router-dom'
 
-const HR2 = () => {
+const HR2 = () => {  window.location.replace("https://www.academicjobs.com/australia/hr");
   const handleFormSubmit = (event) => {
 
     event.preventDefault();
@@ -31,7 +31,7 @@ const HR2 = () => {
         <meta name="keywords" content="Human Resources Academic Jobs Australia, Human Resources AcademicJobs" />
       </Helmet>
       <div className="blurb text-left py-8 ">
-        <h1 className=" font-bold text-lg md:text-2xl py-4 px-7 bg-[#f4a10c] text-white rounded-full shadow-xl ">Human Resources Academic Jobs Australia</h1>
+        <h1 className=" font-bold text-lg md:text-2xl py-4 px-7 bg-[#00aeef] text-white rounded-full shadow-xl ">Human Resources Academic Jobs Australia</h1>
         <div className="newLine mb-4">
           <p className="font-semibold"></p>
           <p className="font-semibold"></p>
@@ -45,11 +45,11 @@ const HR2 = () => {
 
 
           <div className="bg-white flex flex-col  ">
-            <h2 className="text-1xl font-bold py-1 px-7 border-2 border-[#f4a10c] text-[#f4a10c] rounded-3xl shadow-md  mt-20 ">Choose Higher Ed Human Resources Jobs in Australia</h2>
+            <h2 className="text-1xl font-bold py-1 px-7 border-2 border-[#00aeef] text-[#00aeef] rounded-3xl shadow-md  mt-20 ">Choose Higher Ed Human Resources Jobs in Australia</h2>
             <ul className=" mb-8 text-left columns-1 md:columns-4  md:gap-2 py-2 px-7 h-auto w-full text-transform: capitalize">
               {hr.map(({ Title, Name, break1, isBold }, key) => (
-                <li className={`pb-2 flex ${break1 ? ' md:break' : ''} ${isBold ? 'pt-4 font-bold text-[#f4a10c]' : ''}`} key={key}>
-                  <Link to={`/hr/${Name?.replace(/\s+/g, '-')}/`}>{Name}</Link>
+                <li className={`pb-2 flex ${break1 ? ' md:break' : ''} ${isBold ? 'pt-4 font-bold text-[#00aeef]' : ''}`} key={key}>
+                  <Link to={`/hr-jobs/${Name?.replace(/\s+/g, '-')}/`}>{Name}</Link>
                 </li>
               ))}
             </ul>
@@ -81,7 +81,7 @@ const HR2 = () => {
               ref={locationRef}
             />
             <button
-              className="bg-[#f4a10c] hover:bg-orange-600 text-white py-2 px-6 rounded-md focus:ring-2 focus:ring-orange-300"
+              className="bg-[#00aeef] hover:bg-orange-600 text-white py-2 px-6 rounded-md focus:ring-2 focus:ring-orange-300"
               type="submit"
             >
               Find Jobs
@@ -92,7 +92,7 @@ const HR2 = () => {
 
 
 
-      <SearchResults q={{ q: "human resources HR" , l: "Australia" || 0 }} />
+      <SearchResults q={{ q: "human resources HR", l: "Australia" || 0 }} />
     </div>
 
   );

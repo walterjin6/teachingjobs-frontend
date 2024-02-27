@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom'
 
 
 
-const IndigenousAustralia = () => {
+const IndigenousAustralia = () => {  window.location.replace("https://www.academicjobs.com/australia/indigenous");
 
   const handleFormSubmit = (event) => {
 
@@ -36,7 +36,7 @@ const IndigenousAustralia = () => {
         <meta name="keywords" content="indigenous Academic Jobs Australia, indigenous AcademicJobs" />
       </Helmet>
       <div className="blurb text-left py-8 ">
-        <h1 className=" font-bold text-lg md:text-2xl py-4 px-7 bg-[#f4a10c] text-white rounded-full shadow-xl ">Indigenous Academic Jobs Australia</h1>
+        <h1 className=" font-bold text-lg md:text-2xl py-4 px-7 bg-[#00aeef] text-white rounded-full shadow-xl ">Indigenous Academic Jobs Australia</h1>
         <div className="newLine mb-4">
           <p className="font-semibold"></p>
           <p className="font-semibold"></p>
@@ -77,7 +77,7 @@ const IndigenousAustralia = () => {
               ref={locationRef}
             />
             <button
-              className="bg-[#f4a10c] hover:bg-orange-600 text-white py-2 px-6 rounded-md focus:ring-2 focus:ring-orange-300"
+              className="bg-[#00aeef] hover:bg-orange-600 text-white py-2 px-6 rounded-md focus:ring-2 focus:ring-orange-300"
               type="submit"
             >
               Find Jobs

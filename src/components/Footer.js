@@ -36,7 +36,7 @@ const Footer = () => {
                         <li className='text-white font-bold text-xl pb-1 '>School</li>
                     
                         <li ><Link to="/about/">About TJ</Link></li>
-                        <li target="_blank" ><a target="_blank"  className="footer-nav__link" href="https://myteachingjobs.com.au/school-pricing/">Post a Job</a></li>
+                        <li target="_blank" ><a target="_blank"  className="footer-nav__link" href="https://postmyjob.online/school-pricing/">Post a Job</a></li>
                                              
                                              <li target="_blank" ><Link target="_blank"  to="/contact-us/">Contact Us</Link></li>
                                             
@@ -48,9 +48,9 @@ const Footer = () => {
                     <ul>
                         <li className='text-white font-bold text-xl pb-1 '>Socials</li>
                         {/* <li><a href="https://academicjobs.com/career-advice">Career Advice</a></li> */}
-                        <li><a target="_blank"  className="footer-nav__link" href="https://www.facebook.com/TeachingJobsAUS" target="_blank" rel="noopener">Facebook</a></li>
+                        <li><a target="_blank"  className="footer-nav__link" href="https://www.facebook.com/TeachingJobsAUS"  rel="noopener">Facebook</a></li>
                      
-                        <li><a  target="_blank"  className="footer-nav__link" href="https://www.instagram.com/teachingjobs_aus/" target="_blank" rel="noopener">Instagram</a></li>
+                        <li><a  target="_blank"  className="footer-nav__link" href="https://www.instagram.com/teachingjobs_aus/" rel="noopener">Instagram</a></li>
                         <li><a target="_blank"  href="https://www.linkedin.com/company/teachingjobs">Linkedin</a></li>
                     </ul>
                 </div>
