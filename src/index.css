@@ -237,6 +237,40 @@ section.template .nomination-badge {
   height: auto;
   margin-top: 20px;
 }
+
+/* Email Template styles */
+section.email-template .header {
+  font-size: 24px;
+  font-weight: bold;
+}
+section.email-template .sub-header {
+  font-size: 18px;
+  font-style: italic;
+}
+
+/* Style for principal's name */
+section.email-template .principal-name {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Style for paragraph text */
+section.email-template p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Style for links */
+section.email-template a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+/* Style for digital nomination badge */
+section.email-template .nomination-badge {
+  max-width: 100px;
+}
+
 /* Style the unordered list */
 section.template ul,
 section ul {

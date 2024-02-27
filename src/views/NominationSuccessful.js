@@ -27,7 +27,8 @@ const NominationSuccessful = () => {
               href="https://www.teachingjobs.com.au/principal-of-the-year-2023-nominations"
             >
               www.TeachingJobs.com.au
-            </a>
+            </a>{" "}
+            on their various social media accounts and their email…
           </p>
           <ul>
             <li>Email</li>
